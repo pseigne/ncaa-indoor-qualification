@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCAA Indoor Qualifiers</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sixteenth {
+            color: red;
+            font-weight: bold;
+            font-size: 110%;
+
+        }
+
+        /* Dropdown Styling */
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: white;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        /* Event Card Styling */
+        .event-card {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+
+        .event-card h2 {
+            margin-top: 0;
+            color: #003087;
+            font-size: 1.2rem;
+        }
+
+        .athlete-row {
+            border-bottom: 1px solid #eee;
+            padding: 5px 0;
+        }
+
+        .athlete-row:last-child {
+            border-bottom: none;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="graph.js"></script>
+</head>
+
+<body>
+
+    <h1>NCAA Indoor Qualifiers 2025-2026</h1>
+
+    <label for="eventSelect"><strong>Choose an Event:</strong></label><br>
+    <select id="eventSelect" onchange="updateView()">
+        <option value="all">Show All Events</option>
+        <option value="60 Meters">60 Meters</option>
+        <option value="200 Meters">200 Meters</option>
+        <option value="400 Meters">400 Meters</option>
+        <option value="800 Meters">800 Meters</option>
+        <option value="Mile">Mile</option>
+        <option value="3000 Meters">3000 Meters</option>
+        <option value="5000 Meters">5000 Meters</option>
+        <option value="Hurdles">60m Hurdles</option>
+        <option value="Relay">Relays</option>
+        <option value="High Jump">High Jump</option>
+        <option value="Pole Vault">Pole Vault</option>
+        <option value="Long Jump">Long Jump</option>
+        <option value="Triple Jump">Triple Jump</option>
+        <option value="Shot Put">Shot Put</option>
+        <option value="Weight Throw">Weight Throw</option>
+        <option value="Heptathlon">Heptathlon</option>
+        <option value="Pentathlon">Pentathlon</option>
+    </select>
+    <div class="gender-selection">
+        <div>
+            <input type="radio" id="men" name="gender" value="Men" onchange="updateView()">
+            <label for="men">Men</label>
+        </div>
+        <div>
+            <input type="radio" id="women" name="gender" value="Women" onchange="updateView()">
+            <label for="women">Women</label>
+        </div>
+    </div>
+
+    <div id="results-container">Loading data...</div>
+
+    <div class="chart-container">
+        <canvas id="cutoffChart"></canvas>
+    </div>
+
+    <script>
+
+        function getCurrentDateFormatted() {
+            const today = new Date();
+            const year = today.getFullYear();
+            // getMonth() returns 0 for January, so add 1
+            const month = (today.getMonth() + 1).toString().padStart(2, '0');
+            const day = today.getDate().toString().padStart(2, '0');
+
+            return `${year}-${month}-${day}`;
+        }
+
+        let allData = [];
+
+        // 3. Fetch Data Once on Page Load
+        fetch(`data/tfrrs_data (${getCurrentDateFormatted()}).json`)
+            .then(response => {
+                if (!response.ok) throw new Error("HTTP error " + response.status);
+                return response.json();
+            })
+            .then(data => {
+                allData = data;
+                renderEvents(allData); // Show all events initially
+            })
+            .catch(error => {
+                console.error("Error loading JSON:", error);
+                document.getElementById('results-container').innerHTML = "<p style='color:red'>Error loading data. Ensure local server is running.</p>";
+            });
+
+        // 4. Function called when Dropdown changes
+        function updateView() {
+            const dropdown = document.getElementById('eventSelect');
+            const genderElement = document.querySelector('input[name="gender"]:checked');
+            const gender = genderElement ? genderElement.value : null;
+            const keyword = dropdown.value; // Get the selected value (e.g., "Mile")
+
+            let filtered = allData;
+
+            if (keyword !== 'all') {
+                filtered = filtered.filter(item => item.event.includes(keyword));
+            }
+
+            if (gender) {
+                filtered = filtered.filter(item => item.event.includes(gender));
+            }
+
+            renderEvents(filtered);
+
+            if (gender && keyword !== 'all') {
+                loadHistoricalGraph(keyword, gender);
+            } else {
+                // Otherwise, hide/clear the graph
+                if (chartInstance) chartInstance.destroy();
+            }
+        }
+
+        // 5. Function to Display Data
+        function renderEvents(eventsToDisplay) {
+            const container = document.getElementById('results-container');
+            container.innerHTML = '';
+
+            if (eventsToDisplay.length === 0) {
+                container.innerHTML = '<p>No events found.</p>';
+                return;
+            }
+
+            eventsToDisplay.forEach(eventGroup => {
+                const card = document.createElement('div');
+                card.className = 'event-card';
+
+                const h2 = document.createElement('h2');
+                h2.textContent = eventGroup.event.replace(/\s+/g, ' ').trim();
+                card.appendChild(h2);
+
+                let tableHTML =
+                    `<table class="results-table">
+                    <thead>
+                        <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Time</th>
+                        <th>Team</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    `
+
+                eventGroup.rankings.forEach(entry => {
+
+                    if (entry.rank == 16) {
+                        tableHTML += `<tr class="athlete-row sixteenth">`
+                        tableHTML += `<td ><strong>${entry.rank}.</strong></td> <td class="name">${entry.athlete}</td> <td class="time">${entry.time}</td>`;
+
+                    } else {
+                        tableHTML += `<tr class="athlete-row">`
+                        tableHTML += `<td><strong>${entry.rank}.</strong></td> <td class="name">${entry.athlete}</td> <td class="time">${entry.time}</td>`;
+
+                    }
+
+                    tableHTML += `</tr>`
+
+
+                });
+
+                tableHTML += `</tbody></table>`
+
+                card.innerHTML = tableHTML;
+
+                container.appendChild(card);
+            });
+        }
+    </script>
+
+</body>
+
+</html>

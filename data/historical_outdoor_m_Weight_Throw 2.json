@@ -1,0 +1,443 @@
+[
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "East",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Haas, Ben",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Nossa, Leyton",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Janowicz, Brock",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nelson, Thomas",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Warner, Collin",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Ferrucci, Colton",
+                "team": "Walsh",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Bechtel, Jacob",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Hornbeak, Kevin",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Doughty, Isaac",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lyon, Ethan",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Valenti, Hayden",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hernandez, Aidan",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Belanich, Zac",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Belanich, Matthew",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Hannah, Trenton",
+                "team": "Cedarville",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Recker, Lucas",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Ermakov, Dima",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Carlson, Brock",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Salzman, Yahli",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Robinson, Nalin",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Dais, Nasir",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Whitehead, Chris",
+                "team": "Northwood",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Wells , Gavin",
+                "team": "Lake Erie",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Lee, Gavin",
+                "team": "Emory & Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Shelton, Jesse",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Wallace, Zavery",
+                "team": "Emory & Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Jordan, Jamez",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Joseph , Rubens",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Price, Sean",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Rizos, Nearchos",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cline, Bobby",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Lorenzo, Hunter",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Flores, Walker",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Grate , Ezra",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hartman, Timothy",
+                "team": "Limestone",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Salyer, Ian",
+                "team": "Carson-Newman",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hatfield, Avery",
+                "team": "Lincoln Memorial",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Gattison , Jhayden",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Campbell, Ryan",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "De Castro Navarro, Mateo",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Welch, Iggy",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Squires, David",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Wainwright, Will",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Herron, Ben",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Shelton, Justus",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Brightharp, Chase",
+                "team": "Anderson (S.C.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Guadelupe, Malik",
+                "team": "Emory & Henry",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Miller, James",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Conrad, Steven",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Williams, Camden",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Puckett, Bryan",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Tate, Carrington",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Philpott, Braxton",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Newell, Caleb",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ridenour, Trey",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Garcia-Cloud, Christopher",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Bennett, Preston",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Weeks, Zane",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mason, Landon",
+                "team": "Trevecca Nazarene",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Kreis, Josh",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "McDonald, Rhett",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Floyd, Hayden",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nelson, Shawn",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Dabney, Joshua",
+                "team": "Christian Bros.",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Skipworth, Andrew",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Beverly, Jordyn",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nicholson , Elijah",
+                "team": "Trevecca Nazarene",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Pugh, Wyatt",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Glispie, Wyatt",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            }
+        ]
+    }
+]

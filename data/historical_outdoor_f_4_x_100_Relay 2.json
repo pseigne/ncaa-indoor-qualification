@@ -1,0 +1,1406 @@
+[
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "East",
+        "gender": "f",
+        "event": "4 x 100 Relay",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "LSU",
+                "time": "42.31"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "Clemson",
+                "time": "42.48"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "Georgia",
+                "time": "42.61"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Georgia (B)",
+                "time": "42.62"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "South Carolina",
+                "time": "42.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "Tennessee",
+                "time": "42.77"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "South Carolina (B)",
+                "time": "42.82"
+            },
+            {
+                "rank": 8,
+                "athlete": "N/A",
+                "team": "South Carolina (C)",
+                "time": "42.87"
+            },
+            {
+                "rank": 9,
+                "athlete": "N/A",
+                "team": "Florida State",
+                "time": "42.96"
+            },
+            {
+                "rank": 10,
+                "athlete": "N/A",
+                "team": "LSU (B)",
+                "time": "42.97"
+            },
+            {
+                "rank": 11,
+                "athlete": "N/A",
+                "team": "Florida",
+                "time": "43.01"
+            },
+            {
+                "rank": 12,
+                "athlete": "N/A",
+                "team": "Duke",
+                "time": "43.07"
+            },
+            {
+                "rank": 13,
+                "athlete": "N/A",
+                "team": "Florida (B)",
+                "time": "43.09"
+            },
+            {
+                "rank": 14,
+                "athlete": "N/A",
+                "team": "Florida (C)",
+                "time": "43.12"
+            },
+            {
+                "rank": 15,
+                "athlete": "N/A",
+                "team": "Ole Miss",
+                "time": "43.27"
+            },
+            {
+                "rank": 16,
+                "athlete": "N/A",
+                "team": "Kentucky",
+                "time": "43.47"
+            },
+            {
+                "rank": 17,
+                "athlete": "N/A",
+                "team": "UCF",
+                "time": "43.57"
+            },
+            {
+                "rank": 18,
+                "athlete": "N/A",
+                "team": "Duke (B)",
+                "time": "43.59"
+            },
+            {
+                "rank": 19,
+                "athlete": "N/A",
+                "team": "Alabama",
+                "time": "43.61"
+            },
+            {
+                "rank": 20,
+                "athlete": "N/A",
+                "team": "Howard",
+                "time": "43.64"
+            },
+            {
+                "rank": 21,
+                "athlete": "N/A",
+                "team": "Florida A&M",
+                "time": "43.65"
+            },
+            {
+                "rank": 22,
+                "athlete": "N/A",
+                "team": "Ohio State",
+                "time": "43.71"
+            },
+            {
+                "rank": 23,
+                "athlete": "N/A",
+                "team": "Georgia (C)",
+                "time": "43.73"
+            },
+            {
+                "rank": 24,
+                "athlete": "N/A",
+                "team": "Tennessee (B)",
+                "time": "43.75"
+            },
+            {
+                "rank": 25,
+                "athlete": "N/A",
+                "team": "Georgia (D)",
+                "time": "43.76"
+            },
+            {
+                "rank": 26,
+                "athlete": "N/A",
+                "team": "Georgia (E)",
+                "time": "43.87"
+            },
+            {
+                "rank": 27,
+                "athlete": "N/A",
+                "team": "Miami (Fla.)",
+                "time": "43.88"
+            },
+            {
+                "rank": 28,
+                "athlete": "N/A",
+                "team": "Kentucky (B)",
+                "time": "43.93"
+            },
+            {
+                "rank": 29,
+                "athlete": "N/A",
+                "team": "Howard (B)",
+                "time": "43.95"
+            },
+            {
+                "rank": 30,
+                "athlete": "N/A",
+                "team": "Alabama (B)",
+                "time": "43.98"
+            },
+            {
+                "rank": 31,
+                "athlete": "N/A",
+                "team": "Purdue",
+                "time": "43.99"
+            },
+            {
+                "rank": 32,
+                "athlete": "N/A",
+                "team": "Florida State (B)",
+                "time": "44.09"
+            },
+            {
+                "rank": 33,
+                "athlete": "N/A",
+                "team": "Pittsburgh",
+                "time": "44.09"
+            },
+            {
+                "rank": 34,
+                "athlete": "N/A",
+                "team": "Michigan",
+                "time": "44.17"
+            },
+            {
+                "rank": 35,
+                "athlete": "N/A",
+                "team": "East Carolina",
+                "time": "44.19"
+            },
+            {
+                "rank": 36,
+                "athlete": "N/A",
+                "team": "Kentucky (C)",
+                "time": "44.20"
+            },
+            {
+                "rank": 37,
+                "athlete": "N/A",
+                "team": "Ohio State (B)",
+                "time": "44.23"
+            },
+            {
+                "rank": 38,
+                "athlete": "N/A",
+                "team": "Auburn",
+                "time": "44.23"
+            },
+            {
+                "rank": 39,
+                "athlete": "N/A",
+                "team": "Brown",
+                "time": "44.24"
+            },
+            {
+                "rank": 40,
+                "athlete": "N/A",
+                "team": "Kentucky (D)",
+                "time": "44.27"
+            },
+            {
+                "rank": 41,
+                "athlete": "N/A",
+                "team": "Harvard",
+                "time": "44.30"
+            },
+            {
+                "rank": 42,
+                "athlete": "N/A",
+                "team": "Ohio State (C)",
+                "time": "44.35"
+            },
+            {
+                "rank": 43,
+                "athlete": "N/A",
+                "team": "Cincinnati",
+                "time": "44.35"
+            },
+            {
+                "rank": 44,
+                "athlete": "N/A",
+                "team": "Georgia Southern",
+                "time": "44.37"
+            },
+            {
+                "rank": 45,
+                "athlete": "N/A",
+                "team": "Charlotte",
+                "time": "44.39"
+            },
+            {
+                "rank": 46,
+                "athlete": "N/A",
+                "team": "UCF (B)",
+                "time": "44.42"
+            },
+            {
+                "rank": 47,
+                "athlete": "N/A",
+                "team": "Kennesaw State",
+                "time": "44.47"
+            },
+            {
+                "rank": 48,
+                "athlete": "N/A",
+                "team": "Northeastern",
+                "time": "44.47"
+            },
+            {
+                "rank": 49,
+                "athlete": "N/A",
+                "team": "Alabama State",
+                "time": "44.48"
+            },
+            {
+                "rank": 50,
+                "athlete": "N/A",
+                "team": "Miami (Fla.) (B)",
+                "time": "44.49"
+            }
+        ]
+    },
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "4 x 100 Relay",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "USC",
+                "time": "42.12"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "USC (B)",
+                "time": "42.29"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "USC (C)",
+                "time": "42.85"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Texas A&M",
+                "time": "42.87"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "USC (D)",
+                "time": "42.90"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "TCU",
+                "time": "42.91"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Texas Tech",
+                "time": "42.92"
+            },
+            {
+                "rank": 8,
+                "athlete": "N/A",
+                "team": "Texas A&M (B)",
+                "time": "43.03"
+            },
+            {
+                "rank": 9,
+                "athlete": "N/A",
+                "team": "Texas Tech (B)",
+                "time": "43.14@"
+            },
+            {
+                "rank": 10,
+                "athlete": "N/A",
+                "team": "Texas",
+                "time": "43.14"
+            },
+            {
+                "rank": 11,
+                "athlete": "N/A",
+                "team": "Tarleton State",
+                "time": "43.33"
+            },
+            {
+                "rank": 12,
+                "athlete": "N/A",
+                "team": "Baylor",
+                "time": "43.39"
+            },
+            {
+                "rank": 13,
+                "athlete": "N/A",
+                "team": "Texas A&M (C)",
+                "time": "43.58"
+            },
+            {
+                "rank": 14,
+                "athlete": "N/A",
+                "team": "Texas Tech (C)",
+                "time": "43.58"
+            },
+            {
+                "rank": 15,
+                "athlete": "N/A",
+                "team": "TCU (B)",
+                "time": "43.64"
+            },
+            {
+                "rank": 16,
+                "athlete": "N/A",
+                "team": "UCLA",
+                "time": "43.66"
+            },
+            {
+                "rank": 17,
+                "athlete": "N/A",
+                "team": "Oregon",
+                "time": "43.66"
+            },
+            {
+                "rank": 18,
+                "athlete": "N/A",
+                "team": "UCLA (B)",
+                "time": "43.68"
+            },
+            {
+                "rank": 19,
+                "athlete": "N/A",
+                "team": "Utah",
+                "time": "43.69"
+            },
+            {
+                "rank": 20,
+                "athlete": "N/A",
+                "team": "Arizona",
+                "time": "43.77"
+            },
+            {
+                "rank": 21,
+                "athlete": "N/A",
+                "team": "Oregon (B)",
+                "time": "43.80"
+            },
+            {
+                "rank": 22,
+                "athlete": "N/A",
+                "team": "TCU (C)",
+                "time": "43.84"
+            },
+            {
+                "rank": 23,
+                "athlete": "N/A",
+                "team": "Grand Canyon",
+                "time": "43.90"
+            },
+            {
+                "rank": 24,
+                "athlete": "N/A",
+                "team": "Arizona (B)",
+                "time": "43.96"
+            },
+            {
+                "rank": 25,
+                "athlete": "N/A",
+                "team": "UNLV",
+                "time": "44.00"
+            },
+            {
+                "rank": 26,
+                "athlete": "N/A",
+                "team": "Stanford",
+                "time": "44.03"
+            },
+            {
+                "rank": 27,
+                "athlete": "N/A",
+                "team": "Iowa",
+                "time": "44.04"
+            },
+            {
+                "rank": 28,
+                "athlete": "N/A",
+                "team": "TCU (D)",
+                "time": "44.10"
+            },
+            {
+                "rank": 29,
+                "athlete": "N/A",
+                "team": "Oregon (C)",
+                "time": "44.16"
+            },
+            {
+                "rank": 30,
+                "athlete": "N/A",
+                "team": "Grand Canyon (B)",
+                "time": "44.18"
+            },
+            {
+                "rank": 31,
+                "athlete": "N/A",
+                "team": "Arizona (C)",
+                "time": "44.26"
+            },
+            {
+                "rank": 32,
+                "athlete": "N/A",
+                "team": "Central Arkansas",
+                "time": "44.29"
+            },
+            {
+                "rank": 33,
+                "athlete": "N/A",
+                "team": "BYU",
+                "time": "44.30"
+            },
+            {
+                "rank": 34,
+                "athlete": "N/A",
+                "team": "Baylor (B)",
+                "time": "44.31"
+            },
+            {
+                "rank": 35,
+                "athlete": "N/A",
+                "team": "Nebraska",
+                "time": "44.31"
+            },
+            {
+                "rank": 36,
+                "athlete": "N/A",
+                "team": "UNLV (B)",
+                "time": "44.37"
+            },
+            {
+                "rank": 37,
+                "athlete": "N/A",
+                "team": "Illinois",
+                "time": "44.39"
+            },
+            {
+                "rank": 38,
+                "athlete": "N/A",
+                "team": "TCU (E)",
+                "time": "44.42"
+            },
+            {
+                "rank": 39,
+                "athlete": "N/A",
+                "team": "Tarleton State (B)",
+                "time": "44.48"
+            },
+            {
+                "rank": 40,
+                "athlete": "N/A",
+                "team": "Iowa (B)",
+                "time": "44.50"
+            },
+            {
+                "rank": 41,
+                "athlete": "N/A",
+                "team": "Stanford (B)",
+                "time": "44.52"
+            },
+            {
+                "rank": 42,
+                "athlete": "N/A",
+                "team": "San Diego St.",
+                "time": "44.57"
+            },
+            {
+                "rank": 43,
+                "athlete": "N/A",
+                "team": "UC Irvine",
+                "time": "44.60"
+            },
+            {
+                "rank": 44,
+                "athlete": "N/A",
+                "team": "San Diego St. (B)",
+                "time": "44.61"
+            },
+            {
+                "rank": 45,
+                "athlete": "N/A",
+                "team": "Houston",
+                "time": "44.66"
+            },
+            {
+                "rank": 46,
+                "athlete": "N/A",
+                "team": "CSU Bakersfield",
+                "time": "44.69"
+            },
+            {
+                "rank": 47,
+                "athlete": "N/A",
+                "team": "San Jose St.",
+                "time": "44.73"
+            },
+            {
+                "rank": 48,
+                "athlete": "N/A",
+                "team": "UT-Rio Grande Valley",
+                "time": "44.74"
+            },
+            {
+                "rank": 49,
+                "athlete": "N/A",
+                "team": "Kansas State",
+                "time": "44.74"
+            },
+            {
+                "rank": 50,
+                "athlete": "N/A",
+                "team": "Baylor (C)",
+                "time": "44.75"
+            },
+            {
+                "rank": 51,
+                "athlete": "N/A",
+                "team": "UC Riverside",
+                "time": "44.75"
+            }
+        ]
+    },
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "National",
+        "gender": "f",
+        "event": "4 x 100 Relay",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "Ohio State",
+                "time": "43.71"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "Purdue",
+                "time": "43.99"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "Michigan",
+                "time": "44.17"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Cincinnati",
+                "time": "44.35"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "Akron",
+                "time": "44.68"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "Ball State",
+                "time": "44.72"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Indiana",
+                "time": "44.92"
+            },
+            {
+                "rank": 8,
+                "athlete": "N/A",
+                "team": "Kent State",
+                "time": "45.15"
+            },
+            {
+                "rank": 9,
+                "athlete": "N/A",
+                "team": "Dayton",
+                "time": "45.30"
+            },
+            {
+                "rank": 10,
+                "athlete": "N/A",
+                "team": "Eastern Michigan",
+                "time": "45.33"
+            },
+            {
+                "rank": 11,
+                "athlete": "N/A",
+                "team": "Youngstown St.",
+                "time": "45.36"
+            },
+            {
+                "rank": 12,
+                "athlete": "N/A",
+                "team": "Wisconsin",
+                "time": "45.59"
+            },
+            {
+                "rank": 13,
+                "athlete": "N/A",
+                "team": "Bowling Green",
+                "time": "45.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "N/A",
+                "team": "Western Michigan",
+                "time": "45.85"
+            },
+            {
+                "rank": 15,
+                "athlete": "N/A",
+                "team": "Ohio",
+                "time": "46.08"
+            },
+            {
+                "rank": 16,
+                "athlete": "N/A",
+                "team": "Milwaukee",
+                "time": "46.12"
+            },
+            {
+                "rank": 17,
+                "athlete": "N/A",
+                "team": "Central Michigan",
+                "time": "46.17"
+            },
+            {
+                "rank": 18,
+                "athlete": "N/A",
+                "team": "Indiana State",
+                "time": "46.17"
+            },
+            {
+                "rank": 19,
+                "athlete": "N/A",
+                "team": "Toledo",
+                "time": "46.18"
+            },
+            {
+                "rank": 20,
+                "athlete": "N/A",
+                "team": "Miami (Ohio)",
+                "time": "46.26"
+            },
+            {
+                "rank": 21,
+                "athlete": "N/A",
+                "team": "Michigan State",
+                "time": "46.40"
+            },
+            {
+                "rank": 22,
+                "athlete": "N/A",
+                "team": "Xavier (Ohio)",
+                "time": "46.49"
+            },
+            {
+                "rank": 23,
+                "athlete": "N/A",
+                "team": "Butler",
+                "time": "46.66"
+            },
+            {
+                "rank": 24,
+                "athlete": "N/A",
+                "team": "IU Indianapolis",
+                "time": "47.02"
+            },
+            {
+                "rank": 25,
+                "athlete": "N/A",
+                "team": "Cleveland St.",
+                "time": "47.17"
+            },
+            {
+                "rank": 26,
+                "athlete": "N/A",
+                "team": "Marquette",
+                "time": "47.61"
+            },
+            {
+                "rank": 27,
+                "athlete": "N/A",
+                "team": "Detroit Mercy",
+                "time": "48.09"
+            },
+            {
+                "rank": 28,
+                "athlete": "N/A",
+                "team": "Evansville",
+                "time": "48.81"
+            }
+        ]
+    },
+    {
+        "year": "2025",
+        "season": "outdoor",
+        "region": "East",
+        "gender": "f",
+        "event": "4 x 100 Relay",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "SUNY Delhi",
+                "time": "45.98"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "SUNY Geneseo",
+                "time": "46.33"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "Ithaca",
+                "time": "47.51"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Nazareth",
+                "time": "48.22"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "RIT",
+                "time": "48.30"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "St. John Fisher",
+                "time": "48.36"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Hamilton",
+                "time": "48.77"
+            },
+            {
+                "rank": 8,
+                "athlete": "N/A",
+                "team": "Brockport St.",
+                "time": "49.04"
+            },
+            {
+                "rank": 9,
+                "athlete": "N/A",
+                "team": "Oneonta",
+                "time": "49.13"
+            },
+            {
+                "rank": 10,
+                "athlete": "N/A",
+                "team": "Cortland St.",
+                "time": "49.21"
+            },
+            {
+                "rank": 11,
+                "athlete": "N/A",
+                "team": "Rochester",
+                "time": "49.63"
+            },
+            {
+                "rank": 12,
+                "athlete": "N/A",
+                "team": "Houghton",
+                "time": "49.86"
+            },
+            {
+                "rank": 13,
+                "athlete": "N/A",
+                "team": "Utica",
+                "time": "50.03"
+            },
+            {
+                "rank": 14,
+                "athlete": "N/A",
+                "team": "NYU",
+                "time": "50.24"
+            },
+            {
+                "rank": 15,
+                "athlete": "N/A",
+                "team": "Alfred State",
+                "time": "50.28"
+            },
+            {
+                "rank": 16,
+                "athlete": "N/A",
+                "team": "Fredonia",
+                "time": "51.04"
+            },
+            {
+                "rank": 17,
+                "athlete": "N/A",
+                "team": "PSU-Behrend",
+                "time": "51.21"
+            },
+            {
+                "rank": 18,
+                "athlete": "N/A",
+                "team": "Buffalo State",
+                "time": "51.96"
+            },
+            {
+                "rank": 19,
+                "athlete": "N/A",
+                "team": "Alfred",
+                "time": "52.73"
+            },
+            {
+                "rank": 20,
+                "athlete": "N/A",
+                "team": "Hunter",
+                "time": "54.11"
+            },
+            {
+                "rank": 21,
+                "athlete": "N/A",
+                "team": "Oswego State",
+                "time": "54.59"
+            },
+            {
+                "rank": 22,
+                "athlete": "N/A",
+                "team": "Manhattanville",
+                "time": "55.13"
+            },
+            {
+                "rank": 23,
+                "athlete": "N/A",
+                "team": "Hartwick",
+                "time": "55.37"
+            },
+            {
+                "rank": 24,
+                "athlete": "N/A",
+                "team": "CCNY",
+                "time": "58.18"
+            },
+            {
+                "rank": 25,
+                "athlete": "N/A",
+                "team": "Lehman",
+                "time": "58.26"
+            }
+        ]
+    },
+    {
+        "year": "2025",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "4 x 100 Relay",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "Wis.-La Crosse",
+                "time": "45.66"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "Wis.-Whitewater",
+                "time": "45.67"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "Wis.-Eau Claire",
+                "time": "46.34"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Wis.-Platteville",
+                "time": "46.86"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "Wis.-Stout",
+                "time": "47.03"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "Bethel (Minn.)",
+                "time": "47.40"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Gustavus Adolphus",
+                "time": "47.52"
+            },
+            {
+                "rank": 8,
+                "athlete": "N/A",
+                "team": "Concordia-Moorhead",
+                "time": "47.81"
+            },
+            {
+                "rank": 9,
+                "athlete": "N/A",
+                "team": "Saint Mary's (Minn.)",
+                "time": "48.09"
+            },
+            {
+                "rank": 10,
+                "athlete": "N/A",
+                "team": "Wis.-Stevens Point",
+                "time": "48.78"
+            },
+            {
+                "rank": 11,
+                "athlete": "N/A",
+                "team": "Wis.-Oshkosh",
+                "time": "48.89"
+            },
+            {
+                "rank": 12,
+                "athlete": "N/A",
+                "team": "Macalester",
+                "time": "48.90"
+            },
+            {
+                "rank": 13,
+                "athlete": "N/A",
+                "team": "Concordia (Wis.)",
+                "time": "49.23"
+            },
+            {
+                "rank": 14,
+                "athlete": "N/A",
+                "team": "St. Benedict",
+                "time": "49.32"
+            },
+            {
+                "rank": 15,
+                "athlete": "N/A",
+                "team": "St. Norbert",
+                "time": "49.46"
+            },
+            {
+                "rank": 16,
+                "athlete": "N/A",
+                "team": "Carthage",
+                "time": "49.60"
+            },
+            {
+                "rank": 17,
+                "athlete": "N/A",
+                "team": "Hamline",
+                "time": "49.68"
+            },
+            {
+                "rank": 18,
+                "athlete": "N/A",
+                "team": "St. Olaf",
+                "time": "49.70"
+            },
+            {
+                "rank": 19,
+                "athlete": "N/A",
+                "team": "Ripon",
+                "time": "49.82"
+            },
+            {
+                "rank": 20,
+                "athlete": "N/A",
+                "team": "Wis.-River Falls",
+                "time": "49.99"
+            },
+            {
+                "rank": 21,
+                "athlete": "N/A",
+                "team": "St. Scholastica",
+                "time": "50.02"
+            },
+            {
+                "rank": 22,
+                "athlete": "N/A",
+                "team": "Augsburg",
+                "time": "50.82"
+            },
+            {
+                "rank": 23,
+                "athlete": "N/A",
+                "team": "Carroll (Wis.)",
+                "time": "50.95"
+            },
+            {
+                "rank": 24,
+                "athlete": "N/A",
+                "team": "Northwestern (Minn.)",
+                "time": "51.02"
+            },
+            {
+                "rank": 25,
+                "athlete": "N/A",
+                "team": "Martin Luther",
+                "time": "51.18"
+            },
+            {
+                "rank": 26,
+                "athlete": "N/A",
+                "team": "Beloit",
+                "time": "51.32"
+            },
+            {
+                "rank": 27,
+                "athlete": "N/A",
+                "team": "Lawrence",
+                "time": "51.79"
+            },
+            {
+                "rank": 28,
+                "athlete": "N/A",
+                "team": "Carleton",
+                "time": "51.94"
+            },
+            {
+                "rank": 29,
+                "athlete": "N/A",
+                "team": "Wis.-Superior",
+                "time": "52.08"
+            },
+            {
+                "rank": 30,
+                "athlete": "N/A",
+                "team": "Crown",
+                "time": "52.46"
+            },
+            {
+                "rank": 31,
+                "athlete": "N/A",
+                "team": "Minnesota-Morris",
+                "time": "52.52"
+            },
+            {
+                "rank": 32,
+                "athlete": "N/A",
+                "team": "Edgewood",
+                "time": "52.66"
+            },
+            {
+                "rank": 33,
+                "athlete": "N/A",
+                "team": "North Central (Minn.)",
+                "time": "52.71"
+            },
+            {
+                "rank": 34,
+                "athlete": "N/A",
+                "team": "Bethany Lutheran",
+                "time": "53.57"
+            },
+            {
+                "rank": 35,
+                "athlete": "N/A",
+                "team": "Wisconsin Lutheran",
+                "time": "55.67"
+            }
+        ]
+    },
+    {
+        "year": "2025",
+        "season": "outdoor",
+        "region": "National",
+        "gender": "f",
+        "event": "4 x 100 Relay",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "John Carroll",
+                "time": "46.24"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "Centre",
+                "time": "46.49"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "Mount Union",
+                "time": "46.69"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Hope",
+                "time": "47.00"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "Wittenberg",
+                "time": "47.18"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "Ohio Wesleyan",
+                "time": "47.32"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Baldwin Wallace",
+                "time": "47.65"
+            },
+            {
+                "rank": 8,
+                "athlete": "N/A",
+                "team": "Calvin",
+                "time": "47.92"
+            },
+            {
+                "rank": 9,
+                "athlete": "N/A",
+                "team": "Trine",
+                "time": "47.95"
+            },
+            {
+                "rank": 10,
+                "athlete": "N/A",
+                "team": "DePauw",
+                "time": "47.99"
+            },
+            {
+                "rank": 11,
+                "athlete": "N/A",
+                "team": "Ohio Northern",
+                "time": "48.36"
+            },
+            {
+                "rank": 12,
+                "athlete": "N/A",
+                "team": "Denison",
+                "time": "48.91"
+            },
+            {
+                "rank": 13,
+                "athlete": "N/A",
+                "team": "Rose-Hulman",
+                "time": "49.08"
+            },
+            {
+                "rank": 14,
+                "athlete": "N/A",
+                "team": "Wilmington (Ohio)",
+                "time": "49.08"
+            },
+            {
+                "rank": 15,
+                "athlete": "N/A",
+                "team": "Olivet",
+                "time": "49.66"
+            },
+            {
+                "rank": 16,
+                "athlete": "N/A",
+                "team": "Oberlin",
+                "time": "50.11"
+            },
+            {
+                "rank": 17,
+                "athlete": "N/A",
+                "team": "Albion",
+                "time": "50.25"
+            },
+            {
+                "rank": 18,
+                "athlete": "N/A",
+                "team": "Wooster",
+                "time": "50.28"
+            },
+            {
+                "rank": 19,
+                "athlete": "N/A",
+                "team": "Allegheny",
+                "time": "50.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "N/A",
+                "team": "Alma",
+                "time": "50.55"
+            },
+            {
+                "rank": 21,
+                "athlete": "N/A",
+                "team": "Otterbein",
+                "time": "50.80"
+            },
+            {
+                "rank": 22,
+                "athlete": "N/A",
+                "team": "Kenyon",
+                "time": "50.95"
+            },
+            {
+                "rank": 23,
+                "athlete": "N/A",
+                "team": "Muskingum",
+                "time": "51.06"
+            },
+            {
+                "rank": 24,
+                "athlete": "N/A",
+                "team": "Case Western",
+                "time": "51.15"
+            },
+            {
+                "rank": 25,
+                "athlete": "N/A",
+                "team": "Adrian",
+                "time": "51.20"
+            },
+            {
+                "rank": 26,
+                "athlete": "N/A",
+                "team": "Transylvania",
+                "time": "51.22"
+            },
+            {
+                "rank": 27,
+                "athlete": "N/A",
+                "team": "Manchester",
+                "time": "51.47"
+            },
+            {
+                "rank": 28,
+                "athlete": "N/A",
+                "team": "Berea",
+                "time": "51.50"
+            },
+            {
+                "rank": 29,
+                "athlete": "N/A",
+                "team": "Asbury",
+                "time": "52.45"
+            },
+            {
+                "rank": 30,
+                "athlete": "N/A",
+                "team": "Hanover",
+                "time": "52.56"
+            },
+            {
+                "rank": 31,
+                "athlete": "N/A",
+                "team": "Earlham",
+                "time": "52.79"
+            },
+            {
+                "rank": 32,
+                "athlete": "N/A",
+                "team": "Hiram",
+                "time": "52.89"
+            },
+            {
+                "rank": 33,
+                "athlete": "N/A",
+                "team": "Franciscan (Ohio)",
+                "time": "53.27"
+            },
+            {
+                "rank": 34,
+                "athlete": "N/A",
+                "team": "Bluffton",
+                "time": "53.84"
+            },
+            {
+                "rank": 35,
+                "athlete": "N/A",
+                "team": "Spalding",
+                "time": "54.20"
+            },
+            {
+                "rank": 36,
+                "athlete": "N/A",
+                "team": "Anderson (Ind.)",
+                "time": "58.85"
+            }
+        ]
+    }
+]

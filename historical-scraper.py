@@ -2,20 +2,34 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-from datetime import datetime
 import time
 import re
 
-# Explicitly map lists out so the scraper knows EXACTLY what page context it is dealing with
+
+# Fully mapped historical list IDs across seasons and regional sites
+# Comprehensive 10-Year NCAA Division I Qualifying List Configuration (2016-2026)
 CONFIGS_TO_SCRAPE = [
-    # --- 2026 OUTDOOR ---
+    # --- 2026 SEASON ---
     {"year": "2026", "season": "outdoor", "region": "East", "list_id": "5622", "list_name": "NCAA_Div_I_East_Outdoor_List"},
-    {"year": "2026", "season": "outdoor", "region": "West", "list_id": "5623", "list_name": "NCAA_Div_I_West_Outdoor_List"}, 
-    {"year": "2026", "season": "outdoor", "region": "National", "list_id": "5624", "list_name": "NCAA_Div_I_Outdoor_Multis_List"}, # Multis skip regionals
-    
-    # --- 2025/2026 INDOOR ---
-    {"year": "2025-2026", "season": "indoor", "region": "National", "list_id": "5352", "list_name": "2025_2026_NCAA_Division_I_Indoor_Qualifying_List"},
+    {"year": "2026", "season": "outdoor", "region": "West", "list_id": "5623", "list_name": "NCAA_Div_I_West_Outdoor_List"},
+    {"year": "2026", "season": "outdoor", "region": "National", "list_id": "5624", "list_name": "NCAA_Div_I_Outdoor_Multis_List"},
+    {"year": "2025_2026", "season": "indoor", "region": "National", "list_id": "5352", "list_name": "2025_2026_NCAA_Division_I_Indoor_Qualifying_List"},
+
+    # --- 2025 SEASON ---
+    {"year": "2025", "season": "outdoor", "region": "East", "list_id": "5055", "list_name": "NCAA_Div_I_East_Outdoor_Qualifying_List"},
+    {"year": "2025", "season": "outdoor", "region": "West", "list_id": "5056", "list_name": "NCAA_Div_I_West_Outdoor_Qualifying_List"},
+    {"year": "2025", "season": "outdoor", "region": "National", "list_id": "5057", "list_name": "NCAA_Div_I_Outdoor_Multis_List"},
+    {"year": "2024_2025", "season": "indoor", "region": "National", "list_id": "4867", "list_name": "2024_2025_NCAA_Division_I_Indoor_Qualifying"},
+
+    # --- 2024 SEASON ---
+    {"year": "2024", "season": "outdoor", "region": "East", "list_id": "4950", "list_name": "NCAA_Div_I_East_Outdoor_Qualifying_List"},
+    {"year": "2024", "season": "outdoor", "region": "West", "list_id": "4951", "list_name": "NCAA_Div_I_West_Outdoor_Qualifying_List"},
+    {"year": "2024", "season": "outdoor", "region": "National", "list_id": "4952", "list_name": "NCAA_Div_I_Outdoor_Multis_List"},
+    {"year": "2023_2024", "season": "indoor", "region": "National", "list_id": "4364", "list_name": "2023_2024_NCAA_Division_I_Indoor_Qualifying_List"},
+
 ]
+
+# --- trigger cutoffs regeneration at the end if you import new rosters ---
 
 GENDERS = ["m", "f"]
 headers = {
@@ -23,17 +37,13 @@ headers = {
     "Referer": "https://www.tfrrs.org/",
 }
 
-today = datetime.now().strftime('%Y-%m-%d')
 directories = ['./data', './ncaa-qualification/public/data']
-
-# We group all pulled data into one clean master file structured for historical tracking
 compiled_manifest_data = []
 
 for cfg in CONFIGS_TO_SCRAPE:
     for gender in GENDERS:
-        # Build precise URL matching TFRRS structure
         url = f"https://tf.tfrrs.org/lists/{cfg['list_id']}/{cfg['list_name']}?gender={gender}"
-        print(f"Scraping -> {cfg['year']} {cfg['season'].upper()} | Region: {cfg['region']} | Gender: {gender.upper()}")
+        print(f"Scraping Historical -> {cfg['year']} {cfg['season'].upper()} | Region: {cfg['region']} | Gender: {gender.upper()}")
         
         response = requests.get(url, headers=headers)
         if response.status_code != 200:
@@ -45,7 +55,7 @@ for cfg in CONFIGS_TO_SCRAPE:
         
         for header in event_headers:
             raw_event_name = header.find("h3").get_text(strip=True)
-            # Standardize event name format to prevent duplicate brackets and keys
+            # Standardize event name format
             event_name = raw_event_name.replace('\n', ' ').replace('\t', ' ')
             event_name = re.sub(r'\(.*?\)', '', event_name)
             event_name = event_name.replace("Men's", "").replace("Women's", "").replace("Men", "").replace("Women", "")
@@ -61,14 +71,14 @@ for cfg in CONFIGS_TO_SCRAPE:
                     if "4x" in event_name:
                         cutoff = 24  # Outdoor Relays top 24
                     elif cfg["region"] == "National":
-                        cutoff = 24  # Multi-events (Heptathlon/Decathlon) national list top 24
+                        cutoff = 24  # Multi-events
                     else:
                         cutoff = 48  # Standard Regional individual events top 48
                 else:
-                    cutoff = 12 if "4x" in event_name or "Distance Medley" in event_name else 16 # Indoor rules
-
+                    cutoff = 12 if "4x" in event_name or "Distance Medley" in event_name else 16
+                
                 event_rankings = []
-                # Scrape up to 60 athletes so we have entries past the qualifying bubble cutoff in the database
+                # Scrape up to 60 athletes
                 for i, row in enumerate(rows[:60], start=1):
                     athlete_div = row.find("div", attrs={"data-label": "Athlete"})
                     time_div = row.find("div", attrs={"data-label": "Time"})
@@ -85,7 +95,6 @@ for cfg in CONFIGS_TO_SCRAPE:
                         "time": time_text
                     })
                 
-                # Store it with clear structural tracking tags for your web app frontend
                 compiled_manifest_data.append({
                     "year": cfg["year"],
                     "season": cfg["season"],
@@ -95,7 +104,7 @@ for cfg in CONFIGS_TO_SCRAPE:
                     "rankings": event_rankings
                 })
                 
-        time.sleep(1) # Safety backoff delay
+        time.sleep(1)
 
 # --- READ EXISTING MASTER DATA TO PRESERVE HISTORY ---
 master_file_name = 'tfrrs_historical_data.json'
@@ -110,34 +119,22 @@ if os.path.exists(primary_master_path):
         print(f"Warning: Could not read existing master data: {e}")
         existing_master_data = []
 
-# Filter out old copies of today's runs to prevent duplicates when running scraper multiple times a day
-# Keys to exclude: (year, season, region, gender, event) for today's overall year and today's daily composite year
-today_composite_prefix = f" ({today})"
+# Filter out old copies of this historical year to prevent duplicates
 keys_to_exclude = set()
-
 for cfg in CONFIGS_TO_SCRAPE:
     for gender in GENDERS:
         for entry in compiled_manifest_data:
             event = entry["event"]
-            # Exclude active standings
             keys_to_exclude.add((cfg["year"], cfg["season"], cfg["region"], gender, event))
-            # Exclude composite progression standings
-            keys_to_exclude.add((f"{cfg['year']}{today_composite_prefix}", cfg["season"], cfg["region"], gender, event))
 
 reconciled_master_data = [
     item for item in existing_master_data
     if (item.get('year'), item.get('season'), item.get('region'), item.get('gender'), item.get('event')) not in keys_to_exclude
 ]
 
-# Append new active standings
+# Append new historical standings
 for entry in compiled_manifest_data:
     reconciled_master_data.append(entry)
-
-# Append new daily composite progression standings
-for entry in compiled_manifest_data:
-    composite_entry = entry.copy()
-    composite_entry["year"] = f"{entry['year']} ({today})"
-    reconciled_master_data.append(composite_entry)
 
 # --- WRITE COMPREHENSIVE RECONCILED DATA ---
 for base_dir in directories:
@@ -145,21 +142,7 @@ for base_dir in directories:
         output_file = f'{base_dir}/{master_file_name}'
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(reconciled_master_data, f, indent=4, ensure_ascii=False)
-        print(f"✅ Reconciled data sync pushed to {output_file}")
-
-# --- UPDATE DATES MANIFEST ---
-for base_dir in directories:
-    if os.path.exists(base_dir):
-        manifest_path = f'{base_dir}/dates.json'
-        existing_dates = []
-        if os.path.exists(manifest_path):
-            try:
-                with open(manifest_path, 'r') as f: existing_dates = json.load(f)
-            except json.JSONDecodeError: existing_dates = []
-        if today not in existing_dates:
-            existing_dates.append(today)
-            existing_dates.sort()
-            with open(manifest_path, 'w') as f: json.dump(existing_dates, f, indent=4)
+        print(f"✅ Reconciled historical data sync pushed to {output_file}")
 
 # --- TRIGGER AUTOMATIC LIGHTWEIGHT BUBBLE CUTOFF GENERATION ---
 try:

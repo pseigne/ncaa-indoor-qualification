@@ -1,0 +1,59 @@
+[
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "East",
+        "gender": "f",
+        "event": "500 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Brooks, Alaysia",
+                "team": "Ursuline (Ohio)",
+                "time": "1:14.32#"
+            },
+            {
+                "rank": 2,
+                "athlete": "Dornbirer, Jocelyn",
+                "team": "Ursuline (Ohio)",
+                "time": "1:22.27#"
+            },
+            {
+                "rank": 3,
+                "athlete": "Wehl, Eljoenai",
+                "team": "Ursuline (Ohio)",
+                "time": "1:23.14#"
+            },
+            {
+                "rank": 4,
+                "athlete": "Outland, Kennedy",
+                "team": "Ursuline (Ohio)",
+                "time": "1:23.52#"
+            },
+            {
+                "rank": 5,
+                "athlete": "Walsh, Julia",
+                "team": "Walsh",
+                "time": "1:23.64#"
+            },
+            {
+                "rank": 6,
+                "athlete": "Banks, Breanna",
+                "team": "Ursuline (Ohio)",
+                "time": "1:26.03#"
+            },
+            {
+                "rank": 7,
+                "athlete": "Mireles-Sanchez, Davinia",
+                "team": "Ursuline (Ohio)",
+                "time": "1:27.14#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Caballero , Angelys",
+                "team": "Ursuline (Ohio)",
+                "time": "1:29.03#"
+            }
+        ]
+    }
+]

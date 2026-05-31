@@ -1,0 +1,7142 @@
+[
+    {
+        "year": "2025-2026 (2026-01-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "O'Connor, Diarmuid",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "O'Connor, Diarmuid",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Johnson, Seth",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-13)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-14)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "O'Connor, Diarmuid",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Charles, Dorian",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Charles, Dorian",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-31)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "O'Connor, Diarmuid",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bennett, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Sullivan, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Charles, Dorian",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "O'Connor, Diarmuid",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Steenwinkel, Nigel",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Warriner, Samuel",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Charles, Dorian",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Charles, Dorian",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Charles, Dorian",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lamell, Wyatt",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Walsh, Brian",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Kelton, Blayk",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "McNeil, Garrett",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Steenwinkel, Nigel",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-30)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "O'Connor, Diarmuid",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Paris, Nathaniel",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Charles, Dorian",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Swabik, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, Aiden",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Helms, Landon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bath, Ayden",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Howard, Neil",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Campre, Edgar",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-29)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Pelkmans, Luuk",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Morton, Carter",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Degreef, Jip",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wilson, Cole",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Jones Jr., Darius",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Stakun-Pickering, Max",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tona, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rose, Jake",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Delany, Brennan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Capaldo, Sal",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskelley, Jaden",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "O'Connor, Diarmuid",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Richards, Javin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Berkey, Neal",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Munoz, Mateo",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Jogi, Janre",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Wetherington, Connor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Riley, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "O'Neill, Finn",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Byrd, Kenneth",
+                "team": "Louisville",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Pelkmans, Luuk",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morton, Carter",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Degreef, Jip",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGlynn, Zach",
+                "team": "North Dakota State",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Harris, Blake",
+                "team": "Texas A&M",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Helms, Landon",
+                "team": "Boise State",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klein, Tayton",
+                "team": "Kansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Swabik, John",
+                "team": "Kansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "team": "Miami (Fla.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Knobloch, Yannik",
+                "team": "TCU",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Gregory, Ryan",
+                "team": "Long Beach St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Paris, Nathaniel",
+                "team": "Virginia Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barton, Ben",
+                "team": "BYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Carter, Aiden",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "team": "High Point",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hertwig-Odegaard, Jonathan",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Delany, Brennan",
+                "team": "Binghamton",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bath, Ayden",
+                "team": "Kent State",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Howard, Neil",
+                "team": "Michigan",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Mooney, Joshua",
+                "team": "Connecticut",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Jones Jr., Darius",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Charles, Dorian",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Stakun-Pickering, Max",
+                "team": "North Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "O'Connor, Diarmuid",
+                "team": "Connecticut",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Levesque, Grant",
+                "team": "Houston",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Tona, Ryan",
+                "team": "Rhode Island",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Johnson, Seth",
+                "team": "California",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Hantson, Andreas",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Eddowes, Colby",
+                "team": "Arkansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Capaldo, Sal",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Olson, Paul",
+                "team": "North Dakota State",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Rose, Jake",
+                "team": "Penn",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Uhlin, Emil",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Munoz, Mateo",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Roskelley, Jaden",
+                "team": "BYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Tucker, Maximus",
+                "team": "Georgia",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Hall, Dominique",
+                "team": "Miami (Fla.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Landers, John",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Forte, Maxwell",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Grebet, Gabriel",
+                "team": "Incarnate Word",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Richards, Javin",
+                "team": "Utah State",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Warriner, Samuel",
+                "team": "South Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Jogi, Janre",
+                "team": "UTSA",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "DaCunha, Mattix",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Fairley, Canaan",
+                "team": "Abilene Christian",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Levesque, Owen",
+                "team": "Houston",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Rifflart, Sacha",
+                "team": "Miss State",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Bennett, Michael",
+                "team": "Duke",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024_2025",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bair, Peyton",
+                "team": "Miss State",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "DeGreef, Jip",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Levesque, Grant",
+                "team": "Houston",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barton, Ben",
+                "team": "BYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Byrd, Kenneth",
+                "team": "Louisville",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Vogelsang, Abraham",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Turner, Jack",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Paris, Nathaniel",
+                "team": "Virginia Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Abrams, Justin",
+                "team": "Cincinnati",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Thompson, Thai",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morton , Carter",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Johnson, Seth",
+                "team": "California",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harris, Blake",
+                "team": "Texas A&M",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Jung, Alexander",
+                "team": "Kansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Schlueter, Jami",
+                "team": "Washington",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Campre, Edgar",
+                "team": "Miami (Fla.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Wilson, Cole",
+                "team": "High Point",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Bair, Jaxon",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Robinson, Ethan",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Eddowes, Colby",
+                "team": "Arkansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Sieracki, Kyle",
+                "team": "Incarnate Word",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Kastner, Philip",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Fick, Jordan",
+                "team": "Georgia",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Helms, Landon",
+                "team": "Boise State",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Klein, Tayton",
+                "team": "Kansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Bianco, Nick",
+                "team": "Colorado",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Forte, Maxwell",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "O'Connor, Diarmuid",
+                "team": "Connecticut",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Chauchard, Leo",
+                "team": "Incarnate Word",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Navajon, Adria",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Tow, Casey",
+                "team": "Grand Canyon",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Kessler, Koby",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Hantson, Andreas",
+                "team": "Purdue",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Scott, Elijah",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Capaldo, Sal",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Bennett, Michael",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Landers, John",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Lewis, Brock",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Mahacek, Mason",
+                "team": "Washington St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Carter, Aiden",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Bellanova, Emanuele",
+                "team": "Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Swabik, John",
+                "team": "Colorado",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Bradley, Ewan",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Bersier, Nicolas",
+                "team": "Oklahoma",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Rose, Jake",
+                "team": "Penn",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Bontke, Luke",
+                "team": "UT-Arlington",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Enander, Joel",
+                "team": "Kent State",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Willis, Gabriel",
+                "team": "Liberty",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Richards, Brayden",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Knobloch, Yannik",
+                "team": "TCU",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2023_2024",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Neugebauer , Leo",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Ouimet, Aiden",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Steinforth, Till",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Levesque, Grant",
+                "team": "Houston",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Soto Torrado, Yariel",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Comin Pescador, Bruno",
+                "team": "Washington",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Turner, Jack",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "West, Austin",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Weaver, Marcus",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Spejcher, Daniel",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Campre, Edgar",
+                "team": "Miami (Fla.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Baldwin, Heath",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Eddowes, Colby",
+                "team": "Arkansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Murphy, Sean",
+                "team": "Virginia Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Mahacek, Mason",
+                "team": "Washington St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Raap, Rafael",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Thorner, Oliver",
+                "team": "Florida",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Stakun-Pickering, Max",
+                "team": "North Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Talbot, Ryan",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Amborn, Cade",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Reyneke, Sebastian",
+                "team": "South Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Walburn, Lee",
+                "team": "Washington St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Kallenberg, Paul",
+                "team": "Louisville",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Frank, Philip",
+                "team": "Oklahoma State",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Schlueter, Jami",
+                "team": "Washington",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Bianco, Nick",
+                "team": "Colorado",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Thompson, Drew",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Corley, Sam",
+                "team": "North Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Jung, Alexander",
+                "team": "Kansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Paris, Nathaniel",
+                "team": "Virginia Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Emmanuel, Gabriel",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Uhlin, Emil",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Kastner, Philip",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Navajon, Adria",
+                "team": "Wichita State",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "May, Micheal",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Abrams, Justin",
+                "team": "Cincinnati",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Fox, Matthew",
+                "team": "Little Rock",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Holcombe, Braeden",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Robinson, Ethan",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Scott, Elijah",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Tona, Ryan",
+                "team": "Rhode Island",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Algarin, Matthias",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Helms, Landon",
+                "team": "Texas A&M",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Johnson, Seth",
+                "team": "California",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Arousell, Vincent",
+                "team": "Rice",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Bath, Ayden",
+                "team": "Kent State",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Becker, Kole",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Peterson, Maguire",
+                "team": "North Dakota",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Paletti, Nicola",
+                "team": "Montana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Wilson, Cole",
+                "team": "High Point",
+                "time": "N/A"
+            }
+        ]
+    }
+]

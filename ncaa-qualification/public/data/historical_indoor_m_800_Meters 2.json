@@ -1,0 +1,7142 @@
+[
+    {
+        "year": "2025-2026 (2026-01-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 3,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 4,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 5,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 6,
+                "athlete": "Risser, Henry",
+                "time": "1:48.47"
+            },
+            {
+                "rank": 7,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 8,
+                "athlete": "Jeitz, Kasen",
+                "time": "1:48.88"
+            },
+            {
+                "rank": 9,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 10,
+                "athlete": "Bott, Landon",
+                "time": "1:48.99"
+            },
+            {
+                "rank": 11,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 12,
+                "athlete": "Packard, Brayden",
+                "time": "1:49.07"
+            },
+            {
+                "rank": 13,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 14,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 15,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 16,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 17,
+                "athlete": "Faust, Patrick",
+                "time": "1:49.52"
+            },
+            {
+                "rank": 18,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 19,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 20,
+                "athlete": "Locke, David",
+                "time": "1:49.72"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 9,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 10,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 11,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:46.30"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 13,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 14,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 15,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 16,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 17,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 19,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 20,
+                "athlete": "Erickson, Matthew",
+                "time": "1:46.88"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 3,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 7,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 12,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 13,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 15,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 16,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 17,
+                "athlete": "Casey, Andrew",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 19,
+                "athlete": "Dodoo, Stefon",
+                "time": "1:50.47@"
+            },
+            {
+                "rank": 20,
+                "athlete": "Ashby, Grant",
+                "time": "1:50.66@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 9,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 10,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 11,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:46.30"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 13,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 14,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 15,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 16,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 17,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 19,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 20,
+                "athlete": "Erickson, Matthew",
+                "time": "1:46.88"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 3,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 4,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 5,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 6,
+                "athlete": "Van Orden, Jacob",
+                "time": "1:48.21"
+            },
+            {
+                "rank": 7,
+                "athlete": "Risser, Henry",
+                "time": "1:48.47"
+            },
+            {
+                "rank": 8,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 9,
+                "athlete": "Jeitz, Kasen",
+                "time": "1:48.88"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bott, Landon",
+                "time": "1:48.99"
+            },
+            {
+                "rank": 12,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 13,
+                "athlete": "Packard, Brayden",
+                "time": "1:49.07"
+            },
+            {
+                "rank": 14,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 15,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 16,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 17,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 18,
+                "athlete": "Faust, Patrick",
+                "time": "1:49.52"
+            },
+            {
+                "rank": 19,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 20,
+                "athlete": "McCallum, Chase",
+                "time": "1:49.61@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 3,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 7,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 12,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 13,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Jacobsmeyer, Hugh",
+                "time": "1:49.80"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 16,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 17,
+                "athlete": "Casey, Andrew",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 18,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 19,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "Dodoo, Stefon",
+                "time": "1:50.47@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.67"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 14,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 15,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.99"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.09"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nastari, Kaleb",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 19,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.67"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 14,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 15,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.99"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.09"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nastari, Kaleb",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 19,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-13)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.67"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 14,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 15,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.99"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.09"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nastari, Kaleb",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 19,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 3,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 7,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 12,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 13,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Jacobsmeyer, Hugh",
+                "time": "1:49.80"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 16,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 17,
+                "athlete": "Casey, Andrew",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 18,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 19,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "Dodoo, Stefon",
+                "time": "1:50.47@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-14)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 11,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 12,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.67"
+            },
+            {
+                "rank": 13,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 14,
+                "athlete": "Cowan, Thomas",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 15,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 16,
+                "athlete": "Erickson, Matthew",
+                "time": "1:46.88"
+            },
+            {
+                "rank": 17,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 18,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.99"
+            },
+            {
+                "rank": 19,
+                "athlete": "Law, Camden",
+                "time": "1:47.01"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.09"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 3,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 4,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 5,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 6,
+                "athlete": "Van Orden, Jacob",
+                "time": "1:48.21"
+            },
+            {
+                "rank": 7,
+                "athlete": "Risser, Henry",
+                "time": "1:48.47"
+            },
+            {
+                "rank": 8,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 9,
+                "athlete": "Jeitz, Kasen",
+                "time": "1:48.88"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bott, Landon",
+                "time": "1:48.99"
+            },
+            {
+                "rank": 12,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 13,
+                "athlete": "Packard, Brayden",
+                "time": "1:49.07"
+            },
+            {
+                "rank": 14,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 15,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 16,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 17,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 18,
+                "athlete": "Faust, Patrick",
+                "time": "1:49.52"
+            },
+            {
+                "rank": 19,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 20,
+                "athlete": "McCallum, Chase",
+                "time": "1:49.61@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 3,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 7,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 12,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 13,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Jacobsmeyer, Hugh",
+                "time": "1:49.80"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 16,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 17,
+                "athlete": "Casey, Andrew",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 18,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 19,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "Dodoo, Stefon",
+                "time": "1:50.47@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 3,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 7,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 12,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 13,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Jacobsmeyer, Hugh",
+                "time": "1:49.80"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 16,
+                "athlete": "Forbes, Ethan",
+                "time": "1:50.11"
+            },
+            {
+                "rank": 17,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 18,
+                "athlete": "Borras, Aniol",
+                "time": "1:50.20"
+            },
+            {
+                "rank": 19,
+                "athlete": "Casey, Andrew",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 20,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 9,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 10,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 11,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:46.30"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 13,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 14,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 15,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 16,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 17,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 19,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 20,
+                "athlete": "Erickson, Matthew",
+                "time": "1:46.88"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.67"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 14,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 15,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.99"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.09"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nastari, Kaleb",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 19,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 3,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 7,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 12,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 13,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Jacobsmeyer, Hugh",
+                "time": "1:49.80"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 16,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 17,
+                "athlete": "Casey, Andrew",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 18,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 19,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "Dodoo, Stefon",
+                "time": "1:50.47@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 3,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 7,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 8,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 12,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 13,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Jacobsmeyer, Hugh",
+                "time": "1:49.80"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 16,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 17,
+                "athlete": "Casey, Andrew",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 18,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 19,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "Dodoo, Stefon",
+                "time": "1:50.47@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.67"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 14,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 15,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.99"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.09"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nastari, Kaleb",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 19,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.67"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 14,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 15,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.99"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.09"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nastari, Kaleb",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 19,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 12,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 13,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 14,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            },
+            {
+                "rank": 16,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 17,
+                "athlete": "Streeval, Levi",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 19,
+                "athlete": "Reese Sharman-Newell",
+                "time": "1:47.58"
+            },
+            {
+                "rank": 20,
+                "athlete": "Medeiros, Nick",
+                "time": "1:47.73"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 12,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 13,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 14,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            },
+            {
+                "rank": 16,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 17,
+                "athlete": "Streeval, Levi",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 19,
+                "athlete": "Reese Sharman-Newell",
+                "time": "1:47.58"
+            },
+            {
+                "rank": 20,
+                "athlete": "Medeiros, Nick",
+                "time": "1:47.73"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-31)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 2,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 3,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 4,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 5,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 6,
+                "athlete": "Mahadi, Hafez",
+                "time": "1:47.85"
+            },
+            {
+                "rank": 7,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 8,
+                "athlete": "Law, Camden",
+                "time": "1:47.95"
+            },
+            {
+                "rank": 9,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 10,
+                "athlete": "Birnbaum, Simeon",
+                "time": "1:48.05"
+            },
+            {
+                "rank": 11,
+                "athlete": "Senthilkumar, Pradeep",
+                "time": "1:48.09"
+            },
+            {
+                "rank": 12,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 13,
+                "athlete": "Hotung-Davidsen, Tor",
+                "time": "1:48.18"
+            },
+            {
+                "rank": 14,
+                "athlete": "Van Orden, Jacob",
+                "time": "1:48.21"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:48.29"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nelson, Gavin",
+                "time": "1:48.36"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lecrivain, Edouard",
+                "time": "1:48.40"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:48.41"
+            },
+            {
+                "rank": 19,
+                "athlete": "Logorodi, Owan",
+                "time": "1:48.46"
+            },
+            {
+                "rank": 20,
+                "athlete": "Risser, Henry",
+                "time": "1:48.47"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 12,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 13,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 14,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            },
+            {
+                "rank": 16,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 17,
+                "athlete": "Streeval, Levi",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 19,
+                "athlete": "Reese Sharman-Newell",
+                "time": "1:47.58"
+            },
+            {
+                "rank": 20,
+                "athlete": "Medeiros, Nick",
+                "time": "1:47.73"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 3,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 4,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 5,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 6,
+                "athlete": "Van Orden, Jacob",
+                "time": "1:48.21"
+            },
+            {
+                "rank": 7,
+                "athlete": "Risser, Henry",
+                "time": "1:48.47"
+            },
+            {
+                "rank": 8,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 9,
+                "athlete": "Jeitz, Kasen",
+                "time": "1:48.88"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bott, Landon",
+                "time": "1:48.99"
+            },
+            {
+                "rank": 12,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 13,
+                "athlete": "Packard, Brayden",
+                "time": "1:49.07"
+            },
+            {
+                "rank": 14,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 15,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 16,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 17,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 18,
+                "athlete": "Faust, Patrick",
+                "time": "1:49.52"
+            },
+            {
+                "rank": 19,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 20,
+                "athlete": "McCallum, Chase",
+                "time": "1:49.61@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 3,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 4,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 5,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 6,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 7,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 8,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 10,
+                "athlete": "Tarkington, Jacob",
+                "time": "1:50.76"
+            },
+            {
+                "rank": 11,
+                "athlete": "Watcke, Dan",
+                "time": "1:50.95"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cunningham, Michael",
+                "time": "1:51.02@"
+            },
+            {
+                "rank": 13,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:51.04"
+            },
+            {
+                "rank": 14,
+                "athlete": "Donovan, Tyler",
+                "time": "1:51.13"
+            },
+            {
+                "rank": 15,
+                "athlete": "Ndiwa, Victor",
+                "time": "1:51.44"
+            },
+            {
+                "rank": 16,
+                "athlete": "Eckert, Jaxson",
+                "time": "1:51.76"
+            },
+            {
+                "rank": 17,
+                "athlete": "Miles, Jonathan",
+                "time": "1:52.20"
+            },
+            {
+                "rank": 18,
+                "athlete": "Ruggles, Brendan",
+                "time": "1:52.33"
+            },
+            {
+                "rank": 19,
+                "athlete": "Lord, Aidan",
+                "time": "1:52.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "Dafoe, Jonah",
+                "time": "1:52.40"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 3,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 4,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 5,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 6,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 7,
+                "athlete": "Carico-McLennan, Zephaniah",
+                "time": "1:49.61"
+            },
+            {
+                "rank": 8,
+                "athlete": "Armstrong, Daniel",
+                "time": "1:49.72"
+            },
+            {
+                "rank": 9,
+                "athlete": "Lehr, Chase",
+                "time": "1:49.87"
+            },
+            {
+                "rank": 10,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 11,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 13,
+                "athlete": "Tarkington, Jacob",
+                "time": "1:50.76"
+            },
+            {
+                "rank": 14,
+                "athlete": "Watcke, Dan",
+                "time": "1:50.95"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cunningham, Michael",
+                "time": "1:51.02@"
+            },
+            {
+                "rank": 16,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:51.04"
+            },
+            {
+                "rank": 17,
+                "athlete": "Donovan, Tyler",
+                "time": "1:51.13"
+            },
+            {
+                "rank": 18,
+                "athlete": "Underwood, Tavon",
+                "time": "1:51.24"
+            },
+            {
+                "rank": 19,
+                "athlete": "Woods, Derek",
+                "time": "1:51.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "LeGrand, Leo",
+                "time": "1:51.39"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 9,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 10,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 11,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:46.30"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 13,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 14,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 15,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 16,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 17,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 19,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 20,
+                "athlete": "Erickson, Matthew",
+                "time": "1:46.88"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 2,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 3,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 4,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 6,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 7,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 8,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 9,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 10,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 11,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 12,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 13,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 15,
+                "athlete": "Streeval, Levi",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 16,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 17,
+                "athlete": "Medeiros, Nick",
+                "time": "1:47.73"
+            },
+            {
+                "rank": 18,
+                "athlete": "Mahadi, Hafez",
+                "time": "1:47.85"
+            },
+            {
+                "rank": 19,
+                "athlete": "Law, Camden",
+                "time": "1:47.95"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.97"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 12,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 13,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 14,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            },
+            {
+                "rank": 16,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 17,
+                "athlete": "Streeval, Levi",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 19,
+                "athlete": "Reese Sharman-Newell",
+                "time": "1:47.58"
+            },
+            {
+                "rank": 20,
+                "athlete": "Medeiros, Nick",
+                "time": "1:47.73"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 10,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 11,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 12,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 13,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 14,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lehr, Chase",
+                "time": "1:47.35"
+            },
+            {
+                "rank": 16,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 17,
+                "athlete": "Streeval, Levi",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 19,
+                "athlete": "Reese Sharman-Newell",
+                "time": "1:47.58"
+            },
+            {
+                "rank": 20,
+                "athlete": "Medeiros, Nick",
+                "time": "1:47.73"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 9,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 10,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 11,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:46.30"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 13,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 14,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 15,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 16,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 17,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 19,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 20,
+                "athlete": "Erickson, Matthew",
+                "time": "1:46.88"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 8,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 9,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 10,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 11,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:46.30"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 13,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 14,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 15,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 16,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 17,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cowan, Thomas",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 19,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 20,
+                "athlete": "Erickson, Matthew",
+                "time": "1:46.88"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 3,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 4,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 5,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 6,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 7,
+                "athlete": "Williams, Brandon",
+                "time": "1:50.13"
+            },
+            {
+                "rank": 8,
+                "athlete": "Flemington, Riley",
+                "time": "1:50.22"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pett, Owen",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 10,
+                "athlete": "Tarkington, Jacob",
+                "time": "1:50.76"
+            },
+            {
+                "rank": 11,
+                "athlete": "Watcke, Dan",
+                "time": "1:50.95"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cunningham, Michael",
+                "time": "1:51.02@"
+            },
+            {
+                "rank": 13,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:51.04"
+            },
+            {
+                "rank": 14,
+                "athlete": "Donovan, Tyler",
+                "time": "1:51.13"
+            },
+            {
+                "rank": 15,
+                "athlete": "Ndiwa, Victor",
+                "time": "1:51.44"
+            },
+            {
+                "rank": 16,
+                "athlete": "Eckert, Jaxson",
+                "time": "1:51.76"
+            },
+            {
+                "rank": 17,
+                "athlete": "Miles, Jonathan",
+                "time": "1:52.20"
+            },
+            {
+                "rank": 18,
+                "athlete": "Ruggles, Brendan",
+                "time": "1:52.33"
+            },
+            {
+                "rank": 19,
+                "athlete": "Lord, Aidan",
+                "time": "1:52.33"
+            },
+            {
+                "rank": 20,
+                "athlete": "Dafoe, Jonah",
+                "time": "1:52.40"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-30)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 3,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 4,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 5,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 6,
+                "athlete": "Van Orden, Jacob",
+                "time": "1:48.21"
+            },
+            {
+                "rank": 7,
+                "athlete": "Risser, Henry",
+                "time": "1:48.47"
+            },
+            {
+                "rank": 8,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 9,
+                "athlete": "Jeitz, Kasen",
+                "time": "1:48.88"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bott, Landon",
+                "time": "1:48.99"
+            },
+            {
+                "rank": 12,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 13,
+                "athlete": "Packard, Brayden",
+                "time": "1:49.07"
+            },
+            {
+                "rank": 14,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 15,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 16,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 17,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 18,
+                "athlete": "Faust, Patrick",
+                "time": "1:49.52"
+            },
+            {
+                "rank": 19,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 20,
+                "athlete": "McCallum, Chase",
+                "time": "1:49.61@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Roban, Handal",
+                "time": "1:44.91"
+            },
+            {
+                "rank": 2,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 3,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 4,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 6,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 7,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 8,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 9,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 10,
+                "athlete": "Harding, James",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 11,
+                "athlete": "Cook, Elliott",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 12,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 13,
+                "athlete": "Erickson, Matthew",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 15,
+                "athlete": "Streeval, Levi",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 16,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 17,
+                "athlete": "Medeiros, Nick",
+                "time": "1:47.73"
+            },
+            {
+                "rank": 18,
+                "athlete": "Mahadi, Hafez",
+                "time": "1:47.85"
+            },
+            {
+                "rank": 19,
+                "athlete": "Law, Camden",
+                "time": "1:47.95"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brouw, Ethan",
+                "time": "1:47.97"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "time": "1:46.79"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-29)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Narumbe, Peter",
+                "time": "1:47.24"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hilby, Patrick",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 3,
+                "athlete": "Cowan, Thomas",
+                "time": "1:47.88"
+            },
+            {
+                "rank": 4,
+                "athlete": "Brown, Miles",
+                "time": "1:48.04"
+            },
+            {
+                "rank": 5,
+                "athlete": "O'Reilly, John",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 6,
+                "athlete": "Van Orden, Jacob",
+                "time": "1:48.21"
+            },
+            {
+                "rank": 7,
+                "athlete": "Risser, Henry",
+                "time": "1:48.47"
+            },
+            {
+                "rank": 8,
+                "athlete": "Morgan, Carver",
+                "time": "1:48.82"
+            },
+            {
+                "rank": 9,
+                "athlete": "Jeitz, Kasen",
+                "time": "1:48.88"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lemaitre, Germain",
+                "time": "1:48.89@"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bott, Landon",
+                "time": "1:48.99"
+            },
+            {
+                "rank": 12,
+                "athlete": "Law, Camden",
+                "time": "1:49.00"
+            },
+            {
+                "rank": 13,
+                "athlete": "Packard, Brayden",
+                "time": "1:49.07"
+            },
+            {
+                "rank": 14,
+                "athlete": "Foltz, Kaleb",
+                "time": "1:49.18#"
+            },
+            {
+                "rank": 15,
+                "athlete": "Specht, Paul",
+                "time": "1:49.34"
+            },
+            {
+                "rank": 16,
+                "athlete": "Dixon, Henry",
+                "time": "1:49.37"
+            },
+            {
+                "rank": 17,
+                "athlete": "Colchico, Nico",
+                "time": "1:49.50"
+            },
+            {
+                "rank": 18,
+                "athlete": "Faust, Patrick",
+                "time": "1:49.52"
+            },
+            {
+                "rank": 19,
+                "athlete": "Rose, Chase",
+                "time": "1:49.56"
+            },
+            {
+                "rank": 20,
+                "athlete": "McCallum, Chase",
+                "time": "1:49.61@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sahlman, Colin",
+                "team": "Northern Arizona",
+                "time": "1:44.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roban, Handal",
+                "team": "Penn State",
+                "time": "1:44.73"
+            },
+            {
+                "rank": 3,
+                "athlete": "Matsatsa, Tinoda",
+                "team": "Georgetown",
+                "time": "1:45.12"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clay, Allon",
+                "team": "Penn State",
+                "time": "1:45.17"
+            },
+            {
+                "rank": 5,
+                "athlete": "Marshall, Rivaldo",
+                "team": "Arkansas",
+                "time": "1:45.62"
+            },
+            {
+                "rank": 6,
+                "athlete": "Bott, Landon",
+                "team": "Utah State",
+                "time": "1:45.72#@"
+            },
+            {
+                "rank": 7,
+                "athlete": "Erickson, Matthew",
+                "team": "Oregon",
+                "time": "1:45.93"
+            },
+            {
+                "rank": 8,
+                "athlete": "Marshall, Camden",
+                "team": "Indiana",
+                "time": "1:45.99"
+            },
+            {
+                "rank": 9,
+                "athlete": "Kweyei, Brian",
+                "team": "Clemson",
+                "time": "1:46.02"
+            },
+            {
+                "rank": 10,
+                "athlete": "Taylor, Tyrice",
+                "team": "Arkansas",
+                "time": "1:46.11"
+            },
+            {
+                "rank": 11,
+                "athlete": "Narumbe, Peter",
+                "team": "Texas A&M",
+                "time": "1:46.13"
+            },
+            {
+                "rank": 12,
+                "athlete": "Socarras, Joseph",
+                "team": "Penn",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ishii, Yukichi",
+                "team": "Penn State",
+                "time": "1:46.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Harding, James",
+                "team": "Oregon",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edson, Tyler",
+                "team": "Virginia",
+                "time": "1:46.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pantojas, Miguel",
+                "team": "Florida",
+                "time": "1:46.49"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schultz, Niko",
+                "team": "Penn State",
+                "time": "1:46.53"
+            },
+            {
+                "rank": 18,
+                "athlete": "Watcke, Dan",
+                "team": "Villanova",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Mangum, Andrew",
+                "team": "Indiana",
+                "time": "1:46.77"
+            },
+            {
+                "rank": 20,
+                "athlete": "Phillips, Jamie",
+                "team": "Bradley",
+                "time": "1:46.79"
+            },
+            {
+                "rank": 21,
+                "athlete": "Cowan, Thomas",
+                "team": "Boston University",
+                "time": "1:46.83"
+            },
+            {
+                "rank": 22,
+                "athlete": "Harrison, Rheinhardt",
+                "team": "Northern Arizona",
+                "time": "1:46.93"
+            },
+            {
+                "rank": 23,
+                "athlete": "Cook, Elliott",
+                "team": "Oregon",
+                "time": "1:46.94"
+            },
+            {
+                "rank": 24,
+                "athlete": "Morgan, Carver",
+                "team": "American",
+                "time": "1:46.97"
+            },
+            {
+                "rank": 25,
+                "athlete": "Law, Camden",
+                "team": "Michigan",
+                "time": "1:47.01"
+            },
+            {
+                "rank": 26,
+                "athlete": "Hilby, Patrick",
+                "team": "Wisconsin",
+                "time": "1:47.06"
+            },
+            {
+                "rank": 27,
+                "athlete": "Brouw, Ethan",
+                "team": "Louisville",
+                "time": "1:47.09"
+            },
+            {
+                "rank": 28,
+                "athlete": "Jeitz, Kasen",
+                "team": "Army West Point",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 29,
+                "athlete": "Nastari, Kaleb",
+                "team": "Penn State",
+                "time": "1:47.19"
+            },
+            {
+                "rank": 30,
+                "athlete": "Jackson, Christian",
+                "team": "Virginia Tech",
+                "time": "1:47.26"
+            },
+            {
+                "rank": 31,
+                "athlete": "Lecrivain, Edouard",
+                "team": "South Carolina",
+                "time": "1:47.31"
+            },
+            {
+                "rank": 32,
+                "athlete": "Lehr, Chase",
+                "team": "North Texas",
+                "time": "1:47.35"
+            },
+            {
+                "rank": 33,
+                "athlete": "DeCambre, Dylan",
+                "team": "Virginia Tech",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 34,
+                "athlete": "O'Reilly, John",
+                "team": "Michigan",
+                "time": "1:47.38"
+            },
+            {
+                "rank": 35,
+                "athlete": "Smith, Matthew",
+                "team": "Notre Dame",
+                "time": "1:47.42"
+            },
+            {
+                "rank": 36,
+                "athlete": "Nash, Gabe",
+                "team": "Nebraska",
+                "time": "1:47.43"
+            },
+            {
+                "rank": 37,
+                "athlete": "Streeval, Levi",
+                "team": "Lipscomb",
+                "time": "1:47.45"
+            },
+            {
+                "rank": 38,
+                "athlete": "Mutai, Stephen",
+                "team": "Texas Tech",
+                "time": "1:47.50"
+            },
+            {
+                "rank": 39,
+                "athlete": "Rose, Chase",
+                "team": "Ole Miss",
+                "time": "1:47.53"
+            },
+            {
+                "rank": 40,
+                "athlete": "Nelson, Gavin",
+                "team": "Florida",
+                "time": "1:47.53"
+            },
+            {
+                "rank": 41,
+                "athlete": "Songok, Mackdonald",
+                "team": "Mid. Tenn. State",
+                "time": "1:47.58"
+            },
+            {
+                "rank": 42,
+                "athlete": "Sharman-Newell, Reese",
+                "team": "Texas A&M",
+                "time": "1:47.58"
+            },
+            {
+                "rank": 43,
+                "athlete": "Bliven, Brady",
+                "team": "Vanderbilt",
+                "time": "1:47.59"
+            },
+            {
+                "rank": 44,
+                "athlete": "Mahadi, Hafez",
+                "team": "Oklahoma State",
+                "time": "1:47.64@"
+            },
+            {
+                "rank": 45,
+                "athlete": "Idiens, Samuel",
+                "team": "Virginia Tech",
+                "time": "1:47.68"
+            },
+            {
+                "rank": 46,
+                "athlete": "Cook, Ty",
+                "team": "Colorado",
+                "time": "1:47.68@"
+            },
+            {
+                "rank": 47,
+                "athlete": "Medeiros, Nick",
+                "team": "Georgetown",
+                "time": "1:47.73"
+            },
+            {
+                "rank": 48,
+                "athlete": "Armstrong, Max",
+                "team": "Ole Miss",
+                "time": "1:47.77"
+            },
+            {
+                "rank": 49,
+                "athlete": "Hotung-Davidsen, Tor",
+                "team": "Northern Arizona",
+                "time": "1:47.89"
+            },
+            {
+                "rank": 50,
+                "athlete": "Brown, Miles",
+                "team": "Michigan",
+                "time": "1:47.95"
+            }
+        ]
+    },
+    {
+        "year": "2024_2025",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "McCarthy, Aidan",
+                "team": "Cal Poly",
+                "time": "1:45.19"
+            },
+            {
+                "rank": 2,
+                "athlete": "Matsatsa, Tinoda",
+                "team": "Georgetown",
+                "time": "1:45.21"
+            },
+            {
+                "rank": 3,
+                "athlete": "Hassan, Abdullahi",
+                "team": "Miss State",
+                "time": "1:45.53"
+            },
+            {
+                "rank": 4,
+                "athlete": "Kweyei, Brian",
+                "team": "Clemson",
+                "time": "1:46.26"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smallwood, Darius",
+                "team": "Penn State",
+                "time": "1:46.28"
+            },
+            {
+                "rank": 6,
+                "athlete": "Watcke, Dan",
+                "team": "Villanova",
+                "time": "1:46.32"
+            },
+            {
+                "rank": 7,
+                "athlete": "Carlson , Dayton",
+                "team": "Arizona State",
+                "time": "1:46.39@"
+            },
+            {
+                "rank": 8,
+                "athlete": "Sahlman, Colin",
+                "team": "Northern Arizona",
+                "time": "1:46.40"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ishii, Yukichi",
+                "team": "Penn State",
+                "time": "1:46.41"
+            },
+            {
+                "rank": 10,
+                "athlete": "O'Toole, Justin",
+                "team": "Washington",
+                "time": "1:46.44"
+            },
+            {
+                "rank": 11,
+                "athlete": "Reinheimer, Kyle",
+                "team": "Washington",
+                "time": "1:46.45"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lindhorst, Cole",
+                "team": "Washington",
+                "time": "1:46.47"
+            },
+            {
+                "rank": 13,
+                "athlete": "Kipyego, Darius",
+                "team": "Iowa State",
+                "time": "1:46.48@"
+            },
+            {
+                "rank": 14,
+                "athlete": "Desmeules, Olivier",
+                "team": "Penn State",
+                "time": "1:46.52"
+            },
+            {
+                "rank": 15,
+                "athlete": "Kidali, Koitatoi",
+                "team": "Oregon",
+                "time": "1:46.55"
+            },
+            {
+                "rank": 16,
+                "athlete": "Erickson, Matthew",
+                "team": "Oregon",
+                "time": "1:46.58"
+            },
+            {
+                "rank": 17,
+                "athlete": "Taylor, Tyrice",
+                "team": "Arkansas",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 18,
+                "athlete": "Mathews, Tyler",
+                "team": "BYU",
+                "time": "1:46.62"
+            },
+            {
+                "rank": 19,
+                "athlete": "Robinson, TJ",
+                "team": "Kansas",
+                "time": "1:46.76@"
+            },
+            {
+                "rank": 20,
+                "athlete": "Marshall, Rivaldo",
+                "team": "Arkansas",
+                "time": "1:46.80"
+            },
+            {
+                "rank": 21,
+                "athlete": "Frilot, Lloyd",
+                "team": "TCU",
+                "time": "1:46.82"
+            },
+            {
+                "rank": 22,
+                "athlete": "Plant, Nicholas",
+                "team": "Virginia Tech",
+                "time": "1:46.85"
+            },
+            {
+                "rank": 23,
+                "athlete": "Sharif, Mahamed",
+                "team": "Connecticut",
+                "time": "1:46.93"
+            },
+            {
+                "rank": 24,
+                "athlete": "Tuohy, Patrick",
+                "team": "NC State",
+                "time": "1:46.98"
+            },
+            {
+                "rank": 25,
+                "athlete": "Galdino, Emanuel",
+                "team": "Iowa State",
+                "time": "1:47.02"
+            },
+            {
+                "rank": 26,
+                "athlete": "Austin, Sam",
+                "team": "Florida",
+                "time": "1:47.08"
+            },
+            {
+                "rank": 27,
+                "athlete": "Yanouri, Mehdi",
+                "team": "Oklahoma State",
+                "time": "1:47.12"
+            },
+            {
+                "rank": 28,
+                "athlete": "Mahadi, Hafez",
+                "team": "Oklahoma State",
+                "time": "1:47.16@"
+            },
+            {
+                "rank": 29,
+                "athlete": "Jackson, Christian",
+                "team": "Virginia Tech",
+                "time": "1:47.18"
+            },
+            {
+                "rank": 30,
+                "athlete": "Kidane, Yared",
+                "team": "Wichita State",
+                "time": "1:47.21"
+            },
+            {
+                "rank": 31,
+                "athlete": "Vercueil, Louis",
+                "team": "Miss State",
+                "time": "1:47.22"
+            },
+            {
+                "rank": 32,
+                "athlete": "McFarland, Trent",
+                "team": "Michigan",
+                "time": "1:47.22"
+            },
+            {
+                "rank": 33,
+                "athlete": "Brown, Miles",
+                "team": "Michigan",
+                "time": "1:47.25"
+            },
+            {
+                "rank": 34,
+                "athlete": "Rodman, Samuel",
+                "team": "Princeton",
+                "time": "1:47.25#"
+            },
+            {
+                "rank": 35,
+                "athlete": "Blackman, Dugion",
+                "team": "Iowa State",
+                "time": "1:47.29"
+            },
+            {
+                "rank": 36,
+                "athlete": "Barco, Martin",
+                "team": "Washington",
+                "time": "1:47.30"
+            },
+            {
+                "rank": 37,
+                "athlete": "Thornton, Aman",
+                "team": "Iowa State",
+                "time": "1:47.34"
+            },
+            {
+                "rank": 38,
+                "athlete": "Angiono, Gabriele",
+                "team": "Georgetown",
+                "time": "1:47.36"
+            },
+            {
+                "rank": 39,
+                "athlete": "Law, Camden",
+                "team": "Michigan",
+                "time": "1:47.39"
+            },
+            {
+                "rank": 40,
+                "athlete": "Harding, James",
+                "team": "Oregon",
+                "time": "1:47.39"
+            },
+            {
+                "rank": 41,
+                "athlete": "Schultz, Niko",
+                "team": "Nebraska",
+                "time": "1:47.42"
+            },
+            {
+                "rank": 42,
+                "athlete": "Witt, Harrison",
+                "team": "Princeton",
+                "time": "1:47.42"
+            },
+            {
+                "rank": 43,
+                "athlete": "Swanepoel, Rynard",
+                "team": "Wake Forest",
+                "time": "1:47.44"
+            },
+            {
+                "rank": 44,
+                "athlete": "Locke, David",
+                "team": "Penn State",
+                "time": "1:47.47"
+            },
+            {
+                "rank": 45,
+                "athlete": "Helmerich, Davis",
+                "team": "Arkansas",
+                "time": "1:47.52"
+            },
+            {
+                "rank": 46,
+                "athlete": "McCormick, Connor",
+                "team": "Princeton",
+                "time": "1:47.56#"
+            },
+            {
+                "rank": 47,
+                "athlete": "Smith, Matthew",
+                "team": "Furman",
+                "time": "1:47.64"
+            },
+            {
+                "rank": 48,
+                "athlete": "Farrell, Ryan",
+                "team": "Louisville",
+                "time": "1:47.65"
+            },
+            {
+                "rank": 49,
+                "athlete": "Slavinski, Blaik",
+                "team": "Clemson",
+                "time": "1:47.65"
+            },
+            {
+                "rank": 50,
+                "athlete": "Farquharson, Kimar",
+                "team": "Texas A&M",
+                "time": "1:47.67@"
+            }
+        ]
+    },
+    {
+        "year": "2023_2024",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "800 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Bizimana, Yusuf",
+                "team": "Texas",
+                "time": "1:45.88@"
+            },
+            {
+                "rank": 2,
+                "athlete": "Green, Nathan",
+                "team": "Washington",
+                "time": "1:46.50"
+            },
+            {
+                "rank": 3,
+                "athlete": "Hassan, Abdullahi",
+                "team": "Wisconsin",
+                "time": "1:46.61"
+            },
+            {
+                "rank": 4,
+                "athlete": "Kipyego, Darius",
+                "team": "Iowa State",
+                "time": "1:46.71"
+            },
+            {
+                "rank": 5,
+                "athlete": "Austin, Sam",
+                "team": "Florida",
+                "time": "1:46.80"
+            },
+            {
+                "rank": 6,
+                "athlete": "Roban, Handal",
+                "team": "Penn State",
+                "time": "1:46.81"
+            },
+            {
+                "rank": 7,
+                "athlete": "Marshall, Rivaldo",
+                "team": "Iowa",
+                "time": "1:46.86"
+            },
+            {
+                "rank": 8,
+                "athlete": "Matsatsa, Tinoda",
+                "team": "Georgetown",
+                "time": "1:46.87"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dolan, Sean",
+                "team": "Villanova",
+                "time": "1:46.90"
+            },
+            {
+                "rank": 10,
+                "athlete": "Murphy, Conor",
+                "team": "Virginia",
+                "time": "1:46.95"
+            },
+            {
+                "rank": 11,
+                "athlete": "McLear, Finley",
+                "team": "Iowa State",
+                "time": "1:46.97"
+            },
+            {
+                "rank": 12,
+                "athlete": "Davis, Leo",
+                "team": "Hampton",
+                "time": "1:47.05"
+            },
+            {
+                "rank": 13,
+                "athlete": "Rhoden, Tarees",
+                "team": "Clemson",
+                "time": "1:47.08"
+            },
+            {
+                "rank": 14,
+                "athlete": "Fitzgerald, Carter",
+                "team": "Penn State",
+                "time": "1:47.25"
+            },
+            {
+                "rank": 15,
+                "athlete": "Plant, Nicholas",
+                "team": "Virginia Tech",
+                "time": "1:47.33"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lindhorst, Cole",
+                "team": "Texas",
+                "time": "1:47.39"
+            },
+            {
+                "rank": 17,
+                "athlete": "Whitmarsh, Sam",
+                "team": "Texas A&M",
+                "time": "1:47.39"
+            },
+            {
+                "rank": 18,
+                "athlete": "Desmeules, Olivier",
+                "team": "Penn State",
+                "time": "1:47.40"
+            },
+            {
+                "rank": 19,
+                "athlete": "Gomez, Jason",
+                "team": "Iowa State",
+                "time": "1:47.44"
+            },
+            {
+                "rank": 20,
+                "athlete": "Griner, Luke",
+                "team": "Army West Point",
+                "time": "1:47.47"
+            },
+            {
+                "rank": 21,
+                "athlete": "Sahlman, Colin",
+                "team": "Northern Arizona",
+                "time": "1:47.48"
+            },
+            {
+                "rank": 22,
+                "athlete": "Jackson, Christian",
+                "team": "Virginia Tech",
+                "time": "1:47.51"
+            },
+            {
+                "rank": 23,
+                "athlete": "Reid, Tyrese",
+                "team": "Miss State",
+                "time": "1:47.55"
+            },
+            {
+                "rank": 24,
+                "athlete": "McInerney, Tim",
+                "team": "Georgetown",
+                "time": "1:47.56"
+            },
+            {
+                "rank": 25,
+                "athlete": "Payamps, Matthew",
+                "team": "Georgetown",
+                "time": "1:47.59"
+            },
+            {
+                "rank": 26,
+                "athlete": "Marshall, Camden",
+                "team": "Indiana",
+                "time": "1:47.61"
+            },
+            {
+                "rank": 27,
+                "athlete": "Schultz, Niko",
+                "team": "Nebraska",
+                "time": "1:47.75"
+            },
+            {
+                "rank": 28,
+                "athlete": "Cumberbatch, Nathan",
+                "team": "USC",
+                "time": "1:47.78"
+            },
+            {
+                "rank": 29,
+                "athlete": "Farquharson, Kimar",
+                "team": "Texas A&M",
+                "time": "1:47.81"
+            },
+            {
+                "rank": 30,
+                "athlete": "Ayhan, Kerem",
+                "team": "Northeastern",
+                "time": "1:47.86"
+            },
+            {
+                "rank": 31,
+                "athlete": "Harrington, Angus",
+                "team": "UCLA",
+                "time": "1:47.86"
+            },
+            {
+                "rank": 32,
+                "athlete": "Bambals, Oskars",
+                "team": "Miami (Fla.)",
+                "time": "1:47.89"
+            },
+            {
+                "rank": 33,
+                "athlete": "Erickson, Matthew",
+                "team": "Oregon",
+                "time": "1:47.92"
+            },
+            {
+                "rank": 34,
+                "athlete": "Birkmeier, Ryan",
+                "team": "Colorado St.",
+                "time": "1:47.94@"
+            },
+            {
+                "rank": 35,
+                "athlete": "Wells, Riley",
+                "team": "Arkansas",
+                "time": "1:48.06"
+            },
+            {
+                "rank": 36,
+                "athlete": "Yanouri, Mehdi",
+                "team": "Oklahoma State",
+                "time": "1:48.06"
+            },
+            {
+                "rank": 37,
+                "athlete": "Brouw, Ethan",
+                "team": "New Mexico",
+                "time": "1:48.06@"
+            },
+            {
+                "rank": 38,
+                "athlete": "Pantojas, Miguel",
+                "team": "Florida",
+                "time": "1:48.08"
+            },
+            {
+                "rank": 39,
+                "athlete": "Herrmann, Lorenz",
+                "team": "Idaho",
+                "time": "1:48.12"
+            },
+            {
+                "rank": 40,
+                "athlete": "Cohen, Shane",
+                "team": "Virginia",
+                "time": "1:48.15"
+            },
+            {
+                "rank": 41,
+                "athlete": "Kiplimo, Gideon",
+                "team": "Texas Tech",
+                "time": "1:48.18"
+            },
+            {
+                "rank": 42,
+                "athlete": "Bott, Landon",
+                "team": "Utah State",
+                "time": "1:48.21@"
+            },
+            {
+                "rank": 43,
+                "athlete": "Ishii, Yukichi",
+                "team": "Penn State",
+                "time": "1:48.21"
+            },
+            {
+                "rank": 44,
+                "athlete": "Burrows, Dylan",
+                "team": "New Mexico",
+                "time": "1:48.26@"
+            },
+            {
+                "rank": 45,
+                "athlete": "Schreml, Elias",
+                "team": "Arkansas",
+                "time": "1:48.27"
+            },
+            {
+                "rank": 46,
+                "athlete": "Nastari, Kaleb",
+                "team": "Penn State",
+                "time": "1:48.30"
+            },
+            {
+                "rank": 47,
+                "athlete": "Balick, Jack",
+                "team": "Wake Forest",
+                "time": "1:48.30"
+            },
+            {
+                "rank": 48,
+                "athlete": "O'Toole, Justin",
+                "team": "Columbia",
+                "time": "1:48.31"
+            },
+            {
+                "rank": 49,
+                "athlete": "El Bouchayby, Oussama",
+                "team": "Alabama",
+                "time": "1:48.32"
+            },
+            {
+                "rank": 50,
+                "athlete": "Regnier, Andrew",
+                "team": "North Carolina",
+                "time": "1:48.33"
+            }
+        ]
+    }
+]

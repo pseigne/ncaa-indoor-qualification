@@ -1,0 +1,7142 @@
+[
+    {
+        "year": "2025-2026 (2026-01-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-13)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-14)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Wagner, Garret",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-31)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "See, Brendon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Okeke, Obiora",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schnakenberg, Seth",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Robbins, Asher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Smith, Hunter",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "See, Brendon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Okeke, Obiora",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Olaru, Igor",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "See, Brendon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bigley, Kyle",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Okeke, Obiora",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Schnakenberg, Seth",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Robbins, Asher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Smith, Hunter",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-30)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lott, Desmond",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Pable, Benjamin",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Witte, Johnathan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-29)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nubbe, Jeremiah",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore, Gary",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Davis, Keyandre",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCall, Kade",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Ifkovits, Aidan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinckney, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Sean",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Polychroniou, Nikolaos",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Bryson",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zimmerman, Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Leonard, John",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Milbrath, Grant",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pozecki, Garik",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Isaia, Noa",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Auble, Matthew",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hickel, Mason",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Ryan",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nubbe, Jeremiah",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Moore Jr., Gary",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polychroniou, Nikolaos",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Davis, Keyandre",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Zimmerman, Henry",
+                "team": "Texas A&M",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pable, Benjamin",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinckney, Michael",
+                "team": "UCLA",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Innes, Sam",
+                "team": "Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCall, Kade",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ifkovits, Aidan",
+                "team": "Tennessee",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "team": "Purdue",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Milbrath, Grant",
+                "team": "SIU Edwardsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Bryson",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hickel, Mason",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Isaia, Noa",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lott, Desmond",
+                "team": "Northern Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Phillips, Adam",
+                "team": "Drake",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Leonard, John",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Witte, Johnathan",
+                "team": "Florida",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Abdulky, Cal",
+                "team": "Rice",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Olaru, Igor",
+                "team": "Tennessee",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "See, Brendon",
+                "team": "Oklahoma",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Carpenter, Sam",
+                "team": "Drake",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Bigley, Kyle",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Ayers, Cale",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Toro, Christian",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Pozecki, Garik",
+                "team": "Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Kimes, Kellen",
+                "team": "Liberty",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Auble, Matthew",
+                "team": "Clemson",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Bakare, Sultan",
+                "team": "Rice",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Okeke, Obiora",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Wagner, Garret",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Lott, Ty",
+                "team": "Houston",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Coleman, Desmond",
+                "team": "Miami (Fla.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Schwartz, Brett",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Burkhart, Collin",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "team": "New Hampshire",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Schnakenberg, Seth",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Robbins, Asher",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Busch, Austin",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Fredrick, Caiden",
+                "team": "South Dakota St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Recker, Nolan",
+                "team": "Yale",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Griffiths, Xavier",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Verzani, Zach",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Sidirenios, Nikolaos",
+                "team": "Indiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Hellbom, Adam",
+                "team": "Colorado St.",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024_2025",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Reynolds, Daniel",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Knight, Trey",
+                "team": "CSUN",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Johnson, Ryan",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Nubbe, Jeremiah",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Ikeji, Kenneth",
+                "team": "Harvard",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Webb, Terrell",
+                "team": "SE Louisiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "White, Joseph",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Zimmerman, Henry",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Banks, Ruben",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jones, Cam",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Innes, Sam",
+                "team": "Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Johnson, Christian",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lott, Desmond",
+                "team": "Northern Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lewis, Paden",
+                "team": "SE Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Moore, Gary",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Bernt, Garret",
+                "team": "Northern Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Sean",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brown, Kyle",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Landa, Zach",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Wood, Konner",
+                "team": "Texas Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Sudduth, Tyler",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Smith, Bryson",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Witte, Johnathan",
+                "team": "Florida",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Decker, Robert",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Pinckney, Michael",
+                "team": "UCLA",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Hickel, Mason",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Lemmon, Jacob",
+                "team": "Florida",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Devaney, Rory",
+                "team": "Cal Poly",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Luciano, Brian",
+                "team": "Binghamton",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Williams, Nathan",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Wagner, Garret",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Kimes, Kellen",
+                "team": "Liberty",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Davis, Keyandre",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Coles, Logan",
+                "team": "Kentucky",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Busch, Austin",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Leonard, John",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Dochat, Scott",
+                "team": "Penn",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Polychroniou, Nikolaos",
+                "team": "USC",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Patton, Aidan",
+                "team": "Central Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Kitchell, Thomas",
+                "team": "North Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Parchman, Jake",
+                "team": "North Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Hunter, Jase",
+                "team": "Kennesaw State",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Bolt, Noah",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Bernstein, Alex",
+                "team": "DePaul",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Isaia, Noa",
+                "team": "Arkansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Campion, Costen",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Jackman, Elijah",
+                "team": "Montana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Ogbeiwi, Michael",
+                "team": "Arizona",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2023_2024",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Ikeji, Kenneth",
+                "team": "Harvard",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Banks, Ruben",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "White, Jayden",
+                "team": "Washington",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Knight, Trey",
+                "team": "CSUN",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Feuerborn, Parker",
+                "team": "SE Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Sudduth, Tyler",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Bernt, Garret",
+                "team": "Northern Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Zimmerman, Henry",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Nubbe, Jeremiah",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Cope, Daniel",
+                "team": "Clemson",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mechler, Jacob",
+                "team": "Texas Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ohene-Adu, Dennis",
+                "team": "Kentucky",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hamilton , Rowan",
+                "team": "California",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jones, Cam",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Witte, Johnathan",
+                "team": "LSU",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Smith, Sean",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Johnson, Ryan",
+                "team": "Eastern Michigan",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kristeller, Alex",
+                "team": "Manhattan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lemmon, Jacob",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Morell, Brad",
+                "team": "Cornell",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "McCall, Kade",
+                "team": "Kansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Johnson, Christian",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Boamah, Joshua",
+                "team": "Navy",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Dibo, Will",
+                "team": "Memphis",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Wood, Konner",
+                "team": "Texas Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Casper, John",
+                "team": "VCU",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Fay, John",
+                "team": "Virginia",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Weber, Mitchell",
+                "team": "Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Bernstein, Alex",
+                "team": "DePaul",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Harrison, Anthony",
+                "team": "Kennesaw State",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Phillips, Adam",
+                "team": "Drake",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Reynolds, Daniel",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Moison, Kyle",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Klykov, Oleg",
+                "team": "Kansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Swarens, Jason",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Abdulky, Cal",
+                "team": "Rice",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Palma Simo, Aimar",
+                "team": "Duke",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Strunk, Mason",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Coles, Logan",
+                "team": "Kentucky",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Burkhart, Collin",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Barmes, Anthony",
+                "team": "Drake",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Auble, Matthew",
+                "team": "Clemson",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Moore, Gary",
+                "team": "Baylor",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Busch, Austin",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Landa, Zach",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Hicks, John",
+                "team": "Liberty",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Norris, Daniel",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Hunter, Jase",
+                "team": "Kennesaw State",
+                "time": "N/A"
+            }
+        ]
+    }
+]

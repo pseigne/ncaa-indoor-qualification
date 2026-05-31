@@ -1,0 +1,449 @@
+[
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "East",
+        "gender": "f",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Winner, Molly",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Pollock, Leslie",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Spielvogel, Richella",
+                "team": "Lake Erie",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Sayles, Katie",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Newsome, Olivia",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Hansen, Kelsey",
+                "team": "Northwood",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Miller, Tatum",
+                "team": "Walsh",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Kennon, Kelsey",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Oostdyk, Olivia",
+                "team": "Lake Erie",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Flores, Kennedy",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Gum, Kaitlyn",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Coulter, Brooke",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Bernard, Juliet",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Barnette, Kaylyn",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Kinsley, Kelsey",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wight, Regan",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "West, Harley",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Anderson, Faith",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Patrick, Jennifer",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Swartz, Maddie",
+                "team": "Walsh",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Kiefer, Ava",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Hasenfratz, Abby",
+                "team": "Northwood",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Morrison, Mackenzie",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Roubinek, Lena",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Hill, Alisha",
+                "team": "Ashland",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Watson-Perez, Irma",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Kerns, Nevaeh",
+                "team": "Lincoln Memorial",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Wimpee, Sarah",
+                "team": "Anderson (S.C.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Parrish, Ashley",
+                "team": "Lincoln Memorial",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rogers, Nia",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Pascual Rivera, Andrea",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Nippa, Savannah",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lawless, Amber",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Turner, Cate",
+                "team": "Lincoln Memorial",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Marshall, ShaNadia",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Butler, Kiori",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Hogan, Amber",
+                "team": "Tusculum",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Redfearn, Morgan",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Myers, Kennedy",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Fleming, Olyvia",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Alvis, Kylee",
+                "team": "Lincoln Memorial",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Samuels, Leonie",
+                "team": "Newberry",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hansbrough, Mary",
+                "team": "Limestone",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stinson, Gracie",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Rice, Kayla",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Karnilowicz, Julia",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Dingus, Emma",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Simmons, Cadence",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Bobbitt, Emma",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Gross, Kate",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "National",
+        "gender": "f",
+        "event": "Weight Throw",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Brinks, Samara",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wolf, Emily",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tang, Sarah",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Hailey",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Thomas, TaNiyah",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Thompson, Kennedy",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Thorne, Rashanna",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Brown, A'cynthia",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Thomas, Keva",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Waite, Gracie",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Thrift, Morgan",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Faulkner, Sakari",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Wallingsford, Tristan",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Rinke, Kylie",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jackson, McKenna",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Zweerink, Rebekah",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Davidson, Olivia",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones, Vivian",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Wilkerson, Katie",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "DeLaughter, Briana",
+                "team": "Trevecca Nazarene",
+                "time": "N/A"
+            }
+        ]
+    }
+]

@@ -1,0 +1,3914 @@
+[
+    {
+        "gender": "m",
+        "event": "100 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Price, Jackson",
+                "team": "Emory",
+                "time": "10.62"
+            },
+            {
+                "rank": 2,
+                "athlete": "Ryba, Sam",
+                "team": "Emory",
+                "time": "10.69"
+            },
+            {
+                "rank": 3,
+                "athlete": "Brandstadter, Henry",
+                "team": "Emory",
+                "time": "10.71"
+            },
+            {
+                "rank": 4,
+                "athlete": "Perez, Juan",
+                "team": "Case Western",
+                "time": "10.75"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wong, Bennett",
+                "team": "Carnegie Mellon",
+                "time": "10.88"
+            },
+            {
+                "rank": 6,
+                "athlete": "Cartwright, Keith",
+                "team": "Case Western",
+                "time": "10.89"
+            },
+            {
+                "rank": 7,
+                "athlete": "Xavier, Myles",
+                "team": "U. of Chicago",
+                "time": "10.92"
+            },
+            {
+                "rank": 8,
+                "athlete": "Seshadri, Vikram",
+                "team": "U. of Chicago",
+                "time": "10.94"
+            },
+            {
+                "rank": 9,
+                "athlete": "Callow, Brett",
+                "team": "Case Western",
+                "time": "10.96"
+            },
+            {
+                "rank": 10,
+                "athlete": "Perry, Travis",
+                "team": "NYU",
+                "time": "11.00"
+            },
+            {
+                "rank": 11,
+                "athlete": "Brito, Manny",
+                "team": "NYU",
+                "time": "11.04"
+            },
+            {
+                "rank": 12,
+                "athlete": "Bunch, Caleb",
+                "team": "Emory",
+                "time": "11.05"
+            },
+            {
+                "rank": 13,
+                "athlete": "Pan, Samuel",
+                "team": "Washington U.",
+                "time": "11.05"
+            },
+            {
+                "rank": 14,
+                "athlete": "Asare, Jason",
+                "team": "U. of Chicago",
+                "time": "11.10"
+            },
+            {
+                "rank": 15,
+                "athlete": "Yu, Matthew",
+                "team": "Carnegie Mellon",
+                "time": "11.12"
+            },
+            {
+                "rank": 16,
+                "athlete": "Weltz, Austin",
+                "team": "Carnegie Mellon",
+                "time": "11.16"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "200 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Price, Jackson",
+                "team": "Emory",
+                "time": "21.15"
+            },
+            {
+                "rank": 2,
+                "athlete": "Perez, Juan",
+                "team": "Case Western",
+                "time": "21.88"
+            },
+            {
+                "rank": 3,
+                "athlete": "Wong, Bennett",
+                "team": "Carnegie Mellon",
+                "time": "21.93"
+            },
+            {
+                "rank": 4,
+                "athlete": "Callow, Brett",
+                "team": "Case Western",
+                "time": "21.94"
+            },
+            {
+                "rank": 5,
+                "athlete": "Ryba, Sam",
+                "team": "Emory",
+                "time": "21.98"
+            },
+            {
+                "rank": 6,
+                "athlete": "Devaney, Francis",
+                "team": "U. of Chicago",
+                "time": "21.99"
+            },
+            {
+                "rank": 7,
+                "athlete": "Brito, Manny",
+                "team": "NYU",
+                "time": "22.00"
+            },
+            {
+                "rank": 8,
+                "athlete": "Greene, Graham",
+                "team": "Emory",
+                "time": "22.03"
+            },
+            {
+                "rank": 9,
+                "athlete": "Weltz, Austin",
+                "team": "Carnegie Mellon",
+                "time": "22.04"
+            },
+            {
+                "rank": 10,
+                "athlete": "Brandstadter, Henry",
+                "team": "Emory",
+                "time": "22.04"
+            },
+            {
+                "rank": 11,
+                "athlete": "Drye, Theodore",
+                "team": "Emory",
+                "time": "22.08"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cartwright, Keith",
+                "team": "Case Western",
+                "time": "22.16"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ray, Andrew",
+                "team": "U. of Chicago",
+                "time": "22.19"
+            },
+            {
+                "rank": 14,
+                "athlete": "Seshadri, Vikram",
+                "team": "U. of Chicago",
+                "time": "22.26"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pan, Samuel",
+                "team": "Washington U.",
+                "time": "22.34"
+            },
+            {
+                "rank": 16,
+                "athlete": "Djetto, Alex",
+                "team": "Washington U.",
+                "time": "22.35"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "400 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Drye, Theodore",
+                "team": "Emory",
+                "time": "47.84"
+            },
+            {
+                "rank": 2,
+                "athlete": "Dean, Dawit",
+                "team": "Emory",
+                "time": "48.27"
+            },
+            {
+                "rank": 3,
+                "athlete": "Ocloo, Jeremy",
+                "team": "Carnegie Mellon",
+                "time": "48.51"
+            },
+            {
+                "rank": 4,
+                "athlete": "Wurster, Bryce",
+                "team": "Emory",
+                "time": "48.70"
+            },
+            {
+                "rank": 5,
+                "athlete": "Ray, Andrew",
+                "team": "U. of Chicago",
+                "time": "49.02"
+            },
+            {
+                "rank": 6,
+                "athlete": "Devaney, Francis",
+                "team": "U. of Chicago",
+                "time": "49.04"
+            },
+            {
+                "rank": 7,
+                "athlete": "Frohling, William",
+                "team": "Washington U.",
+                "time": "49.24"
+            },
+            {
+                "rank": 8,
+                "athlete": "Greene, Graham",
+                "team": "Emory",
+                "time": "49.70"
+            },
+            {
+                "rank": 9,
+                "athlete": "Gilbert, Aiden",
+                "team": "Emory",
+                "time": "49.81"
+            },
+            {
+                "rank": 10,
+                "athlete": "Brito, Manny",
+                "team": "NYU",
+                "time": "49.97"
+            },
+            {
+                "rank": 11,
+                "athlete": "Sidamon-Eristoff, Andrew",
+                "team": "Washington U.",
+                "time": "50.27"
+            },
+            {
+                "rank": 12,
+                "athlete": "Williams, Gaven",
+                "team": "Carnegie Mellon",
+                "time": "50.28"
+            },
+            {
+                "rank": 13,
+                "athlete": "Broughton, Jeremiah",
+                "team": "Case Western",
+                "time": "50.33"
+            },
+            {
+                "rank": 14,
+                "athlete": "Dehmler, William",
+                "team": "Washington U.",
+                "time": "50.35"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bates, Josh",
+                "team": "Case Western",
+                "time": "50.44"
+            },
+            {
+                "rank": 16,
+                "athlete": "Cox, Jackson",
+                "team": "Washington U.",
+                "time": "50.49"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "800 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Aske, Julian",
+                "team": "NYU",
+                "time": "1:48.98"
+            },
+            {
+                "rank": 2,
+                "athlete": "Dean, Dawit",
+                "team": "Emory",
+                "time": "1:49.29"
+            },
+            {
+                "rank": 3,
+                "athlete": "Watry, Spencer",
+                "team": "Emory",
+                "time": "1:49.35"
+            },
+            {
+                "rank": 4,
+                "athlete": "Houser, Will",
+                "team": "Washington U.",
+                "time": "1:50.03"
+            },
+            {
+                "rank": 5,
+                "athlete": "Dehmler, William",
+                "team": "Washington U.",
+                "time": "1:50.33"
+            },
+            {
+                "rank": 6,
+                "athlete": "Carleo, TJ",
+                "team": "Brandeis",
+                "time": "1:50.38"
+            },
+            {
+                "rank": 7,
+                "athlete": "Rieden, Garret",
+                "team": "Brandeis",
+                "time": "1:50.39"
+            },
+            {
+                "rank": 8,
+                "athlete": "McGovern, Andrew",
+                "team": "Carnegie Mellon",
+                "time": "1:50.43"
+            },
+            {
+                "rank": 9,
+                "athlete": "Frohling, William",
+                "team": "Washington U.",
+                "time": "1:51.00"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cheema, Marcus",
+                "team": "Emory",
+                "time": "1:51.83"
+            },
+            {
+                "rank": 11,
+                "athlete": "Davies, Leland",
+                "team": "Carnegie Mellon",
+                "time": "1:52.08"
+            },
+            {
+                "rank": 12,
+                "athlete": "Corbett, James",
+                "team": "Washington U.",
+                "time": "1:52.57"
+            },
+            {
+                "rank": 13,
+                "athlete": "Cox, Jackson",
+                "team": "Washington U.",
+                "time": "1:53.12"
+            },
+            {
+                "rank": 14,
+                "athlete": "Sidamon-Eristoff, Andrew",
+                "team": "Washington U.",
+                "time": "1:54.16"
+            },
+            {
+                "rank": 15,
+                "athlete": "McLaughlin, Colin",
+                "team": "Carnegie Mellon",
+                "time": "1:54.18"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brady, Eamon",
+                "team": "Carnegie Mellon",
+                "time": "1:54.29"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "1500 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Corbett, James",
+                "team": "Washington U.",
+                "time": "3:48.76"
+            },
+            {
+                "rank": 2,
+                "athlete": "Houser, Will",
+                "team": "Washington U.",
+                "time": "3:49.21"
+            },
+            {
+                "rank": 3,
+                "athlete": "Watry, Spencer",
+                "team": "Emory",
+                "time": "3:49.47"
+            },
+            {
+                "rank": 4,
+                "athlete": "Lynch, Frankie",
+                "team": "Washington U.",
+                "time": "3:50.03"
+            },
+            {
+                "rank": 5,
+                "athlete": "McLaughlin, Colin",
+                "team": "Carnegie Mellon",
+                "time": "3:51.07"
+            },
+            {
+                "rank": 6,
+                "athlete": "Sidamon-Eristoff, Andrew",
+                "team": "Washington U.",
+                "time": "3:52.52"
+            },
+            {
+                "rank": 7,
+                "athlete": "Donohoe, Tommy",
+                "team": "U. of Chicago",
+                "time": "3:52.89"
+            },
+            {
+                "rank": 8,
+                "athlete": "Gilbert, Nate",
+                "team": "Case Western",
+                "time": "3:53.48"
+            },
+            {
+                "rank": 9,
+                "athlete": "Short, Matthew",
+                "team": "Carnegie Mellon",
+                "time": "3:53.57"
+            },
+            {
+                "rank": 10,
+                "athlete": "Carleo, TJ",
+                "team": "Brandeis",
+                "time": "3:53.96"
+            },
+            {
+                "rank": 11,
+                "athlete": "Cheema, Marcus",
+                "team": "Emory",
+                "time": "3:54.35"
+            },
+            {
+                "rank": 12,
+                "athlete": "Tobin, Ryan",
+                "team": "NYU",
+                "time": "3:54.65"
+            },
+            {
+                "rank": 13,
+                "athlete": "Masterson, Scott",
+                "team": "Emory",
+                "time": "3:54.67"
+            },
+            {
+                "rank": 14,
+                "athlete": "Makker, Nikhil",
+                "team": "Emory",
+                "time": "3:55.36"
+            },
+            {
+                "rank": 15,
+                "athlete": "Brady, Eamon",
+                "team": "Carnegie Mellon",
+                "time": "3:55.46"
+            },
+            {
+                "rank": 16,
+                "athlete": "Ribeiro Duraes, Fernando",
+                "team": "Washington U.",
+                "time": "3:55.78"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "5000 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Tobin, Ryan",
+                "team": "NYU",
+                "time": "14:08.71"
+            },
+            {
+                "rank": 2,
+                "athlete": "Capuano, Cullen",
+                "team": "Washington U.",
+                "time": "14:11.37"
+            },
+            {
+                "rank": 3,
+                "athlete": "Brady, George",
+                "team": "NYU",
+                "time": "14:25.96"
+            },
+            {
+                "rank": 4,
+                "athlete": "Daly, Conor",
+                "team": "Washington U.",
+                "time": "14:27.47"
+            },
+            {
+                "rank": 5,
+                "athlete": "Hsu, Jacob",
+                "team": "Carnegie Mellon",
+                "time": "14:33.75"
+            },
+            {
+                "rank": 6,
+                "athlete": "Begley, Jack",
+                "team": "U. of Chicago",
+                "time": "14:34.30"
+            },
+            {
+                "rank": 7,
+                "athlete": "Coyle, Matthew",
+                "team": "Carnegie Mellon",
+                "time": "14:35.82"
+            },
+            {
+                "rank": 8,
+                "athlete": "Evans, Alexander",
+                "team": "Washington U.",
+                "time": "14:36.33"
+            },
+            {
+                "rank": 9,
+                "athlete": "Hornung, Matthew",
+                "team": "Washington U.",
+                "time": "14:43.48"
+            },
+            {
+                "rank": 10,
+                "athlete": "Patel, Sanju",
+                "team": "U. of Chicago",
+                "time": "14:43.52"
+            },
+            {
+                "rank": 11,
+                "athlete": "Chen, Jeffrey",
+                "team": "NYU",
+                "time": "14:45.55"
+            },
+            {
+                "rank": 12,
+                "athlete": "Puckett, Kyle",
+                "team": "Washington U.",
+                "time": "14:46.87"
+            },
+            {
+                "rank": 13,
+                "athlete": "Benson, Micah",
+                "team": "Washington U.",
+                "time": "14:49.07"
+            },
+            {
+                "rank": 14,
+                "athlete": "Taubman, Zach",
+                "team": "U. of Chicago",
+                "time": "14:57.46"
+            },
+            {
+                "rank": 15,
+                "athlete": "Maranz, Jack",
+                "team": "Washington U.",
+                "time": "14:58.57"
+            },
+            {
+                "rank": 16,
+                "athlete": "Porter, Matthew",
+                "team": "Carnegie Mellon",
+                "time": "14:59.26"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "10,000 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Coyle, Matthew",
+                "team": "Carnegie Mellon",
+                "time": "29:47.14"
+            },
+            {
+                "rank": 2,
+                "athlete": "Porter, Matthew",
+                "team": "Carnegie Mellon",
+                "time": "29:52.80"
+            },
+            {
+                "rank": 3,
+                "athlete": "Nathan, Aidan",
+                "team": "Case Western",
+                "time": "29:55.15"
+            },
+            {
+                "rank": 4,
+                "athlete": "Begley, Jack",
+                "team": "U. of Chicago",
+                "time": "29:58.46"
+            },
+            {
+                "rank": 5,
+                "athlete": "Thompson, Ethan",
+                "team": "Emory",
+                "time": "30:10.54"
+            },
+            {
+                "rank": 6,
+                "athlete": "Olpin, Tristan",
+                "team": "Emory",
+                "time": "30:43.25"
+            },
+            {
+                "rank": 7,
+                "athlete": "Hornung, Matthew",
+                "team": "Washington U.",
+                "time": "30:47.50"
+            },
+            {
+                "rank": 8,
+                "athlete": "Puckett, Kyle",
+                "team": "Washington U.",
+                "time": "30:59.55"
+            },
+            {
+                "rank": 9,
+                "athlete": "Taubman, Zach",
+                "team": "U. of Chicago",
+                "time": "31:28.11"
+            },
+            {
+                "rank": 10,
+                "athlete": "Murphy, Charlie",
+                "team": "Carnegie Mellon",
+                "time": "31:31.23"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bender, Noah",
+                "team": "U. of Chicago",
+                "time": "31:35.78"
+            },
+            {
+                "rank": 12,
+                "athlete": "Tobin, Ryan",
+                "team": "NYU",
+                "time": "31:36.03"
+            },
+            {
+                "rank": 13,
+                "athlete": "Benson, Micah",
+                "team": "Washington U.",
+                "time": "31:36.23"
+            },
+            {
+                "rank": 14,
+                "athlete": "Evans, Alexander",
+                "team": "Washington U.",
+                "time": "32:11.43"
+            },
+            {
+                "rank": 15,
+                "athlete": "Kramer, Russell",
+                "team": "Washington U.",
+                "time": "32:11.55"
+            },
+            {
+                "rank": 16,
+                "athlete": "Gadin, Alexander",
+                "team": "Washington U.",
+                "time": "32:17.89"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "110 Hurdles",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Ray, Andrew",
+                "team": "U. of Chicago",
+                "time": "14.60"
+            },
+            {
+                "rank": 2,
+                "athlete": "Seshadri, Vikram",
+                "team": "U. of Chicago",
+                "time": "14.88"
+            },
+            {
+                "rank": 3,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "14.96"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nzebuna, Peculiar",
+                "team": "Case Western",
+                "time": "15.41"
+            },
+            {
+                "rank": 5,
+                "athlete": "de Angelis, Renato",
+                "team": "U. of Chicago",
+                "time": "15.43"
+            },
+            {
+                "rank": 6,
+                "athlete": "Park, Joshua",
+                "team": "Case Western",
+                "time": "15.48"
+            },
+            {
+                "rank": 7,
+                "athlete": "Bai, Jayden",
+                "team": "Emory",
+                "time": "15.48"
+            },
+            {
+                "rank": 8,
+                "athlete": "Obermeyer, Kyle",
+                "team": "U. of Chicago",
+                "time": "15.54"
+            },
+            {
+                "rank": 9,
+                "athlete": "Nowlin, Micah",
+                "team": "Carnegie Mellon",
+                "time": "15.89"
+            },
+            {
+                "rank": 10,
+                "athlete": "Boucher, Pierce",
+                "team": "Case Western",
+                "time": "15.94"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ho, Matthew",
+                "team": "U. of Chicago",
+                "time": "15.98"
+            },
+            {
+                "rank": 12,
+                "athlete": "Xenakis, Loucas",
+                "team": "Washington U.",
+                "time": "15.99"
+            },
+            {
+                "rank": 13,
+                "athlete": "Harris, Jack",
+                "team": "Washington U.",
+                "time": "16.37"
+            },
+            {
+                "rank": 14,
+                "athlete": "Huang, Jason",
+                "team": "Emory",
+                "time": "16.46"
+            },
+            {
+                "rank": 15,
+                "athlete": "Showstead, TJ",
+                "team": "Brandeis",
+                "time": "16.48"
+            },
+            {
+                "rank": 16,
+                "athlete": "Gossett, William",
+                "team": "Emory",
+                "time": "16.61"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "400 Hurdles",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "McGovern, Andrew",
+                "team": "Carnegie Mellon",
+                "time": "53.02"
+            },
+            {
+                "rank": 2,
+                "athlete": "Ray, Andrew",
+                "team": "U. of Chicago",
+                "time": "53.10"
+            },
+            {
+                "rank": 3,
+                "athlete": "Shaaban, Yusuf",
+                "team": "Case Western",
+                "time": "54.98"
+            },
+            {
+                "rank": 4,
+                "athlete": "Bates, Josh",
+                "team": "Case Western",
+                "time": "55.54"
+            },
+            {
+                "rank": 5,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "55.59"
+            },
+            {
+                "rank": 6,
+                "athlete": "Ma, Philip",
+                "team": "Carnegie Mellon",
+                "time": "55.72"
+            },
+            {
+                "rank": 7,
+                "athlete": "Lane, Grant",
+                "team": "Washington U.",
+                "time": "56.25"
+            },
+            {
+                "rank": 8,
+                "athlete": "Boucher, Pierce",
+                "team": "Case Western",
+                "time": "56.49"
+            },
+            {
+                "rank": 9,
+                "athlete": "Bai, Jayden",
+                "team": "Emory",
+                "time": "56.84"
+            },
+            {
+                "rank": 10,
+                "athlete": "Obermeyer, Kyle",
+                "team": "U. of Chicago",
+                "time": "57.01"
+            },
+            {
+                "rank": 11,
+                "athlete": "Greene, Graham",
+                "team": "Emory",
+                "time": "57.20"
+            },
+            {
+                "rank": 12,
+                "athlete": "Slotky, Ori",
+                "team": "Brandeis",
+                "time": "57.40"
+            },
+            {
+                "rank": 13,
+                "athlete": "Williams, Tyler",
+                "team": "Carnegie Mellon",
+                "time": "57.72"
+            },
+            {
+                "rank": 14,
+                "athlete": "Gossett, William",
+                "team": "Emory",
+                "time": "58.67"
+            },
+            {
+                "rank": 15,
+                "athlete": "Ho, Matthew",
+                "team": "U. of Chicago",
+                "time": "59.32"
+            },
+            {
+                "rank": 16,
+                "athlete": "Brula, Aaron",
+                "team": "Case Western",
+                "time": "1:00.25"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "3000 Steeplechase",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Liu, Will",
+                "team": "Washington U.",
+                "time": "9:12.64"
+            },
+            {
+                "rank": 2,
+                "athlete": "Durdaller, David",
+                "team": "Carnegie Mellon",
+                "time": "9:16.31"
+            },
+            {
+                "rank": 3,
+                "athlete": "Hsu, Jacob",
+                "team": "Carnegie Mellon",
+                "time": "9:18.05"
+            },
+            {
+                "rank": 4,
+                "athlete": "Orelowitz, Jonathan",
+                "team": "Emory",
+                "time": "9:23.71"
+            },
+            {
+                "rank": 5,
+                "athlete": "Heron, Connor",
+                "team": "U. of Chicago",
+                "time": "9:24.14"
+            },
+            {
+                "rank": 6,
+                "athlete": "Dia, Lucas",
+                "team": "Brandeis",
+                "time": "9:28.90"
+            },
+            {
+                "rank": 7,
+                "athlete": "Kishna, Luke",
+                "team": "Case Western",
+                "time": "9:29.36"
+            },
+            {
+                "rank": 8,
+                "athlete": "Fallon, Charlie",
+                "team": "Washington U.",
+                "time": "9:33.85"
+            },
+            {
+                "rank": 9,
+                "athlete": "Thompson, Grant",
+                "team": "Emory",
+                "time": "9:40.41"
+            },
+            {
+                "rank": 10,
+                "athlete": "Janicki, Dashiell",
+                "team": "Brandeis",
+                "time": "9:42.07"
+            },
+            {
+                "rank": 11,
+                "athlete": "Tella, Kenji",
+                "team": "Carnegie Mellon",
+                "time": "9:42.57"
+            },
+            {
+                "rank": 12,
+                "athlete": "Williams, Seth",
+                "team": "Carnegie Mellon",
+                "time": "9:52.94"
+            },
+            {
+                "rank": 13,
+                "athlete": "Olson, Jamie",
+                "team": "Washington U.",
+                "time": "9:54.03"
+            },
+            {
+                "rank": 14,
+                "athlete": "Kossuth, Greg",
+                "team": "Carnegie Mellon",
+                "time": "9:56.40"
+            },
+            {
+                "rank": 15,
+                "athlete": "Walsh, Griffin",
+                "team": "Washington U.",
+                "time": "9:56.96"
+            },
+            {
+                "rank": 16,
+                "athlete": "Licklider, Hugh",
+                "team": "Brandeis",
+                "time": "10:00.71"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "4 x 100 Relay",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "Emory",
+                "time": "40.75"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "Case Western",
+                "time": "41.25"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "Washington U.",
+                "time": "42.21"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Carnegie Mellon",
+                "time": "42.51"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "U. of Chicago",
+                "time": "42.58"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "NYU",
+                "time": "43.32"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Brandeis",
+                "time": "43.33"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "4 x 400 Relay",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "Emory",
+                "time": "3:14.40"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "Washington U.",
+                "time": "3:17.07"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "U. of Chicago",
+                "time": "3:18.58"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Carnegie Mellon",
+                "time": "3:19.27"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "Case Western",
+                "time": "3:19.63"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "NYU",
+                "time": "3:22.74"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Brandeis",
+                "time": "3:24.89"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "High Jump",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Lee, Alex",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Dural, Jalen",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Shrivastava, Aryan",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Brandstadter, Henry",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Anand, Tanush",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Shaaban, Yusuf",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Point-Du-Jour, Geoff",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Radjenovic, Andrei",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Sanso, Sebastian",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Goldman, Eli",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Xenakis, Loucas",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Burt, Alexander",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Stumbris, Simon",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Showstead, TJ",
+                "team": "Brandeis",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Pole Vault",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Lichtenberger, Peter",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Kunkel, Hayden",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Duckworth, Christian",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Maiocco, Tommaso",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Floyd, William",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Handron, Ryan",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Ditelberg, Steven",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "DeCarlo, Anthony",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Glavach, Solomon",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Xenakis, Loucas",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bourdier, George",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Tuckley, Evan",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lamarre, Quaylen",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Shin, Brandon",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Berman, Joshua",
+                "team": "Case Western",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Long Jump",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Brandstadter, Henry",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Johnson, Morgan",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Gilbert, Aiden",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Sanso, Sebastian",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Dural, Jalen",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Xenakis, Loucas",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Kadiri, Seyi",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Smith, Isaac",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Olson, Troy",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Flanagin, Davis",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Giampa, Jackson",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Dawkins, Jared",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Emerson, Parker",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Igyan, Kofi",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Joachim, Matthew",
+                "team": "Washington U.",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Triple Jump",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Shrivastava, Aryan",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Dawkins, Jared",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Sanso, Sebastian",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Stumbris, Simon",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Tahasan, Atai",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Kadiri, Seyi",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Sankar, Nishad",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Dural, Jalen",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Scherer, Nathan",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Alter, Justin",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Anand, Tanush",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Johnson, Morgan",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Tu, Isaac",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Qi, Andrew",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Joachim, Matthew",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Boyce, Drew",
+                "team": "NYU",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Shot Put",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Alligood, Samuel",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "O'Malley, Bailey",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "McGallian, Andrew",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Crawshaw, Johnathan",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Elkhashab, Seifeldin",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Peirce, Cam",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Crawshaw, Victor",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Warden, Matthew",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Peters, Tom",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Deyak, Nathaniel",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Langsner, Tobias",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lee, Daniel",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Charnot, Mark",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Edwards, Tyler",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Sharif, Caleb",
+                "team": "Brandeis",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Discus",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Dixon, Simon",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Alligood, Samuel",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Warden, Matthew",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Sei, Kenya",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "McGallian, Andrew",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Deyak, Nathaniel",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Elkhashab, Seifeldin",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Nelson, Michael",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "O'Malley, Bailey",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Callahan, Grant",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Langsner, Tobias",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Reynolds, Artemis",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Agyemang, Kwabena",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peters, Tom",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Peirce, Cam",
+                "team": "Brandeis",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Hammer",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Sei, Kenya",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Dixon, Simon",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Jiang, Allen",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Alligood, Samuel",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Deyak, Nathaniel",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McGallian, Andrew",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Edwards, Tyler",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Langsner, Tobias",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Nelson, Michael",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Reynolds, Artemis",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Warden, Matthew",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Restivo, Nicolas",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Agyemang, Kwabena",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Callahan, Grant",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lee, Daniel",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Wright, Kevin",
+                "team": "Brandeis",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Javelin",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Armfield, Derek",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Kadiri, Seyi",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Krause, Sam",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Xenakis, Loucas",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Jawornicki, Olivier",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Nelson, Michael",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "David, Jonathan",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Cartwright, Keith",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lane, Grant",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "McGallian, Andrew",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Summey, Christopher",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Rieden, Adam",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elkhashab, Seifeldin",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Nixon, Jalen",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Aravena, Kai",
+                "team": "NYU",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "m",
+        "event": "Decathlon",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Rich, Thomas",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Xenakis, Loucas",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Showstead, TJ",
+                "team": "Brandeis",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "100 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Meschino, Gabri",
+                "team": "U. of Chicago",
+                "time": "11.53"
+            },
+            {
+                "rank": 2,
+                "athlete": "Wright, Jasmine",
+                "team": "Washington U.",
+                "time": "11.69"
+            },
+            {
+                "rank": 3,
+                "athlete": "Johnson, Audrey",
+                "team": "Emory",
+                "time": "11.73"
+            },
+            {
+                "rank": 4,
+                "athlete": "Davis, Maya",
+                "team": "Washington U.",
+                "time": "11.87"
+            },
+            {
+                "rank": 5,
+                "athlete": "Stewart, Nicole",
+                "team": "Washington U.",
+                "time": "11.92"
+            },
+            {
+                "rank": 6,
+                "athlete": "Harris, Dashiel Tao",
+                "team": "Emory",
+                "time": "12.06"
+            },
+            {
+                "rank": 7,
+                "athlete": "Binetti, Kaya",
+                "team": "Emory",
+                "time": "12.07"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lyons, Maddie",
+                "team": "U. of Chicago",
+                "time": "12.29"
+            },
+            {
+                "rank": 9,
+                "athlete": "Dianno, Maura",
+                "team": "Emory",
+                "time": "12.33"
+            },
+            {
+                "rank": 10,
+                "athlete": "Guneratne, Seneca",
+                "team": "NYU",
+                "time": "12.55"
+            },
+            {
+                "rank": 11,
+                "athlete": "Gay, Lauren",
+                "team": "Washington U.",
+                "time": "12.58"
+            },
+            {
+                "rank": 12,
+                "athlete": "Troadec, Arielle",
+                "team": "U. of Chicago",
+                "time": "12.62"
+            },
+            {
+                "rank": 13,
+                "athlete": "Pleas, Gemma",
+                "team": "Washington U.",
+                "time": "12.69"
+            },
+            {
+                "rank": 14,
+                "athlete": "Leopold, Mina",
+                "team": "Emory",
+                "time": "12.78"
+            },
+            {
+                "rank": 15,
+                "athlete": "Figueroa, Cecille",
+                "team": "Washington U.",
+                "time": "12.78"
+            },
+            {
+                "rank": 16,
+                "athlete": "McPherson, Andrea",
+                "team": "Emory",
+                "time": "12.81"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "200 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Johnson, Audrey",
+                "team": "Emory",
+                "time": "24.22"
+            },
+            {
+                "rank": 2,
+                "athlete": "Stewart, Nicole",
+                "team": "Washington U.",
+                "time": "24.45"
+            },
+            {
+                "rank": 3,
+                "athlete": "Gay, Lauren",
+                "team": "Washington U.",
+                "time": "24.70"
+            },
+            {
+                "rank": 4,
+                "athlete": "Kelley, Emma",
+                "team": "Washington U.",
+                "time": "24.72"
+            },
+            {
+                "rank": 5,
+                "athlete": "Spytek, Kylie",
+                "team": "Washington U.",
+                "time": "24.75"
+            },
+            {
+                "rank": 6,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "24.80"
+            },
+            {
+                "rank": 7,
+                "athlete": "Wright, Jasmine",
+                "team": "Washington U.",
+                "time": "24.84"
+            },
+            {
+                "rank": 8,
+                "athlete": "Harris, Dashiel Tao",
+                "team": "Emory",
+                "time": "24.98"
+            },
+            {
+                "rank": 9,
+                "athlete": "Binetti, Kaya",
+                "team": "Emory",
+                "time": "25.00"
+            },
+            {
+                "rank": 10,
+                "athlete": "Meschino, Gabri",
+                "team": "U. of Chicago",
+                "time": "25.16"
+            },
+            {
+                "rank": 11,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "25.27"
+            },
+            {
+                "rank": 12,
+                "athlete": "Davis, Maya",
+                "team": "Washington U.",
+                "time": "25.30"
+            },
+            {
+                "rank": 13,
+                "athlete": "Campbell, Alya",
+                "team": "Brandeis",
+                "time": "25.59"
+            },
+            {
+                "rank": 14,
+                "athlete": "Brown, Ren",
+                "team": "U. of Chicago",
+                "time": "25.62"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lyons, Maddie",
+                "team": "U. of Chicago",
+                "time": "25.87"
+            },
+            {
+                "rank": 16,
+                "athlete": "Coric, Julia",
+                "team": "Washington U.",
+                "time": "25.95"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "400 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Kelley, Emma",
+                "team": "Washington U.",
+                "time": "53.76"
+            },
+            {
+                "rank": 2,
+                "athlete": "Brown, Ren",
+                "team": "U. of Chicago",
+                "time": "55.88"
+            },
+            {
+                "rank": 3,
+                "athlete": "Harris, Dashiel Tao",
+                "team": "Emory",
+                "time": "56.16"
+            },
+            {
+                "rank": 4,
+                "athlete": "Stewart, Nicole",
+                "team": "Washington U.",
+                "time": "56.59"
+            },
+            {
+                "rank": 5,
+                "athlete": "Johnson, Audrey",
+                "team": "Emory",
+                "time": "56.68"
+            },
+            {
+                "rank": 6,
+                "athlete": "Spytek, Kylie",
+                "team": "Washington U.",
+                "time": "56.87"
+            },
+            {
+                "rank": 7,
+                "athlete": "Schultz, Danielle",
+                "team": "Washington U.",
+                "time": "57.55"
+            },
+            {
+                "rank": 8,
+                "athlete": "Echols, Caroline",
+                "team": "Washington U.",
+                "time": "57.66"
+            },
+            {
+                "rank": 9,
+                "athlete": "Christopher, Catherine",
+                "team": "Washington U.",
+                "time": "57.67"
+            },
+            {
+                "rank": 10,
+                "athlete": "Bohbot-Dridi, Hannah",
+                "team": "Brandeis",
+                "time": "57.81"
+            },
+            {
+                "rank": 11,
+                "athlete": "Leopold, Mina",
+                "team": "Emory",
+                "time": "58.14"
+            },
+            {
+                "rank": 12,
+                "athlete": "Henderson, Gayle",
+                "team": "Washington U.",
+                "time": "58.44"
+            },
+            {
+                "rank": 13,
+                "athlete": "Rhee, Isabella",
+                "team": "Carnegie Mellon",
+                "time": "58.51"
+            },
+            {
+                "rank": 14,
+                "athlete": "Coric, Julia",
+                "team": "Washington U.",
+                "time": "58.52"
+            },
+            {
+                "rank": 15,
+                "athlete": "Hagwell, Ava",
+                "team": "U. of Chicago",
+                "time": "58.68"
+            },
+            {
+                "rank": 16,
+                "athlete": "Glass, Sammie",
+                "team": "Emory",
+                "time": "59.09"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "800 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Kelley, Emma",
+                "team": "Washington U.",
+                "time": "2:02.70"
+            },
+            {
+                "rank": 2,
+                "athlete": "Schultz, Danielle",
+                "team": "Washington U.",
+                "time": "2:08.25"
+            },
+            {
+                "rank": 3,
+                "athlete": "Sarussi, Alessia",
+                "team": "Washington U.",
+                "time": "2:09.19"
+            },
+            {
+                "rank": 4,
+                "athlete": "Gorton, Izzy",
+                "team": "Washington U.",
+                "time": "2:10.89"
+            },
+            {
+                "rank": 5,
+                "athlete": "Taylor, Lily",
+                "team": "Emory",
+                "time": "2:11.96"
+            },
+            {
+                "rank": 6,
+                "athlete": "Liu, Jacqueline",
+                "team": "Carnegie Mellon",
+                "time": "2:12.04"
+            },
+            {
+                "rank": 7,
+                "athlete": "Echols, Caroline",
+                "team": "Washington U.",
+                "time": "2:12.07"
+            },
+            {
+                "rank": 8,
+                "athlete": "Kelly, Maddie",
+                "team": "U. of Chicago",
+                "time": "2:12.11"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tiaffay, Madison",
+                "team": "Emory",
+                "time": "2:13.06"
+            },
+            {
+                "rank": 10,
+                "athlete": "Rhee, Isabella",
+                "team": "Carnegie Mellon",
+                "time": "2:13.94"
+            },
+            {
+                "rank": 11,
+                "athlete": "Camic, Elisabeth",
+                "team": "U. of Chicago",
+                "time": "2:14.43"
+            },
+            {
+                "rank": 12,
+                "athlete": "McCauley, Luna",
+                "team": "Emory",
+                "time": "2:15.64"
+            },
+            {
+                "rank": 13,
+                "athlete": "Seamon, Samantha",
+                "team": "NYU",
+                "time": "2:15.94"
+            },
+            {
+                "rank": 14,
+                "athlete": "Watson, Anna",
+                "team": "U. of Chicago",
+                "time": "2:16.14"
+            },
+            {
+                "rank": 15,
+                "athlete": "Singer, Rachel",
+                "team": "U. of Chicago",
+                "time": "2:16.74"
+            },
+            {
+                "rank": 16,
+                "athlete": "Pridgen, Virginia",
+                "team": "Washington U.",
+                "time": "2:16.75"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "1500 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Kelley, Emma",
+                "team": "Washington U.",
+                "time": "4:22.76"
+            },
+            {
+                "rank": 2,
+                "athlete": "Kelly, Maddie",
+                "team": "U. of Chicago",
+                "time": "4:26.60"
+            },
+            {
+                "rank": 3,
+                "athlete": "Richardson, Grace",
+                "team": "NYU",
+                "time": "4:26.88"
+            },
+            {
+                "rank": 4,
+                "athlete": "Camic, Elisabeth",
+                "team": "U. of Chicago",
+                "time": "4:27.03"
+            },
+            {
+                "rank": 5,
+                "athlete": "Sarussi, Alessia",
+                "team": "Washington U.",
+                "time": "4:27.10"
+            },
+            {
+                "rank": 6,
+                "athlete": "Hanley, Brigid",
+                "team": "Emory",
+                "time": "4:32.71"
+            },
+            {
+                "rank": 7,
+                "athlete": "Teixeira-Dasilva, Helena",
+                "team": "Washington U.",
+                "time": "4:33.78"
+            },
+            {
+                "rank": 8,
+                "athlete": "Rector, Katie",
+                "team": "Washington U.",
+                "time": "4:34.34"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tiaffay, Madison",
+                "team": "Emory",
+                "time": "4:35.08(1)"
+            },
+            {
+                "rank": 10,
+                "athlete": "Battleson-Gunkel, Evelyn",
+                "team": "U. of Chicago",
+                "time": "4:35.20"
+            },
+            {
+                "rank": 11,
+                "athlete": "Holmes, Nora",
+                "team": "U. of Chicago",
+                "time": "4:35.29"
+            },
+            {
+                "rank": 12,
+                "athlete": "Taylor, Lily",
+                "team": "Emory",
+                "time": "4:35.33"
+            },
+            {
+                "rank": 13,
+                "athlete": "Cooper, Janie",
+                "team": "NYU",
+                "time": "4:36.96"
+            },
+            {
+                "rank": 14,
+                "athlete": "Singer, Rachel",
+                "team": "U. of Chicago",
+                "time": "4:39.42"
+            },
+            {
+                "rank": 15,
+                "athlete": "Jorgensen, Caitlin",
+                "team": "U. of Chicago",
+                "time": "4:40.12"
+            },
+            {
+                "rank": 16,
+                "athlete": "Jackson, Grace",
+                "team": "Case Western",
+                "time": "4:40.15"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "5000 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Battleson-Gunkel, Evelyn",
+                "team": "U. of Chicago",
+                "time": "16:33.65"
+            },
+            {
+                "rank": 2,
+                "athlete": "Richardson, Grace",
+                "team": "NYU",
+                "time": "16:38.39"
+            },
+            {
+                "rank": 3,
+                "athlete": "Blake, Alexandra",
+                "team": "Washington U.",
+                "time": "16:46.39"
+            },
+            {
+                "rank": 4,
+                "athlete": "Hanley, Brigid",
+                "team": "Emory",
+                "time": "16:48.84"
+            },
+            {
+                "rank": 5,
+                "athlete": "Jorgensen, Caitlin",
+                "team": "U. of Chicago",
+                "time": "16:49.77"
+            },
+            {
+                "rank": 6,
+                "athlete": "Snider, Estelle",
+                "team": "U. of Chicago",
+                "time": "16:51.14"
+            },
+            {
+                "rank": 7,
+                "athlete": "Tedesco, Sophie",
+                "team": "U. of Chicago",
+                "time": "16:51.91"
+            },
+            {
+                "rank": 8,
+                "athlete": "Scherrer, Liesl",
+                "team": "Emory",
+                "time": "17:08.15"
+            },
+            {
+                "rank": 9,
+                "athlete": "Iagnemma, Lauren",
+                "team": "Case Western",
+                "time": "17:15.05"
+            },
+            {
+                "rank": 10,
+                "athlete": "Heth, Jillian",
+                "team": "Washington U.",
+                "time": "17:18.24"
+            },
+            {
+                "rank": 11,
+                "athlete": "Rector, Katie",
+                "team": "Washington U.",
+                "time": "17:19.91"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cochran, Kate",
+                "team": "NYU",
+                "time": "17:26.64"
+            },
+            {
+                "rank": 13,
+                "athlete": "Uhlhorn, Morgan",
+                "team": "NYU",
+                "time": "17:27.00"
+            },
+            {
+                "rank": 14,
+                "athlete": "Patterson, Abigail",
+                "team": "Washington U.",
+                "time": "17:28.50"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cooper, Janie",
+                "team": "NYU",
+                "time": "17:31.00"
+            },
+            {
+                "rank": 16,
+                "athlete": "Shiang, Orit",
+                "team": "Carnegie Mellon",
+                "time": "17:32.98"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "10,000 Meters",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Richardson, Grace",
+                "team": "NYU",
+                "time": "34:06.21"
+            },
+            {
+                "rank": 2,
+                "athlete": "Battleson-Gunkel, Evelyn",
+                "team": "U. of Chicago",
+                "time": "34:25.29"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tedesco, Sophie",
+                "team": "U. of Chicago",
+                "time": "35:16.72"
+            },
+            {
+                "rank": 4,
+                "athlete": "Snider, Estelle",
+                "team": "U. of Chicago",
+                "time": "35:25.49"
+            },
+            {
+                "rank": 5,
+                "athlete": "Cochran, Kate",
+                "team": "NYU",
+                "time": "35:49.65"
+            },
+            {
+                "rank": 6,
+                "athlete": "McCammon, Avery",
+                "team": "Washington U.",
+                "time": "37:47.48"
+            },
+            {
+                "rank": 7,
+                "athlete": "Heth, Jillian",
+                "team": "Washington U.",
+                "time": "38:17.65"
+            },
+            {
+                "rank": 8,
+                "athlete": "Hoffman, Alyssa",
+                "team": "Carnegie Mellon",
+                "time": "38:27.12"
+            },
+            {
+                "rank": 9,
+                "athlete": "Csikai, Elizabeth",
+                "team": "Emory",
+                "time": "38:30.85"
+            },
+            {
+                "rank": 10,
+                "athlete": "Tompkins, Avery",
+                "team": "Carnegie Mellon",
+                "time": "38:46.03"
+            },
+            {
+                "rank": 11,
+                "athlete": "Batelli, Anna",
+                "team": "Brandeis",
+                "time": "39:13.03"
+            },
+            {
+                "rank": 12,
+                "athlete": "Rowley, Grace",
+                "team": "NYU",
+                "time": "40:03.66"
+            },
+            {
+                "rank": 13,
+                "athlete": "Allen, Jessica",
+                "team": "NYU",
+                "time": "40:41.36"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morvay, Calli",
+                "team": "Brandeis",
+                "time": "42:21.51"
+            },
+            {
+                "rank": 15,
+                "athlete": "Zavell, Shayna",
+                "team": "Brandeis",
+                "time": "43:51.78"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "100 Hurdles",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Brown, Ren",
+                "team": "U. of Chicago",
+                "time": "14.00"
+            },
+            {
+                "rank": 2,
+                "athlete": "Gay, Lauren",
+                "team": "Washington U.",
+                "time": "14.23"
+            },
+            {
+                "rank": 3,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "14.24"
+            },
+            {
+                "rank": 4,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "14.55"
+            },
+            {
+                "rank": 5,
+                "athlete": "Campbell, Alya",
+                "team": "Brandeis",
+                "time": "14.61"
+            },
+            {
+                "rank": 6,
+                "athlete": "Martin, Amaya",
+                "team": "Emory",
+                "time": "14.68"
+            },
+            {
+                "rank": 7,
+                "athlete": "Misiunas, Grace",
+                "team": "Case Western",
+                "time": "14.76"
+            },
+            {
+                "rank": 8,
+                "athlete": "Jackson, Dasha",
+                "team": "NYU",
+                "time": "15.08"
+            },
+            {
+                "rank": 9,
+                "athlete": "Schwab, Sharona",
+                "team": "U. of Chicago",
+                "time": "15.47"
+            },
+            {
+                "rank": 10,
+                "athlete": "Stewart, Rebecca",
+                "team": "U. of Chicago",
+                "time": "15.51"
+            },
+            {
+                "rank": 11,
+                "athlete": "Hopkins, Emily",
+                "team": "Case Western",
+                "time": "15.99"
+            },
+            {
+                "rank": 12,
+                "athlete": "Kantar, Holland",
+                "team": "Washington U.",
+                "time": "16.01"
+            },
+            {
+                "rank": 13,
+                "athlete": "Ozeki, Sarah",
+                "team": "Case Western",
+                "time": "16.01"
+            },
+            {
+                "rank": 14,
+                "athlete": "Riebe, Charis",
+                "team": "Washington U.",
+                "time": "16.13"
+            },
+            {
+                "rank": 15,
+                "athlete": "Hansen, Caroline",
+                "team": "Emory",
+                "time": "16.20"
+            },
+            {
+                "rank": 16,
+                "athlete": "Bolineni, Nikhita",
+                "team": "NYU",
+                "time": "17.09"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "400 Hurdles",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Brown, Ren",
+                "team": "U. of Chicago",
+                "time": "57.85"
+            },
+            {
+                "rank": 2,
+                "athlete": "Stewart, Rebecca",
+                "team": "U. of Chicago",
+                "time": "1:02.61"
+            },
+            {
+                "rank": 3,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "1:03.03"
+            },
+            {
+                "rank": 4,
+                "athlete": "Zarzycki, Olivia",
+                "team": "Brandeis",
+                "time": "1:03.94"
+            },
+            {
+                "rank": 5,
+                "athlete": "Kaplan, Ruby",
+                "team": "Washington U.",
+                "time": "1:04.65"
+            },
+            {
+                "rank": 6,
+                "athlete": "Schwab, Sharona",
+                "team": "U. of Chicago",
+                "time": "1:04.84"
+            },
+            {
+                "rank": 7,
+                "athlete": "Hansen, Caroline",
+                "team": "Emory",
+                "time": "1:06.31"
+            },
+            {
+                "rank": 8,
+                "athlete": "Moore, Elise",
+                "team": "Case Western",
+                "time": "1:06.47"
+            },
+            {
+                "rank": 9,
+                "athlete": "Richard, Mackenzie",
+                "team": "NYU",
+                "time": "1:06.48"
+            },
+            {
+                "rank": 10,
+                "athlete": "Bohbot-Dridi, Hannah",
+                "team": "Brandeis",
+                "time": "1:06.63"
+            },
+            {
+                "rank": 11,
+                "athlete": "Liapis, Natalie",
+                "team": "Brandeis",
+                "time": "1:06.84"
+            },
+            {
+                "rank": 12,
+                "athlete": "Kwasny, Jessica",
+                "team": "Case Western",
+                "time": "1:06.86"
+            },
+            {
+                "rank": 13,
+                "athlete": "Martin, Amaya",
+                "team": "Emory",
+                "time": "1:07.58"
+            },
+            {
+                "rank": 14,
+                "athlete": "Kantar, Holland",
+                "team": "Washington U.",
+                "time": "1:08.81"
+            },
+            {
+                "rank": 15,
+                "athlete": "Bledsoe, Trinity",
+                "team": "U. of Chicago",
+                "time": "1:08.94"
+            },
+            {
+                "rank": 16,
+                "athlete": "Glass, Sammie",
+                "team": "Emory",
+                "time": "1:09.58"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "3000 Steeplechase",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Patterson, Julia",
+                "team": "Washington U.",
+                "time": "10:42.97"
+            },
+            {
+                "rank": 2,
+                "athlete": "Patterson, Abigail",
+                "team": "Washington U.",
+                "time": "10:45.90"
+            },
+            {
+                "rank": 3,
+                "athlete": "Jorgensen, Caitlin",
+                "team": "U. of Chicago",
+                "time": "10:47.29"
+            },
+            {
+                "rank": 4,
+                "athlete": "Clark, Riley",
+                "team": "Washington U.",
+                "time": "11:01.95"
+            },
+            {
+                "rank": 5,
+                "athlete": "Grabenbauer, Ayla",
+                "team": "Case Western",
+                "time": "11:12.61"
+            },
+            {
+                "rank": 6,
+                "athlete": "Gupta, Cameron",
+                "team": "Emory",
+                "time": "11:21.66"
+            },
+            {
+                "rank": 7,
+                "athlete": "Jasminski, Lily",
+                "team": "U. of Chicago",
+                "time": "11:36.17"
+            },
+            {
+                "rank": 8,
+                "athlete": "Warkentine, Ella",
+                "team": "Brandeis",
+                "time": "11:46.15"
+            },
+            {
+                "rank": 9,
+                "athlete": "Fradkin, Marlee",
+                "team": "Washington U.",
+                "time": "11:48.39"
+            },
+            {
+                "rank": 10,
+                "athlete": "Kennard, Cyd",
+                "team": "U. of Chicago",
+                "time": "12:12.10"
+            },
+            {
+                "rank": 11,
+                "athlete": "Patel, Alaina",
+                "team": "Carnegie Mellon",
+                "time": "12:23.38"
+            },
+            {
+                "rank": 12,
+                "athlete": "Flowers, Emma",
+                "team": "Emory",
+                "time": "12:25.32"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "4 x 100 Relay",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "Washington U.",
+                "time": "45.84"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "Emory",
+                "time": "46.26"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "U. of Chicago",
+                "time": "48.41"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Brandeis",
+                "time": "48.60"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "NYU",
+                "time": "50.36"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "Case Western",
+                "time": "50.78"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Carnegie Mellon",
+                "time": "51.79"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "4 x 400 Relay",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "N/A",
+                "team": "Washington U.",
+                "time": "3:43.76"
+            },
+            {
+                "rank": 2,
+                "athlete": "N/A",
+                "team": "U. of Chicago",
+                "time": "3:51.43"
+            },
+            {
+                "rank": 3,
+                "athlete": "N/A",
+                "team": "Emory",
+                "time": "3:53.62"
+            },
+            {
+                "rank": 4,
+                "athlete": "N/A",
+                "team": "Brandeis",
+                "time": "3:57.76"
+            },
+            {
+                "rank": 5,
+                "athlete": "N/A",
+                "team": "Carnegie Mellon",
+                "time": "4:03.67"
+            },
+            {
+                "rank": 6,
+                "athlete": "N/A",
+                "team": "NYU",
+                "time": "4:05.92"
+            },
+            {
+                "rank": 7,
+                "athlete": "N/A",
+                "team": "Case Western",
+                "time": "4:06.08"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "High Jump",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Theisen, Olivia",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Dungey, Selah",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Bennett, Clara",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Boyd, Olivia",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Opata, Ebunoluwa",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Segal, Sophie",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Mulvaney, Elizabeth",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Dunn, Sammi",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Wang, Linda",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Man, Kirsten",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "McCarthy, Areyanna",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Zarzycki, Olivia",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Moenickheim, Madelyn",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Thielke, Paige",
+                "team": "Emory",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Pole Vault",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Ruff, Yasmin",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Huynh, Smiley",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Walker, Mackenzie",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Schreiber, Holly",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Huczko, Jo-Michelle",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Truitt, Susannah",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Anderson, Alisha",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Stock, Makenzie",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Riley, Hannah",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Curtis, Anna",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Recker, Lindsay",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wank, Annie",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Zhao, Victoria",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Martino, Arden",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barr, Meredyth",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Baker, Reece",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Long Jump",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Semple, Marina",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Opata, Ebunoluwa",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Bourne, Camryn",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Millar, Brooke",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Mohanraj, Iniyaa",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Troadec, Arielle",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Sternberger, Grace",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "King, Zoe",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Davis, Maya",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Theisen, Olivia",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Huynh, Smiley",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Nugent, Shaniece",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Wang, Linda",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Hansen, Caroline",
+                "team": "Emory",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Triple Jump",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Opata, Ebunoluwa",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Stewart, Rebecca",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Jackson, Dasha",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Nugent, Shaniece",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Hansen, Caroline",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Kiefel, Jocelyn",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Ozeki, Sarah",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCarthy, Areyanna",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Johnson, Audrey",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Hopkins, Emily",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Troadec, Arielle",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Bourne, Camryn",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Mohanraj, Iniyaa",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Carpenter, Dijaye",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Rosenzweig, Sofia",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Sternberger, Grace",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Shot Put",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Laumakis, Molly",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Bothe, Jenae",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Fineman, Sarah",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Wachtman, Adrienne",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Simpson, Taylor",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Symonette, Taylor",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Wise, Mikayla",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McNeill, Rielley",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Christie, Sara",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Caldwell, Brooke",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Grunin, Emma",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Penn, Blair",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Gilbert, Ianna",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Rountree, Kayla",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Discus",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Laumakis, Molly",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Wachtman, Adrienne",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Bothe, Jenae",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Fineman, Sarah",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "McNeill, Rielley",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Simpson, Taylor",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Wise, Mikayla",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Mack, Karyssa",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lee, Michelle",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Penn, Blair",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Roskuszka, Lauren",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Caldwell, Brooke",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Ginn, Rachel",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Grunin, Emma",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lester, Morla",
+                "team": "Emory",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Hammer",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Laumakis, Molly",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roskuszka, Lauren",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Duffie, Ailean",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Ginn, Rachel",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lee, Michelle",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Wachtman, Adrienne",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Wise, Mikayla",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Caldwell, Brooke",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Simpson, Taylor",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Rountree, Kayla",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Penn, Blair",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Mack, Karyssa",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Liu, Emma",
+                "team": "Brandeis",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Vetter, Sara",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Christie, Sara",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "McNeill, Rielley",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Javelin",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Wachtman, Adrienne",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Roskuszka, Lauren",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Mutumwa, Mable",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Grunin, Emma",
+                "team": "NYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Wasserman, Jolie",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Ding, Yichen",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Dunn, Sammi",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Vetter, Sara",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Current, Emilia",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Martinez, Maddie",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lee, Michelle",
+                "team": "Case Western",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Morton, Molly",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Moenickheim, Madelyn",
+                "team": "Washington U.",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Laumakis, Molly",
+                "team": "U. of Chicago",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "gender": "f",
+        "event": "Heptathlon",
+        "region": "National",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Boon, Nikki",
+                "team": "Emory",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Barre, Elizabeth",
+                "team": "Carnegie Mellon",
+                "time": "N/A"
+            }
+        ]
+    }
+]

@@ -1,0 +1,305 @@
+[
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "East",
+        "gender": "f",
+        "event": "Pentathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Zitzmann, Baelyn",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Denmark, Toni",
+                "team": "Walsh",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Fields, Kara",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Curtice, Emily",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Vogt, Cassidy",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Polo, Neva",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Schaeckenbach, Caroline",
+                "team": "Cedarville",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Garbe, Kyla",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "White, Julie",
+                "team": "Walsh",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Stine, Kassandra",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Carter, C'airra",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Wilson, Aubrie",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Green, Karrington",
+                "team": "Ursuline (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Carlson, Grace",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Patterson, Josalynn",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lazarus, Olivia",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Knight, Mya",
+                "team": "Ursuline (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Smith, Porter",
+                "team": "Walsh",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Stallard, Joyce",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Weber, Samantha",
+                "team": "Lake Erie",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Kutas, Elaine",
+                "team": "Hillsdale",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "Pentathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Webb, Sterling",
+                "team": "Lincoln Memorial",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Holmberg, Ally",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Etienne, Mathilde",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Wolf, Lilly",
+                "team": "Catawba",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Siler, Melissa",
+                "team": "Carson-Newman",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Macurda, Ally",
+                "team": "Anderson (S.C.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Strouth, Braelynn",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Sanderson, Maggie",
+                "team": "Lincoln Memorial",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Collins, Eliza",
+                "team": "Carson-Newman",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Washington, Haleigh",
+                "team": "Catawba",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Ivens, Kellie",
+                "team": "Carson-Newman",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Clark, Ava",
+                "team": "Carson-Newman",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Smith, Kieley",
+                "team": "Tusculum",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Montero, Jimena",
+                "team": "Mars Hill",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "National",
+        "gender": "f",
+        "event": "Pentathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Theron, Liezl",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Carroll, Kylie",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "White, Sydney",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Lannom, Liz",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Brown, Lily",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Harrell, Hallie",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Collins, Hope",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cothran, Sara",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Johnson, Campbell",
+                "team": "Trevecca Nazarene",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "McCartney, Morgan",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Willoughby , Nina",
+                "team": "Trevecca Nazarene",
+                "time": "N/A"
+            }
+        ]
+    }
+]

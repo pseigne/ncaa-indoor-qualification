@@ -1,0 +1,7142 @@
+[
+    {
+        "year": "2025-2026 (2026-01-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lamberts, Hencu",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cookinham, Jacob",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Beery, Preston",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-11)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-08)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-13)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cookinham, Jacob",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Beery, Preston",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-14)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cookinham, Jacob",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-12)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cookinham, Jacob",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Beery, Preston",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cookinham, Jacob",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Beery, Preston",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-10)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-09)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-05)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-21)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-23)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-07)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-31)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-03)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-28)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-27)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-15)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lamberts, Hencu",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Heinig, Andrew",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hala'Ufia, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Miedema, Kael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hatleberg, Easton",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-17)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lamberts, Hencu",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Heinig, Andrew",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Hala'Ufia, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-25)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-18)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-22)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-06)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-04)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-20)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-19)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-16)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lamberts, Hencu",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Heinig, Andrew",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Hala'Ufia, Sam",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Miedema, Kael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Hatleberg, Easton",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-24)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-30)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-03-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-02)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-02-26)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "McCloyen, Roury",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Montgomery, Logan",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Morlock, Dillon",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Van Daalen, Jarno",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-01-29)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moran, Cade",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Lawrence, Kobe",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Tanner, Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Henry, Ryan",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lambrecht, Dylan",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Licata, Joe",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Lloyd, Brandon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Malaski, Seamus",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Cameron, Piers",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Van Rensburg, JL",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Burkett, Cam",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Swadley, Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Elliott, Ethan",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Peterson, Quentin",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Smith, Ben",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Pinones, Michael",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Young, Christopher",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Smith, Tucker",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Lawrence, Kobe",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Van Daalan, Jarno",
+                "team": "Florida",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "McCloyen, Roury",
+                "team": "Miss State",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Peterson, Quentin",
+                "team": "Gardner-Webb",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Moran, Cade",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Smith, Ben",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Van Rensburg, JL",
+                "team": "Tennessee",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Licata, Joe",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cameron, Piers",
+                "team": "Southern Miss.",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Montgomery, Logan",
+                "team": "South Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Morlock, Dillon",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Pinones, Michael",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lambrecht, Dylan",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "team": "New Hampshire",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Malaski, Seamus",
+                "team": "Purdue",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Morlock, Colby",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Nwokeji, Cordell",
+                "team": "Houston",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Michelini, Tyler",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Lloyd, Brandon",
+                "team": "Arizona State",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Burkett, Cam",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Bruder, John",
+                "team": "Tennessee",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Swadley, Marshall",
+                "team": "SE Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Hala'Ufia, Sam",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Elliott, Ethan",
+                "team": "Drake",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Okeke, Obiora",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Lamberts, Hencu",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Helm, Casey",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Smith, Tucker",
+                "team": "Oklahoma",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Bigley, Kyle",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Young, Christopher",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Lienau, Carson",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Nett, Tanner",
+                "team": "Boise State",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Vander Sluis, Brandon",
+                "team": "South Dakota",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Cookinham, Jacob",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Petko, Zach",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Beery, Preston",
+                "team": "Arizona State",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Wendl, Owen",
+                "team": "Akron",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Williams, Olu",
+                "team": "North Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Huisman, Joshua",
+                "team": "Michigan",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Heinig, Andrew",
+                "team": "Oklahoma",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Kessel, Spencer",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Brashear, Grayson",
+                "team": "Kentucky",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Russell, David",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Wray, Despiro",
+                "team": "Florida State",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Hearn, Ashton",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Hatleberg, Easton",
+                "team": "Montana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Rueff, Matthew",
+                "team": "Auburn",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024_2025",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Moudani Likibi, Fred",
+                "team": "Cincinnati",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Kitchell, Thomas",
+                "team": "North Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Swarens, Jason",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Licata, Christopher",
+                "team": "South Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Mullings, Ralford",
+                "team": "Oklahoma",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Buckles, Henry",
+                "team": "Texas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Sudduth, Tyler",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Otterdahl, Maxwell",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "White, Joseph",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Bryant, Danny",
+                "team": "BYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Landa, Zach",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Targgart , Dylan",
+                "team": "South Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Crawford, Christopher",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Michelini, Tyler",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lloyd, Brandon",
+                "team": "Arizona State",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Smith, Tucker",
+                "team": "Oklahoma",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Okeke, Obiora",
+                "team": "Columbia",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Lawrence, Kobe",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Wilson, David (Trey)",
+                "team": "Texas Tech",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Licata, Joe",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Lambrecht, Dylan",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Van Rensburg, JL",
+                "team": "Baylor",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Gunzell, Trevor",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Lewis, Paden",
+                "team": "SE Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Reynolds, Daniel",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Stone, Andrew",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Veenstra, Blake",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Henry, Ryan",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Kessel, Spencer",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Koudssi, Youssef",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Morlock, Dillon",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Pinones, Michael",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Jones, Cam",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Cameron, Piers",
+                "team": "Southern Miss.",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Tobias, Hayden",
+                "team": "Ohio State",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Peterson, Quentin",
+                "team": "Gardner-Webb",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "McCloyen, Roury",
+                "team": "Miss State",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Puff, Wyatt",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Himes, Luke",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Coffey, Skylar",
+                "team": "Missouri",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Rueff, Matthew",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Moran, Cade",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Francis, Marcus",
+                "team": "McNeese State",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Burkett, Cam",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Ramos, Zack",
+                "team": "North Dakota State",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Bruder, John",
+                "team": "Tennessee",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Gary, Jaiden",
+                "team": "DePaul",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Thomas, Ethan",
+                "team": "North Dakota",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2023_2024",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Shot Put",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Kolesnikoff, Alexander",
+                "team": "Georgia",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Robinson-O'Hagan, Tarik",
+                "team": "Ole Miss",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Tobias, Hayden",
+                "team": "Ohio State",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Targgart, Dylan",
+                "team": "South Carolina",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Stona, Roje",
+                "team": "Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Swarens, Jason",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Shoaf, Michael",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Shubert, Kevin",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Meyer, John",
+                "team": "LSU",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Stone, Andrew",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Jones, Cam",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Chang, Kai",
+                "team": "Florida",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Barrett, Warren",
+                "team": "Liberty",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Gumbs, Djimon",
+                "team": "Northwestern St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Kitchell, Thomas",
+                "team": "Wake Forest",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Lawrence, Courtney",
+                "team": "Clemson",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Trevino, Diego",
+                "team": "Oklahoma",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Piperi, Patrick",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Moran, Cade",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Kis, Mariano",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Sudduth, Tyler",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Sakson, Kevin",
+                "team": "Iowa State",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Lloyd, Brandon",
+                "team": "Arizona State",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Burkett, Cam",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Bryant, Danny",
+                "team": "BYU",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Landa, Zach",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "McCloyen , Roury",
+                "team": "Miss State",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Boamah, Joshua",
+                "team": "Navy",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Michelini, Tyler",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Van Niekerk, Chris",
+                "team": "High Point",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Rezny, William",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Robinson, Travis",
+                "team": "Albany",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Pizarro, Lucciano",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Morell, Brad",
+                "team": "Cornell",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Okeke, Obiora",
+                "team": "Columbia",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Duensing, Jeff",
+                "team": "California",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Beverage, Gavin",
+                "team": "Georgia",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Coertzen, Willem",
+                "team": "Arkansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Licata, Joe",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Perry , Dominic",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Morlock, Colby",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Puff, Wyatt",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Konopka, Tyler",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Kessel, Spencer",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Bigley, Kyle",
+                "team": "Colorado St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Moore, Gary",
+                "team": "Baylor",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Knisely, Duane",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Henry, Ryan",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Cookinham, Jacob",
+                "team": "Kansas",
+                "time": "N/A"
+            }
+        ]
+    }
+]

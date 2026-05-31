@@ -1,0 +1,251 @@
+[
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "East",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Cory, Wyatt",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Reinhard, Davis",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Ventura, Camron",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Joe, Octavious",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Clement, Gabe",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Burns , Caleb",
+                "team": "Lake Erie",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Taiwo, Jordan",
+                "team": "Northwood",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Howard, Johnny",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Nienaber, Justin",
+                "team": "Walsh",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Browning, Ethan",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Tarrant, Zealand",
+                "team": "Hillsdale",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Swinehart, Alexander",
+                "team": "Malone",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Jones, Drew",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Brickner, Kaleb",
+                "team": "Cedarville",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Mullen, Gavin",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Shade, Alex",
+                "team": "Tiffin",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "West, Kahlil",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Thatcher , Oliver",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Brown, David",
+                "team": "Anderson (S.C.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Farris, Tyler",
+                "team": "Anderson (S.C.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Enongene, Dion",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "New, Luke",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Gross, Jordan",
+                "team": "Anderson (S.C.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Rutland, Christian",
+                "team": "Limestone",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Noel, Avone",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Nabi, Nour",
+                "team": "Emory & Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Anthony, Bryce",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Dingus, Abel",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "season": "outdoor",
+        "region": "National",
+        "gender": "m",
+        "event": "Heptathlon",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Stine, Cameron",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 2,
+                "athlete": "Mireles, Adolfo",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 3,
+                "athlete": "Abney, Austin",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 4,
+                "athlete": "Robertson, Sage",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 5,
+                "athlete": "Floyd, Dayton",
+                "team": "Trevecca Nazarene",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lawler, Noah",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Hopf, Zane",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Iosia , Isaac",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Roberson, Colin",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            }
+        ]
+    }
+]

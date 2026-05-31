@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import Header from './Header';
 
 function Welcome({ onSelectSeason, onOpenArchive }) {
@@ -58,6 +59,7 @@ function Welcome({ onSelectSeason, onOpenArchive }) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

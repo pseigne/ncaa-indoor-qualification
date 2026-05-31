@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 
 function Layout({ children, onOpenArchive }) {
   return (
@@ -19,19 +20,8 @@ function Layout({ children, onOpenArchive }) {
         {children}
       </main>
 
-      <footer className="app-footer-credit">
-        <p>
-          Data sourced automatically from the TFRRS Qualifying Lists. &bull; Developed by{' '}
-          <a
-            href="https://pierceseigne.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: 'var(--accent-blue)', textDecoration: 'none', fontWeight: '600' }}
-          >
-            Pierce Seigne
-          </a>
-        </p>
-      </footer>
+      <Footer />
+
     </div>
   );
 }

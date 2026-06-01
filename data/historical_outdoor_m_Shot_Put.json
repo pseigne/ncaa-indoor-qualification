@@ -3,307 +3,307 @@
         "year": "2025",
         "season": "outdoor",
         "region": "East",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Laster, Khia",
-                "team": "Buffalo State",
+                "athlete": "Brunache, Isaiah",
+                "team": "Cortland St.",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Ambler, Jill",
-                "team": "SUNY Geneseo",
+                "athlete": "Logan, Hunter",
+                "team": "Utica",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Duell, Veronica",
-                "team": "St. John Fisher",
+                "athlete": "Goodman, Xzavier",
+                "team": "Buffalo State",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Wandy, Lanna",
-                "team": "SUNY Geneseo",
+                "athlete": "Cotton, Alex",
+                "team": "PSU-Behrend",
                 "time": "N/A"
             },
             {
                 "rank": 5,
-                "athlete": "Schramm, Sasha",
-                "team": "Brockport St.",
+                "athlete": "Ellor , Luke",
+                "team": "Ithaca",
                 "time": "N/A"
             },
             {
                 "rank": 6,
-                "athlete": "Eckl, Janelle",
-                "team": "SUNY Geneseo",
+                "athlete": "Faraone, Antonio",
+                "team": "PSU-Behrend",
                 "time": "N/A"
             },
             {
                 "rank": 7,
-                "athlete": "Morley, Alaina",
+                "athlete": "Heichberger, Graeden",
                 "team": "Nazareth",
                 "time": "N/A"
             },
             {
                 "rank": 8,
-                "athlete": "Kendrick, Jasmine",
-                "team": "Nazareth",
+                "athlete": "Trottier, Ray",
+                "team": "SUNY Geneseo",
                 "time": "N/A"
             },
             {
                 "rank": 9,
-                "athlete": "Franz, Ciarra",
-                "team": "St. John Fisher",
+                "athlete": "Johnson, Jordan",
+                "team": "Rochester",
                 "time": "N/A"
             },
             {
                 "rank": 10,
-                "athlete": "Regnante, Allison",
-                "team": "RIT",
+                "athlete": "Crocker, Jason",
+                "team": "Alfred",
                 "time": "N/A"
             },
             {
                 "rank": 11,
-                "athlete": "Barrett, Ashleigh",
-                "team": "Rochester",
-                "time": "N/A"
-            },
-            {
-                "rank": 12,
-                "athlete": "Belanger, Alexa",
-                "team": "Houghton",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Suppa, Laura",
-                "team": "Ithaca",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Luba, Samantha",
-                "team": "Nazareth",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "D'Onofrio, Ariana",
-                "team": "SUNY Geneseo",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Huba, Kayla",
-                "team": "SUNY Geneseo",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "McInerney, Grace",
-                "team": "Rochester",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Risso, Jamie",
-                "team": "Hunter",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Jacques, Katie",
-                "team": "Nazareth",
-                "time": "N/A"
-            },
-            {
-                "rank": 20,
-                "athlete": "Grimaldi, Stefania",
-                "team": "Utica",
-                "time": "N/A"
-            },
-            {
-                "rank": 21,
-                "athlete": "Klein, Anneliese",
-                "team": "SUNY Cobleskill",
-                "time": "N/A"
-            },
-            {
-                "rank": 22,
-                "athlete": "Snayczuk, Madison",
-                "team": "Alfred State",
-                "time": "N/A"
-            },
-            {
-                "rank": 23,
-                "athlete": "Johnson, Anna",
-                "team": "Rochester",
-                "time": "N/A"
-            },
-            {
-                "rank": 24,
-                "athlete": "Albicker, Corinne",
-                "team": "SUNY Geneseo",
-                "time": "N/A"
-            },
-            {
-                "rank": 25,
-                "athlete": "Dodd-Brown, Eko",
-                "team": "Oneonta",
-                "time": "N/A"
-            },
-            {
-                "rank": 26,
-                "athlete": "Schrag, Jaiden",
-                "team": "Oneonta",
-                "time": "N/A"
-            },
-            {
-                "rank": 27,
-                "athlete": "LaBonte, Cecelia",
-                "team": "Ithaca",
-                "time": "N/A"
-            },
-            {
-                "rank": 28,
-                "athlete": "Rogoyski, Victoria",
-                "team": "St. John Fisher",
-                "time": "N/A"
-            },
-            {
-                "rank": 29,
-                "athlete": "Kulp, Rachel",
-                "team": "RIT",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Stoetzel, Emmeline",
-                "team": "Hamilton",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Swyers, Lilly",
+                "athlete": "Zaita, Jason",
                 "team": "Cortland St.",
                 "time": "N/A"
             },
             {
-                "rank": 32,
-                "athlete": "Marsh, Nyasia",
-                "team": "Utica",
+                "rank": 12,
+                "athlete": "Kpodo, Yohermy",
+                "team": "RIT",
                 "time": "N/A"
             },
             {
-                "rank": 33,
-                "athlete": "Ting, Cameron",
-                "team": "Ithaca",
-                "time": "N/A"
-            },
-            {
-                "rank": 34,
-                "athlete": "Naval, Kianna",
+                "rank": 13,
+                "athlete": "Davis, Daniel",
                 "team": "St. John Fisher",
                 "time": "N/A"
             },
             {
+                "rank": 14,
+                "athlete": "Wright, Nick",
+                "team": "Brockport St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Curr, Joey",
+                "team": "St. John Fisher",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Fasano, Michael",
+                "team": "Hamilton",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Ellsworth, Mitchell",
+                "team": "Brockport St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Mays III, Billie",
+                "team": "Utica",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Beer, Ethan",
+                "team": "Rochester",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Keane, Sean",
+                "team": "Cortland St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Collette, Evan",
+                "team": "Cortland St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Reome, Allen",
+                "team": "Brockport St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Chamberlain, Luke",
+                "team": "Cortland St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Cervellera, Dominic",
+                "team": "Buffalo State",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Lantrip, Tyler",
+                "team": "Alfred State",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Gosselin, Keenan",
+                "team": "RIT",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Miller, Chris",
+                "team": "SUNY Geneseo",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "McNeil, Michael",
+                "team": "Utica",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Radcliff, Ramel",
+                "team": "Cortland St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Visosky, Ryan",
+                "team": "PSU-Behrend",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Bedient, Eddie",
+                "team": "RIT",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Honan, Bryan",
+                "team": "Buffalo State",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Richards, Hunter",
+                "team": "Brockport St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Fobare, Kevin",
+                "team": "Rochester",
+                "time": "N/A"
+            },
+            {
                 "rank": 35,
-                "athlete": "Beman, Haley",
+                "athlete": "Freer, Austin",
                 "team": "Alfred State",
                 "time": "N/A"
             },
             {
                 "rank": 36,
-                "athlete": "Devitt, Nora",
-                "team": "Utica",
+                "athlete": "Calderon, Brian",
+                "team": "Brockport St.",
                 "time": "N/A"
             },
             {
                 "rank": 37,
-                "athlete": "Dolan, Jordyn",
-                "team": "Ithaca",
+                "athlete": "Rykert, Dylan",
+                "team": "Rochester",
                 "time": "N/A"
             },
             {
                 "rank": 38,
-                "athlete": "Brandt, Elizabeth",
-                "team": "St. John Fisher",
+                "athlete": "Dolansky, Joshua",
+                "team": "RIT",
                 "time": "N/A"
             },
             {
                 "rank": 39,
-                "athlete": "Cloutier, Elli",
-                "team": "Ithaca",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Spila, Anne",
+                "athlete": "Fowler, Daimel",
                 "team": "Alfred",
                 "time": "N/A"
             },
             {
+                "rank": 40,
+                "athlete": "Bartles, Dean",
+                "team": "RIT",
+                "time": "N/A"
+            },
+            {
                 "rank": 41,
-                "athlete": "Brown, Alexis",
-                "team": "Ithaca",
+                "athlete": "Raymond, Greg",
+                "team": "Alfred State",
                 "time": "N/A"
             },
             {
                 "rank": 42,
-                "athlete": "LaSalle, Sydney",
-                "team": "Nazareth",
+                "athlete": "O'Connell, Joseph",
+                "team": "Buffalo State",
                 "time": "N/A"
             },
             {
                 "rank": 43,
-                "athlete": "Conlan, Gracie",
-                "team": "Rochester",
+                "athlete": "Carroll, Jayden",
+                "team": "SUNY Geneseo",
                 "time": "N/A"
             },
             {
                 "rank": 44,
-                "athlete": "Ryan, Celia",
-                "team": "Ithaca",
+                "athlete": "Russell, Brandon",
+                "team": "Alfred State",
                 "time": "N/A"
             },
             {
                 "rank": 45,
-                "athlete": "Taylor, Quinn",
-                "team": "Rochester",
+                "athlete": "Dabrowski, Dan",
+                "team": "PSU-Behrend",
                 "time": "N/A"
             },
             {
                 "rank": 46,
-                "athlete": "Talmadge, AnJalyna",
-                "team": "Cortland St.",
+                "athlete": "Wilson, Noah",
+                "team": "RIT",
                 "time": "N/A"
             },
             {
                 "rank": 47,
-                "athlete": "Bush, Madyson",
-                "team": "Nazareth",
+                "athlete": "Lee, Daniel",
+                "team": "NYU",
                 "time": "N/A"
             },
             {
                 "rank": 48,
-                "athlete": "Green, Raelen",
-                "team": "Rochester",
+                "athlete": "Hogue, Cabe",
+                "team": "Cortland St.",
                 "time": "N/A"
             },
             {
                 "rank": 49,
-                "athlete": "Pynn, Sam",
-                "team": "SUNY Geneseo",
+                "athlete": "Agosto, Jairo",
+                "team": "Alfred State",
                 "time": "N/A"
             },
             {
                 "rank": 50,
-                "athlete": "Lopez, Emily",
-                "team": "SUNY Geneseo",
+                "athlete": "Rollins, Michael",
+                "team": "Utica",
                 "time": "N/A"
             }
         ]
@@ -312,319 +312,307 @@
         "year": "2025",
         "season": "outdoor",
         "region": "West",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Hunt, Megan",
-                "team": "Wis.-Oshkosh",
+                "athlete": "Folkestad, Cooper",
+                "team": "Concordia-Moorhead",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Evans, Maya",
-                "team": "Wis.-La Crosse",
+                "athlete": "Strouf, Adam",
+                "team": "Wis.-Eau Claire",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Geraets, Megan",
-                "team": "Gustavus Adolphus",
+                "athlete": "Stankiewicz, Gage",
+                "team": "Wis.-Eau Claire",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Miller, Jenna",
-                "team": "Wis.-La Crosse",
+                "athlete": "Ekoue, Yakob",
+                "team": "Wis.-Eau Claire",
                 "time": "N/A"
             },
             {
                 "rank": 5,
-                "athlete": "Scott, Regan",
-                "team": "Wis.-La Crosse",
-                "time": "N/A"
-            },
-            {
-                "rank": 6,
-                "athlete": "Thaler, Anna",
-                "team": "Wis.-Eau Claire",
-                "time": "N/A"
-            },
-            {
-                "rank": 7,
-                "athlete": "Finn, Bridget",
-                "team": "Ripon",
-                "time": "N/A"
-            },
-            {
-                "rank": 8,
-                "athlete": "Booker, Emilee",
-                "team": "Wis.-Eau Claire",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Grosse, Amber",
-                "team": "Wis.-La Crosse",
-                "time": "N/A"
-            },
-            {
-                "rank": 10,
-                "athlete": "Hall, Christina",
-                "team": "Carthage",
-                "time": "N/A"
-            },
-            {
-                "rank": 11,
-                "athlete": "Driscoll, Jenna",
+                "athlete": "Rashke, Karter",
                 "team": "Wis.-Stout",
                 "time": "N/A"
             },
             {
+                "rank": 6,
+                "athlete": "Rennhack, Austin",
+                "team": "Wis.-Stevens Point",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Isom, Isaiah",
+                "team": "Wis.-Oshkosh",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Youngworth, Ben",
+                "team": "Wis.-La Crosse",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Klitzke, Jacob",
+                "team": "St. Norbert",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Johnson, Curtis",
+                "team": "Wis.-Eau Claire",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Maude, Kieran",
+                "team": "Wis.-Oshkosh",
+                "time": "N/A"
+            },
+            {
                 "rank": 12,
-                "athlete": "Liptak, Corrin",
+                "athlete": "Prats, Spencer",
                 "team": "Wis.-La Crosse",
                 "time": "N/A"
             },
             {
                 "rank": 13,
-                "athlete": "Farquharson, Sabriya",
-                "team": "St. Benedict",
+                "athlete": "Pfohl, Cohen",
+                "team": "Wis.-Platteville",
                 "time": "N/A"
             },
             {
                 "rank": 14,
-                "athlete": "Foley, Ava",
-                "team": "Wis.-La Crosse",
+                "athlete": "Johnson, Soren",
+                "team": "Wis.-Eau Claire",
                 "time": "N/A"
             },
             {
                 "rank": 15,
-                "athlete": "Davies, Ashley",
+                "athlete": "Gardner, Jake",
                 "team": "Wis.-La Crosse",
                 "time": "N/A"
             },
             {
                 "rank": 16,
-                "athlete": "Gruen, Emma",
-                "team": "Wis.-Eau Claire",
+                "athlete": "Lanoux, Joey",
+                "team": "Wis.-Stout",
                 "time": "N/A"
             },
             {
                 "rank": 17,
-                "athlete": "Jore, Ashlyn",
-                "team": "St. Olaf",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Tomety, Harmony-Keli",
-                "team": "Macalester",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Braun, Audrey",
-                "team": "Wis.-La Crosse",
-                "time": "N/A"
-            },
-            {
-                "rank": 20,
-                "athlete": "Selle, Peyton",
-                "team": "Concordia-Moorhead",
-                "time": "N/A"
-            },
-            {
-                "rank": 21,
-                "athlete": "Halverson, Rachel",
-                "team": "Wis.-La Crosse",
-                "time": "N/A"
-            },
-            {
-                "rank": 22,
-                "athlete": "Stanislowski, Jordan",
-                "team": "Bethel (Minn.)",
-                "time": "N/A"
-            },
-            {
-                "rank": 23,
-                "athlete": "Kuechle, Brielle",
-                "team": "Wis.-River Falls",
-                "time": "N/A"
-            },
-            {
-                "rank": 24,
-                "athlete": "Bubolz, Anna",
-                "team": "Wis.-Oshkosh",
-                "time": "N/A"
-            },
-            {
-                "rank": 25,
-                "athlete": "Guy, Lili",
-                "team": "Gustavus Adolphus",
-                "time": "N/A"
-            },
-            {
-                "rank": 26,
-                "athlete": "Blum, Josie",
-                "team": "Wis.-La Crosse",
-                "time": "N/A"
-            },
-            {
-                "rank": 27,
-                "athlete": "Taylor, Lindsey",
-                "team": "Wis.-Stevens Point",
-                "time": "N/A"
-            },
-            {
-                "rank": 28,
-                "athlete": "Lindner, Sarrah",
-                "team": "Gustavus Adolphus",
-                "time": "N/A"
-            },
-            {
-                "rank": 29,
-                "athlete": "Calhoun, Abigail",
-                "team": "Carthage",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Hansen, Becca",
-                "team": "Wis.-Stout",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Johnston, Teagan",
-                "team": "Carthage",
-                "time": "N/A"
-            },
-            {
-                "rank": 32,
-                "athlete": "Scheuerell, Alexys",
-                "team": "Wis.-La Crosse",
-                "time": "N/A"
-            },
-            {
-                "rank": 33,
-                "athlete": "Jaenicke, Isabelle",
-                "team": "Wis.-Stout",
-                "time": "N/A"
-            },
-            {
-                "rank": 34,
-                "athlete": "Kalevik, Jenna",
-                "team": "Concordia-Moorhead",
-                "time": "N/A"
-            },
-            {
-                "rank": 35,
-                "athlete": "Maranell, Eden",
-                "team": "St. Norbert",
-                "time": "N/A"
-            },
-            {
-                "rank": 36,
-                "athlete": "Rasmussen, Haylie",
-                "team": "Wis.-River Falls",
-                "time": "N/A"
-            },
-            {
-                "rank": 37,
-                "athlete": "Makope, Nicole",
-                "team": "St. Norbert",
-                "time": "N/A"
-            },
-            {
-                "rank": 38,
-                "athlete": "Brown, Grace",
+                "athlete": "Goodwin, Hudson",
                 "team": "Wis.-Eau Claire",
                 "time": "N/A"
             },
             {
-                "rank": 39,
-                "athlete": "Lorenz, Marissa",
-                "team": "St. Norbert",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Blaskowski, Emily",
-                "team": "Wis.-La Crosse",
-                "time": "N/A"
-            },
-            {
-                "rank": 41,
-                "athlete": "Theriault, Adyn",
-                "team": "Wis.-Stevens Point",
-                "time": "N/A"
-            },
-            {
-                "rank": 42,
-                "athlete": "Hernes, Ellie",
+                "rank": 18,
+                "athlete": "Ball, Timmy",
                 "team": "Bethel (Minn.)",
                 "time": "N/A"
             },
             {
-                "rank": 43,
-                "athlete": "Floren, Justus",
-                "team": "St. Benedict",
+                "rank": 19,
+                "athlete": "Larsen, Evan",
+                "team": "Bethel (Minn.)",
                 "time": "N/A"
             },
             {
-                "rank": 44,
-                "athlete": "Hoffa, Sidney",
-                "team": "Ripon",
+                "rank": 20,
+                "athlete": "Bendixen, Cameron",
+                "team": "Wis.-Oshkosh",
                 "time": "N/A"
             },
             {
-                "rank": 45,
-                "athlete": "Kent, Hailie",
-                "team": "Wis.-La Crosse",
+                "rank": 21,
+                "athlete": "Kardonsky, Kale",
+                "team": "St. Olaf",
                 "time": "N/A"
             },
             {
-                "rank": 46,
-                "athlete": "Moravchik, Grace",
-                "team": "Northwestern (Minn.)",
-                "time": "N/A"
-            },
-            {
-                "rank": 47,
-                "athlete": "McIlvried, Skyler",
+                "rank": 22,
+                "athlete": "Stotler, Colby",
                 "team": "Wis.-Platteville",
                 "time": "N/A"
             },
             {
-                "rank": 48,
-                "athlete": "Vaughan, Cassandra",
-                "team": "St. Norbert",
+                "rank": 23,
+                "athlete": "Dioszeghy, Sam",
+                "team": "Concordia-Moorhead",
                 "time": "N/A"
             },
             {
-                "rank": 49,
-                "athlete": "Lopez, Olivia",
+                "rank": 24,
+                "athlete": "Houska, Blake",
+                "team": "Concordia-Moorhead",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Broome, Will",
+                "team": "Wis.-Eau Claire",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Rose, Tyler",
+                "team": "Carthage",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Monreal, Joshua",
+                "team": "St. Scholastica",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Frey, Logan",
+                "team": "Wis.-Whitewater",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Walechka, Nicholas",
+                "team": "Wis.-Platteville",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Hokanson, Adam",
+                "team": "Bethel (Minn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Martinez Marte, Joshua",
+                "team": "Beloit",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Villa, Elijah",
+                "team": "MSOE",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Perry, Robert",
+                "team": "Martin Luther",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Ukpong, Jorden",
                 "team": "Wis.-Stevens Point",
                 "time": "N/A"
             },
             {
+                "rank": 35,
+                "athlete": "Wenger, Daniel",
+                "team": "Wis.-Platteville",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Wellhoefer, Jack",
+                "team": "Wis.-Oshkosh",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Fritsch, Jacob",
+                "team": "Wis.-Oshkosh",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Picard, Braedy",
+                "team": "Ripon",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Hanson, Noah",
+                "team": "Ripon",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Wrasman, Ethan",
+                "team": "MSOE",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Porto, Artur",
+                "team": "Macalester",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Minnerath, Grady",
+                "team": "St. John's (Minn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Dietel, Jacob",
+                "team": "Wis.-Stout",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Burnham, Alexander",
+                "team": "Crown",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Robaidek, Carter",
+                "team": "Wis.-Stout",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Sindelir, Brady",
+                "team": "Wis.-River Falls",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Hillstrom, Dominik",
+                "team": "Concordia-Moorhead",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Leal, Lucas",
+                "team": "Carthage",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Rottier, Garrett",
+                "team": "Wis.-Eau Claire",
+                "time": "N/A"
+            },
+            {
                 "rank": 50,
-                "athlete": "Hielscher, Maya",
-                "team": "Concordia (Wis.)",
-                "time": "N/A"
-            },
-            {
-                "rank": 51,
-                "athlete": "Gries, Anna",
-                "team": "St. Benedict",
-                "time": "N/A"
-            },
-            {
-                "rank": 52,
-                "athlete": "Kedsch, Samantha",
-                "team": "Bethany Lutheran",
+                "athlete": "Ritz, Jonathan",
+                "team": "Bethel (Minn.)",
                 "time": "N/A"
             }
         ]
@@ -633,307 +621,307 @@
         "year": "2025",
         "season": "outdoor",
         "region": "National",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Hein, Chloe",
-                "team": "Centre",
+                "athlete": "Hines, Eddie",
+                "team": "Albion",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Townsend, Alysia",
-                "team": "Adrian",
+                "athlete": "Fremeau, Owen",
+                "team": "Olivet",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Doumbia, Madjo",
-                "team": "Centre",
+                "athlete": "Wilmoth, Tommy",
+                "team": "Hanover",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Houston, Dakota",
-                "team": "John Carroll",
+                "athlete": "Slater, Chris",
+                "team": "Denison",
                 "time": "N/A"
             },
             {
                 "rank": 5,
-                "athlete": "McNeilly, Serena",
-                "team": "Centre",
+                "athlete": "McVicker, Ryan",
+                "team": "Mount Union",
                 "time": "N/A"
             },
             {
                 "rank": 6,
-                "athlete": "Henderson, Isabelle",
-                "team": "Wittenberg",
+                "athlete": "Kiesel, Mason",
+                "team": "Baldwin Wallace",
                 "time": "N/A"
             },
             {
                 "rank": 7,
-                "athlete": "Soric, Paula",
-                "team": "Kenyon",
+                "athlete": "Harless, David",
+                "team": "Centre",
                 "time": "N/A"
             },
             {
                 "rank": 8,
-                "athlete": "Ellenberger, Evie",
-                "team": "Allegheny",
+                "athlete": "Furuness, Evan",
+                "team": "Wabash",
                 "time": "N/A"
             },
             {
                 "rank": 9,
-                "athlete": "Wachtman, Lexi",
-                "team": "Heidelberg",
+                "athlete": "Sholar, Quinn",
+                "team": "Wabash",
                 "time": "N/A"
             },
             {
                 "rank": 10,
-                "athlete": "Campbell, Kalie",
-                "team": "Mount Union",
+                "athlete": "Russo, Matthew",
+                "team": "John Carroll",
                 "time": "N/A"
             },
             {
                 "rank": 11,
-                "athlete": "Kochert, Tessa",
-                "team": "DePauw",
+                "athlete": "Olsen, Kitar",
+                "team": "Baldwin Wallace",
                 "time": "N/A"
             },
             {
                 "rank": 12,
-                "athlete": "Maddickes, Ashyia",
-                "team": "Berea",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Forker, Emma",
-                "team": "Trine",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Strydom, Julienne",
-                "team": "Calvin",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Haynes, Rylie",
-                "team": "Mount Union",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Shipman, Niyah",
-                "team": "Ohio Wesleyan",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "Valentine, Lainee",
+                "athlete": "Martindale , Max",
                 "team": "Wittenberg",
                 "time": "N/A"
             },
             {
-                "rank": 18,
-                "athlete": "Hutton, Rylee",
-                "team": "Mount Union",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Inkley, Corinne",
-                "team": "Allegheny",
-                "time": "N/A"
-            },
-            {
-                "rank": 20,
-                "athlete": "Wolters, Lauryn",
+                "rank": 13,
+                "athlete": "Robbins, Connor",
                 "team": "Ohio Northern",
                 "time": "N/A"
             },
             {
+                "rank": 14,
+                "athlete": "Tellas, Kaleu",
+                "team": "Baldwin Wallace",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Funke, Brendan",
+                "team": "Asbury",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Mays, Robert",
+                "team": "Wooster",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Thomas, Nathan",
+                "team": "Muskingum",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Jones, Ethan",
+                "team": "Baldwin Wallace",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Cooper, Antoine",
+                "team": "Rose-Hulman",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "McCarver, Cole",
+                "team": "Manchester",
+                "time": "N/A"
+            },
+            {
                 "rank": 21,
-                "athlete": "Gormley, Callie",
+                "athlete": "Cole, Luke",
                 "team": "Centre",
                 "time": "N/A"
             },
             {
                 "rank": 22,
-                "athlete": "Benway, Heather",
-                "team": "Oberlin",
+                "athlete": "Shuga, Justin",
+                "team": "Wilmington (Ohio)",
                 "time": "N/A"
             },
             {
                 "rank": 23,
-                "athlete": "Moore, Katie",
-                "team": "DePauw",
+                "athlete": "Hickman, Thomas",
+                "team": "Baldwin Wallace",
                 "time": "N/A"
             },
             {
                 "rank": 24,
-                "athlete": "Burgess, Madeline",
-                "team": "Mount Union",
-                "time": "N/A"
-            },
-            {
-                "rank": 25,
-                "athlete": "Stechschulte, Katelyn",
-                "team": "Ohio Northern",
-                "time": "N/A"
-            },
-            {
-                "rank": 26,
-                "athlete": "Kurth, Emery",
-                "team": "Denison",
-                "time": "N/A"
-            },
-            {
-                "rank": 27,
-                "athlete": "Davis, Mackenzie",
-                "team": "Mount Union",
-                "time": "N/A"
-            },
-            {
-                "rank": 28,
-                "athlete": "Miller, Mackenzie",
-                "team": "Trine",
-                "time": "N/A"
-            },
-            {
-                "rank": 29,
-                "athlete": "Su, Jordan",
+                "athlete": "Langsner, Tobias",
                 "team": "Case Western",
                 "time": "N/A"
             },
             {
+                "rank": 25,
+                "athlete": "Haberman, John",
+                "team": "Baldwin Wallace",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Gaydos, Noah",
+                "team": "Otterbein",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Brown, Josiah",
+                "team": "Heidelberg",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Van Pelt, Jakob",
+                "team": "Wabash",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Crawford, Jon Marc",
+                "team": "Allegheny",
+                "time": "N/A"
+            },
+            {
                 "rank": 30,
-                "athlete": "Lewis, Jakeisha",
-                "team": "Berea",
+                "athlete": "Dewan, Connor",
+                "team": "Albion",
                 "time": "N/A"
             },
             {
                 "rank": 31,
-                "athlete": "Veltkamp, Alina",
-                "team": "Calvin",
+                "athlete": "Martindale, Kobi",
+                "team": "Manchester",
                 "time": "N/A"
             },
             {
                 "rank": 32,
-                "athlete": "Gunn, Juliana",
-                "team": "Hiram",
+                "athlete": "Norman, Van",
+                "team": "Albion",
                 "time": "N/A"
             },
             {
                 "rank": 33,
-                "athlete": "Andrykovitch, Massey",
-                "team": "John Carroll",
+                "athlete": "Cole, Austin",
+                "team": "Olivet",
                 "time": "N/A"
             },
             {
                 "rank": 34,
-                "athlete": "Brawt, Lauren",
-                "team": "Alma",
+                "athlete": "Piper, Nolan",
+                "team": "Capital",
                 "time": "N/A"
             },
             {
                 "rank": 35,
-                "athlete": "Eaton, Cayla",
-                "team": "Wittenberg",
+                "athlete": "Risley, Tucker",
+                "team": "DePauw",
                 "time": "N/A"
             },
             {
                 "rank": 36,
-                "athlete": "Pierce, Piper",
-                "team": "Adrian",
+                "athlete": "Sibbersen, Ian",
+                "team": "Ohio Northern",
                 "time": "N/A"
             },
             {
                 "rank": 37,
-                "athlete": "Slone, Isa",
-                "team": "Earlham",
+                "athlete": "Medeiros, Braden",
+                "team": "Baldwin Wallace",
                 "time": "N/A"
             },
             {
                 "rank": 38,
-                "athlete": "Zahursky, Natasha",
-                "team": "Mount Union",
+                "athlete": "Gomez, Evan",
+                "team": "Ohio Northern",
                 "time": "N/A"
             },
             {
                 "rank": 39,
-                "athlete": "Roy, Jeri",
-                "team": "Calvin",
+                "athlete": "Soltis, Mike",
+                "team": "Wilmington (Ohio)",
                 "time": "N/A"
             },
             {
                 "rank": 40,
-                "athlete": "Hargrave, Daysia",
-                "team": "Wooster",
+                "athlete": "Zableckis, Colton",
+                "team": "Trine",
                 "time": "N/A"
             },
             {
                 "rank": 41,
-                "athlete": "Delp, Jenna",
-                "team": "Wittenberg",
-                "time": "N/A"
-            },
-            {
-                "rank": 42,
-                "athlete": "Mahaffey, Megan",
-                "team": "Mount Union",
-                "time": "N/A"
-            },
-            {
-                "rank": 43,
-                "athlete": "Johnson, Elliana",
-                "team": "Hope",
-                "time": "N/A"
-            },
-            {
-                "rank": 44,
-                "athlete": "Eldridge, Maddie",
-                "team": "Mount Union",
-                "time": "N/A"
-            },
-            {
-                "rank": 45,
-                "athlete": "Zambruno, Ella",
-                "team": "John Carroll",
-                "time": "N/A"
-            },
-            {
-                "rank": 46,
-                "athlete": "Jolivette, Anaya",
+                "athlete": "Mathes, Owen",
                 "team": "Denison",
                 "time": "N/A"
             },
             {
+                "rank": 42,
+                "athlete": "Muncaster, Jack",
+                "team": "Spalding",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Cromartie, Abraham",
+                "team": "Oberlin",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Vaughn, Tyler",
+                "team": "Centre",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Brass, Nicholas",
+                "team": "Franciscan (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Paarlberg, Caleb",
+                "team": "Hope",
+                "time": "N/A"
+            },
+            {
                 "rank": 47,
-                "athlete": "Sloan, Jaelah",
+                "athlete": "Campbell, Yrral",
                 "team": "Olivet",
                 "time": "N/A"
             },
             {
                 "rank": 48,
-                "athlete": "Ketepa, Lovelyn",
-                "team": "Olivet",
+                "athlete": "Frimel, Alex",
+                "team": "Ohio Northern",
                 "time": "N/A"
             },
             {
                 "rank": 49,
-                "athlete": "Cook, Haley",
-                "team": "Wilmington (Ohio)",
+                "athlete": "Lewis, Carter",
+                "team": "Mount Union",
                 "time": "N/A"
             },
             {
                 "rank": 50,
-                "athlete": "DeJonge, Katelyn",
-                "team": "Calvin",
+                "athlete": "Ortiz, Mark",
+                "team": "DePauw",
                 "time": "N/A"
             }
         ]
@@ -942,151 +930,157 @@
         "year": "2024",
         "season": "outdoor",
         "region": "East",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Rios, Hailey",
-                "team": "Ashland",
+                "athlete": "Haas, Ben",
+                "team": "Hillsdale",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Carter, C'airra",
-                "team": "Tiffin",
+                "athlete": "Nemecek, Will",
+                "team": "Northwood",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Williams, Angela",
-                "team": "Cedarville",
+                "athlete": "Hornbeak, Kevin",
+                "team": "Tiffin",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Seward, Aniya",
-                "team": "Ashland",
-                "time": "N/A"
-            },
-            {
-                "rank": 5,
-                "athlete": "White, Julie",
-                "team": "Walsh",
-                "time": "N/A"
-            },
-            {
-                "rank": 6,
-                "athlete": "Sigmon, Ashley",
+                "athlete": "Wilson, Eyan",
                 "team": "Findlay",
                 "time": "N/A"
             },
             {
+                "rank": 5,
+                "athlete": "Tresnan-Rieghard, Hunter",
+                "team": "Findlay",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Lyon, Ethan",
+                "team": "Tiffin",
+                "time": "N/A"
+            },
+            {
                 "rank": 7,
-                "athlete": "Hyde, Breanna",
+                "athlete": "Hairston, Omari",
                 "team": "Northwood",
                 "time": "N/A"
             },
             {
                 "rank": 8,
-                "athlete": "Heller, Alaina",
-                "team": "Ashland",
+                "athlete": "Stephens , Brett",
+                "team": "Lake Erie",
                 "time": "N/A"
             },
             {
                 "rank": 9,
-                "athlete": "Heath, Katelyn",
+                "athlete": "Hurtt, Eric",
                 "team": "Findlay",
                 "time": "N/A"
             },
             {
                 "rank": 10,
-                "athlete": "Tucci, Lexi",
+                "athlete": "Robinson, Nalin",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Sewell, Shandon",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Kyer , Alex",
+                "team": "Lake Erie",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Tribelo, Gavin",
                 "team": "Malone",
                 "time": "N/A"
             },
             {
-                "rank": 11,
-                "athlete": "Vogt, Cassidy",
-                "team": "Tiffin",
+                "rank": 14,
+                "athlete": "Jacobs, Tyson",
+                "team": "Lake Erie",
                 "time": "N/A"
             },
             {
-                "rank": 12,
-                "athlete": "Kennedy, Katie",
+                "rank": 15,
+                "athlete": "Eros, Luke",
+                "team": "Northwood",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Woodworth , Wade",
+                "team": "Lake Erie",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Bechtel, Jacob",
+                "team": "Ashland",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Mastaso, Aidan",
+                "team": "Malone",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Heyden, John",
                 "team": "Hillsdale",
                 "time": "N/A"
             },
             {
-                "rank": 13,
-                "athlete": "Denmark, Toni",
+                "rank": 20,
+                "athlete": "Herman, Brant",
                 "team": "Walsh",
                 "time": "N/A"
             },
             {
-                "rank": 14,
-                "athlete": "Stine, Kassandra",
-                "team": "Findlay",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Sheppert, Sidney",
-                "team": "Ashland",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Zitzmann, Baelyn",
-                "team": "Hillsdale",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "Garbe, Kyla",
-                "team": "Tiffin",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Fields, Kara",
-                "team": "Ashland",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Chen, Grace",
-                "team": "Hillsdale",
-                "time": "N/A"
-            },
-            {
-                "rank": 20,
-                "athlete": "Heitmeyer, Peyton",
-                "team": "Findlay",
-                "time": "N/A"
-            },
-            {
                 "rank": 21,
-                "athlete": "Lodice, Gianna",
-                "team": "Hillsdale",
+                "athlete": "West, Obed",
+                "team": "Malone",
                 "time": "N/A"
             },
             {
                 "rank": 22,
-                "athlete": "Meixner, Allison",
-                "team": "Ashland",
+                "athlete": "Oldham, Carson",
+                "team": "Thomas More",
                 "time": "N/A"
             },
             {
                 "rank": 23,
-                "athlete": "Curtice, Emily",
-                "team": "Tiffin",
+                "athlete": "Recker, Lucas",
+                "team": "Findlay",
                 "time": "N/A"
             },
             {
                 "rank": 24,
-                "athlete": "Davis, Deona",
-                "team": "Tiffin",
+                "athlete": "Hannah, Trenton",
+                "team": "Cedarville",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Holston, Keyan",
+                "team": "Findlay",
                 "time": "N/A"
             }
         ]
@@ -1095,145 +1089,157 @@
         "year": "2024",
         "season": "outdoor",
         "region": "West",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "McCarty, Sydney",
-                "team": "Carson-Newman",
+                "athlete": "Shelton, Jesse",
+                "team": "Mars Hill",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Brown, Alexis",
-                "team": "Lenoir-Rhyne",
+                "athlete": "Williams, Oluwatimi",
+                "team": "Carson-Newman",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Egberi, Efemena",
-                "team": "Catawba",
+                "athlete": "De Castro Navarro, Mateo",
+                "team": "Wingate",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Holmberg, Ally",
-                "team": "Wingate",
-                "time": "N/A"
-            },
-            {
-                "rank": 5,
-                "athlete": "Jones , Melody",
-                "team": "Lenoir-Rhyne",
-                "time": "N/A"
-            },
-            {
-                "rank": 6,
-                "athlete": "Jackson, Meah",
-                "team": "Newberry",
-                "time": "N/A"
-            },
-            {
-                "rank": 7,
-                "athlete": "Taylor, Brooke",
-                "team": "Carson-Newman",
-                "time": "N/A"
-            },
-            {
-                "rank": 8,
-                "athlete": "Webb, Sterling",
-                "team": "Lincoln Memorial",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Visser, Brooke",
-                "team": "Carson-Newman",
-                "time": "N/A"
-            },
-            {
-                "rank": 10,
-                "athlete": "Sorrells, Ennessey",
-                "team": "Wingate",
-                "time": "N/A"
-            },
-            {
-                "rank": 11,
-                "athlete": "Rose, Leiyana",
-                "team": "Newberry",
-                "time": "N/A"
-            },
-            {
-                "rank": 12,
-                "athlete": "Redmond, Brianna",
-                "team": "Newberry",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Navarrete, Kimberly",
-                "team": "Wingate",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Spangler, Mia",
-                "team": "Emory & Henry",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Long, Maggie",
-                "team": "Anderson (S.C.)",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Moorer, Tyleah",
-                "team": "Limestone",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "Maxwell-Smith, Massassi",
-                "team": "Coker",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Outland, Madison",
-                "team": "UVA-Wise",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Dittrich, Agustina",
+                "athlete": "Gumm, Adrian",
                 "team": "Tusculum",
                 "time": "N/A"
             },
             {
+                "rank": 5,
+                "athlete": "Wise , Josh",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 6,
+                "athlete": "Rowell, Gavin",
+                "team": "Tusculum",
+                "time": "N/A"
+            },
+            {
+                "rank": 7,
+                "athlete": "Lorenzo, Hunter",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Wallace, Zavery",
+                "team": "Emory & Henry",
+                "time": "N/A"
+            },
+            {
+                "rank": 9,
+                "athlete": "Gainey, Ashtin",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Shelton, Justus",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Waddell, Harrison",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Welch, Iggy",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Squires, David",
+                "team": "Wingate",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Wainwright, Will",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Blevins, Hunter",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Horne, Dylan",
+                "team": "Tusculum",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Brightharp, Chase",
+                "team": "Anderson (S.C.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Burney, Richard",
+                "team": "Tusculum",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Grate , Ezra",
+                "team": "Lenoir-Rhyne",
+                "time": "N/A"
+            },
+            {
                 "rank": 20,
-                "athlete": "McDonald, Daryn",
+                "athlete": "Wright, Zion",
                 "team": "Limestone",
                 "time": "N/A"
             },
             {
                 "rank": 21,
-                "athlete": "Bivens, Onii",
-                "team": "Catawba",
+                "athlete": "Thatcher , Oliver",
+                "team": "Lenoir-Rhyne",
                 "time": "N/A"
             },
             {
                 "rank": 22,
-                "athlete": "Jonathan, Amy",
-                "team": "Wingate",
+                "athlete": "Combs, Caleb",
+                "team": "Lenoir-Rhyne",
                 "time": "N/A"
             },
             {
                 "rank": 23,
-                "athlete": "Davisson, Claire",
-                "team": "Wingate",
+                "athlete": "Edgecombe, Makhi",
+                "team": "Mars Hill",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Cline, Bobby",
+                "team": "UVA-Wise",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "West, Kahlil",
+                "team": "Lenoir-Rhyne",
                 "time": "N/A"
             }
         ]
@@ -1242,128 +1248,176 @@
         "year": "2024",
         "season": "outdoor",
         "region": "National",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Debardlabon, Jadlyn",
-                "team": "Alabama-Huntsville",
+                "athlete": "Puckett, Bryan",
+                "team": "Mississippi College",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Carroll, Kylie",
-                "team": "Montevallo",
+                "athlete": "Conrad, Steven",
+                "team": "Mississippi College",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Theron, Liezl",
+                "athlete": "Williams, Camden",
                 "team": "Lee (Tenn.)",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Faucette, Jydia",
-                "team": "Lee (Tenn.)",
+                "athlete": "Bennett, Preston",
+                "team": "Montevallo",
                 "time": "N/A"
             },
             {
                 "rank": 5,
-                "athlete": "Corrothers, Khila",
-                "team": "Montevallo",
+                "athlete": "McDonald, Rhett",
+                "team": "Alabama-Huntsville",
                 "time": "N/A"
             },
             {
                 "rank": 6,
-                "athlete": "Flugence, Madison",
-                "team": "Mississippi College",
-                "time": "N/A"
-            },
-            {
-                "rank": 7,
-                "athlete": "Lannom, Liz",
+                "athlete": "Trill, Ian",
                 "team": "Lee (Tenn.)",
                 "time": "N/A"
             },
             {
-                "rank": 8,
-                "athlete": "Harrell, Hallie",
+                "rank": 7,
+                "athlete": "Newell, Caleb",
                 "team": "Montevallo",
                 "time": "N/A"
             },
             {
+                "rank": 8,
+                "athlete": "Glispie, Wyatt",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
                 "rank": 9,
-                "athlete": "Jackson, Hannah",
+                "athlete": "Garcia-Cloud, Christopher",
                 "team": "Mississippi College",
                 "time": "N/A"
             },
             {
                 "rank": 10,
-                "athlete": "Coleman, Alana",
-                "team": "Alabama-Huntsville",
-                "time": "N/A"
-            },
-            {
-                "rank": 11,
-                "athlete": "Rohling, Kyla",
-                "team": "Alabama-Huntsville",
-                "time": "N/A"
-            },
-            {
-                "rank": 12,
-                "athlete": "White, Sydney",
-                "team": "Lee (Tenn.)",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Collins, Hope",
-                "team": "Alabama-Huntsville",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Brown, Lily",
-                "team": "Lee (Tenn.)",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Gates, Katie",
-                "team": "Mississippi College",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Cothran, Sara",
-                "team": "Alabama-Huntsville",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "McCartney, Morgan",
-                "team": "Montevallo",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Johnson, Campbell",
-                "team": "Trevecca Nazarene",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Ruiz, Jackelin",
+                "athlete": "Dabney, Joshua",
                 "team": "Christian Bros.",
                 "time": "N/A"
             },
             {
-                "rank": 20,
-                "athlete": "Willoughby , Nina",
+                "rank": 11,
+                "athlete": "Pugh, Wyatt",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Beverly, Jordyn",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Miller, James",
+                "team": "Mississippi College",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Mason, Landon",
                 "team": "Trevecca Nazarene",
                 "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Philpott, Braxton",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Tate, Carrington",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Floyd, Hayden",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Mireles, Adolfo",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Duncan, Carter",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Stine, Cameron",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Abney, Austin",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Robertson, Sage",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Kreis, Josh",
+                "team": "Montevallo",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Hopf, Zane",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 25,
+                "athlete": "Floyd, Dayton",
+                "team": "Trevecca Nazarene",
+                "time": "N/A"
+            },
+            {
+                "rank": 26,
+                "athlete": "Iosia , Isaac",
+                "team": "Lee (Tenn.)",
+                "time": "N/A"
+            },
+            {
+                "rank": 27,
+                "athlete": "Lawler, Noah",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Roberson, Colin",
+                "team": "Alabama-Huntsville",
+                "time": "N/A"
             }
         ]
     },
@@ -1371,313 +1425,307 @@
         "year": "2026",
         "season": "outdoor",
         "region": "East",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Divinity, Eve",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 2,
-                "athlete": "Scoot, Georgina",
-                "team": "Princeton",
-                "time": "N/A"
-            },
-            {
-                "rank": 3,
-                "athlete": "Foreman, Shantae",
-                "team": "Clemson",
-                "time": "N/A"
-            },
-            {
-                "rank": 4,
-                "athlete": "Kelly, Alexandra",
-                "team": "Princeton",
-                "time": "N/A"
-            },
-            {
-                "rank": 5,
-                "athlete": "Pease, Kalynn",
-                "team": "Morehead State",
-                "time": "N/A"
-            },
-            {
-                "rank": 6,
-                "athlete": "Brown, Celine",
-                "team": "Rutgers",
-                "time": "N/A"
-            },
-            {
-                "rank": 7,
-                "athlete": "Harris, Tristen",
-                "team": "South Carolina",
-                "time": "N/A"
-            },
-            {
-                "rank": 8,
-                "athlete": "Day, Sophia",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Ailes, Miracle",
-                "team": "Alabama",
-                "time": "N/A"
-            },
-            {
-                "rank": 10,
-                "athlete": "Williams, Chelsi",
-                "team": "Georgia",
-                "time": "N/A"
-            },
-            {
-                "rank": 11,
-                "athlete": "Gooden, Lena",
-                "team": "Vanderbilt",
-                "time": "N/A"
-            },
-            {
-                "rank": 12,
-                "athlete": "Locci, Gianna",
-                "team": "Duke",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Harlan, Amare",
-                "team": "Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Amani, Marta",
-                "team": "Harvard",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Omonzane, Peace",
-                "team": "Boston University",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Horielova, Mariia",
-                "team": "Alabama",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "Gaines, Sanaii",
-                "team": "SC State",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Hatton, Lizzie",
+                "athlete": "Robinson-O'Hagan, Tarik",
                 "team": "Ole Miss",
                 "time": "N/A"
             },
             {
-                "rank": 19,
-                "athlete": "Rush, Ella",
-                "team": "Georgia",
+                "rank": 2,
+                "athlete": "Morlock, Dillon",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
-                "rank": 20,
-                "athlete": "Kitchings, Ava",
-                "team": "Georgia",
+                "rank": 3,
+                "athlete": "Van Rensburg, JL",
+                "team": "Tennessee",
                 "time": "N/A"
             },
             {
-                "rank": 21,
-                "athlete": "Cuns Iglesias, Alba",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 22,
-                "athlete": "Check, Lara",
-                "team": "Marshall",
-                "time": "N/A"
-            },
-            {
-                "rank": 23,
-                "athlete": "Byrd, Bria",
-                "team": "James Madison",
-                "time": "N/A"
-            },
-            {
-                "rank": 24,
-                "athlete": "Ladson, Arayana",
-                "team": "Florida A&M",
-                "time": "N/A"
-            },
-            {
-                "rank": 25,
-                "athlete": "Sue-Kam-Ling, Julia",
-                "team": "Jacksonville",
-                "time": "N/A"
-            },
-            {
-                "rank": 26,
-                "athlete": "Schweitzer, Mariella",
-                "team": "Dartmouth",
-                "time": "N/A"
-            },
-            {
-                "rank": 27,
-                "athlete": "Tahou, Maeva",
-                "team": "Charleston Southern",
-                "time": "N/A"
-            },
-            {
-                "rank": 28,
-                "athlete": "Bowman, Janiya",
-                "team": "Indiana State",
-                "time": "N/A"
-            },
-            {
-                "rank": 29,
-                "athlete": "Ferrari, Sandra",
-                "team": "Western Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Panenko, Anna",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Harris, Caelyn",
-                "team": "Alabama",
-                "time": "N/A"
-            },
-            {
-                "rank": 32,
-                "athlete": "Phillips, Asia",
+                "rank": 4,
+                "athlete": "Van Daalen, Jarno",
                 "team": "Florida",
                 "time": "N/A"
             },
             {
-                "rank": 33,
-                "athlete": "Laracuente-Huebner, Juliette",
-                "team": "Cincinnati",
+                "rank": 5,
+                "athlete": "McCloyen, Roury",
+                "team": "Miss State",
                 "time": "N/A"
             },
             {
-                "rank": 34,
-                "athlete": "Dowd, Olivia",
-                "team": "N. Carolina A&T",
+                "rank": 6,
+                "athlete": "Peterson, Quentin",
+                "team": "Gardner-Webb",
                 "time": "N/A"
             },
             {
-                "rank": 35,
-                "athlete": "Gist, Cameran",
-                "team": "South Carolina",
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "team": "Penn State",
                 "time": "N/A"
             },
             {
-                "rank": 36,
-                "athlete": "Taylor, Brooklyn",
-                "team": "Connecticut",
+                "rank": 8,
+                "athlete": "Lambrecht, Dylan",
+                "team": "Penn State",
                 "time": "N/A"
             },
             {
-                "rank": 37,
-                "athlete": "Wise, Molly",
-                "team": "Richmond",
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "team": "Princeton",
                 "time": "N/A"
             },
             {
-                "rank": 38,
-                "athlete": "Smith, Grace",
-                "team": "Virginia",
+                "rank": 10,
+                "athlete": "Morlock, Colby",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
-                "rank": 39,
-                "athlete": "Sivina, Marta",
-                "team": "Vanderbilt",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Hood, Kennedy",
-                "team": "Georgia Southern",
-                "time": "N/A"
-            },
-            {
-                "rank": 41,
-                "athlete": "Gideon, Blessing",
+                "rank": 11,
+                "athlete": "Malaski, Seamus",
                 "team": "Purdue",
                 "time": "N/A"
             },
             {
-                "rank": 42,
-                "athlete": "Paul, Gianna",
+                "rank": 12,
+                "athlete": "Okeke, Obiora",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Rueff, Matthew",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Wendl, Owen",
+                "team": "Akron",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "team": "New Hampshire",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Huisman, Joshua",
+                "team": "Michigan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Thompson, Bryce",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Ugwu, Emeka",
+                "team": "Pittsburgh",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Wray, Despiro",
+                "team": "Florida State",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brashear, Grayson",
+                "team": "Kentucky",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Konopka, Tyler",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Northrup, Peter",
+                "team": "Cornell",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Cox, Sloan",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Barley, Caleb",
                 "team": "High Point",
                 "time": "N/A"
             },
             {
-                "rank": 43,
-                "athlete": "Gordon, Marissa",
-                "team": "UAlbany",
+                "rank": 25,
+                "athlete": "Shomper, Wade",
+                "team": "Bucknell",
                 "time": "N/A"
             },
             {
-                "rank": 44,
-                "athlete": "Ver Beek, Lilly",
-                "team": "Virginia Tech",
-                "time": "N/A"
-            },
-            {
-                "rank": 45,
-                "athlete": "Balous, Ryhan",
+                "rank": 26,
+                "athlete": "Young, Christopher",
                 "team": "Alabama",
                 "time": "N/A"
             },
             {
+                "rank": 27,
+                "athlete": "Klein, Max",
+                "team": "Dartmouth",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Bruder, John",
+                "team": "Tennessee",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Palchak, Matthew",
+                "team": "Army West Point",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Reid, Shamar",
+                "team": "Florida State",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Gates, Joel",
+                "team": "Purdue",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Edwards, Devonte",
+                "team": "Louisiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Jones, Praiyer",
+                "team": "Louisiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Potter, Marshall",
+                "team": "Connecticut",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Golda, Greyson",
+                "team": "Central Connecticut",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Urraca, Gabriel",
+                "team": "Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Ritzie, Jahnaul",
+                "team": "Charlotte",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Brown, Ryker",
+                "team": "Maine",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Payton-Kimble, Junior",
+                "team": "Charlotte",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Crawford, Christopher",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Brown, Josh - Ty",
+                "team": "SE Louisiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Harman, Noah",
+                "team": "Cornell",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Petko, Zach",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Twaddle-Dunham, Kai",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Montgomery, Josiah",
+                "team": "Pittsburgh",
+                "time": "N/A"
+            },
+            {
                 "rank": 46,
-                "athlete": "Stewart, Keira",
-                "team": "Morgan State",
+                "athlete": "Harris, Uriah",
+                "team": "William & Mary",
                 "time": "N/A"
             },
             {
                 "rank": 47,
-                "athlete": "Joiner, Jaelynn",
-                "team": "Radford",
+                "athlete": "Liakhnovich, Anthony",
+                "team": "Princeton",
                 "time": "N/A"
             },
             {
                 "rank": 48,
-                "athlete": "Floriea, Paige",
-                "team": "Rutgers",
+                "athlete": "Ferency, Odin",
+                "team": "Charleston Southern",
                 "time": "N/A"
             },
             {
                 "rank": 49,
-                "athlete": "Brewster, Adeyah",
-                "team": "LSU",
+                "athlete": "Seib, Joe",
+                "team": "Cornell",
                 "time": "N/A"
             },
             {
                 "rank": 50,
-                "athlete": "Finney, Samari",
+                "athlete": "Dudley, La'Darion",
                 "team": "Northwestern St.",
-                "time": "N/A"
-            },
-            {
-                "rank": 51,
-                "athlete": "Sharif, Amani",
-                "team": "Austin Peay",
                 "time": "N/A"
             }
         ]
@@ -1686,331 +1734,307 @@
         "year": "2026",
         "season": "outdoor",
         "region": "West",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Jones, Alyssa",
-                "team": "Stanford",
+                "athlete": "Smith, Ben",
+                "team": "Oregon",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Beckmon, Sophia",
-                "team": "Illinois",
+                "athlete": "Lamberts, Hencu",
+                "team": "Nebraska",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Breigan, Ida",
-                "team": "UTSA",
+                "athlete": "Moran, Cade",
+                "team": "Nebraska",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Davis, Morgan",
-                "team": "Texas A&M",
-                "time": "N/A"
-            },
-            {
-                "rank": 5,
-                "athlete": "Johnson, Alexandria",
-                "team": "Arizona State",
-                "time": "N/A"
-            },
-            {
-                "rank": 6,
-                "athlete": "Oakes, Alaysia",
-                "team": "Stanford",
-                "time": "N/A"
-            },
-            {
-                "rank": 7,
-                "athlete": "De Gannes, Janae",
-                "team": "Baylor",
-                "time": "N/A"
-            },
-            {
-                "rank": 8,
-                "athlete": "Ochonogor, Prestina",
-                "team": "Tarleton State",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Vanek, Sydnie",
+                "athlete": "Michelini, Tyler",
                 "team": "Arizona",
                 "time": "N/A"
             },
             {
-                "rank": 10,
-                "athlete": "Martin-Evans, Cleo",
-                "team": "SMU",
+                "rank": 5,
+                "athlete": "Pinones, Michael",
+                "team": "Texas",
                 "time": "N/A"
             },
             {
-                "rank": 11,
-                "athlete": "Ndudi, Elizabeth",
-                "team": "Illinois",
+                "rank": 6,
+                "athlete": "Nwokeji, Cordell",
+                "team": "Houston",
                 "time": "N/A"
             },
             {
-                "rank": 12,
-                "athlete": "Johnson, Sydney",
+                "rank": 7,
+                "athlete": "Lawrence, Kobe",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Hastenrath, Xaver",
                 "team": "UCLA",
                 "time": "N/A"
             },
             {
+                "rank": 9,
+                "athlete": "Burkett, Cam",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Hala'Ufia, Sam",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cookinham, Jacob",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
                 "rank": 13,
-                "athlete": "Cosculluela, Sofia",
-                "team": "Washington",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Hudson, Heidi",
-                "team": "Arkansas",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Strayhorn, Kiara",
+                "athlete": "Chen, Menachem",
                 "team": "Arkansas State",
                 "time": "N/A"
             },
             {
+                "rank": 14,
+                "athlete": "Cerese, Cooper",
+                "team": "Drake",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Vander Sluis, Brandon",
+                "team": "South Dakota",
+                "time": "N/A"
+            },
+            {
                 "rank": 16,
-                "athlete": "Willits, Sydney",
-                "team": "Iowa State",
+                "athlete": "Ramos, Leonardo",
+                "team": "Colorado St.",
                 "time": "N/A"
             },
             {
                 "rank": 17,
-                "athlete": "Lindsay, Aaliyah",
-                "team": "Kansas State",
+                "athlete": "Elliott, Ethan",
+                "team": "Drake",
                 "time": "N/A"
             },
             {
                 "rank": 18,
-                "athlete": "Shadd-Ceres, Trinity",
-                "team": "Creighton",
+                "athlete": "Pastian, Kaden",
+                "team": "North Dakota State",
                 "time": "N/A"
             },
             {
                 "rank": 19,
-                "athlete": "Lusti, Liisa-Maria",
-                "team": "Oregon",
+                "athlete": "Boyd, Chris",
+                "team": "Arkansas State",
                 "time": "N/A"
             },
             {
                 "rank": 20,
-                "athlete": "Graman, Katharina",
-                "team": "Illinois",
+                "athlete": "Hatleberg, Easton",
+                "team": "Montana State",
                 "time": "N/A"
             },
             {
                 "rank": 21,
-                "athlete": "Washington, Tamiah",
-                "team": "Texas Tech",
+                "athlete": "Williams, Olu",
+                "team": "North Texas",
                 "time": "N/A"
             },
             {
                 "rank": 22,
-                "athlete": "Zeffou-Poaty, Maud",
-                "team": "Kansas State",
+                "athlete": "Miller, Hawkin",
+                "team": "Cal St. Fullerton",
                 "time": "N/A"
             },
             {
                 "rank": 23,
-                "athlete": "Alexander, Jelese",
-                "team": "Wichita State",
-                "time": "N/A"
-            },
-            {
-                "rank": 24,
-                "athlete": "Hope, Alyssa",
-                "team": "USC",
-                "time": "N/A"
-            },
-            {
-                "rank": 25,
-                "athlete": "Szepieniec, Anna",
-                "team": "Milwaukee",
-                "time": "N/A"
-            },
-            {
-                "rank": 26,
-                "athlete": "Tamir, Romi",
-                "team": "Illinois",
-                "time": "N/A"
-            },
-            {
-                "rank": 27,
-                "athlete": "Randle, Kori",
-                "team": "Kansas",
-                "time": "N/A"
-            },
-            {
-                "rank": 28,
-                "athlete": "Thompson, Nia",
-                "team": "Sam Houston",
-                "time": "N/A"
-            },
-            {
-                "rank": 29,
-                "athlete": "Washburn, Ava",
-                "team": "Washington",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Reed, Lauren",
-                "team": "USC",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Stanley, Richelle",
-                "team": "Kansas",
-                "time": "N/A"
-            },
-            {
-                "rank": 32,
-                "athlete": "Stephens, Katy",
+                "athlete": "Lienau, Carson",
                 "team": "Northern Iowa",
                 "time": "N/A"
             },
             {
-                "rank": 33,
-                "athlete": "Tucker, London",
-                "team": "TCU",
-                "time": "N/A"
-            },
-            {
-                "rank": 34,
-                "athlete": "Venhaus, Abby",
-                "team": "Eastern Illinois",
-                "time": "N/A"
-            },
-            {
-                "rank": 35,
-                "athlete": "Nwafor, Chisom",
-                "team": "Kansas State",
-                "time": "N/A"
-            },
-            {
-                "rank": 36,
-                "athlete": "Aninyei, Chelsea",
-                "team": "UC Riverside",
-                "time": "N/A"
-            },
-            {
-                "rank": 37,
-                "athlete": "Humphries, Meagan",
-                "team": "Illinois",
-                "time": "N/A"
-            },
-            {
-                "rank": 38,
-                "athlete": "Dwol, Agur",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 39,
-                "athlete": "Laur, Edlin",
-                "team": "UTSA",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Davis, Kylee",
-                "team": "UC Davis",
-                "time": "N/A"
-            },
-            {
-                "rank": 41,
-                "athlete": "Johnson, Kendall",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 42,
-                "athlete": "N'Da, Nebtom",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 43,
-                "athlete": "Watkins, Kassidi",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 44,
-                "athlete": "Linton, Machaeda",
-                "team": "Texas A&M",
-                "time": "N/A"
-            },
-            {
-                "rank": 45,
-                "athlete": "Chongwo, Zeddy",
-                "team": "Oklahoma State",
-                "time": "N/A"
-            },
-            {
-                "rank": 46,
-                "athlete": "Likar, Brina",
-                "team": "UTSA",
-                "time": "N/A"
-            },
-            {
-                "rank": 47,
-                "athlete": "Young, Xiamara",
-                "team": "San Diego St.",
-                "time": "N/A"
-            },
-            {
-                "rank": 48,
-                "athlete": "Ulvenstam, Lovisa",
-                "team": "Iowa",
-                "time": "N/A"
-            },
-            {
-                "rank": 49,
-                "athlete": "McKenzie, Kailah",
-                "team": "UC Irvine",
-                "time": "N/A"
-            },
-            {
-                "rank": 50,
-                "athlete": "Johnson, Caitlyn",
+                "rank": 24,
+                "athlete": "Iwankiw, Nikolas",
                 "team": "California",
                 "time": "N/A"
             },
             {
-                "rank": 51,
-                "athlete": "Szlachta, Olga",
-                "team": "Texas Tech",
+                "rank": 25,
+                "athlete": "Dunn, Shaiquan",
+                "team": "Texas",
                 "time": "N/A"
             },
             {
-                "rank": 52,
-                "athlete": "McPeak, Arieanna",
-                "team": "UT-Arlington",
+                "rank": 26,
+                "athlete": "Bigley, Kyle",
+                "team": "Colorado St.",
                 "time": "N/A"
             },
             {
-                "rank": 53,
-                "athlete": "Stefan, Emily",
+                "rank": 27,
+                "athlete": "Shields, Alex",
+                "team": "Montana",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Pastorian, Aiden",
+                "team": "Cal Poly",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Schneeberger, Jaden",
+                "team": "Central Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Beery, Preston",
+                "team": "Arizona State",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Hussein, Omar",
+                "team": "Arkansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Nett, Tanner",
                 "team": "Boise State",
                 "time": "N/A"
             },
             {
-                "rank": 54,
-                "athlete": "Atkins, Cassandra",
-                "team": "Oregon",
+                "rank": 33,
+                "athlete": "Taylor, Garrett",
+                "team": "Illinois State",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Russell, David",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Bakare, Sultan",
+                "team": "Rice",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Wells, Jaylon",
+                "team": "Long Beach St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Ruland, Bryce",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Lewis, Zach",
+                "team": "UC San Diego",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Miedema, Kael",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Gary, Jaiden",
+                "team": "DePaul",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Nelson, Tony",
+                "team": "Minnesota",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Lunsford, Michael",
+                "team": "Oklahoma State",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Salazar, Cesar",
+                "team": "UC San Diego",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Klink, Jacob",
+                "team": "Illinois State",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Carter, Adam",
+                "team": "Texas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Kpomassy, Michael",
+                "team": "UTEP",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Reed, Kason",
+                "team": "Stephen F. Austin",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Shue, Benjamin",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Kessel, Spencer",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Moore, Jared",
+                "team": "Arkansas State",
                 "time": "N/A"
             }
         ]
@@ -2019,307 +2043,313 @@
         "year": "2026",
         "season": "outdoor",
         "region": "National",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Harlan, Amare",
-                "team": "Michigan",
+                "athlete": "Morlock, Dillon",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Szepieniec, Anna",
-                "team": "Milwaukee",
+                "athlete": "Morlock, Colby",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Bowman, Janiya",
-                "team": "Indiana State",
+                "athlete": "Malaski, Seamus",
+                "team": "Purdue",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Ferrari, Sandra",
-                "team": "Western Michigan",
+                "athlete": "Okeke, Obiora",
+                "team": "Notre Dame",
                 "time": "N/A"
             },
             {
                 "rank": 5,
-                "athlete": "Laracuente-Huebner, Juliette",
-                "team": "Cincinnati",
+                "athlete": "Wendl, Owen",
+                "team": "Akron",
                 "time": "N/A"
             },
             {
                 "rank": 6,
-                "athlete": "Gideon, Blessing",
-                "team": "Purdue",
+                "athlete": "Huisman, Joshua",
+                "team": "Michigan",
                 "time": "N/A"
             },
             {
                 "rank": 7,
-                "athlete": "Bonds, Kiera",
-                "team": "Bowling Green",
+                "athlete": "Cox, Sloan",
+                "team": "Indiana State",
                 "time": "N/A"
             },
             {
                 "rank": 8,
-                "athlete": "Rathke, Kourtney",
-                "team": "Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Clemetson, Shamoya",
-                "team": "Eastern Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 10,
-                "athlete": "Levenhagen, Nevia",
-                "team": "Milwaukee",
-                "time": "N/A"
-            },
-            {
-                "rank": 11,
-                "athlete": "Nestor, Alexa",
-                "team": "Kent State",
-                "time": "N/A"
-            },
-            {
-                "rank": 12,
-                "athlete": "Anstad, Lina",
-                "team": "Cincinnati",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Doxley, Kaydence",
-                "team": "Eastern Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Richards, Linnearia",
-                "team": "Central Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Perkins, Elissa",
-                "team": "Wisconsin",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Madi-Bouabre, Sarah",
-                "team": "IU Indianapolis",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "Nettles, Kenli",
-                "team": "Ball State",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Anderson, Maya",
-                "team": "Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Vaden, Jila",
+                "athlete": "Gates, Joel",
                 "team": "Purdue",
                 "time": "N/A"
             },
             {
-                "rank": 20,
-                "athlete": "Justice, Maya",
+                "rank": 9,
+                "athlete": "Petko, Zach",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Brown, Ben",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Clabough, Kyle",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Graham, Lane",
+                "team": "Akron",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Riegel, Ben",
+                "team": "Miami (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Brosseau, Seth",
+                "team": "Indiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Himes, Luke",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Worthington, Reilly",
+                "team": "Miami (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Presley, Blake",
+                "team": "Miami (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lambert, Anthony",
                 "team": "Kent State",
                 "time": "N/A"
             },
             {
+                "rank": 19,
+                "athlete": "Kirkwood, Jaden",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Rusch, Matthew",
+                "team": "Cincinnati",
+                "time": "N/A"
+            },
+            {
                 "rank": 21,
-                "athlete": "Winfrey, Ashtan",
+                "athlete": "Godfrey, Leland",
                 "team": "Eastern Michigan",
                 "time": "N/A"
             },
             {
                 "rank": 22,
-                "athlete": "Barmore, Leila",
-                "team": "Michigan State",
+                "athlete": "Quigley, Braeden",
+                "team": "Akron",
                 "time": "N/A"
             },
             {
                 "rank": 23,
-                "athlete": "Jeffries, Gabrielle",
-                "team": "Michigan State",
+                "athlete": "Pawlosky, Charles",
+                "team": "Kent State",
                 "time": "N/A"
             },
             {
                 "rank": 24,
-                "athlete": "Marimon, Laurine",
-                "team": "Western Michigan",
+                "athlete": "Vance, Chris",
+                "team": "Akron",
                 "time": "N/A"
             },
             {
                 "rank": 25,
-                "athlete": "Bowman, Jahnel",
-                "team": "Indiana State",
+                "athlete": "Lorek, David",
+                "team": "Miami (Ohio)",
                 "time": "N/A"
             },
             {
                 "rank": 26,
-                "athlete": "Schaffer, Haley",
-                "team": "Marquette",
+                "athlete": "Beichler, Talon",
+                "team": "Notre Dame",
                 "time": "N/A"
             },
             {
                 "rank": 27,
-                "athlete": "Marshall, Kylee",
-                "team": "Ball State",
+                "athlete": "Smith, Caleb",
+                "team": "Indiana",
                 "time": "N/A"
             },
             {
                 "rank": 28,
-                "athlete": "Anderson, Kylei",
+                "athlete": "Foster, Blake",
                 "team": "Oakland",
                 "time": "N/A"
             },
             {
                 "rank": 29,
-                "athlete": "Amefia, Angeline",
-                "team": "Purdue",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Bichara, Zahra",
-                "team": "Notre Dame",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Ritchie, Kavel",
-                "team": "Akron",
-                "time": "N/A"
-            },
-            {
-                "rank": 32,
-                "athlete": "Patterson, Morgan",
-                "team": "Bowling Green",
-                "time": "N/A"
-            },
-            {
-                "rank": 33,
-                "athlete": "Bendick, Lila",
-                "team": "Ohio",
-                "time": "N/A"
-            },
-            {
-                "rank": 34,
-                "athlete": "Fisher, Ashley",
-                "team": "Notre Dame",
-                "time": "N/A"
-            },
-            {
-                "rank": 35,
-                "athlete": "Malachi, Anichka",
-                "team": "Western Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 36,
-                "athlete": "Moran, Kelly",
-                "team": "Indiana",
-                "time": "N/A"
-            },
-            {
-                "rank": 37,
-                "athlete": "Wordlaw, DaShayla",
-                "team": "Cincinnati",
-                "time": "N/A"
-            },
-            {
-                "rank": 38,
-                "athlete": "Knepp, Elle",
-                "team": "Indiana",
-                "time": "N/A"
-            },
-            {
-                "rank": 39,
-                "athlete": "Ernst, Raegan",
-                "team": "Dayton",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Schindler, Ally",
-                "team": "Kent State",
-                "time": "N/A"
-            },
-            {
-                "rank": 41,
-                "athlete": "Carboncini, Matilde",
-                "team": "Kent State",
-                "time": "N/A"
-            },
-            {
-                "rank": 42,
-                "athlete": "Wallace, Layla",
-                "team": "Western Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 43,
-                "athlete": "Volk, Kallie",
-                "team": "Milwaukee",
-                "time": "N/A"
-            },
-            {
-                "rank": 44,
-                "athlete": "Adams, Kylie",
-                "team": "Miami (Ohio)",
-                "time": "N/A"
-            },
-            {
-                "rank": 45,
-                "athlete": "Decree, Daisha",
-                "team": "Youngstown St.",
-                "time": "N/A"
-            },
-            {
-                "rank": 46,
-                "athlete": "Thurman, Aaliyah",
+                "athlete": "Thurmond, D. Theo",
                 "team": "Indiana State",
                 "time": "N/A"
             },
             {
+                "rank": 30,
+                "athlete": "Brown, Dominic",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Brodie, Mason",
+                "team": "Eastern Michigan",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Morlock, Brandt",
+                "team": "Ohio State",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Bird, Josiah",
+                "team": "Purdue Fort Wayne",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Riddle, Charlie",
+                "team": "Cincinnati",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Austin, Alan",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Janke, Aiden",
+                "team": "Milwaukee",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Pirogovsky, Josh",
+                "team": "Marquette",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Matzke, Alex",
+                "team": "Marquette",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Parciak, Max",
+                "team": "Purdue Fort Wayne",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Cherney, Conner",
+                "team": "Oakland",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Smith, Charles",
+                "team": "Marquette",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Terryberry, Dylan",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Miller, Brevin",
+                "team": "Purdue Fort Wayne",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Grays, Austin",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Schmeling, Jack",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Wells, Michael",
+                "team": "Butler",
+                "time": "N/A"
+            },
+            {
                 "rank": 47,
-                "athlete": "Morbin, Matilde",
-                "team": "Kent State",
+                "athlete": "Murray, Peyton",
+                "team": "Notre Dame",
                 "time": "N/A"
             },
             {
                 "rank": 48,
-                "athlete": "Dunaway, Keeli",
-                "team": "Kent State",
+                "athlete": "Bowman, Tyler",
+                "team": "Purdue Fort Wayne",
                 "time": "N/A"
             },
             {
                 "rank": 49,
-                "athlete": "Keesling, Kendra",
-                "team": "Ball State",
+                "athlete": "Ott, Robin",
+                "team": "Wisconsin",
                 "time": "N/A"
             },
             {
                 "rank": 50,
-                "athlete": "Alowonle, Alimot",
-                "team": "Eastern Michigan",
+                "athlete": "Tyrrell, Linkon",
+                "team": "Kent State",
+                "time": "N/A"
+            },
+            {
+                "rank": 51,
+                "athlete": "Agbo Anih, Emmanuel",
+                "team": "Cincinnati",
                 "time": "N/A"
             }
         ]
@@ -2328,313 +2358,307 @@
         "year": "2026 (2026-06-01)",
         "season": "outdoor",
         "region": "East",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Divinity, Eve",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 2,
-                "athlete": "Scoot, Georgina",
-                "team": "Princeton",
-                "time": "N/A"
-            },
-            {
-                "rank": 3,
-                "athlete": "Foreman, Shantae",
-                "team": "Clemson",
-                "time": "N/A"
-            },
-            {
-                "rank": 4,
-                "athlete": "Kelly, Alexandra",
-                "team": "Princeton",
-                "time": "N/A"
-            },
-            {
-                "rank": 5,
-                "athlete": "Pease, Kalynn",
-                "team": "Morehead State",
-                "time": "N/A"
-            },
-            {
-                "rank": 6,
-                "athlete": "Brown, Celine",
-                "team": "Rutgers",
-                "time": "N/A"
-            },
-            {
-                "rank": 7,
-                "athlete": "Harris, Tristen",
-                "team": "South Carolina",
-                "time": "N/A"
-            },
-            {
-                "rank": 8,
-                "athlete": "Day, Sophia",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Ailes, Miracle",
-                "team": "Alabama",
-                "time": "N/A"
-            },
-            {
-                "rank": 10,
-                "athlete": "Williams, Chelsi",
-                "team": "Georgia",
-                "time": "N/A"
-            },
-            {
-                "rank": 11,
-                "athlete": "Gooden, Lena",
-                "team": "Vanderbilt",
-                "time": "N/A"
-            },
-            {
-                "rank": 12,
-                "athlete": "Locci, Gianna",
-                "team": "Duke",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Harlan, Amare",
-                "team": "Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Amani, Marta",
-                "team": "Harvard",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Omonzane, Peace",
-                "team": "Boston University",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Horielova, Mariia",
-                "team": "Alabama",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "Gaines, Sanaii",
-                "team": "SC State",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Hatton, Lizzie",
+                "athlete": "Robinson-O'Hagan, Tarik",
                 "team": "Ole Miss",
                 "time": "N/A"
             },
             {
-                "rank": 19,
-                "athlete": "Rush, Ella",
-                "team": "Georgia",
+                "rank": 2,
+                "athlete": "Morlock, Dillon",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
-                "rank": 20,
-                "athlete": "Kitchings, Ava",
-                "team": "Georgia",
+                "rank": 3,
+                "athlete": "Van Rensburg, JL",
+                "team": "Tennessee",
                 "time": "N/A"
             },
             {
-                "rank": 21,
-                "athlete": "Cuns Iglesias, Alba",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 22,
-                "athlete": "Check, Lara",
-                "team": "Marshall",
-                "time": "N/A"
-            },
-            {
-                "rank": 23,
-                "athlete": "Byrd, Bria",
-                "team": "James Madison",
-                "time": "N/A"
-            },
-            {
-                "rank": 24,
-                "athlete": "Ladson, Arayana",
-                "team": "Florida A&M",
-                "time": "N/A"
-            },
-            {
-                "rank": 25,
-                "athlete": "Sue-Kam-Ling, Julia",
-                "team": "Jacksonville",
-                "time": "N/A"
-            },
-            {
-                "rank": 26,
-                "athlete": "Schweitzer, Mariella",
-                "team": "Dartmouth",
-                "time": "N/A"
-            },
-            {
-                "rank": 27,
-                "athlete": "Tahou, Maeva",
-                "team": "Charleston Southern",
-                "time": "N/A"
-            },
-            {
-                "rank": 28,
-                "athlete": "Bowman, Janiya",
-                "team": "Indiana State",
-                "time": "N/A"
-            },
-            {
-                "rank": 29,
-                "athlete": "Ferrari, Sandra",
-                "team": "Western Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Panenko, Anna",
-                "team": "Louisville",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Harris, Caelyn",
-                "team": "Alabama",
-                "time": "N/A"
-            },
-            {
-                "rank": 32,
-                "athlete": "Phillips, Asia",
+                "rank": 4,
+                "athlete": "Van Daalen, Jarno",
                 "team": "Florida",
                 "time": "N/A"
             },
             {
-                "rank": 33,
-                "athlete": "Laracuente-Huebner, Juliette",
-                "team": "Cincinnati",
+                "rank": 5,
+                "athlete": "McCloyen, Roury",
+                "team": "Miss State",
                 "time": "N/A"
             },
             {
-                "rank": 34,
-                "athlete": "Dowd, Olivia",
-                "team": "N. Carolina A&T",
+                "rank": 6,
+                "athlete": "Peterson, Quentin",
+                "team": "Gardner-Webb",
                 "time": "N/A"
             },
             {
-                "rank": 35,
-                "athlete": "Gist, Cameran",
-                "team": "South Carolina",
+                "rank": 7,
+                "athlete": "Henry, Ryan",
+                "team": "Penn State",
                 "time": "N/A"
             },
             {
-                "rank": 36,
-                "athlete": "Taylor, Brooklyn",
-                "team": "Connecticut",
+                "rank": 8,
+                "athlete": "Lambrecht, Dylan",
+                "team": "Penn State",
                 "time": "N/A"
             },
             {
-                "rank": 37,
-                "athlete": "Wise, Molly",
-                "team": "Richmond",
+                "rank": 9,
+                "athlete": "Licata, Joe",
+                "team": "Princeton",
                 "time": "N/A"
             },
             {
-                "rank": 38,
-                "athlete": "Smith, Grace",
-                "team": "Virginia",
+                "rank": 10,
+                "athlete": "Morlock, Colby",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
-                "rank": 39,
-                "athlete": "Sivina, Marta",
-                "team": "Vanderbilt",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Hood, Kennedy",
-                "team": "Georgia Southern",
-                "time": "N/A"
-            },
-            {
-                "rank": 41,
-                "athlete": "Gideon, Blessing",
+                "rank": 11,
+                "athlete": "Malaski, Seamus",
                 "team": "Purdue",
                 "time": "N/A"
             },
             {
-                "rank": 42,
-                "athlete": "Paul, Gianna",
+                "rank": 12,
+                "athlete": "Okeke, Obiora",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Rueff, Matthew",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Wendl, Owen",
+                "team": "Akron",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Abaka-Amuah, Yoofi",
+                "team": "New Hampshire",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Huisman, Joshua",
+                "team": "Michigan",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Thompson, Bryce",
+                "team": "Penn State",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Ugwu, Emeka",
+                "team": "Pittsburgh",
+                "time": "N/A"
+            },
+            {
+                "rank": 19,
+                "athlete": "Wray, Despiro",
+                "team": "Florida State",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brashear, Grayson",
+                "team": "Kentucky",
+                "time": "N/A"
+            },
+            {
+                "rank": 21,
+                "athlete": "Konopka, Tyler",
+                "team": "Princeton",
+                "time": "N/A"
+            },
+            {
+                "rank": 22,
+                "athlete": "Northrup, Peter",
+                "team": "Cornell",
+                "time": "N/A"
+            },
+            {
+                "rank": 23,
+                "athlete": "Cox, Sloan",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 24,
+                "athlete": "Barley, Caleb",
                 "team": "High Point",
                 "time": "N/A"
             },
             {
-                "rank": 43,
-                "athlete": "Gordon, Marissa",
-                "team": "UAlbany",
+                "rank": 25,
+                "athlete": "Shomper, Wade",
+                "team": "Bucknell",
                 "time": "N/A"
             },
             {
-                "rank": 44,
-                "athlete": "Ver Beek, Lilly",
-                "team": "Virginia Tech",
-                "time": "N/A"
-            },
-            {
-                "rank": 45,
-                "athlete": "Balous, Ryhan",
+                "rank": 26,
+                "athlete": "Young, Christopher",
                 "team": "Alabama",
                 "time": "N/A"
             },
             {
+                "rank": 27,
+                "athlete": "Klein, Max",
+                "team": "Dartmouth",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Bruder, John",
+                "team": "Tennessee",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Palchak, Matthew",
+                "team": "Army West Point",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Reid, Shamar",
+                "team": "Florida State",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Gates, Joel",
+                "team": "Purdue",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Edwards, Devonte",
+                "team": "Louisiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Jones, Praiyer",
+                "team": "Louisiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Potter, Marshall",
+                "team": "Connecticut",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Golda, Greyson",
+                "team": "Central Connecticut",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Urraca, Gabriel",
+                "team": "Marshall",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Ritzie, Jahnaul",
+                "team": "Charlotte",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Brown, Ryker",
+                "team": "Maine",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Payton-Kimble, Junior",
+                "team": "Charlotte",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Crawford, Christopher",
+                "team": "Alabama",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Brown, Josh - Ty",
+                "team": "SE Louisiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Harman, Noah",
+                "team": "Cornell",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Petko, Zach",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Twaddle-Dunham, Kai",
+                "team": "Auburn",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Montgomery, Josiah",
+                "team": "Pittsburgh",
+                "time": "N/A"
+            },
+            {
                 "rank": 46,
-                "athlete": "Stewart, Keira",
-                "team": "Morgan State",
+                "athlete": "Harris, Uriah",
+                "team": "William & Mary",
                 "time": "N/A"
             },
             {
                 "rank": 47,
-                "athlete": "Joiner, Jaelynn",
-                "team": "Radford",
+                "athlete": "Liakhnovich, Anthony",
+                "team": "Princeton",
                 "time": "N/A"
             },
             {
                 "rank": 48,
-                "athlete": "Floriea, Paige",
-                "team": "Rutgers",
+                "athlete": "Ferency, Odin",
+                "team": "Charleston Southern",
                 "time": "N/A"
             },
             {
                 "rank": 49,
-                "athlete": "Brewster, Adeyah",
-                "team": "LSU",
+                "athlete": "Seib, Joe",
+                "team": "Cornell",
                 "time": "N/A"
             },
             {
                 "rank": 50,
-                "athlete": "Finney, Samari",
+                "athlete": "Dudley, La'Darion",
                 "team": "Northwestern St.",
-                "time": "N/A"
-            },
-            {
-                "rank": 51,
-                "athlete": "Sharif, Amani",
-                "team": "Austin Peay",
                 "time": "N/A"
             }
         ]
@@ -2643,331 +2667,307 @@
         "year": "2026 (2026-06-01)",
         "season": "outdoor",
         "region": "West",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Jones, Alyssa",
-                "team": "Stanford",
+                "athlete": "Smith, Ben",
+                "team": "Oregon",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Beckmon, Sophia",
-                "team": "Illinois",
+                "athlete": "Lamberts, Hencu",
+                "team": "Nebraska",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Breigan, Ida",
-                "team": "UTSA",
+                "athlete": "Moran, Cade",
+                "team": "Nebraska",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Davis, Morgan",
-                "team": "Texas A&M",
-                "time": "N/A"
-            },
-            {
-                "rank": 5,
-                "athlete": "Johnson, Alexandria",
-                "team": "Arizona State",
-                "time": "N/A"
-            },
-            {
-                "rank": 6,
-                "athlete": "Oakes, Alaysia",
-                "team": "Stanford",
-                "time": "N/A"
-            },
-            {
-                "rank": 7,
-                "athlete": "De Gannes, Janae",
-                "team": "Baylor",
-                "time": "N/A"
-            },
-            {
-                "rank": 8,
-                "athlete": "Ochonogor, Prestina",
-                "team": "Tarleton State",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Vanek, Sydnie",
+                "athlete": "Michelini, Tyler",
                 "team": "Arizona",
                 "time": "N/A"
             },
             {
-                "rank": 10,
-                "athlete": "Martin-Evans, Cleo",
-                "team": "SMU",
+                "rank": 5,
+                "athlete": "Pinones, Michael",
+                "team": "Texas",
                 "time": "N/A"
             },
             {
-                "rank": 11,
-                "athlete": "Ndudi, Elizabeth",
-                "team": "Illinois",
+                "rank": 6,
+                "athlete": "Nwokeji, Cordell",
+                "team": "Houston",
                 "time": "N/A"
             },
             {
-                "rank": 12,
-                "athlete": "Johnson, Sydney",
+                "rank": 7,
+                "athlete": "Lawrence, Kobe",
+                "team": "Oregon",
+                "time": "N/A"
+            },
+            {
+                "rank": 8,
+                "athlete": "Hastenrath, Xaver",
                 "team": "UCLA",
                 "time": "N/A"
             },
             {
+                "rank": 9,
+                "athlete": "Burkett, Cam",
+                "team": "Wyoming",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Hala'Ufia, Sam",
+                "team": "Arizona",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Tanner, Texas",
+                "team": "Air Force",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Cookinham, Jacob",
+                "team": "Illinois",
+                "time": "N/A"
+            },
+            {
                 "rank": 13,
-                "athlete": "Cosculluela, Sofia",
-                "team": "Washington",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Hudson, Heidi",
-                "team": "Arkansas",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Strayhorn, Kiara",
+                "athlete": "Chen, Menachem",
                 "team": "Arkansas State",
                 "time": "N/A"
             },
             {
+                "rank": 14,
+                "athlete": "Cerese, Cooper",
+                "team": "Drake",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Vander Sluis, Brandon",
+                "team": "South Dakota",
+                "time": "N/A"
+            },
+            {
                 "rank": 16,
-                "athlete": "Willits, Sydney",
-                "team": "Iowa State",
+                "athlete": "Ramos, Leonardo",
+                "team": "Colorado St.",
                 "time": "N/A"
             },
             {
                 "rank": 17,
-                "athlete": "Lindsay, Aaliyah",
-                "team": "Kansas State",
+                "athlete": "Elliott, Ethan",
+                "team": "Drake",
                 "time": "N/A"
             },
             {
                 "rank": 18,
-                "athlete": "Shadd-Ceres, Trinity",
-                "team": "Creighton",
+                "athlete": "Pastian, Kaden",
+                "team": "North Dakota State",
                 "time": "N/A"
             },
             {
                 "rank": 19,
-                "athlete": "Lusti, Liisa-Maria",
-                "team": "Oregon",
+                "athlete": "Boyd, Chris",
+                "team": "Arkansas State",
                 "time": "N/A"
             },
             {
                 "rank": 20,
-                "athlete": "Graman, Katharina",
-                "team": "Illinois",
+                "athlete": "Hatleberg, Easton",
+                "team": "Montana State",
                 "time": "N/A"
             },
             {
                 "rank": 21,
-                "athlete": "Washington, Tamiah",
-                "team": "Texas Tech",
+                "athlete": "Williams, Olu",
+                "team": "North Texas",
                 "time": "N/A"
             },
             {
                 "rank": 22,
-                "athlete": "Zeffou-Poaty, Maud",
-                "team": "Kansas State",
+                "athlete": "Miller, Hawkin",
+                "team": "Cal St. Fullerton",
                 "time": "N/A"
             },
             {
                 "rank": 23,
-                "athlete": "Alexander, Jelese",
-                "team": "Wichita State",
-                "time": "N/A"
-            },
-            {
-                "rank": 24,
-                "athlete": "Hope, Alyssa",
-                "team": "USC",
-                "time": "N/A"
-            },
-            {
-                "rank": 25,
-                "athlete": "Szepieniec, Anna",
-                "team": "Milwaukee",
-                "time": "N/A"
-            },
-            {
-                "rank": 26,
-                "athlete": "Tamir, Romi",
-                "team": "Illinois",
-                "time": "N/A"
-            },
-            {
-                "rank": 27,
-                "athlete": "Randle, Kori",
-                "team": "Kansas",
-                "time": "N/A"
-            },
-            {
-                "rank": 28,
-                "athlete": "Thompson, Nia",
-                "team": "Sam Houston",
-                "time": "N/A"
-            },
-            {
-                "rank": 29,
-                "athlete": "Washburn, Ava",
-                "team": "Washington",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Reed, Lauren",
-                "team": "USC",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Stanley, Richelle",
-                "team": "Kansas",
-                "time": "N/A"
-            },
-            {
-                "rank": 32,
-                "athlete": "Stephens, Katy",
+                "athlete": "Lienau, Carson",
                 "team": "Northern Iowa",
                 "time": "N/A"
             },
             {
-                "rank": 33,
-                "athlete": "Tucker, London",
-                "team": "TCU",
-                "time": "N/A"
-            },
-            {
-                "rank": 34,
-                "athlete": "Venhaus, Abby",
-                "team": "Eastern Illinois",
-                "time": "N/A"
-            },
-            {
-                "rank": 35,
-                "athlete": "Nwafor, Chisom",
-                "team": "Kansas State",
-                "time": "N/A"
-            },
-            {
-                "rank": 36,
-                "athlete": "Aninyei, Chelsea",
-                "team": "UC Riverside",
-                "time": "N/A"
-            },
-            {
-                "rank": 37,
-                "athlete": "Humphries, Meagan",
-                "team": "Illinois",
-                "time": "N/A"
-            },
-            {
-                "rank": 38,
-                "athlete": "Dwol, Agur",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 39,
-                "athlete": "Laur, Edlin",
-                "team": "UTSA",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Davis, Kylee",
-                "team": "UC Davis",
-                "time": "N/A"
-            },
-            {
-                "rank": 41,
-                "athlete": "Johnson, Kendall",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 42,
-                "athlete": "N'Da, Nebtom",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 43,
-                "athlete": "Watkins, Kassidi",
-                "team": "Oklahoma",
-                "time": "N/A"
-            },
-            {
-                "rank": 44,
-                "athlete": "Linton, Machaeda",
-                "team": "Texas A&M",
-                "time": "N/A"
-            },
-            {
-                "rank": 45,
-                "athlete": "Chongwo, Zeddy",
-                "team": "Oklahoma State",
-                "time": "N/A"
-            },
-            {
-                "rank": 46,
-                "athlete": "Likar, Brina",
-                "team": "UTSA",
-                "time": "N/A"
-            },
-            {
-                "rank": 47,
-                "athlete": "Young, Xiamara",
-                "team": "San Diego St.",
-                "time": "N/A"
-            },
-            {
-                "rank": 48,
-                "athlete": "Ulvenstam, Lovisa",
-                "team": "Iowa",
-                "time": "N/A"
-            },
-            {
-                "rank": 49,
-                "athlete": "McKenzie, Kailah",
-                "team": "UC Irvine",
-                "time": "N/A"
-            },
-            {
-                "rank": 50,
-                "athlete": "Johnson, Caitlyn",
+                "rank": 24,
+                "athlete": "Iwankiw, Nikolas",
                 "team": "California",
                 "time": "N/A"
             },
             {
-                "rank": 51,
-                "athlete": "Szlachta, Olga",
-                "team": "Texas Tech",
+                "rank": 25,
+                "athlete": "Dunn, Shaiquan",
+                "team": "Texas",
                 "time": "N/A"
             },
             {
-                "rank": 52,
-                "athlete": "McPeak, Arieanna",
-                "team": "UT-Arlington",
+                "rank": 26,
+                "athlete": "Bigley, Kyle",
+                "team": "Colorado St.",
                 "time": "N/A"
             },
             {
-                "rank": 53,
-                "athlete": "Stefan, Emily",
+                "rank": 27,
+                "athlete": "Shields, Alex",
+                "team": "Montana",
+                "time": "N/A"
+            },
+            {
+                "rank": 28,
+                "athlete": "Pastorian, Aiden",
+                "team": "Cal Poly",
+                "time": "N/A"
+            },
+            {
+                "rank": 29,
+                "athlete": "Schneeberger, Jaden",
+                "team": "Central Arkansas",
+                "time": "N/A"
+            },
+            {
+                "rank": 30,
+                "athlete": "Beery, Preston",
+                "team": "Arizona State",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Hussein, Omar",
+                "team": "Arkansas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Nett, Tanner",
                 "team": "Boise State",
                 "time": "N/A"
             },
             {
-                "rank": 54,
-                "athlete": "Atkins, Cassandra",
-                "team": "Oregon",
+                "rank": 33,
+                "athlete": "Taylor, Garrett",
+                "team": "Illinois State",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Russell, David",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Bakare, Sultan",
+                "team": "Rice",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Wells, Jaylon",
+                "team": "Long Beach St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Ruland, Bryce",
+                "team": "Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Lewis, Zach",
+                "team": "UC San Diego",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Miedema, Kael",
+                "team": "Nebraska",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Gary, Jaiden",
+                "team": "DePaul",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Nelson, Tony",
+                "team": "Minnesota",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Lunsford, Michael",
+                "team": "Oklahoma State",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Salazar, Cesar",
+                "team": "UC San Diego",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Klink, Jacob",
+                "team": "Illinois State",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Carter, Adam",
+                "team": "Texas State",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Kpomassy, Michael",
+                "team": "UTEP",
+                "time": "N/A"
+            },
+            {
+                "rank": 47,
+                "athlete": "Reed, Kason",
+                "team": "Stephen F. Austin",
+                "time": "N/A"
+            },
+            {
+                "rank": 48,
+                "athlete": "Shue, Benjamin",
+                "team": "Texas",
+                "time": "N/A"
+            },
+            {
+                "rank": 49,
+                "athlete": "Kessel, Spencer",
+                "team": "Northern Iowa",
+                "time": "N/A"
+            },
+            {
+                "rank": 50,
+                "athlete": "Moore, Jared",
+                "team": "Arkansas State",
                 "time": "N/A"
             }
         ]
@@ -2976,307 +2976,313 @@
         "year": "2026 (2026-06-01)",
         "season": "outdoor",
         "region": "National",
-        "gender": "f",
-        "event": "Long Jump",
+        "gender": "m",
+        "event": "Shot Put",
         "rankings": [
             {
                 "rank": 1,
-                "athlete": "Harlan, Amare",
-                "team": "Michigan",
+                "athlete": "Morlock, Dillon",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
                 "rank": 2,
-                "athlete": "Szepieniec, Anna",
-                "team": "Milwaukee",
+                "athlete": "Morlock, Colby",
+                "team": "Michigan State",
                 "time": "N/A"
             },
             {
                 "rank": 3,
-                "athlete": "Bowman, Janiya",
-                "team": "Indiana State",
+                "athlete": "Malaski, Seamus",
+                "team": "Purdue",
                 "time": "N/A"
             },
             {
                 "rank": 4,
-                "athlete": "Ferrari, Sandra",
-                "team": "Western Michigan",
+                "athlete": "Okeke, Obiora",
+                "team": "Notre Dame",
                 "time": "N/A"
             },
             {
                 "rank": 5,
-                "athlete": "Laracuente-Huebner, Juliette",
-                "team": "Cincinnati",
+                "athlete": "Wendl, Owen",
+                "team": "Akron",
                 "time": "N/A"
             },
             {
                 "rank": 6,
-                "athlete": "Gideon, Blessing",
-                "team": "Purdue",
+                "athlete": "Huisman, Joshua",
+                "team": "Michigan",
                 "time": "N/A"
             },
             {
                 "rank": 7,
-                "athlete": "Bonds, Kiera",
-                "team": "Bowling Green",
+                "athlete": "Cox, Sloan",
+                "team": "Indiana State",
                 "time": "N/A"
             },
             {
                 "rank": 8,
-                "athlete": "Rathke, Kourtney",
-                "team": "Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 9,
-                "athlete": "Clemetson, Shamoya",
-                "team": "Eastern Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 10,
-                "athlete": "Levenhagen, Nevia",
-                "team": "Milwaukee",
-                "time": "N/A"
-            },
-            {
-                "rank": 11,
-                "athlete": "Nestor, Alexa",
-                "team": "Kent State",
-                "time": "N/A"
-            },
-            {
-                "rank": 12,
-                "athlete": "Anstad, Lina",
-                "team": "Cincinnati",
-                "time": "N/A"
-            },
-            {
-                "rank": 13,
-                "athlete": "Doxley, Kaydence",
-                "team": "Eastern Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 14,
-                "athlete": "Richards, Linnearia",
-                "team": "Central Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 15,
-                "athlete": "Perkins, Elissa",
-                "team": "Wisconsin",
-                "time": "N/A"
-            },
-            {
-                "rank": 16,
-                "athlete": "Madi-Bouabre, Sarah",
-                "team": "IU Indianapolis",
-                "time": "N/A"
-            },
-            {
-                "rank": 17,
-                "athlete": "Nettles, Kenli",
-                "team": "Ball State",
-                "time": "N/A"
-            },
-            {
-                "rank": 18,
-                "athlete": "Anderson, Maya",
-                "team": "Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 19,
-                "athlete": "Vaden, Jila",
+                "athlete": "Gates, Joel",
                 "team": "Purdue",
                 "time": "N/A"
             },
             {
-                "rank": 20,
-                "athlete": "Justice, Maya",
+                "rank": 9,
+                "athlete": "Petko, Zach",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 10,
+                "athlete": "Brown, Ben",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 11,
+                "athlete": "Clabough, Kyle",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 12,
+                "athlete": "Graham, Lane",
+                "team": "Akron",
+                "time": "N/A"
+            },
+            {
+                "rank": 13,
+                "athlete": "Riegel, Ben",
+                "team": "Miami (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 14,
+                "athlete": "Brosseau, Seth",
+                "team": "Indiana",
+                "time": "N/A"
+            },
+            {
+                "rank": 15,
+                "athlete": "Himes, Luke",
+                "team": "Notre Dame",
+                "time": "N/A"
+            },
+            {
+                "rank": 16,
+                "athlete": "Worthington, Reilly",
+                "team": "Miami (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 17,
+                "athlete": "Presley, Blake",
+                "team": "Miami (Ohio)",
+                "time": "N/A"
+            },
+            {
+                "rank": 18,
+                "athlete": "Lambert, Anthony",
                 "team": "Kent State",
                 "time": "N/A"
             },
             {
+                "rank": 19,
+                "athlete": "Kirkwood, Jaden",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 20,
+                "athlete": "Rusch, Matthew",
+                "team": "Cincinnati",
+                "time": "N/A"
+            },
+            {
                 "rank": 21,
-                "athlete": "Winfrey, Ashtan",
+                "athlete": "Godfrey, Leland",
                 "team": "Eastern Michigan",
                 "time": "N/A"
             },
             {
                 "rank": 22,
-                "athlete": "Barmore, Leila",
-                "team": "Michigan State",
+                "athlete": "Quigley, Braeden",
+                "team": "Akron",
                 "time": "N/A"
             },
             {
                 "rank": 23,
-                "athlete": "Jeffries, Gabrielle",
-                "team": "Michigan State",
+                "athlete": "Pawlosky, Charles",
+                "team": "Kent State",
                 "time": "N/A"
             },
             {
                 "rank": 24,
-                "athlete": "Marimon, Laurine",
-                "team": "Western Michigan",
+                "athlete": "Vance, Chris",
+                "team": "Akron",
                 "time": "N/A"
             },
             {
                 "rank": 25,
-                "athlete": "Bowman, Jahnel",
-                "team": "Indiana State",
+                "athlete": "Lorek, David",
+                "team": "Miami (Ohio)",
                 "time": "N/A"
             },
             {
                 "rank": 26,
-                "athlete": "Schaffer, Haley",
-                "team": "Marquette",
+                "athlete": "Beichler, Talon",
+                "team": "Notre Dame",
                 "time": "N/A"
             },
             {
                 "rank": 27,
-                "athlete": "Marshall, Kylee",
-                "team": "Ball State",
+                "athlete": "Smith, Caleb",
+                "team": "Indiana",
                 "time": "N/A"
             },
             {
                 "rank": 28,
-                "athlete": "Anderson, Kylei",
+                "athlete": "Foster, Blake",
                 "team": "Oakland",
                 "time": "N/A"
             },
             {
                 "rank": 29,
-                "athlete": "Amefia, Angeline",
-                "team": "Purdue",
-                "time": "N/A"
-            },
-            {
-                "rank": 30,
-                "athlete": "Bichara, Zahra",
-                "team": "Notre Dame",
-                "time": "N/A"
-            },
-            {
-                "rank": 31,
-                "athlete": "Ritchie, Kavel",
-                "team": "Akron",
-                "time": "N/A"
-            },
-            {
-                "rank": 32,
-                "athlete": "Patterson, Morgan",
-                "team": "Bowling Green",
-                "time": "N/A"
-            },
-            {
-                "rank": 33,
-                "athlete": "Bendick, Lila",
-                "team": "Ohio",
-                "time": "N/A"
-            },
-            {
-                "rank": 34,
-                "athlete": "Fisher, Ashley",
-                "team": "Notre Dame",
-                "time": "N/A"
-            },
-            {
-                "rank": 35,
-                "athlete": "Malachi, Anichka",
-                "team": "Western Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 36,
-                "athlete": "Moran, Kelly",
-                "team": "Indiana",
-                "time": "N/A"
-            },
-            {
-                "rank": 37,
-                "athlete": "Wordlaw, DaShayla",
-                "team": "Cincinnati",
-                "time": "N/A"
-            },
-            {
-                "rank": 38,
-                "athlete": "Knepp, Elle",
-                "team": "Indiana",
-                "time": "N/A"
-            },
-            {
-                "rank": 39,
-                "athlete": "Ernst, Raegan",
-                "team": "Dayton",
-                "time": "N/A"
-            },
-            {
-                "rank": 40,
-                "athlete": "Schindler, Ally",
-                "team": "Kent State",
-                "time": "N/A"
-            },
-            {
-                "rank": 41,
-                "athlete": "Carboncini, Matilde",
-                "team": "Kent State",
-                "time": "N/A"
-            },
-            {
-                "rank": 42,
-                "athlete": "Wallace, Layla",
-                "team": "Western Michigan",
-                "time": "N/A"
-            },
-            {
-                "rank": 43,
-                "athlete": "Volk, Kallie",
-                "team": "Milwaukee",
-                "time": "N/A"
-            },
-            {
-                "rank": 44,
-                "athlete": "Adams, Kylie",
-                "team": "Miami (Ohio)",
-                "time": "N/A"
-            },
-            {
-                "rank": 45,
-                "athlete": "Decree, Daisha",
-                "team": "Youngstown St.",
-                "time": "N/A"
-            },
-            {
-                "rank": 46,
-                "athlete": "Thurman, Aaliyah",
+                "athlete": "Thurmond, D. Theo",
                 "team": "Indiana State",
                 "time": "N/A"
             },
             {
+                "rank": 30,
+                "athlete": "Brown, Dominic",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 31,
+                "athlete": "Brodie, Mason",
+                "team": "Eastern Michigan",
+                "time": "N/A"
+            },
+            {
+                "rank": 32,
+                "athlete": "Morlock, Brandt",
+                "team": "Ohio State",
+                "time": "N/A"
+            },
+            {
+                "rank": 33,
+                "athlete": "Bird, Josiah",
+                "team": "Purdue Fort Wayne",
+                "time": "N/A"
+            },
+            {
+                "rank": 34,
+                "athlete": "Riddle, Charlie",
+                "team": "Cincinnati",
+                "time": "N/A"
+            },
+            {
+                "rank": 35,
+                "athlete": "Austin, Alan",
+                "team": "Youngstown St.",
+                "time": "N/A"
+            },
+            {
+                "rank": 36,
+                "athlete": "Janke, Aiden",
+                "team": "Milwaukee",
+                "time": "N/A"
+            },
+            {
+                "rank": 37,
+                "athlete": "Pirogovsky, Josh",
+                "team": "Marquette",
+                "time": "N/A"
+            },
+            {
+                "rank": 38,
+                "athlete": "Matzke, Alex",
+                "team": "Marquette",
+                "time": "N/A"
+            },
+            {
+                "rank": 39,
+                "athlete": "Parciak, Max",
+                "team": "Purdue Fort Wayne",
+                "time": "N/A"
+            },
+            {
+                "rank": 40,
+                "athlete": "Cherney, Conner",
+                "team": "Oakland",
+                "time": "N/A"
+            },
+            {
+                "rank": 41,
+                "athlete": "Smith, Charles",
+                "team": "Marquette",
+                "time": "N/A"
+            },
+            {
+                "rank": 42,
+                "athlete": "Terryberry, Dylan",
+                "team": "Michigan State",
+                "time": "N/A"
+            },
+            {
+                "rank": 43,
+                "athlete": "Miller, Brevin",
+                "team": "Purdue Fort Wayne",
+                "time": "N/A"
+            },
+            {
+                "rank": 44,
+                "athlete": "Grays, Austin",
+                "team": "Indiana State",
+                "time": "N/A"
+            },
+            {
+                "rank": 45,
+                "athlete": "Schmeling, Jack",
+                "team": "Wisconsin",
+                "time": "N/A"
+            },
+            {
+                "rank": 46,
+                "athlete": "Wells, Michael",
+                "team": "Butler",
+                "time": "N/A"
+            },
+            {
                 "rank": 47,
-                "athlete": "Morbin, Matilde",
-                "team": "Kent State",
+                "athlete": "Murray, Peyton",
+                "team": "Notre Dame",
                 "time": "N/A"
             },
             {
                 "rank": 48,
-                "athlete": "Dunaway, Keeli",
-                "team": "Kent State",
+                "athlete": "Bowman, Tyler",
+                "team": "Purdue Fort Wayne",
                 "time": "N/A"
             },
             {
                 "rank": 49,
-                "athlete": "Keesling, Kendra",
-                "team": "Ball State",
+                "athlete": "Ott, Robin",
+                "team": "Wisconsin",
                 "time": "N/A"
             },
             {
                 "rank": 50,
-                "athlete": "Alowonle, Alimot",
-                "team": "Eastern Michigan",
+                "athlete": "Tyrrell, Linkon",
+                "team": "Kent State",
+                "time": "N/A"
+            },
+            {
+                "rank": 51,
+                "athlete": "Agbo Anih, Emmanuel",
+                "team": "Cincinnati",
                 "time": "N/A"
             }
         ]

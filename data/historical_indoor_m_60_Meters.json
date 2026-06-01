@@ -6213,369 +6213,6 @@
         ]
     },
     {
-        "year": "2025-2026",
-        "season": "indoor",
-        "region": "National",
-        "gender": "m",
-        "event": "60 Meters",
-        "rankings": [
-            {
-                "rank": 1,
-                "athlete": "Ajayi, Kanyinsola",
-                "team": "Auburn",
-                "time": "6.45"
-            },
-            {
-                "rank": 2,
-                "athlete": "Snow, Malachi",
-                "team": "Texas Tech",
-                "time": "6.48@"
-            },
-            {
-                "rank": 3,
-                "athlete": "Folson, Traunard",
-                "team": "Tennessee",
-                "time": "6.49"
-            },
-            {
-                "rank": 4,
-                "athlete": "Howell, Davonte",
-                "team": "Tennessee",
-                "time": "6.49"
-            },
-            {
-                "rank": 5,
-                "athlete": "Lawyer, Mason",
-                "team": "Arizona",
-                "time": "6.51@"
-            },
-            {
-                "rank": 6,
-                "athlete": "Watkins, Jelani",
-                "team": "Arkansas",
-                "time": "6.52"
-            },
-            {
-                "rank": 7,
-                "athlete": "Dwyer, Ajani",
-                "team": "Penn State",
-                "time": "6.52"
-            },
-            {
-                "rank": 8,
-                "athlete": "Okon, Israel",
-                "team": "Auburn",
-                "time": "6.53"
-            },
-            {
-                "rank": 9,
-                "athlete": "Letebele, Karabo",
-                "team": "Arkansas",
-                "time": "6.53"
-            },
-            {
-                "rank": 10,
-                "athlete": "Jimenez, Darwin",
-                "team": "Iowa",
-                "time": "6.54@"
-            },
-            {
-                "rank": 11,
-                "athlete": "Cross, Chance",
-                "team": "Kennesaw State",
-                "time": "6.54"
-            },
-            {
-                "rank": 12,
-                "athlete": "Walker, Kalen",
-                "team": "Iowa",
-                "time": "6.54"
-            },
-            {
-                "rank": 13,
-                "athlete": "Jones, JayBrion",
-                "team": "Tarleton State",
-                "time": "6.54"
-            },
-            {
-                "rank": 14,
-                "athlete": "Nketia, Eddie",
-                "team": "USC",
-                "time": "6.55"
-            },
-            {
-                "rank": 15,
-                "athlete": "Ojo, Ayodele",
-                "team": "Utah State",
-                "time": "6.57@"
-            },
-            {
-                "rank": 16,
-                "athlete": "Gleaton Jr, Maurice",
-                "team": "Georgia",
-                "time": "6.57@"
-            },
-            {
-                "rank": 17,
-                "athlete": "Lewis, Omari",
-                "team": "Auburn",
-                "time": "6.58"
-            },
-            {
-                "rank": 18,
-                "athlete": "Reid, Jaiden",
-                "team": "LSU",
-                "time": "6.58@"
-            },
-            {
-                "rank": 19,
-                "athlete": "Fakorede, Adekalu",
-                "team": "Miss State",
-                "time": "6.58"
-            },
-            {
-                "rank": 20,
-                "athlete": "Brown, Shawn",
-                "team": "Texas Tech",
-                "time": "6.58"
-            },
-            {
-                "rank": 21,
-                "athlete": "Stubbs, Jamarion",
-                "team": "Arkansas",
-                "time": "6.58"
-            },
-            {
-                "rank": 22,
-                "athlete": "Moss, Durian",
-                "team": "Florida State",
-                "time": "6.59"
-            },
-            {
-                "rank": 23,
-                "athlete": "Mosebi, Neo",
-                "team": "Florida State",
-                "time": "6.59"
-            },
-            {
-                "rank": 24,
-                "athlete": "Bokpin, Mustapha",
-                "team": "Mid. Tenn. State",
-                "time": "6.59"
-            },
-            {
-                "rank": 25,
-                "athlete": "Hood Jr, Casey",
-                "team": "Indiana State",
-                "time": "6.59"
-            },
-            {
-                "rank": 26,
-                "athlete": "Lawerence, Darien",
-                "team": "Florida A&M",
-                "time": "6.59"
-            },
-            {
-                "rank": 27,
-                "athlete": "McCallum, T'Mars",
-                "team": "Tennessee",
-                "time": "6.59"
-            },
-            {
-                "rank": 28,
-                "athlete": "Jordan, Abel",
-                "team": "Cal St. Fullerton",
-                "time": "6.59@"
-            },
-            {
-                "rank": 29,
-                "athlete": "Fahmi, Azeem",
-                "team": "Auburn",
-                "time": "6.60"
-            },
-            {
-                "rank": 30,
-                "athlete": "Caleb, Joshua",
-                "team": "LSU",
-                "time": "6.60"
-            },
-            {
-                "rank": 31,
-                "athlete": "Brown, Kyler",
-                "team": "Ohio State",
-                "time": "6.60"
-            },
-            {
-                "rank": 32,
-                "athlete": "Hamer, Trevon",
-                "team": "Kansas State",
-                "time": "6.60@"
-            },
-            {
-                "rank": 33,
-                "athlete": "Kuntz, Keenan",
-                "team": "Idaho",
-                "time": "6.61"
-            },
-            {
-                "rank": 34,
-                "athlete": "Ize-Iyamu, PJ",
-                "team": "Oregon",
-                "time": "6.61"
-            },
-            {
-                "rank": 35,
-                "athlete": "Odamtten, Medwin",
-                "team": "Connecticut",
-                "time": "6.61"
-            },
-            {
-                "rank": 36,
-                "athlete": "Sherman, John",
-                "team": "Texas Tech",
-                "time": "6.61"
-            },
-            {
-                "rank": 37,
-                "athlete": "Chikomba, Tafadzwa",
-                "team": "Kansas State",
-                "time": "6.61@"
-            },
-            {
-                "rank": 38,
-                "athlete": "Clunis, Stephen",
-                "team": "Kansas City",
-                "time": "6.61"
-            },
-            {
-                "rank": 39,
-                "athlete": "Hogans, Dapriest",
-                "team": "Arkansas",
-                "time": "6.61"
-            },
-            {
-                "rank": 40,
-                "athlete": "Vann, Cordial",
-                "team": "USC",
-                "time": "6.62@"
-            },
-            {
-                "rank": 41,
-                "athlete": "John, Nazzio",
-                "team": "Ohio State",
-                "time": "6.62"
-            },
-            {
-                "rank": 42,
-                "athlete": "Lloyd, Ja'Shaun",
-                "team": "Texas State",
-                "time": "6.62@"
-            },
-            {
-                "rank": 43,
-                "athlete": "Croal, Jaleel",
-                "team": "South Florida",
-                "time": "6.63@"
-            },
-            {
-                "rank": 44,
-                "athlete": "Raines, Justin",
-                "team": "Grand Canyon",
-                "time": "6.63@"
-            },
-            {
-                "rank": 45,
-                "athlete": "Franklin, Bradley",
-                "team": "Samford",
-                "time": "6.63"
-            },
-            {
-                "rank": 46,
-                "athlete": "Kaalund, Garrett",
-                "team": "USC",
-                "time": "6.63@"
-            },
-            {
-                "rank": 47,
-                "athlete": "Bair, Peyton",
-                "team": "Oregon",
-                "time": "6.63@"
-            },
-            {
-                "rank": 48,
-                "athlete": "Andrews, Antoine",
-                "team": "Texas Tech",
-                "time": "6.63@"
-            },
-            {
-                "rank": 49,
-                "athlete": "Parker, Xzamion",
-                "team": "Sam Houston",
-                "time": "6.63@"
-            },
-            {
-                "rank": 50,
-                "athlete": "Simusialela, Denzel",
-                "team": "Kentucky",
-                "time": "6.64"
-            },
-            {
-                "rank": 51,
-                "athlete": "McCoy, Wanya",
-                "team": "Florida",
-                "time": "6.64"
-            },
-            {
-                "rank": 52,
-                "athlete": "Finley, Jayden",
-                "team": "Georgia",
-                "time": "6.64"
-            },
-            {
-                "rank": 53,
-                "athlete": "Callahan Jr, Sean",
-                "team": "Kent State",
-                "time": "6.64"
-            },
-            {
-                "rank": 54,
-                "athlete": "Banks, Trelee",
-                "team": "Indiana",
-                "time": "6.64"
-            },
-            {
-                "rank": 55,
-                "athlete": "Rosario, Miguel",
-                "team": "Grand Canyon",
-                "time": "6.64@"
-            },
-            {
-                "rank": 56,
-                "athlete": "Hinchliffe, Louie",
-                "team": "Houston",
-                "time": "6.64@"
-            },
-            {
-                "rank": 57,
-                "athlete": "Tablit, Brycen",
-                "team": "UC San Diego",
-                "time": "6.64@"
-            },
-            {
-                "rank": 58,
-                "athlete": "Ancrum, Nigel",
-                "team": "Tennessee",
-                "time": "6.64"
-            },
-            {
-                "rank": 59,
-                "athlete": "Campbell, Jerome",
-                "team": "Arkansas",
-                "time": "6.64"
-            }
-        ]
-    },
-    {
         "year": "2024_2025",
         "season": "indoor",
         "region": "National",
@@ -7256,6 +6893,732 @@
                 "athlete": "Colwell, Tyler",
                 "team": "Colorado St.",
                 "time": "6.65@"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "60 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Ajayi, Kanyinsola",
+                "team": "Auburn",
+                "time": "6.45"
+            },
+            {
+                "rank": 2,
+                "athlete": "Snow, Malachi",
+                "team": "Texas Tech",
+                "time": "6.48@"
+            },
+            {
+                "rank": 3,
+                "athlete": "Folson, Traunard",
+                "team": "Tennessee",
+                "time": "6.49"
+            },
+            {
+                "rank": 4,
+                "athlete": "Howell, Davonte",
+                "team": "Tennessee",
+                "time": "6.49"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawyer, Mason",
+                "team": "Arizona",
+                "time": "6.51@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Watkins, Jelani",
+                "team": "Arkansas",
+                "time": "6.52"
+            },
+            {
+                "rank": 7,
+                "athlete": "Dwyer, Ajani",
+                "team": "Penn State",
+                "time": "6.52"
+            },
+            {
+                "rank": 8,
+                "athlete": "Okon, Israel",
+                "team": "Auburn",
+                "time": "6.53"
+            },
+            {
+                "rank": 9,
+                "athlete": "Letebele, Karabo",
+                "team": "Arkansas",
+                "time": "6.53"
+            },
+            {
+                "rank": 10,
+                "athlete": "Jimenez, Darwin",
+                "team": "Iowa",
+                "time": "6.54@"
+            },
+            {
+                "rank": 11,
+                "athlete": "Cross, Chance",
+                "team": "Kennesaw State",
+                "time": "6.54"
+            },
+            {
+                "rank": 12,
+                "athlete": "Walker, Kalen",
+                "team": "Iowa",
+                "time": "6.54"
+            },
+            {
+                "rank": 13,
+                "athlete": "Jones, JayBrion",
+                "team": "Tarleton State",
+                "time": "6.54"
+            },
+            {
+                "rank": 14,
+                "athlete": "Nketia, Eddie",
+                "team": "USC",
+                "time": "6.55"
+            },
+            {
+                "rank": 15,
+                "athlete": "Ojo, Ayodele",
+                "team": "Utah State",
+                "time": "6.57@"
+            },
+            {
+                "rank": 16,
+                "athlete": "Gleaton Jr, Maurice",
+                "team": "Georgia",
+                "time": "6.57@"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lewis, Omari",
+                "team": "Auburn",
+                "time": "6.58"
+            },
+            {
+                "rank": 18,
+                "athlete": "Reid, Jaiden",
+                "team": "LSU",
+                "time": "6.58@"
+            },
+            {
+                "rank": 19,
+                "athlete": "Fakorede, Adekalu",
+                "team": "Miss State",
+                "time": "6.58"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brown, Shawn",
+                "team": "Texas Tech",
+                "time": "6.58"
+            },
+            {
+                "rank": 21,
+                "athlete": "Stubbs, Jamarion",
+                "team": "Arkansas",
+                "time": "6.58"
+            },
+            {
+                "rank": 22,
+                "athlete": "Moss, Durian",
+                "team": "Florida State",
+                "time": "6.59"
+            },
+            {
+                "rank": 23,
+                "athlete": "Mosebi, Neo",
+                "team": "Florida State",
+                "time": "6.59"
+            },
+            {
+                "rank": 24,
+                "athlete": "Bokpin, Mustapha",
+                "team": "Mid. Tenn. State",
+                "time": "6.59"
+            },
+            {
+                "rank": 25,
+                "athlete": "Hood Jr, Casey",
+                "team": "Indiana State",
+                "time": "6.59"
+            },
+            {
+                "rank": 26,
+                "athlete": "Lawerence, Darien",
+                "team": "Florida A&M",
+                "time": "6.59"
+            },
+            {
+                "rank": 27,
+                "athlete": "McCallum, T'Mars",
+                "team": "Tennessee",
+                "time": "6.59"
+            },
+            {
+                "rank": 28,
+                "athlete": "Jordan, Abel",
+                "team": "Cal St. Fullerton",
+                "time": "6.59@"
+            },
+            {
+                "rank": 29,
+                "athlete": "Fahmi, Azeem",
+                "team": "Auburn",
+                "time": "6.60"
+            },
+            {
+                "rank": 30,
+                "athlete": "Caleb, Joshua",
+                "team": "LSU",
+                "time": "6.60"
+            },
+            {
+                "rank": 31,
+                "athlete": "Brown, Kyler",
+                "team": "Ohio State",
+                "time": "6.60"
+            },
+            {
+                "rank": 32,
+                "athlete": "Hamer, Trevon",
+                "team": "Kansas State",
+                "time": "6.60@"
+            },
+            {
+                "rank": 33,
+                "athlete": "Kuntz, Keenan",
+                "team": "Idaho",
+                "time": "6.61"
+            },
+            {
+                "rank": 34,
+                "athlete": "Ize-Iyamu, PJ",
+                "team": "Oregon",
+                "time": "6.61"
+            },
+            {
+                "rank": 35,
+                "athlete": "Odamtten, Medwin",
+                "team": "Connecticut",
+                "time": "6.61"
+            },
+            {
+                "rank": 36,
+                "athlete": "Sherman, John",
+                "team": "Texas Tech",
+                "time": "6.61"
+            },
+            {
+                "rank": 37,
+                "athlete": "Chikomba, Tafadzwa",
+                "team": "Kansas State",
+                "time": "6.61@"
+            },
+            {
+                "rank": 38,
+                "athlete": "Clunis, Stephen",
+                "team": "Kansas City",
+                "time": "6.61"
+            },
+            {
+                "rank": 39,
+                "athlete": "Hogans, Dapriest",
+                "team": "Arkansas",
+                "time": "6.61"
+            },
+            {
+                "rank": 40,
+                "athlete": "Vann, Cordial",
+                "team": "USC",
+                "time": "6.62@"
+            },
+            {
+                "rank": 41,
+                "athlete": "John, Nazzio",
+                "team": "Ohio State",
+                "time": "6.62"
+            },
+            {
+                "rank": 42,
+                "athlete": "Lloyd, Ja'Shaun",
+                "team": "Texas State",
+                "time": "6.62@"
+            },
+            {
+                "rank": 43,
+                "athlete": "Croal, Jaleel",
+                "team": "South Florida",
+                "time": "6.63@"
+            },
+            {
+                "rank": 44,
+                "athlete": "Raines, Justin",
+                "team": "Grand Canyon",
+                "time": "6.63@"
+            },
+            {
+                "rank": 45,
+                "athlete": "Franklin, Bradley",
+                "team": "Samford",
+                "time": "6.63"
+            },
+            {
+                "rank": 46,
+                "athlete": "Kaalund, Garrett",
+                "team": "USC",
+                "time": "6.63@"
+            },
+            {
+                "rank": 47,
+                "athlete": "Bair, Peyton",
+                "team": "Oregon",
+                "time": "6.63@"
+            },
+            {
+                "rank": 48,
+                "athlete": "Andrews, Antoine",
+                "team": "Texas Tech",
+                "time": "6.63@"
+            },
+            {
+                "rank": 49,
+                "athlete": "Parker, Xzamion",
+                "team": "Sam Houston",
+                "time": "6.63@"
+            },
+            {
+                "rank": 50,
+                "athlete": "Simusialela, Denzel",
+                "team": "Kentucky",
+                "time": "6.64"
+            },
+            {
+                "rank": 51,
+                "athlete": "McCoy, Wanya",
+                "team": "Florida",
+                "time": "6.64"
+            },
+            {
+                "rank": 52,
+                "athlete": "Finley, Jayden",
+                "team": "Georgia",
+                "time": "6.64"
+            },
+            {
+                "rank": 53,
+                "athlete": "Callahan Jr, Sean",
+                "team": "Kent State",
+                "time": "6.64"
+            },
+            {
+                "rank": 54,
+                "athlete": "Banks, Trelee",
+                "team": "Indiana",
+                "time": "6.64"
+            },
+            {
+                "rank": 55,
+                "athlete": "Rosario, Miguel",
+                "team": "Grand Canyon",
+                "time": "6.64@"
+            },
+            {
+                "rank": 56,
+                "athlete": "Hinchliffe, Louie",
+                "team": "Houston",
+                "time": "6.64@"
+            },
+            {
+                "rank": 57,
+                "athlete": "Tablit, Brycen",
+                "team": "UC San Diego",
+                "time": "6.64@"
+            },
+            {
+                "rank": 58,
+                "athlete": "Ancrum, Nigel",
+                "team": "Tennessee",
+                "time": "6.64"
+            },
+            {
+                "rank": 59,
+                "athlete": "Campbell, Jerome",
+                "team": "Arkansas",
+                "time": "6.64"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-06-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "m",
+        "event": "60 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Ajayi, Kanyinsola",
+                "team": "Auburn",
+                "time": "6.45"
+            },
+            {
+                "rank": 2,
+                "athlete": "Snow, Malachi",
+                "team": "Texas Tech",
+                "time": "6.48@"
+            },
+            {
+                "rank": 3,
+                "athlete": "Folson, Traunard",
+                "team": "Tennessee",
+                "time": "6.49"
+            },
+            {
+                "rank": 4,
+                "athlete": "Howell, Davonte",
+                "team": "Tennessee",
+                "time": "6.49"
+            },
+            {
+                "rank": 5,
+                "athlete": "Lawyer, Mason",
+                "team": "Arizona",
+                "time": "6.51@"
+            },
+            {
+                "rank": 6,
+                "athlete": "Watkins, Jelani",
+                "team": "Arkansas",
+                "time": "6.52"
+            },
+            {
+                "rank": 7,
+                "athlete": "Dwyer, Ajani",
+                "team": "Penn State",
+                "time": "6.52"
+            },
+            {
+                "rank": 8,
+                "athlete": "Okon, Israel",
+                "team": "Auburn",
+                "time": "6.53"
+            },
+            {
+                "rank": 9,
+                "athlete": "Letebele, Karabo",
+                "team": "Arkansas",
+                "time": "6.53"
+            },
+            {
+                "rank": 10,
+                "athlete": "Jimenez, Darwin",
+                "team": "Iowa",
+                "time": "6.54@"
+            },
+            {
+                "rank": 11,
+                "athlete": "Cross, Chance",
+                "team": "Kennesaw State",
+                "time": "6.54"
+            },
+            {
+                "rank": 12,
+                "athlete": "Walker, Kalen",
+                "team": "Iowa",
+                "time": "6.54"
+            },
+            {
+                "rank": 13,
+                "athlete": "Jones, JayBrion",
+                "team": "Tarleton State",
+                "time": "6.54"
+            },
+            {
+                "rank": 14,
+                "athlete": "Nketia, Eddie",
+                "team": "USC",
+                "time": "6.55"
+            },
+            {
+                "rank": 15,
+                "athlete": "Ojo, Ayodele",
+                "team": "Utah State",
+                "time": "6.57@"
+            },
+            {
+                "rank": 16,
+                "athlete": "Gleaton Jr, Maurice",
+                "team": "Georgia",
+                "time": "6.57@"
+            },
+            {
+                "rank": 17,
+                "athlete": "Lewis, Omari",
+                "team": "Auburn",
+                "time": "6.58"
+            },
+            {
+                "rank": 18,
+                "athlete": "Reid, Jaiden",
+                "team": "LSU",
+                "time": "6.58@"
+            },
+            {
+                "rank": 19,
+                "athlete": "Fakorede, Adekalu",
+                "team": "Miss State",
+                "time": "6.58"
+            },
+            {
+                "rank": 20,
+                "athlete": "Brown, Shawn",
+                "team": "Texas Tech",
+                "time": "6.58"
+            },
+            {
+                "rank": 21,
+                "athlete": "Stubbs, Jamarion",
+                "team": "Arkansas",
+                "time": "6.58"
+            },
+            {
+                "rank": 22,
+                "athlete": "Moss, Durian",
+                "team": "Florida State",
+                "time": "6.59"
+            },
+            {
+                "rank": 23,
+                "athlete": "Mosebi, Neo",
+                "team": "Florida State",
+                "time": "6.59"
+            },
+            {
+                "rank": 24,
+                "athlete": "Bokpin, Mustapha",
+                "team": "Mid. Tenn. State",
+                "time": "6.59"
+            },
+            {
+                "rank": 25,
+                "athlete": "Hood Jr, Casey",
+                "team": "Indiana State",
+                "time": "6.59"
+            },
+            {
+                "rank": 26,
+                "athlete": "Lawerence, Darien",
+                "team": "Florida A&M",
+                "time": "6.59"
+            },
+            {
+                "rank": 27,
+                "athlete": "McCallum, T'Mars",
+                "team": "Tennessee",
+                "time": "6.59"
+            },
+            {
+                "rank": 28,
+                "athlete": "Jordan, Abel",
+                "team": "Cal St. Fullerton",
+                "time": "6.59@"
+            },
+            {
+                "rank": 29,
+                "athlete": "Fahmi, Azeem",
+                "team": "Auburn",
+                "time": "6.60"
+            },
+            {
+                "rank": 30,
+                "athlete": "Caleb, Joshua",
+                "team": "LSU",
+                "time": "6.60"
+            },
+            {
+                "rank": 31,
+                "athlete": "Brown, Kyler",
+                "team": "Ohio State",
+                "time": "6.60"
+            },
+            {
+                "rank": 32,
+                "athlete": "Hamer, Trevon",
+                "team": "Kansas State",
+                "time": "6.60@"
+            },
+            {
+                "rank": 33,
+                "athlete": "Kuntz, Keenan",
+                "team": "Idaho",
+                "time": "6.61"
+            },
+            {
+                "rank": 34,
+                "athlete": "Ize-Iyamu, PJ",
+                "team": "Oregon",
+                "time": "6.61"
+            },
+            {
+                "rank": 35,
+                "athlete": "Odamtten, Medwin",
+                "team": "Connecticut",
+                "time": "6.61"
+            },
+            {
+                "rank": 36,
+                "athlete": "Sherman, John",
+                "team": "Texas Tech",
+                "time": "6.61"
+            },
+            {
+                "rank": 37,
+                "athlete": "Chikomba, Tafadzwa",
+                "team": "Kansas State",
+                "time": "6.61@"
+            },
+            {
+                "rank": 38,
+                "athlete": "Clunis, Stephen",
+                "team": "Kansas City",
+                "time": "6.61"
+            },
+            {
+                "rank": 39,
+                "athlete": "Hogans, Dapriest",
+                "team": "Arkansas",
+                "time": "6.61"
+            },
+            {
+                "rank": 40,
+                "athlete": "Vann, Cordial",
+                "team": "USC",
+                "time": "6.62@"
+            },
+            {
+                "rank": 41,
+                "athlete": "John, Nazzio",
+                "team": "Ohio State",
+                "time": "6.62"
+            },
+            {
+                "rank": 42,
+                "athlete": "Lloyd, Ja'Shaun",
+                "team": "Texas State",
+                "time": "6.62@"
+            },
+            {
+                "rank": 43,
+                "athlete": "Croal, Jaleel",
+                "team": "South Florida",
+                "time": "6.63@"
+            },
+            {
+                "rank": 44,
+                "athlete": "Raines, Justin",
+                "team": "Grand Canyon",
+                "time": "6.63@"
+            },
+            {
+                "rank": 45,
+                "athlete": "Franklin, Bradley",
+                "team": "Samford",
+                "time": "6.63"
+            },
+            {
+                "rank": 46,
+                "athlete": "Kaalund, Garrett",
+                "team": "USC",
+                "time": "6.63@"
+            },
+            {
+                "rank": 47,
+                "athlete": "Bair, Peyton",
+                "team": "Oregon",
+                "time": "6.63@"
+            },
+            {
+                "rank": 48,
+                "athlete": "Andrews, Antoine",
+                "team": "Texas Tech",
+                "time": "6.63@"
+            },
+            {
+                "rank": 49,
+                "athlete": "Parker, Xzamion",
+                "team": "Sam Houston",
+                "time": "6.63@"
+            },
+            {
+                "rank": 50,
+                "athlete": "Simusialela, Denzel",
+                "team": "Kentucky",
+                "time": "6.64"
+            },
+            {
+                "rank": 51,
+                "athlete": "McCoy, Wanya",
+                "team": "Florida",
+                "time": "6.64"
+            },
+            {
+                "rank": 52,
+                "athlete": "Finley, Jayden",
+                "team": "Georgia",
+                "time": "6.64"
+            },
+            {
+                "rank": 53,
+                "athlete": "Callahan Jr, Sean",
+                "team": "Kent State",
+                "time": "6.64"
+            },
+            {
+                "rank": 54,
+                "athlete": "Banks, Trelee",
+                "team": "Indiana",
+                "time": "6.64"
+            },
+            {
+                "rank": 55,
+                "athlete": "Rosario, Miguel",
+                "team": "Grand Canyon",
+                "time": "6.64@"
+            },
+            {
+                "rank": 56,
+                "athlete": "Hinchliffe, Louie",
+                "team": "Houston",
+                "time": "6.64@"
+            },
+            {
+                "rank": 57,
+                "athlete": "Tablit, Brycen",
+                "team": "UC San Diego",
+                "time": "6.64@"
+            },
+            {
+                "rank": 58,
+                "athlete": "Ancrum, Nigel",
+                "team": "Tennessee",
+                "time": "6.64"
+            },
+            {
+                "rank": 59,
+                "athlete": "Campbell, Jerome",
+                "team": "Arkansas",
+                "time": "6.64"
             }
         ]
     }

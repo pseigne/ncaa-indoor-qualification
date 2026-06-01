@@ -6213,315 +6213,6 @@
         ]
     },
     {
-        "year": "2025-2026",
-        "season": "indoor",
-        "region": "National",
-        "gender": "f",
-        "event": "3000 Meters",
-        "rankings": [
-            {
-                "rank": 1,
-                "athlete": "Lemngole, Doris",
-                "team": "Alabama",
-                "time": "8:31.39"
-            },
-            {
-                "rank": 2,
-                "athlete": "Hedengren, Jane",
-                "team": "BYU",
-                "time": "8:34.98"
-            },
-            {
-                "rank": 3,
-                "athlete": "Elbadra, Salma",
-                "team": "South Carolina",
-                "time": "8:41.76"
-            },
-            {
-                "rank": 4,
-                "athlete": "Ayyildiz, Silan",
-                "team": "Oregon",
-                "time": "8:42.66"
-            },
-            {
-                "rank": 5,
-                "athlete": "Sjoberg, Vera",
-                "team": "North Carolina",
-                "time": "8:43.06"
-            },
-            {
-                "rank": 6,
-                "athlete": "Chamberlain, Riley",
-                "team": "BYU",
-                "time": "8:43.16"
-            },
-            {
-                "rank": 7,
-                "athlete": "Hutchins, Jenna",
-                "team": "BYU",
-                "time": "8:44.04"
-            },
-            {
-                "rank": 8,
-                "athlete": "Kipkore, Betty",
-                "team": "Iowa State",
-                "time": "8:44.09"
-            },
-            {
-                "rank": 9,
-                "athlete": "Zealand, Allie",
-                "team": "Liberty",
-                "time": "8:44.71"
-            },
-            {
-                "rank": 10,
-                "athlete": "Kosgei, Pamela",
-                "team": "New Mexico",
-                "time": "8:44.91"
-            },
-            {
-                "rank": 11,
-                "athlete": "Jepngetich, Marion",
-                "team": "New Mexico",
-                "time": "8:45.20"
-            },
-            {
-                "rank": 12,
-                "athlete": "Jepkirui, Billah",
-                "team": "Oklahoma State",
-                "time": "8:45.22"
-            },
-            {
-                "rank": 13,
-                "athlete": "Napoleon, Angelina",
-                "team": "NC State",
-                "time": "8:46.15"
-            },
-            {
-                "rank": 14,
-                "athlete": "Olemomoi, Hilda",
-                "team": "Florida",
-                "time": "8:46.33"
-            },
-            {
-                "rank": 15,
-                "athlete": "Burns, Hayley",
-                "team": "Northern Arizona",
-                "time": "8:48.10"
-            },
-            {
-                "rank": 16,
-                "athlete": "Vringer, Erin",
-                "team": "Utah",
-                "time": "8:48.26"
-            },
-            {
-                "rank": 17,
-                "athlete": "Chelangat, Isca",
-                "team": "Oklahoma State",
-                "time": "8:48.74"
-            },
-            {
-                "rank": 18,
-                "athlete": "Vaught, Sydney",
-                "team": "Arkansas",
-                "time": "8:49.02"
-            },
-            {
-                "rank": 19,
-                "athlete": "Kennedy, Sophia",
-                "team": "Stanford",
-                "time": "8:49.23"
-            },
-            {
-                "rank": 20,
-                "athlete": "Keeler, Jadyn",
-                "team": "North Dakota",
-                "time": "8:50.45"
-            },
-            {
-                "rank": 21,
-                "athlete": "Cherop, Nancy",
-                "team": "Clemson",
-                "time": "8:51.10"
-            },
-            {
-                "rank": 22,
-                "athlete": "Thomas, Chloe",
-                "team": "Washington",
-                "time": "8:51.27"
-            },
-            {
-                "rank": 23,
-                "athlete": "Cherubet, Juliet",
-                "team": "Oregon",
-                "time": "8:52.30"
-            },
-            {
-                "rank": 24,
-                "athlete": "Naukot, Joy",
-                "team": "West Virginia",
-                "time": "8:52.65"
-            },
-            {
-                "rank": 25,
-                "athlete": "Chelulei, Edna",
-                "team": "Eastern Kentucky",
-                "time": "8:52.79"
-            },
-            {
-                "rank": 26,
-                "athlete": "Farmer, Jacey",
-                "team": "BYU",
-                "time": "8:52.92"
-            },
-            {
-                "rank": 27,
-                "athlete": "Cheptoo, Zenah",
-                "team": "Washington St.",
-                "time": "8:53.90"
-            },
-            {
-                "rank": 28,
-                "athlete": "David-Smith, Julia",
-                "team": "Washington",
-                "time": "8:54.66"
-            },
-            {
-                "rank": 29,
-                "athlete": "Kiplagat, Caren",
-                "team": "Alabama",
-                "time": "8:54.82"
-            },
-            {
-                "rank": 30,
-                "athlete": "Gardiner, Imogen",
-                "team": "Boston College",
-                "time": "8:54.99"
-            },
-            {
-                "rank": 31,
-                "athlete": "Bohlke, Katie",
-                "team": "Virginia Tech",
-                "time": "8:55.32"
-            },
-            {
-                "rank": 32,
-                "athlete": "Machu-Shuri, Rosina",
-                "team": "Gonzaga",
-                "time": "8:55.35"
-            },
-            {
-                "rank": 33,
-                "athlete": "Cherotich, Diana",
-                "team": "Oregon",
-                "time": "8:55.42"
-            },
-            {
-                "rank": 34,
-                "athlete": "Schipperen, Bieke",
-                "team": "Florida State",
-                "time": "8:55.54"
-            },
-            {
-                "rank": 35,
-                "athlete": "Frias, Dalia",
-                "team": "Oregon",
-                "time": "8:55.78"
-            },
-            {
-                "rank": 36,
-                "athlete": "Longisa, Rosemary",
-                "team": "Washington St.",
-                "time": "8:55.81"
-            },
-            {
-                "rank": 37,
-                "athlete": "Foerster, Chloe",
-                "team": "Washington",
-                "time": "8:56.22"
-            },
-            {
-                "rank": 38,
-                "athlete": "Cochran, Mia",
-                "team": "Washington",
-                "time": "8:57.00"
-            },
-            {
-                "rank": 39,
-                "athlete": "Gapes, Hannah",
-                "team": "NC State",
-                "time": "8:57.95"
-            },
-            {
-                "rank": 40,
-                "athlete": "Altorf, Suus",
-                "team": "Florida State",
-                "time": "8:58.36"
-            },
-            {
-                "rank": 41,
-                "athlete": "Wanjiku, Monica",
-                "team": "Missouri",
-                "time": "8:59.03"
-            },
-            {
-                "rank": 42,
-                "athlete": "Chepkoech, Judy",
-                "team": "Florida",
-                "time": "8:59.30"
-            },
-            {
-                "rank": 43,
-                "athlete": "Khatevi, Elizabeth",
-                "team": "Texas A&M-CC",
-                "time": "8:59.74"
-            },
-            {
-                "rank": 44,
-                "athlete": "Wood, Jasmine",
-                "team": "New Mexico",
-                "time": "8:59.77"
-            },
-            {
-                "rank": 45,
-                "athlete": "Kirarei, Mercy",
-                "team": "New Mexico",
-                "time": "8:59.89"
-            },
-            {
-                "rank": 46,
-                "athlete": "Holland, Kyra",
-                "team": "Boston College",
-                "time": "9:00.25"
-            },
-            {
-                "rank": 47,
-                "athlete": "Nielsen, Wilma",
-                "team": "Oregon",
-                "time": "9:00.50"
-            },
-            {
-                "rank": 48,
-                "athlete": "Finger, Kylie",
-                "team": "Wisconsin",
-                "time": "9:00.60"
-            },
-            {
-                "rank": 49,
-                "athlete": "Kirwa, Mercyline",
-                "team": "Iowa State",
-                "time": "9:00.99@"
-            },
-            {
-                "rank": 50,
-                "athlete": "O'Connor, Tilly",
-                "team": "Villanova",
-                "time": "9:01.27"
-            }
-        ]
-    },
-    {
         "year": "2024_2025",
         "season": "indoor",
         "region": "National",
@@ -7136,6 +6827,624 @@
                 "athlete": "Kiptanui, Dorcas",
                 "team": "Kansas",
                 "time": "9:10.90"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026",
+        "season": "indoor",
+        "region": "National",
+        "gender": "f",
+        "event": "3000 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Lemngole, Doris",
+                "team": "Alabama",
+                "time": "8:31.39"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hedengren, Jane",
+                "team": "BYU",
+                "time": "8:34.98"
+            },
+            {
+                "rank": 3,
+                "athlete": "Elbadra, Salma",
+                "team": "South Carolina",
+                "time": "8:41.76"
+            },
+            {
+                "rank": 4,
+                "athlete": "Ayyildiz, Silan",
+                "team": "Oregon",
+                "time": "8:42.66"
+            },
+            {
+                "rank": 5,
+                "athlete": "Sjoberg, Vera",
+                "team": "North Carolina",
+                "time": "8:43.06"
+            },
+            {
+                "rank": 6,
+                "athlete": "Chamberlain, Riley",
+                "team": "BYU",
+                "time": "8:43.16"
+            },
+            {
+                "rank": 7,
+                "athlete": "Hutchins, Jenna",
+                "team": "BYU",
+                "time": "8:44.04"
+            },
+            {
+                "rank": 8,
+                "athlete": "Kipkore, Betty",
+                "team": "Iowa State",
+                "time": "8:44.09"
+            },
+            {
+                "rank": 9,
+                "athlete": "Zealand, Allie",
+                "team": "Liberty",
+                "time": "8:44.71"
+            },
+            {
+                "rank": 10,
+                "athlete": "Kosgei, Pamela",
+                "team": "New Mexico",
+                "time": "8:44.91"
+            },
+            {
+                "rank": 11,
+                "athlete": "Jepngetich, Marion",
+                "team": "New Mexico",
+                "time": "8:45.20"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jepkirui, Billah",
+                "team": "Oklahoma State",
+                "time": "8:45.22"
+            },
+            {
+                "rank": 13,
+                "athlete": "Napoleon, Angelina",
+                "team": "NC State",
+                "time": "8:46.15"
+            },
+            {
+                "rank": 14,
+                "athlete": "Olemomoi, Hilda",
+                "team": "Florida",
+                "time": "8:46.33"
+            },
+            {
+                "rank": 15,
+                "athlete": "Burns, Hayley",
+                "team": "Northern Arizona",
+                "time": "8:48.10"
+            },
+            {
+                "rank": 16,
+                "athlete": "Vringer, Erin",
+                "team": "Utah",
+                "time": "8:48.26"
+            },
+            {
+                "rank": 17,
+                "athlete": "Chelangat, Isca",
+                "team": "Oklahoma State",
+                "time": "8:48.74"
+            },
+            {
+                "rank": 18,
+                "athlete": "Vaught, Sydney",
+                "team": "Arkansas",
+                "time": "8:49.02"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kennedy, Sophia",
+                "team": "Stanford",
+                "time": "8:49.23"
+            },
+            {
+                "rank": 20,
+                "athlete": "Keeler, Jadyn",
+                "team": "North Dakota",
+                "time": "8:50.45"
+            },
+            {
+                "rank": 21,
+                "athlete": "Cherop, Nancy",
+                "team": "Clemson",
+                "time": "8:51.10"
+            },
+            {
+                "rank": 22,
+                "athlete": "Thomas, Chloe",
+                "team": "Washington",
+                "time": "8:51.27"
+            },
+            {
+                "rank": 23,
+                "athlete": "Cherubet, Juliet",
+                "team": "Oregon",
+                "time": "8:52.30"
+            },
+            {
+                "rank": 24,
+                "athlete": "Naukot, Joy",
+                "team": "West Virginia",
+                "time": "8:52.65"
+            },
+            {
+                "rank": 25,
+                "athlete": "Chelulei, Edna",
+                "team": "Eastern Kentucky",
+                "time": "8:52.79"
+            },
+            {
+                "rank": 26,
+                "athlete": "Farmer, Jacey",
+                "team": "BYU",
+                "time": "8:52.92"
+            },
+            {
+                "rank": 27,
+                "athlete": "Cheptoo, Zenah",
+                "team": "Washington St.",
+                "time": "8:53.90"
+            },
+            {
+                "rank": 28,
+                "athlete": "David-Smith, Julia",
+                "team": "Washington",
+                "time": "8:54.66"
+            },
+            {
+                "rank": 29,
+                "athlete": "Kiplagat, Caren",
+                "team": "Alabama",
+                "time": "8:54.82"
+            },
+            {
+                "rank": 30,
+                "athlete": "Gardiner, Imogen",
+                "team": "Boston College",
+                "time": "8:54.99"
+            },
+            {
+                "rank": 31,
+                "athlete": "Bohlke, Katie",
+                "team": "Virginia Tech",
+                "time": "8:55.32"
+            },
+            {
+                "rank": 32,
+                "athlete": "Machu-Shuri, Rosina",
+                "team": "Gonzaga",
+                "time": "8:55.35"
+            },
+            {
+                "rank": 33,
+                "athlete": "Cherotich, Diana",
+                "team": "Oregon",
+                "time": "8:55.42"
+            },
+            {
+                "rank": 34,
+                "athlete": "Schipperen, Bieke",
+                "team": "Florida State",
+                "time": "8:55.54"
+            },
+            {
+                "rank": 35,
+                "athlete": "Frias, Dalia",
+                "team": "Oregon",
+                "time": "8:55.78"
+            },
+            {
+                "rank": 36,
+                "athlete": "Longisa, Rosemary",
+                "team": "Washington St.",
+                "time": "8:55.81"
+            },
+            {
+                "rank": 37,
+                "athlete": "Foerster, Chloe",
+                "team": "Washington",
+                "time": "8:56.22"
+            },
+            {
+                "rank": 38,
+                "athlete": "Cochran, Mia",
+                "team": "Washington",
+                "time": "8:57.00"
+            },
+            {
+                "rank": 39,
+                "athlete": "Gapes, Hannah",
+                "team": "NC State",
+                "time": "8:57.95"
+            },
+            {
+                "rank": 40,
+                "athlete": "Altorf, Suus",
+                "team": "Florida State",
+                "time": "8:58.36"
+            },
+            {
+                "rank": 41,
+                "athlete": "Wanjiku, Monica",
+                "team": "Missouri",
+                "time": "8:59.03"
+            },
+            {
+                "rank": 42,
+                "athlete": "Chepkoech, Judy",
+                "team": "Florida",
+                "time": "8:59.30"
+            },
+            {
+                "rank": 43,
+                "athlete": "Khatevi, Elizabeth",
+                "team": "Texas A&M-CC",
+                "time": "8:59.74"
+            },
+            {
+                "rank": 44,
+                "athlete": "Wood, Jasmine",
+                "team": "New Mexico",
+                "time": "8:59.77"
+            },
+            {
+                "rank": 45,
+                "athlete": "Kirarei, Mercy",
+                "team": "New Mexico",
+                "time": "8:59.89"
+            },
+            {
+                "rank": 46,
+                "athlete": "Holland, Kyra",
+                "team": "Boston College",
+                "time": "9:00.25"
+            },
+            {
+                "rank": 47,
+                "athlete": "Nielsen, Wilma",
+                "team": "Oregon",
+                "time": "9:00.50"
+            },
+            {
+                "rank": 48,
+                "athlete": "Finger, Kylie",
+                "team": "Wisconsin",
+                "time": "9:00.60"
+            },
+            {
+                "rank": 49,
+                "athlete": "Kirwa, Mercyline",
+                "team": "Iowa State",
+                "time": "9:00.99@"
+            },
+            {
+                "rank": 50,
+                "athlete": "O'Connor, Tilly",
+                "team": "Villanova",
+                "time": "9:01.27"
+            }
+        ]
+    },
+    {
+        "year": "2025-2026 (2026-06-01)",
+        "season": "indoor",
+        "region": "National",
+        "gender": "f",
+        "event": "3000 Meters",
+        "rankings": [
+            {
+                "rank": 1,
+                "athlete": "Lemngole, Doris",
+                "team": "Alabama",
+                "time": "8:31.39"
+            },
+            {
+                "rank": 2,
+                "athlete": "Hedengren, Jane",
+                "team": "BYU",
+                "time": "8:34.98"
+            },
+            {
+                "rank": 3,
+                "athlete": "Elbadra, Salma",
+                "team": "South Carolina",
+                "time": "8:41.76"
+            },
+            {
+                "rank": 4,
+                "athlete": "Ayyildiz, Silan",
+                "team": "Oregon",
+                "time": "8:42.66"
+            },
+            {
+                "rank": 5,
+                "athlete": "Sjoberg, Vera",
+                "team": "North Carolina",
+                "time": "8:43.06"
+            },
+            {
+                "rank": 6,
+                "athlete": "Chamberlain, Riley",
+                "team": "BYU",
+                "time": "8:43.16"
+            },
+            {
+                "rank": 7,
+                "athlete": "Hutchins, Jenna",
+                "team": "BYU",
+                "time": "8:44.04"
+            },
+            {
+                "rank": 8,
+                "athlete": "Kipkore, Betty",
+                "team": "Iowa State",
+                "time": "8:44.09"
+            },
+            {
+                "rank": 9,
+                "athlete": "Zealand, Allie",
+                "team": "Liberty",
+                "time": "8:44.71"
+            },
+            {
+                "rank": 10,
+                "athlete": "Kosgei, Pamela",
+                "team": "New Mexico",
+                "time": "8:44.91"
+            },
+            {
+                "rank": 11,
+                "athlete": "Jepngetich, Marion",
+                "team": "New Mexico",
+                "time": "8:45.20"
+            },
+            {
+                "rank": 12,
+                "athlete": "Jepkirui, Billah",
+                "team": "Oklahoma State",
+                "time": "8:45.22"
+            },
+            {
+                "rank": 13,
+                "athlete": "Napoleon, Angelina",
+                "team": "NC State",
+                "time": "8:46.15"
+            },
+            {
+                "rank": 14,
+                "athlete": "Olemomoi, Hilda",
+                "team": "Florida",
+                "time": "8:46.33"
+            },
+            {
+                "rank": 15,
+                "athlete": "Burns, Hayley",
+                "team": "Northern Arizona",
+                "time": "8:48.10"
+            },
+            {
+                "rank": 16,
+                "athlete": "Vringer, Erin",
+                "team": "Utah",
+                "time": "8:48.26"
+            },
+            {
+                "rank": 17,
+                "athlete": "Chelangat, Isca",
+                "team": "Oklahoma State",
+                "time": "8:48.74"
+            },
+            {
+                "rank": 18,
+                "athlete": "Vaught, Sydney",
+                "team": "Arkansas",
+                "time": "8:49.02"
+            },
+            {
+                "rank": 19,
+                "athlete": "Kennedy, Sophia",
+                "team": "Stanford",
+                "time": "8:49.23"
+            },
+            {
+                "rank": 20,
+                "athlete": "Keeler, Jadyn",
+                "team": "North Dakota",
+                "time": "8:50.45"
+            },
+            {
+                "rank": 21,
+                "athlete": "Cherop, Nancy",
+                "team": "Clemson",
+                "time": "8:51.10"
+            },
+            {
+                "rank": 22,
+                "athlete": "Thomas, Chloe",
+                "team": "Washington",
+                "time": "8:51.27"
+            },
+            {
+                "rank": 23,
+                "athlete": "Cherubet, Juliet",
+                "team": "Oregon",
+                "time": "8:52.30"
+            },
+            {
+                "rank": 24,
+                "athlete": "Naukot, Joy",
+                "team": "West Virginia",
+                "time": "8:52.65"
+            },
+            {
+                "rank": 25,
+                "athlete": "Chelulei, Edna",
+                "team": "Eastern Kentucky",
+                "time": "8:52.79"
+            },
+            {
+                "rank": 26,
+                "athlete": "Farmer, Jacey",
+                "team": "BYU",
+                "time": "8:52.92"
+            },
+            {
+                "rank": 27,
+                "athlete": "Cheptoo, Zenah",
+                "team": "Washington St.",
+                "time": "8:53.90"
+            },
+            {
+                "rank": 28,
+                "athlete": "David-Smith, Julia",
+                "team": "Washington",
+                "time": "8:54.66"
+            },
+            {
+                "rank": 29,
+                "athlete": "Kiplagat, Caren",
+                "team": "Alabama",
+                "time": "8:54.82"
+            },
+            {
+                "rank": 30,
+                "athlete": "Gardiner, Imogen",
+                "team": "Boston College",
+                "time": "8:54.99"
+            },
+            {
+                "rank": 31,
+                "athlete": "Bohlke, Katie",
+                "team": "Virginia Tech",
+                "time": "8:55.32"
+            },
+            {
+                "rank": 32,
+                "athlete": "Machu-Shuri, Rosina",
+                "team": "Gonzaga",
+                "time": "8:55.35"
+            },
+            {
+                "rank": 33,
+                "athlete": "Cherotich, Diana",
+                "team": "Oregon",
+                "time": "8:55.42"
+            },
+            {
+                "rank": 34,
+                "athlete": "Schipperen, Bieke",
+                "team": "Florida State",
+                "time": "8:55.54"
+            },
+            {
+                "rank": 35,
+                "athlete": "Frias, Dalia",
+                "team": "Oregon",
+                "time": "8:55.78"
+            },
+            {
+                "rank": 36,
+                "athlete": "Longisa, Rosemary",
+                "team": "Washington St.",
+                "time": "8:55.81"
+            },
+            {
+                "rank": 37,
+                "athlete": "Foerster, Chloe",
+                "team": "Washington",
+                "time": "8:56.22"
+            },
+            {
+                "rank": 38,
+                "athlete": "Cochran, Mia",
+                "team": "Washington",
+                "time": "8:57.00"
+            },
+            {
+                "rank": 39,
+                "athlete": "Gapes, Hannah",
+                "team": "NC State",
+                "time": "8:57.95"
+            },
+            {
+                "rank": 40,
+                "athlete": "Altorf, Suus",
+                "team": "Florida State",
+                "time": "8:58.36"
+            },
+            {
+                "rank": 41,
+                "athlete": "Wanjiku, Monica",
+                "team": "Missouri",
+                "time": "8:59.03"
+            },
+            {
+                "rank": 42,
+                "athlete": "Chepkoech, Judy",
+                "team": "Florida",
+                "time": "8:59.30"
+            },
+            {
+                "rank": 43,
+                "athlete": "Khatevi, Elizabeth",
+                "team": "Texas A&M-CC",
+                "time": "8:59.74"
+            },
+            {
+                "rank": 44,
+                "athlete": "Wood, Jasmine",
+                "team": "New Mexico",
+                "time": "8:59.77"
+            },
+            {
+                "rank": 45,
+                "athlete": "Kirarei, Mercy",
+                "team": "New Mexico",
+                "time": "8:59.89"
+            },
+            {
+                "rank": 46,
+                "athlete": "Holland, Kyra",
+                "team": "Boston College",
+                "time": "9:00.25"
+            },
+            {
+                "rank": 47,
+                "athlete": "Nielsen, Wilma",
+                "team": "Oregon",
+                "time": "9:00.50"
+            },
+            {
+                "rank": 48,
+                "athlete": "Finger, Kylie",
+                "team": "Wisconsin",
+                "time": "9:00.60"
+            },
+            {
+                "rank": 49,
+                "athlete": "Kirwa, Mercyline",
+                "team": "Iowa State",
+                "time": "9:00.99@"
+            },
+            {
+                "rank": 50,
+                "athlete": "O'Connor, Tilly",
+                "team": "Villanova",
+                "time": "9:01.27"
             }
         ]
     }

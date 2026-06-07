@@ -24722,10 +24722,10 @@
         "region": "West",
         "gender": "m",
         "event": "100 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "10.24",
-        "cutoff_athlete": "Raines, Justin",
-        "cutoff_team": "Grand Canyon"
+        "cutoff_rank": 44,
+        "cutoff_time": "10.24@",
+        "cutoff_athlete": "Rose, Jett",
+        "cutoff_team": "Air Force"
     },
     {
         "year": "2026",
@@ -24733,10 +24733,10 @@
         "region": "West",
         "gender": "m",
         "event": "200 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 47,
         "cutoff_time": "20.59",
-        "cutoff_athlete": "Cooper, Rider",
-        "cutoff_team": "Cal St. Fullerton"
+        "cutoff_athlete": "Graves-Blanks, Kai",
+        "cutoff_team": "Oregon"
     },
     {
         "year": "2026",
@@ -24744,10 +24744,10 @@
         "region": "West",
         "gender": "m",
         "event": "400 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "46.17",
-        "cutoff_athlete": "Scott, Ja'Qualon",
-        "cutoff_team": "Texas A&M"
+        "cutoff_rank": 39,
+        "cutoff_time": "46.22",
+        "cutoff_athlete": "Hansard, Keaton",
+        "cutoff_team": "Central Arkansas"
     },
     {
         "year": "2026",
@@ -24755,10 +24755,10 @@
         "region": "West",
         "gender": "m",
         "event": "800 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "1:47.90@",
-        "cutoff_athlete": "Vittone, Pierce",
-        "cutoff_team": "Utah Valley"
+        "cutoff_rank": 42,
+        "cutoff_time": "1:47.90",
+        "cutoff_athlete": "Kampsen, Brandon",
+        "cutoff_team": "South Dakota St."
     },
     {
         "year": "2026",
@@ -24766,10 +24766,10 @@
         "region": "West",
         "gender": "m",
         "event": "1500 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "3:40.52",
-        "cutoff_athlete": "Thompson, Alex",
-        "cutoff_team": "Boise State"
+        "cutoff_rank": 46,
+        "cutoff_time": "3:40.53",
+        "cutoff_athlete": "Sanchez, Rodolfo",
+        "cutoff_team": "Loyola (Ill.)"
     },
     {
         "year": "2026",
@@ -24799,10 +24799,10 @@
         "region": "West",
         "gender": "m",
         "event": "110 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "13.89",
-        "cutoff_athlete": "Lawyer, Chase",
-        "cutoff_team": "Boise State"
+        "cutoff_rank": 39,
+        "cutoff_time": "13.91",
+        "cutoff_athlete": "Jean, Jefferson",
+        "cutoff_team": "UT-Rio Grande Valley"
     },
     {
         "year": "2026",
@@ -24810,10 +24810,10 @@
         "region": "West",
         "gender": "m",
         "event": "400 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "51.17",
-        "cutoff_athlete": "Taylor, DJ",
-        "cutoff_team": "Texas A&M"
+        "cutoff_rank": 35,
+        "cutoff_time": "51.29",
+        "cutoff_athlete": "Ligons, Ambodai",
+        "cutoff_team": "Washington"
     },
     {
         "year": "2026",
@@ -24821,10 +24821,10 @@
         "region": "West",
         "gender": "m",
         "event": "3000 Steeplechase",
-        "cutoff_rank": 48,
-        "cutoff_time": "8:48.29",
-        "cutoff_athlete": "Williams, Jack",
-        "cutoff_team": "Arkansas"
+        "cutoff_rank": 40,
+        "cutoff_time": "8:49.00",
+        "cutoff_athlete": "Schuld, Joshua",
+        "cutoff_team": "UC Irvine"
     },
     {
         "year": "2026",
@@ -24832,10 +24832,10 @@
         "region": "West",
         "gender": "m",
         "event": "4 x 100 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "39.84",
+        "cutoff_rank": 43,
+        "cutoff_time": "39.81",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "Tarleton State (B)"
+        "cutoff_team": "Illinois State"
     },
     {
         "year": "2026",
@@ -24843,10 +24843,10 @@
         "region": "West",
         "gender": "m",
         "event": "4 x 400 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "3:06.83",
+        "cutoff_rank": 37,
+        "cutoff_time": "3:06.35",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "UCLA"
+        "cutoff_team": "Southern Illinois"
     },
     {
         "year": "2026",
@@ -24856,8 +24856,8 @@
         "event": "High Jump",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Means, Weston",
-        "cutoff_team": "Grand Canyon"
+        "cutoff_athlete": "Stewart, Kaden",
+        "cutoff_team": "Illinois State"
     },
     {
         "year": "2026",
@@ -24867,8 +24867,8 @@
         "event": "Pole Vault",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Dorrell, Jacob",
-        "cutoff_team": "Arkansas State"
+        "cutoff_athlete": "Sommers, Cade",
+        "cutoff_team": "UCLA"
     },
     {
         "year": "2026",
@@ -24876,10 +24876,10 @@
         "region": "West",
         "gender": "m",
         "event": "Long Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 44,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Kernbach, Cyrill",
-        "cutoff_team": "UTSA"
+        "cutoff_athlete": "Vann, Cordial",
+        "cutoff_team": "USC"
     },
     {
         "year": "2026",
@@ -24887,10 +24887,10 @@
         "region": "West",
         "gender": "m",
         "event": "Triple Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 44,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Acheampong, Kelvin",
-        "cutoff_team": "Wichita State"
+        "cutoff_athlete": "Sweetman, Terrence",
+        "cutoff_team": "UCLA"
     },
     {
         "year": "2026",
@@ -24898,10 +24898,10 @@
         "region": "West",
         "gender": "m",
         "event": "Shot Put",
-        "cutoff_rank": 48,
+        "cutoff_rank": 42,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Shue, Benjamin",
-        "cutoff_team": "Texas"
+        "cutoff_athlete": "Kessel, Spencer",
+        "cutoff_team": "Northern Iowa"
     },
     {
         "year": "2026",
@@ -24909,10 +24909,10 @@
         "region": "West",
         "gender": "m",
         "event": "Discus",
-        "cutoff_rank": 48,
+        "cutoff_rank": 47,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Jeffrey, Titus",
-        "cutoff_team": "Montana"
+        "cutoff_athlete": "Lawrence, Kobe",
+        "cutoff_team": "Oregon"
     },
     {
         "year": "2026",
@@ -24931,10 +24931,10 @@
         "region": "West",
         "gender": "m",
         "event": "Javelin",
-        "cutoff_rank": 48,
+        "cutoff_rank": 45,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Ashbeck, Logan",
-        "cutoff_team": "Eastern Washington"
+        "cutoff_athlete": "Jones, Kace",
+        "cutoff_team": "Utah State"
     },
     {
         "year": "2026",
@@ -24953,10 +24953,10 @@
         "region": "West",
         "gender": "f",
         "event": "100 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 39,
         "cutoff_time": "11.40",
-        "cutoff_athlete": "Bartz, Samantha",
-        "cutoff_team": "UC Irvine"
+        "cutoff_athlete": "Allen, Raghan",
+        "cutoff_team": "Central Arkansas"
     },
     {
         "year": "2026",
@@ -24964,20 +24964,9 @@
         "region": "West",
         "gender": "f",
         "event": "200 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 42,
         "cutoff_time": "23.23",
-        "cutoff_athlete": "Badal, Taejha",
-        "cutoff_team": "Arkansas"
-    },
-    {
-        "year": "2026",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "400 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "52.80",
-        "cutoff_athlete": "Simms, Ava",
+        "cutoff_athlete": "Johnson, Naomi",
         "cutoff_team": "UCLA"
     },
     {
@@ -24985,11 +24974,22 @@
         "season": "outdoor",
         "region": "West",
         "gender": "f",
+        "event": "400 Meters",
+        "cutoff_rank": 42,
+        "cutoff_time": "52.89",
+        "cutoff_athlete": "Green, Riana",
+        "cutoff_team": "Rice"
+    },
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
         "event": "800 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "2:05.25",
-        "cutoff_athlete": "Studdert, Hillary",
-        "cutoff_team": "Stanford"
+        "cutoff_rank": 36,
+        "cutoff_time": "2:05.30",
+        "cutoff_athlete": "Huck, Kadence",
+        "cutoff_team": "Oklahoma State"
     },
     {
         "year": "2026",
@@ -24997,7 +24997,7 @@
         "region": "West",
         "gender": "f",
         "event": "1500 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 40,
         "cutoff_time": "4:17.11",
         "cutoff_athlete": "Porcher, Maelle",
         "cutoff_team": "Iowa State"
@@ -25008,52 +25008,8 @@
         "region": "West",
         "gender": "f",
         "event": "5000 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "15:51.98",
-        "cutoff_athlete": "Wraith, Trixie",
-        "cutoff_team": "Bradley"
-    },
-    {
-        "year": "2026",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "10,000 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "33:49.87",
-        "cutoff_athlete": "Roemer, Izzy",
-        "cutoff_team": "Minnesota"
-    },
-    {
-        "year": "2026",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "100 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "13.46@",
-        "cutoff_athlete": "Siirtola, Siiri",
-        "cutoff_team": "Texas Tech"
-    },
-    {
-        "year": "2026",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "400 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "58.55",
-        "cutoff_athlete": "Eikeland, Elise",
-        "cutoff_team": "Oklahoma State"
-    },
-    {
-        "year": "2026",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "3000 Steeplechase",
-        "cutoff_rank": 48,
-        "cutoff_time": "10:23.01",
+        "cutoff_rank": 42,
+        "cutoff_time": "15:52.26",
         "cutoff_athlete": "Cheptoo, Zenah",
         "cutoff_team": "Washington St."
     },
@@ -25062,11 +25018,55 @@
         "season": "outdoor",
         "region": "West",
         "gender": "f",
+        "event": "10,000 Meters",
+        "cutoff_rank": 45,
+        "cutoff_time": "33:51.36",
+        "cutoff_athlete": "Weiler, Naja",
+        "cutoff_team": "North Dakota"
+    },
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "100 Hurdles",
+        "cutoff_rank": 37,
+        "cutoff_time": "13.47",
+        "cutoff_athlete": "Stephenson, Ally",
+        "cutoff_team": "Oklahoma"
+    },
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "400 Hurdles",
+        "cutoff_rank": 37,
+        "cutoff_time": "58.57",
+        "cutoff_athlete": "Amiadamen, Victoria",
+        "cutoff_team": "Texas State"
+    },
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "3000 Steeplechase",
+        "cutoff_rank": 46,
+        "cutoff_time": "10:23.23",
+        "cutoff_athlete": "Hill, Millie",
+        "cutoff_team": "Northern Iowa"
+    },
+    {
+        "year": "2026",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
         "event": "4 x 100 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "44.74",
+        "cutoff_rank": 43,
+        "cutoff_time": "44.69",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "UT-Rio Grande Valley"
+        "cutoff_team": "CSU Bakersfield"
     },
     {
         "year": "2026",
@@ -25074,10 +25074,10 @@
         "region": "West",
         "gender": "f",
         "event": "4 x 400 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "3:35.82",
+        "cutoff_rank": 39,
+        "cutoff_time": "3:35.71",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "Oklahoma State (C)"
+        "cutoff_team": "Minnesota"
     },
     {
         "year": "2026",
@@ -25085,10 +25085,10 @@
         "region": "West",
         "gender": "f",
         "event": "High Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 38,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Le Goff, Jeanne",
-        "cutoff_team": "Texas"
+        "cutoff_athlete": "Pouzancre-Hoyer, Lalie",
+        "cutoff_team": "Kansas State"
     },
     {
         "year": "2026",
@@ -25096,10 +25096,10 @@
         "region": "West",
         "gender": "f",
         "event": "Pole Vault",
-        "cutoff_rank": 48,
+        "cutoff_rank": 46,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Smith, Lauren",
-        "cutoff_team": "Oklahoma State"
+        "cutoff_athlete": "Fairbanks, Sabrina",
+        "cutoff_team": "Utah State"
     },
     {
         "year": "2026",
@@ -25109,8 +25109,8 @@
         "event": "Long Jump",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Ulvenstam, Lovisa",
-        "cutoff_team": "Iowa"
+        "cutoff_athlete": "Atkins, Cassandra",
+        "cutoff_team": "Oregon"
     },
     {
         "year": "2026",
@@ -25118,10 +25118,10 @@
         "region": "West",
         "gender": "f",
         "event": "Triple Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 29,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Hughes, Ajia",
-        "cutoff_team": "New Mexico"
+        "cutoff_athlete": "Hopf, Jaiah",
+        "cutoff_team": "DePaul"
     },
     {
         "year": "2026",
@@ -25129,10 +25129,10 @@
         "region": "West",
         "gender": "f",
         "event": "Shot Put",
-        "cutoff_rank": 48,
+        "cutoff_rank": 43,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Ramirez, Serina",
-        "cutoff_team": "TCU"
+        "cutoff_athlete": "Wiseman, Taylor",
+        "cutoff_team": "Oregon"
     },
     {
         "year": "2026",
@@ -25140,10 +25140,10 @@
         "region": "West",
         "gender": "f",
         "event": "Discus",
-        "cutoff_rank": 48,
+        "cutoff_rank": 46,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Meacham, Kathryn",
-        "cutoff_team": "Kansas"
+        "cutoff_athlete": "Britton, Amani",
+        "cutoff_team": "CSUN"
     },
     {
         "year": "2026",
@@ -25153,8 +25153,8 @@
         "event": "Hammer",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Pili, Ku'upualili",
-        "cutoff_team": "BYU"
+        "cutoff_athlete": "Brown, Kamari",
+        "cutoff_team": "Iowa State"
     },
     {
         "year": "2026",
@@ -25162,10 +25162,10 @@
         "region": "West",
         "gender": "f",
         "event": "Javelin",
-        "cutoff_rank": 48,
+        "cutoff_rank": 46,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Juszczyk, Sydney",
-        "cutoff_team": "TCU"
+        "cutoff_athlete": "Carroll, Ashley",
+        "cutoff_team": "Montana"
     },
     {
         "year": "2026",
@@ -26015,7 +26015,7 @@
         "cutoff_team": "Oklahoma State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26026,7 +26026,7 @@
         "cutoff_team": "Ohio State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26037,7 +26037,7 @@
         "cutoff_team": "Louisiana"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26048,7 +26048,7 @@
         "cutoff_team": "NC State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26059,7 +26059,7 @@
         "cutoff_team": "South Carolina"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26070,7 +26070,7 @@
         "cutoff_team": "Navy"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26081,7 +26081,7 @@
         "cutoff_team": "Harvard"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26092,7 +26092,7 @@
         "cutoff_team": "Villanova"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26103,7 +26103,7 @@
         "cutoff_team": "Michigan"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26114,7 +26114,7 @@
         "cutoff_team": "UMBC"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26125,7 +26125,7 @@
         "cutoff_team": "Rutgers"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26136,7 +26136,7 @@
         "cutoff_team": "Clemson (C)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26147,7 +26147,7 @@
         "cutoff_team": "Alabama State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26158,7 +26158,7 @@
         "cutoff_team": "ULM"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26169,7 +26169,7 @@
         "cutoff_team": "Navy"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26180,7 +26180,7 @@
         "cutoff_team": "Lehigh"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26191,7 +26191,7 @@
         "cutoff_team": "Maine"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26202,7 +26202,7 @@
         "cutoff_team": "Charleston Southern"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26213,7 +26213,7 @@
         "cutoff_team": "Kennesaw State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26224,7 +26224,7 @@
         "cutoff_team": "VCU"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26235,7 +26235,7 @@
         "cutoff_team": "Boston University"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -26246,7 +26246,7 @@
         "cutoff_team": "Ohio State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26257,7 +26257,7 @@
         "cutoff_team": "Georgia State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26268,7 +26268,7 @@
         "cutoff_team": "Georgia Southern"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26279,7 +26279,7 @@
         "cutoff_team": "Miami (Fla.)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26290,7 +26290,7 @@
         "cutoff_team": "Kentucky"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26301,7 +26301,7 @@
         "cutoff_team": "Alabama"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26312,7 +26312,7 @@
         "cutoff_team": "Alabama"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26323,7 +26323,7 @@
         "cutoff_team": "North Carolina"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26334,7 +26334,7 @@
         "cutoff_team": "Harvard"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26345,7 +26345,7 @@
         "cutoff_team": "Yale"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26356,7 +26356,7 @@
         "cutoff_team": "Furman"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26367,7 +26367,7 @@
         "cutoff_team": "Northeastern"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26378,7 +26378,7 @@
         "cutoff_team": "Howard (B)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26389,7 +26389,7 @@
         "cutoff_team": "Maryland"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26400,7 +26400,7 @@
         "cutoff_team": "Youngstown St."
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26411,7 +26411,7 @@
         "cutoff_team": "Rutgers"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26422,7 +26422,7 @@
         "cutoff_team": "Army West Point"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26433,7 +26433,7 @@
         "cutoff_team": "McNeese State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26444,7 +26444,7 @@
         "cutoff_team": "Indiana"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26455,7 +26455,7 @@
         "cutoff_team": "Charleston Southern"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26466,7 +26466,7 @@
         "cutoff_team": "UAlbany"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -26477,62 +26477,62 @@
         "cutoff_team": "Indiana"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "100 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "10.24",
-        "cutoff_athlete": "Raines, Justin",
-        "cutoff_team": "Grand Canyon"
+        "cutoff_rank": 44,
+        "cutoff_time": "10.24@",
+        "cutoff_athlete": "Rose, Jett",
+        "cutoff_team": "Air Force"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "200 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 47,
         "cutoff_time": "20.59",
-        "cutoff_athlete": "Cooper, Rider",
-        "cutoff_team": "Cal St. Fullerton"
+        "cutoff_athlete": "Graves-Blanks, Kai",
+        "cutoff_team": "Oregon"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "400 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "46.17",
-        "cutoff_athlete": "Scott, Ja'Qualon",
-        "cutoff_team": "Texas A&M"
+        "cutoff_rank": 39,
+        "cutoff_time": "46.22",
+        "cutoff_athlete": "Hansard, Keaton",
+        "cutoff_team": "Central Arkansas"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "800 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "1:47.90@",
-        "cutoff_athlete": "Vittone, Pierce",
-        "cutoff_team": "Utah Valley"
+        "cutoff_rank": 42,
+        "cutoff_time": "1:47.90",
+        "cutoff_athlete": "Kampsen, Brandon",
+        "cutoff_team": "South Dakota St."
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "1500 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "3:40.52",
-        "cutoff_athlete": "Thompson, Alex",
-        "cutoff_team": "Boise State"
+        "cutoff_rank": 46,
+        "cutoff_time": "3:40.53",
+        "cutoff_athlete": "Sanchez, Rodolfo",
+        "cutoff_team": "Loyola (Ill.)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -26543,7 +26543,7 @@
         "cutoff_team": "Oregon"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -26554,128 +26554,128 @@
         "cutoff_team": "Idaho State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "110 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "13.89",
-        "cutoff_athlete": "Lawyer, Chase",
-        "cutoff_team": "Boise State"
+        "cutoff_rank": 39,
+        "cutoff_time": "13.91",
+        "cutoff_athlete": "Jean, Jefferson",
+        "cutoff_team": "UT-Rio Grande Valley"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "400 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "51.17",
-        "cutoff_athlete": "Taylor, DJ",
-        "cutoff_team": "Texas A&M"
+        "cutoff_rank": 35,
+        "cutoff_time": "51.29",
+        "cutoff_athlete": "Ligons, Ambodai",
+        "cutoff_team": "Washington"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "3000 Steeplechase",
-        "cutoff_rank": 48,
-        "cutoff_time": "8:48.29",
-        "cutoff_athlete": "Williams, Jack",
-        "cutoff_team": "Arkansas"
+        "cutoff_rank": 40,
+        "cutoff_time": "8:49.00",
+        "cutoff_athlete": "Schuld, Joshua",
+        "cutoff_team": "UC Irvine"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "4 x 100 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "39.84",
+        "cutoff_rank": 43,
+        "cutoff_time": "39.81",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "Tarleton State (B)"
+        "cutoff_team": "Illinois State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "4 x 400 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "3:06.83",
+        "cutoff_rank": 37,
+        "cutoff_time": "3:06.35",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "UCLA"
+        "cutoff_team": "Southern Illinois"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "High Jump",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Means, Weston",
-        "cutoff_team": "Grand Canyon"
+        "cutoff_athlete": "Stewart, Kaden",
+        "cutoff_team": "Illinois State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "Pole Vault",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Dorrell, Jacob",
-        "cutoff_team": "Arkansas State"
+        "cutoff_athlete": "Sommers, Cade",
+        "cutoff_team": "UCLA"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "Long Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 44,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Kernbach, Cyrill",
-        "cutoff_team": "UTSA"
+        "cutoff_athlete": "Vann, Cordial",
+        "cutoff_team": "USC"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "Triple Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 44,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Acheampong, Kelvin",
-        "cutoff_team": "Wichita State"
+        "cutoff_athlete": "Sweetman, Terrence",
+        "cutoff_team": "UCLA"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "Shot Put",
-        "cutoff_rank": 48,
+        "cutoff_rank": 42,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Shue, Benjamin",
-        "cutoff_team": "Texas"
+        "cutoff_athlete": "Kessel, Spencer",
+        "cutoff_team": "Northern Iowa"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "Discus",
-        "cutoff_rank": 48,
+        "cutoff_rank": 47,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Jeffrey, Titus",
-        "cutoff_team": "Montana"
+        "cutoff_athlete": "Lawrence, Kobe",
+        "cutoff_team": "Oregon"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -26686,18 +26686,18 @@
         "cutoff_team": "Drake"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
         "event": "Javelin",
-        "cutoff_rank": 48,
+        "cutoff_rank": 45,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Ashbeck, Logan",
-        "cutoff_team": "Eastern Washington"
+        "cutoff_athlete": "Jones, Kace",
+        "cutoff_team": "Utah State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -26708,227 +26708,227 @@
         "cutoff_team": "Central Arkansas"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "100 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 39,
         "cutoff_time": "11.40",
-        "cutoff_athlete": "Bartz, Samantha",
-        "cutoff_team": "UC Irvine"
+        "cutoff_athlete": "Allen, Raghan",
+        "cutoff_team": "Central Arkansas"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "200 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 42,
         "cutoff_time": "23.23",
-        "cutoff_athlete": "Badal, Taejha",
-        "cutoff_team": "Arkansas"
+        "cutoff_athlete": "Johnson, Naomi",
+        "cutoff_team": "UCLA"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "400 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "52.80",
-        "cutoff_athlete": "Simms, Ava",
-        "cutoff_team": "UCLA"
+        "cutoff_rank": 42,
+        "cutoff_time": "52.89",
+        "cutoff_athlete": "Green, Riana",
+        "cutoff_team": "Rice"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "800 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "2:05.25",
-        "cutoff_athlete": "Studdert, Hillary",
-        "cutoff_team": "Stanford"
+        "cutoff_rank": 36,
+        "cutoff_time": "2:05.30",
+        "cutoff_athlete": "Huck, Kadence",
+        "cutoff_team": "Oklahoma State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "1500 Meters",
-        "cutoff_rank": 48,
+        "cutoff_rank": 40,
         "cutoff_time": "4:17.11",
         "cutoff_athlete": "Porcher, Maelle",
         "cutoff_team": "Iowa State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "5000 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "15:51.98",
-        "cutoff_athlete": "Wraith, Trixie",
-        "cutoff_team": "Bradley"
-    },
-    {
-        "year": "2026 (2026-06-06)",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "10,000 Meters",
-        "cutoff_rank": 48,
-        "cutoff_time": "33:49.87",
-        "cutoff_athlete": "Roemer, Izzy",
-        "cutoff_team": "Minnesota"
-    },
-    {
-        "year": "2026 (2026-06-06)",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "100 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "13.46@",
-        "cutoff_athlete": "Siirtola, Siiri",
-        "cutoff_team": "Texas Tech"
-    },
-    {
-        "year": "2026 (2026-06-06)",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "400 Hurdles",
-        "cutoff_rank": 48,
-        "cutoff_time": "58.55",
-        "cutoff_athlete": "Eikeland, Elise",
-        "cutoff_team": "Oklahoma State"
-    },
-    {
-        "year": "2026 (2026-06-06)",
-        "season": "outdoor",
-        "region": "West",
-        "gender": "f",
-        "event": "3000 Steeplechase",
-        "cutoff_rank": 48,
-        "cutoff_time": "10:23.01",
+        "cutoff_rank": 42,
+        "cutoff_time": "15:52.26",
         "cutoff_athlete": "Cheptoo, Zenah",
         "cutoff_team": "Washington St."
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "10,000 Meters",
+        "cutoff_rank": 45,
+        "cutoff_time": "33:51.36",
+        "cutoff_athlete": "Weiler, Naja",
+        "cutoff_team": "North Dakota"
+    },
+    {
+        "year": "2026 (2026-06-07)",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "100 Hurdles",
+        "cutoff_rank": 37,
+        "cutoff_time": "13.47",
+        "cutoff_athlete": "Stephenson, Ally",
+        "cutoff_team": "Oklahoma"
+    },
+    {
+        "year": "2026 (2026-06-07)",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "400 Hurdles",
+        "cutoff_rank": 37,
+        "cutoff_time": "58.57",
+        "cutoff_athlete": "Amiadamen, Victoria",
+        "cutoff_team": "Texas State"
+    },
+    {
+        "year": "2026 (2026-06-07)",
+        "season": "outdoor",
+        "region": "West",
+        "gender": "f",
+        "event": "3000 Steeplechase",
+        "cutoff_rank": 46,
+        "cutoff_time": "10:23.23",
+        "cutoff_athlete": "Hill, Millie",
+        "cutoff_team": "Northern Iowa"
+    },
+    {
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "4 x 100 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "44.74",
+        "cutoff_rank": 43,
+        "cutoff_time": "44.69",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "UT-Rio Grande Valley"
+        "cutoff_team": "CSU Bakersfield"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "4 x 400 Relay",
-        "cutoff_rank": 48,
-        "cutoff_time": "3:35.82",
+        "cutoff_rank": 39,
+        "cutoff_time": "3:35.71",
         "cutoff_athlete": "N/A",
-        "cutoff_team": "Oklahoma State (C)"
+        "cutoff_team": "Minnesota"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "High Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 38,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Le Goff, Jeanne",
-        "cutoff_team": "Texas"
+        "cutoff_athlete": "Pouzancre-Hoyer, Lalie",
+        "cutoff_team": "Kansas State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "Pole Vault",
-        "cutoff_rank": 48,
+        "cutoff_rank": 46,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Smith, Lauren",
-        "cutoff_team": "Oklahoma State"
+        "cutoff_athlete": "Fairbanks, Sabrina",
+        "cutoff_team": "Utah State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "Long Jump",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Ulvenstam, Lovisa",
-        "cutoff_team": "Iowa"
+        "cutoff_athlete": "Atkins, Cassandra",
+        "cutoff_team": "Oregon"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "Triple Jump",
-        "cutoff_rank": 48,
+        "cutoff_rank": 29,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Hughes, Ajia",
-        "cutoff_team": "New Mexico"
+        "cutoff_athlete": "Hopf, Jaiah",
+        "cutoff_team": "DePaul"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "Shot Put",
-        "cutoff_rank": 48,
+        "cutoff_rank": 43,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Ramirez, Serina",
-        "cutoff_team": "TCU"
+        "cutoff_athlete": "Wiseman, Taylor",
+        "cutoff_team": "Oregon"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "Discus",
-        "cutoff_rank": 48,
+        "cutoff_rank": 46,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Meacham, Kathryn",
-        "cutoff_team": "Kansas"
+        "cutoff_athlete": "Britton, Amani",
+        "cutoff_team": "CSUN"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "Hammer",
         "cutoff_rank": 48,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Pili, Ku'upualili",
-        "cutoff_team": "BYU"
+        "cutoff_athlete": "Brown, Kamari",
+        "cutoff_team": "Iowa State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
         "event": "Javelin",
-        "cutoff_rank": 48,
+        "cutoff_rank": 46,
         "cutoff_time": "N/A",
-        "cutoff_athlete": "Juszczyk, Sydney",
-        "cutoff_team": "TCU"
+        "cutoff_athlete": "Carroll, Ashley",
+        "cutoff_team": "Montana"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
@@ -26939,7 +26939,7 @@
         "cutoff_team": "Sacramento St."
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -26950,7 +26950,7 @@
         "cutoff_team": "Miami (Ohio)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -26961,7 +26961,7 @@
         "cutoff_team": "Kent State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -26972,7 +26972,7 @@
         "cutoff_team": "Marquette"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -26983,7 +26983,7 @@
         "cutoff_team": "Akron"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -26994,7 +26994,7 @@
         "cutoff_team": "Notre Dame"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27005,7 +27005,7 @@
         "cutoff_team": "Akron"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27016,7 +27016,7 @@
         "cutoff_team": "Marquette"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27027,7 +27027,7 @@
         "cutoff_team": "Miami (Ohio)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27038,7 +27038,7 @@
         "cutoff_team": "Youngstown St."
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27049,7 +27049,7 @@
         "cutoff_team": "Indiana"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27060,7 +27060,7 @@
         "cutoff_team": "IU Indianapolis"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27071,7 +27071,7 @@
         "cutoff_team": "IU Indianapolis"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27082,7 +27082,7 @@
         "cutoff_team": "Cincinnati"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27093,7 +27093,7 @@
         "cutoff_team": "Ohio State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27104,7 +27104,7 @@
         "cutoff_team": "Indiana State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27115,7 +27115,7 @@
         "cutoff_team": "Cincinnati"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27126,7 +27126,7 @@
         "cutoff_team": "Akron"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27137,7 +27137,7 @@
         "cutoff_team": "Purdue Fort Wayne"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27148,7 +27148,7 @@
         "cutoff_team": "Kent State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27159,7 +27159,7 @@
         "cutoff_team": "Kent State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -27170,7 +27170,7 @@
         "cutoff_team": "Milwaukee"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27181,7 +27181,7 @@
         "cutoff_team": "Toledo"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27192,7 +27192,7 @@
         "cutoff_team": "Ball State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27203,7 +27203,7 @@
         "cutoff_team": "Michigan"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27214,7 +27214,7 @@
         "cutoff_team": "Cincinnati"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27225,7 +27225,7 @@
         "cutoff_team": "Notre Dame"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27236,7 +27236,7 @@
         "cutoff_team": "Ohio"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27247,7 +27247,7 @@
         "cutoff_team": "Wisconsin"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27258,7 +27258,7 @@
         "cutoff_team": "Dayton"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27269,7 +27269,7 @@
         "cutoff_team": "Cleveland St."
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27280,7 +27280,7 @@
         "cutoff_team": "Purdue Fort Wayne"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27291,7 +27291,7 @@
         "cutoff_team": "IU Indianapolis"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27302,7 +27302,7 @@
         "cutoff_team": "Xavier (Ohio)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27313,7 +27313,7 @@
         "cutoff_team": "Michigan State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27324,7 +27324,7 @@
         "cutoff_team": "Akron"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27335,7 +27335,7 @@
         "cutoff_team": "Western Michigan"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27346,7 +27346,7 @@
         "cutoff_team": "Ball State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27357,7 +27357,7 @@
         "cutoff_team": "Miami (Ohio)"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27368,7 +27368,7 @@
         "cutoff_team": "Akron"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27379,7 +27379,7 @@
         "cutoff_team": "Michigan State"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27390,7 +27390,7 @@
         "cutoff_team": "Cincinnati"
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",
@@ -27401,7 +27401,7 @@
         "cutoff_team": "Indiana"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27412,7 +27412,7 @@
         "cutoff_team": "Georgia"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27423,7 +27423,7 @@
         "cutoff_team": "LSU"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27434,7 +27434,7 @@
         "cutoff_team": "Texas A&M"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27445,7 +27445,7 @@
         "cutoff_team": "Florida"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27456,7 +27456,7 @@
         "cutoff_team": "South Carolina"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27467,7 +27467,7 @@
         "cutoff_team": "Washington"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27478,7 +27478,7 @@
         "cutoff_team": "Washington"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27489,7 +27489,7 @@
         "cutoff_team": "Georgia"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27500,7 +27500,7 @@
         "cutoff_team": "South Florida"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27511,7 +27511,7 @@
         "cutoff_team": "Colorado"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27522,7 +27522,7 @@
         "cutoff_team": "Georgia"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27533,7 +27533,7 @@
         "cutoff_team": "Tennessee"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27544,7 +27544,7 @@
         "cutoff_team": "Michigan"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27555,7 +27555,7 @@
         "cutoff_team": "Florida State"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27566,7 +27566,7 @@
         "cutoff_team": "Penn State"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27577,7 +27577,7 @@
         "cutoff_team": "Ole Miss"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "m",
@@ -27588,7 +27588,7 @@
         "cutoff_team": "Oregon"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27599,7 +27599,7 @@
         "cutoff_team": "Tarleton State"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27610,7 +27610,7 @@
         "cutoff_team": "Tarleton State"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27621,7 +27621,7 @@
         "cutoff_team": "Arkansas"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27632,7 +27632,7 @@
         "cutoff_team": "Indiana"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27643,7 +27643,7 @@
         "cutoff_team": "Ohio State"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27654,7 +27654,7 @@
         "cutoff_team": "Utah"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27665,7 +27665,7 @@
         "cutoff_team": "North Dakota"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27676,7 +27676,7 @@
         "cutoff_team": "Houston"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27687,7 +27687,7 @@
         "cutoff_team": "Tennessee (B)"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27698,7 +27698,7 @@
         "cutoff_team": "Utah"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27709,7 +27709,7 @@
         "cutoff_team": "UCLA"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27720,7 +27720,7 @@
         "cutoff_team": "Texas A&M"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27731,7 +27731,7 @@
         "cutoff_team": "Clemson"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27742,7 +27742,7 @@
         "cutoff_team": "Kansas State"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27753,7 +27753,7 @@
         "cutoff_team": "Auburn"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",
@@ -27764,7 +27764,7 @@
         "cutoff_team": "Oklahoma"
     },
     {
-        "year": "2025-2026 (2026-06-06)",
+        "year": "2025-2026 (2026-06-07)",
         "season": "indoor",
         "region": "National",
         "gender": "f",

@@ -1188,278 +1188,200 @@
             {
                 "rank": 5,
                 "athlete": "N/A",
-                "team": "Baylor",
-                "time": "3:02.90"
-            },
-            {
-                "rank": 6,
-                "athlete": "N/A",
                 "team": "Texas A&M (D)",
                 "time": "3:03.10"
             },
             {
-                "rank": 7,
+                "rank": 6,
                 "athlete": "N/A",
-                "team": "Texas Tech",
+                "team": "Texas Tech (B)",
                 "time": "3:03.46"
             },
             {
-                "rank": 8,
+                "rank": 7,
                 "athlete": "N/A",
                 "team": "Texas A&M (E)",
                 "time": "3:03.68"
             },
             {
-                "rank": 9,
+                "rank": 8,
                 "athlete": "N/A",
                 "team": "BYU",
                 "time": "3:03.71"
             },
             {
-                "rank": 10,
+                "rank": 9,
                 "athlete": "N/A",
                 "team": "Arkansas (B)",
                 "time": "3:03.79"
             },
             {
-                "rank": 11,
+                "rank": 10,
                 "athlete": "N/A",
-                "team": "Texas",
+                "team": "Texas (B)",
                 "time": "3:04.00"
             },
             {
-                "rank": 12,
+                "rank": 11,
                 "athlete": "N/A",
-                "team": "Texas (B)",
+                "team": "Texas (C)",
                 "time": "3:04.10"
             },
             {
-                "rank": 13,
+                "rank": 12,
                 "athlete": "N/A",
                 "team": "Arizona State",
                 "time": "3:04.10"
             },
             {
-                "rank": 14,
-                "athlete": "N/A",
-                "team": "Houston",
-                "time": "3:04.18"
-            },
-            {
-                "rank": 15,
+                "rank": 13,
                 "athlete": "N/A",
                 "team": "Kansas State",
                 "time": "3:04.20"
             },
             {
-                "rank": 16,
+                "rank": 14,
                 "athlete": "N/A",
-                "team": "Texas (C)",
+                "team": "Texas (D)",
                 "time": "3:04.29"
             },
             {
-                "rank": 17,
+                "rank": 15,
                 "athlete": "N/A",
                 "team": "Arkansas (C)",
                 "time": "3:04.47"
             },
             {
-                "rank": 18,
+                "rank": 16,
                 "athlete": "N/A",
                 "team": "Arkansas (D)",
                 "time": "3:04.61"
             },
             {
-                "rank": 19,
+                "rank": 17,
                 "athlete": "N/A",
-                "team": "Oklahoma State",
-                "time": "3:05.03"
-            },
-            {
-                "rank": 20,
-                "athlete": "N/A",
-                "team": "Iowa",
+                "team": "Iowa (B)",
                 "time": "3:05.08"
             },
             {
-                "rank": 21,
+                "rank": 18,
                 "athlete": "N/A",
                 "team": "Arkansas (E)",
                 "time": "3:05.12"
             },
             {
-                "rank": 22,
+                "rank": 19,
                 "athlete": "N/A",
                 "team": "Baylor (B)",
                 "time": "3:05.15"
             },
             {
-                "rank": 23,
+                "rank": 20,
                 "athlete": "N/A",
-                "team": "Iowa (B)",
+                "team": "Iowa (C)",
                 "time": "3:05.25"
             },
             {
-                "rank": 24,
+                "rank": 21,
                 "athlete": "N/A",
                 "team": "Illinois State",
                 "time": "3:05.27"
             },
             {
-                "rank": 25,
+                "rank": 22,
                 "athlete": "N/A",
                 "team": "Arkansas (F)",
                 "time": "3:05.41"
             },
             {
-                "rank": 26,
+                "rank": 23,
                 "athlete": "N/A",
-                "team": "Texas Tech (B)",
+                "team": "Texas Tech (C)",
                 "time": "3:05.47"
             },
             {
-                "rank": 27,
+                "rank": 24,
                 "athlete": "N/A",
                 "team": "TCU",
                 "time": "3:05.50"
             },
             {
-                "rank": 28,
+                "rank": 25,
                 "athlete": "N/A",
-                "team": "Iowa (C)",
+                "team": "Iowa (D)",
                 "time": "3:05.72"
             },
             {
-                "rank": 29,
+                "rank": 26,
                 "athlete": "N/A",
                 "team": "Houston (B)",
                 "time": "3:05.80"
             },
             {
-                "rank": 30,
+                "rank": 27,
                 "athlete": "N/A",
                 "team": "Texas A&M (F)",
                 "time": "3:05.86"
             },
             {
-                "rank": 31,
+                "rank": 28,
                 "athlete": "N/A",
                 "team": "North Texas",
                 "time": "3:05.91"
             },
             {
-                "rank": 32,
+                "rank": 29,
                 "athlete": "N/A",
-                "team": "USC",
+                "team": "USC (B)",
                 "time": "3:06.06"
             },
             {
-                "rank": 33,
+                "rank": 30,
                 "athlete": "N/A",
-                "team": "Kansas",
+                "team": "Kansas (B)",
                 "time": "3:06.09"
             },
             {
-                "rank": 34,
+                "rank": 31,
                 "athlete": "N/A",
-                "team": "Texas Tech (C)",
+                "team": "Texas Tech (D)",
                 "time": "3:06.20"
             },
             {
-                "rank": 35,
+                "rank": 32,
                 "athlete": "N/A",
                 "team": "Arizona State (B)",
                 "time": "3:06.24"
             },
             {
-                "rank": 36,
+                "rank": 33,
                 "athlete": "N/A",
                 "team": "Oklahoma State (B)",
                 "time": "3:06.26"
             },
             {
-                "rank": 37,
+                "rank": 34,
                 "athlete": "N/A",
                 "team": "Colorado St.",
                 "time": "3:06.31@"
             },
             {
-                "rank": 38,
+                "rank": 35,
                 "athlete": "N/A",
-                "team": "Minnesota",
+                "team": "Minnesota (B)",
                 "time": "3:06.33"
             },
             {
-                "rank": 39,
+                "rank": 36,
                 "athlete": "N/A",
                 "team": "Sam Houston",
                 "time": "3:06.33"
             },
             {
-                "rank": 40,
+                "rank": 37,
                 "athlete": "N/A",
                 "team": "Southern Illinois",
                 "time": "3:06.35"
-            },
-            {
-                "rank": 41,
-                "athlete": "N/A",
-                "team": "Cal St. Fullerton",
-                "time": "3:06.48"
-            },
-            {
-                "rank": 42,
-                "athlete": "N/A",
-                "team": "Oklahoma",
-                "time": "3:06.62"
-            },
-            {
-                "rank": 43,
-                "athlete": "N/A",
-                "team": "Minnesota (B)",
-                "time": "3:06.64"
-            },
-            {
-                "rank": 44,
-                "athlete": "N/A",
-                "team": "Kansas State (B)",
-                "time": "3:06.73"
-            },
-            {
-                "rank": 45,
-                "athlete": "N/A",
-                "team": "Iowa (D)",
-                "time": "3:06.73"
-            },
-            {
-                "rank": 46,
-                "athlete": "N/A",
-                "team": "Texas (D)",
-                "time": "3:06.77"
-            },
-            {
-                "rank": 47,
-                "athlete": "N/A",
-                "team": "Minnesota (C)",
-                "time": "3:06.77"
-            },
-            {
-                "rank": 48,
-                "athlete": "N/A",
-                "team": "UCLA",
-                "time": "3:06.83"
-            },
-            {
-                "rank": 49,
-                "athlete": "N/A",
-                "team": "Cal St. Fullerton (B)",
-                "time": "3:06.85"
-            },
-            {
-                "rank": 50,
-                "athlete": "N/A",
-                "team": "Texas A&M (G)",
-                "time": "3:07.10"
             }
         ]
     },
@@ -1474,13 +1396,13 @@
                 "rank": 1,
                 "athlete": "N/A",
                 "team": "Purdue",
-                "time": "3:02.15"
+                "time": "3:00.92"
             },
             {
                 "rank": 2,
                 "athlete": "N/A",
                 "team": "Ohio State",
-                "time": "3:03.23"
+                "time": "3:00.99"
             },
             {
                 "rank": 3,
@@ -1611,7 +1533,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -1920,7 +1842,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -1953,283 +1875,205 @@
             {
                 "rank": 5,
                 "athlete": "N/A",
-                "team": "Baylor",
-                "time": "3:02.90"
-            },
-            {
-                "rank": 6,
-                "athlete": "N/A",
                 "team": "Texas A&M (D)",
                 "time": "3:03.10"
             },
             {
-                "rank": 7,
+                "rank": 6,
                 "athlete": "N/A",
-                "team": "Texas Tech",
+                "team": "Texas Tech (B)",
                 "time": "3:03.46"
             },
             {
-                "rank": 8,
+                "rank": 7,
                 "athlete": "N/A",
                 "team": "Texas A&M (E)",
                 "time": "3:03.68"
             },
             {
-                "rank": 9,
+                "rank": 8,
                 "athlete": "N/A",
                 "team": "BYU",
                 "time": "3:03.71"
             },
             {
-                "rank": 10,
+                "rank": 9,
                 "athlete": "N/A",
                 "team": "Arkansas (B)",
                 "time": "3:03.79"
             },
             {
-                "rank": 11,
+                "rank": 10,
                 "athlete": "N/A",
-                "team": "Texas",
+                "team": "Texas (B)",
                 "time": "3:04.00"
             },
             {
-                "rank": 12,
+                "rank": 11,
                 "athlete": "N/A",
-                "team": "Texas (B)",
+                "team": "Texas (C)",
                 "time": "3:04.10"
             },
             {
-                "rank": 13,
+                "rank": 12,
                 "athlete": "N/A",
                 "team": "Arizona State",
                 "time": "3:04.10"
             },
             {
-                "rank": 14,
-                "athlete": "N/A",
-                "team": "Houston",
-                "time": "3:04.18"
-            },
-            {
-                "rank": 15,
+                "rank": 13,
                 "athlete": "N/A",
                 "team": "Kansas State",
                 "time": "3:04.20"
             },
             {
-                "rank": 16,
+                "rank": 14,
                 "athlete": "N/A",
-                "team": "Texas (C)",
+                "team": "Texas (D)",
                 "time": "3:04.29"
             },
             {
-                "rank": 17,
+                "rank": 15,
                 "athlete": "N/A",
                 "team": "Arkansas (C)",
                 "time": "3:04.47"
             },
             {
-                "rank": 18,
+                "rank": 16,
                 "athlete": "N/A",
                 "team": "Arkansas (D)",
                 "time": "3:04.61"
             },
             {
-                "rank": 19,
+                "rank": 17,
                 "athlete": "N/A",
-                "team": "Oklahoma State",
-                "time": "3:05.03"
-            },
-            {
-                "rank": 20,
-                "athlete": "N/A",
-                "team": "Iowa",
+                "team": "Iowa (B)",
                 "time": "3:05.08"
             },
             {
-                "rank": 21,
+                "rank": 18,
                 "athlete": "N/A",
                 "team": "Arkansas (E)",
                 "time": "3:05.12"
             },
             {
-                "rank": 22,
+                "rank": 19,
                 "athlete": "N/A",
                 "team": "Baylor (B)",
                 "time": "3:05.15"
             },
             {
-                "rank": 23,
+                "rank": 20,
                 "athlete": "N/A",
-                "team": "Iowa (B)",
+                "team": "Iowa (C)",
                 "time": "3:05.25"
             },
             {
-                "rank": 24,
+                "rank": 21,
                 "athlete": "N/A",
                 "team": "Illinois State",
                 "time": "3:05.27"
             },
             {
-                "rank": 25,
+                "rank": 22,
                 "athlete": "N/A",
                 "team": "Arkansas (F)",
                 "time": "3:05.41"
             },
             {
-                "rank": 26,
+                "rank": 23,
                 "athlete": "N/A",
-                "team": "Texas Tech (B)",
+                "team": "Texas Tech (C)",
                 "time": "3:05.47"
             },
             {
-                "rank": 27,
+                "rank": 24,
                 "athlete": "N/A",
                 "team": "TCU",
                 "time": "3:05.50"
             },
             {
-                "rank": 28,
+                "rank": 25,
                 "athlete": "N/A",
-                "team": "Iowa (C)",
+                "team": "Iowa (D)",
                 "time": "3:05.72"
             },
             {
-                "rank": 29,
+                "rank": 26,
                 "athlete": "N/A",
                 "team": "Houston (B)",
                 "time": "3:05.80"
             },
             {
-                "rank": 30,
+                "rank": 27,
                 "athlete": "N/A",
                 "team": "Texas A&M (F)",
                 "time": "3:05.86"
             },
             {
-                "rank": 31,
+                "rank": 28,
                 "athlete": "N/A",
                 "team": "North Texas",
                 "time": "3:05.91"
             },
             {
-                "rank": 32,
+                "rank": 29,
                 "athlete": "N/A",
-                "team": "USC",
+                "team": "USC (B)",
                 "time": "3:06.06"
             },
             {
-                "rank": 33,
+                "rank": 30,
                 "athlete": "N/A",
-                "team": "Kansas",
+                "team": "Kansas (B)",
                 "time": "3:06.09"
             },
             {
-                "rank": 34,
+                "rank": 31,
                 "athlete": "N/A",
-                "team": "Texas Tech (C)",
+                "team": "Texas Tech (D)",
                 "time": "3:06.20"
             },
             {
-                "rank": 35,
+                "rank": 32,
                 "athlete": "N/A",
                 "team": "Arizona State (B)",
                 "time": "3:06.24"
             },
             {
-                "rank": 36,
+                "rank": 33,
                 "athlete": "N/A",
                 "team": "Oklahoma State (B)",
                 "time": "3:06.26"
             },
             {
-                "rank": 37,
+                "rank": 34,
                 "athlete": "N/A",
                 "team": "Colorado St.",
                 "time": "3:06.31@"
             },
             {
-                "rank": 38,
+                "rank": 35,
                 "athlete": "N/A",
-                "team": "Minnesota",
+                "team": "Minnesota (B)",
                 "time": "3:06.33"
             },
             {
-                "rank": 39,
+                "rank": 36,
                 "athlete": "N/A",
                 "team": "Sam Houston",
                 "time": "3:06.33"
             },
             {
-                "rank": 40,
+                "rank": 37,
                 "athlete": "N/A",
                 "team": "Southern Illinois",
                 "time": "3:06.35"
-            },
-            {
-                "rank": 41,
-                "athlete": "N/A",
-                "team": "Cal St. Fullerton",
-                "time": "3:06.48"
-            },
-            {
-                "rank": 42,
-                "athlete": "N/A",
-                "team": "Oklahoma",
-                "time": "3:06.62"
-            },
-            {
-                "rank": 43,
-                "athlete": "N/A",
-                "team": "Minnesota (B)",
-                "time": "3:06.64"
-            },
-            {
-                "rank": 44,
-                "athlete": "N/A",
-                "team": "Kansas State (B)",
-                "time": "3:06.73"
-            },
-            {
-                "rank": 45,
-                "athlete": "N/A",
-                "team": "Iowa (D)",
-                "time": "3:06.73"
-            },
-            {
-                "rank": 46,
-                "athlete": "N/A",
-                "team": "Texas (D)",
-                "time": "3:06.77"
-            },
-            {
-                "rank": 47,
-                "athlete": "N/A",
-                "team": "Minnesota (C)",
-                "time": "3:06.77"
-            },
-            {
-                "rank": 48,
-                "athlete": "N/A",
-                "team": "UCLA",
-                "time": "3:06.83"
-            },
-            {
-                "rank": 49,
-                "athlete": "N/A",
-                "team": "Cal St. Fullerton (B)",
-                "time": "3:06.85"
-            },
-            {
-                "rank": 50,
-                "athlete": "N/A",
-                "team": "Texas A&M (G)",
-                "time": "3:07.10"
             }
         ]
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -2239,13 +2083,13 @@
                 "rank": 1,
                 "athlete": "N/A",
                 "team": "Purdue",
-                "time": "3:02.15"
+                "time": "3:00.92"
             },
             {
                 "rank": 2,
                 "athlete": "N/A",
                 "team": "Ohio State",
-                "time": "3:03.23"
+                "time": "3:00.99"
             },
             {
                 "rank": 3,

@@ -1817,285 +1817,237 @@
             },
             {
                 "rank": 4,
-                "athlete": "Taylor, Tyrice",
-                "team": "Arkansas",
-                "time": "1:44.74"
-            },
-            {
-                "rank": 5,
-                "athlete": "Narumbe, Peter",
-                "team": "Texas A&M",
-                "time": "1:45.05"
-            },
-            {
-                "rank": 6,
                 "athlete": "Carlson, Dayton",
                 "team": "Arizona State",
                 "time": "1:45.26"
             },
             {
-                "rank": 7,
+                "rank": 5,
                 "athlete": "Hotung-Davidsen, Tor",
                 "team": "Northern Arizona",
                 "time": "1:45.36"
             },
             {
-                "rank": 8,
+                "rank": 6,
                 "athlete": "Phillips, Jamie",
                 "team": "Bradley",
                 "time": "1:45.61"
             },
             {
-                "rank": 9,
+                "rank": 7,
                 "athlete": "Lutes, Bodey",
                 "team": "Oregon",
                 "time": "1:45.62"
             },
             {
-                "rank": 10,
+                "rank": 8,
                 "athlete": "Harding, James",
                 "team": "Oregon",
                 "time": "1:45.66"
             },
             {
-                "rank": 11,
+                "rank": 9,
                 "athlete": "Mahadi, Hafez",
                 "team": "Oklahoma State",
                 "time": "1:45.69"
             },
             {
-                "rank": 12,
+                "rank": 10,
                 "athlete": "Bott, Landon",
                 "team": "Utah State",
                 "time": "1:45.83"
             },
             {
-                "rank": 13,
+                "rank": 11,
                 "athlete": "Kowa, Mohamed",
                 "team": "TCU",
                 "time": "1:45.84"
             },
             {
-                "rank": 14,
+                "rank": 12,
                 "athlete": "Hilby, Patrick",
                 "team": "Wisconsin",
                 "time": "1:46.03"
             },
             {
-                "rank": 15,
-                "athlete": "Sharman-Newell, Reece",
-                "team": "Texas A&M",
-                "time": "1:46.14"
-            },
-            {
-                "rank": 16,
+                "rank": 13,
                 "athlete": "Dodoo, Stefon",
                 "team": "Texas A&M",
                 "time": "1:46.17"
             },
             {
-                "rank": 17,
+                "rank": 14,
                 "athlete": "Endrody, Matthew",
                 "team": "New Mexico",
                 "time": "1:46.21"
             },
             {
-                "rank": 18,
+                "rank": 15,
                 "athlete": "Cutting, Carter",
                 "team": "BYU",
-                "time": "1:46.50@"
+                "time": "1:46.50"
             },
             {
-                "rank": 19,
+                "rank": 16,
                 "athlete": "Ngetich, Lawi",
                 "team": "Arizona",
                 "time": "1:46.50"
             },
             {
-                "rank": 20,
+                "rank": 17,
                 "athlete": "Kalmar, Alex",
                 "team": "UT-Arlington",
                 "time": "1:46.55"
             },
             {
-                "rank": 21,
+                "rank": 18,
                 "athlete": "Ayoub, Ramy",
                 "team": "Minnesota",
                 "time": "1:46.62"
             },
             {
-                "rank": 22,
+                "rank": 19,
                 "athlete": "Barco, Martin",
                 "team": "Washington",
                 "time": "1:46.69"
             },
             {
-                "rank": 23,
+                "rank": 20,
                 "athlete": "Kingsmith, Kaden",
                 "team": "Bradley",
                 "time": "1:46.74"
             },
             {
-                "rank": 24,
+                "rank": 21,
                 "athlete": "Dunbar, Kyzer",
                 "team": "Texas Tech",
                 "time": "1:46.75"
             },
             {
-                "rank": 25,
+                "rank": 22,
                 "athlete": "Locke, David",
                 "team": "Bradley",
                 "time": "1:46.75"
             },
             {
-                "rank": 26,
+                "rank": 23,
                 "athlete": "Johnson, Terrick",
                 "team": "Iowa",
                 "time": "1:46.87"
             },
             {
-                "rank": 27,
-                "athlete": "Mutai, Stephen",
-                "team": "Texas Tech",
-                "time": "1:46.93"
-            },
-            {
-                "rank": 28,
+                "rank": 24,
                 "athlete": "Nash, Gabe",
                 "team": "Nebraska",
                 "time": "1:46.95"
             },
             {
-                "rank": 29,
+                "rank": 25,
                 "athlete": "Galdino, Emanuel",
                 "team": "Iowa State",
                 "time": "1:47.05"
             },
             {
-                "rank": 30,
+                "rank": 26,
                 "athlete": "Lemaitre, Germain",
                 "team": "Grand Canyon",
                 "time": "1:47.17"
             },
             {
-                "rank": 31,
+                "rank": 27,
                 "athlete": "Jenks, Colby",
                 "team": "Weber State",
-                "time": "1:47.17@"
+                "time": "1:47.17"
             },
             {
-                "rank": 32,
-                "athlete": "Sohna, Jailan",
-                "team": "Iowa State",
-                "time": "1:47.19"
-            },
-            {
-                "rank": 33,
+                "rank": 28,
                 "athlete": "Hitchcock, Luke",
                 "team": "Cal St. Fullerton",
                 "time": "1:47.20"
             },
             {
-                "rank": 34,
+                "rank": 29,
                 "athlete": "Rammage, Josh",
                 "team": "Arkansas",
                 "time": "1:47.30"
             },
             {
-                "rank": 35,
+                "rank": 30,
                 "athlete": "Risser, Henry",
                 "team": "Wisconsin",
                 "time": "1:47.33"
             },
             {
-                "rank": 36,
+                "rank": 31,
                 "athlete": "Burnett, Matthew",
                 "team": "Bradley",
                 "time": "1:47.37"
             },
             {
-                "rank": 37,
+                "rank": 32,
                 "athlete": "Sharp, Kaleb",
                 "team": "Nebraska",
                 "time": "1:47.39"
             },
             {
-                "rank": 38,
+                "rank": 33,
                 "athlete": "Ashby, Grant",
                 "team": "Texas A&M",
                 "time": "1:47.48"
             },
             {
-                "rank": 39,
+                "rank": 34,
                 "athlete": "Packard, Brayden",
                 "team": "BYU",
-                "time": "1:47.48@"
+                "time": "1:47.48"
             },
             {
-                "rank": 40,
+                "rank": 35,
                 "athlete": "McCarthy, Aidan",
                 "team": "Cal Poly",
                 "time": "1:47.51"
             },
             {
-                "rank": 41,
+                "rank": 36,
                 "athlete": "Lehr, Chase",
                 "team": "North Texas",
                 "time": "1:47.56"
             },
             {
-                "rank": 42,
-                "athlete": "Fahl, Hannes",
-                "team": "Nebraska",
-                "time": "1:47.62"
-            },
-            {
-                "rank": 43,
+                "rank": 37,
                 "athlete": "Gajdos, Ondrej",
                 "team": "Texas A&M",
                 "time": "1:47.64"
             },
             {
-                "rank": 44,
+                "rank": 38,
                 "athlete": "Smith, Carson",
                 "team": "Cal Poly",
                 "time": "1:47.65"
             },
             {
-                "rank": 45,
+                "rank": 39,
                 "athlete": "Logorodi, Owan",
                 "team": "Arkansas",
                 "time": "1:47.78"
             },
             {
-                "rank": 46,
-                "athlete": "Copelin, Jaxson",
-                "team": "Bradley",
-                "time": "1:47.80"
-            },
-            {
-                "rank": 47,
+                "rank": 40,
                 "athlete": "Foltz, Kaleb",
                 "team": "North Dakota State",
                 "time": "1:47.82"
             },
             {
-                "rank": 48,
+                "rank": 41,
                 "athlete": "Vittone, Pierce",
                 "team": "Utah Valley",
-                "time": "1:47.90@"
-            },
-            {
-                "rank": 49,
-                "athlete": "Kampsen, Brandon",
-                "team": "South Dakota St.",
                 "time": "1:47.90"
             },
             {
-                "rank": 50,
-                "athlete": "Levy, Caleb",
-                "team": "Iowa",
-                "time": "1:48.03"
+                "rank": 42,
+                "athlete": "Kampsen, Brandon",
+                "team": "South Dakota St.",
+                "time": "1:47.90"
             }
         ]
     },
@@ -2108,27 +2060,27 @@
         "rankings": [
             {
                 "rank": 1,
+                "athlete": "Brown, Miles",
+                "team": "Michigan",
+                "time": "1:44.68"
+            },
+            {
+                "rank": 2,
                 "athlete": "Marshall, Camden",
                 "team": "Indiana",
                 "time": "1:45.72"
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "athlete": "Law, Camden",
                 "team": "Michigan",
                 "time": "1:45.86"
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "athlete": "Hilby, Patrick",
                 "team": "Wisconsin",
                 "time": "1:46.03"
-            },
-            {
-                "rank": 4,
-                "athlete": "Brown, Miles",
-                "team": "Michigan",
-                "time": "1:46.30"
             },
             {
                 "rank": 5,
@@ -2176,7 +2128,7 @@
                 "rank": 12,
                 "athlete": "Mangum, Andrew",
                 "team": "Indiana",
-                "time": "1:47.42"
+                "time": "1:47.36"
             },
             {
                 "rank": 13,
@@ -2188,7 +2140,7 @@
                 "rank": 14,
                 "athlete": "Cherry, Reed",
                 "team": "Notre Dame",
-                "time": "1:47.80"
+                "time": "1:47.68"
             },
             {
                 "rank": 15,
@@ -2409,7 +2361,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -2718,7 +2670,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -2744,290 +2696,242 @@
             },
             {
                 "rank": 4,
-                "athlete": "Taylor, Tyrice",
-                "team": "Arkansas",
-                "time": "1:44.74"
-            },
-            {
-                "rank": 5,
-                "athlete": "Narumbe, Peter",
-                "team": "Texas A&M",
-                "time": "1:45.05"
-            },
-            {
-                "rank": 6,
                 "athlete": "Carlson, Dayton",
                 "team": "Arizona State",
                 "time": "1:45.26"
             },
             {
-                "rank": 7,
+                "rank": 5,
                 "athlete": "Hotung-Davidsen, Tor",
                 "team": "Northern Arizona",
                 "time": "1:45.36"
             },
             {
-                "rank": 8,
+                "rank": 6,
                 "athlete": "Phillips, Jamie",
                 "team": "Bradley",
                 "time": "1:45.61"
             },
             {
-                "rank": 9,
+                "rank": 7,
                 "athlete": "Lutes, Bodey",
                 "team": "Oregon",
                 "time": "1:45.62"
             },
             {
-                "rank": 10,
+                "rank": 8,
                 "athlete": "Harding, James",
                 "team": "Oregon",
                 "time": "1:45.66"
             },
             {
-                "rank": 11,
+                "rank": 9,
                 "athlete": "Mahadi, Hafez",
                 "team": "Oklahoma State",
                 "time": "1:45.69"
             },
             {
-                "rank": 12,
+                "rank": 10,
                 "athlete": "Bott, Landon",
                 "team": "Utah State",
                 "time": "1:45.83"
             },
             {
-                "rank": 13,
+                "rank": 11,
                 "athlete": "Kowa, Mohamed",
                 "team": "TCU",
                 "time": "1:45.84"
             },
             {
-                "rank": 14,
+                "rank": 12,
                 "athlete": "Hilby, Patrick",
                 "team": "Wisconsin",
                 "time": "1:46.03"
             },
             {
-                "rank": 15,
-                "athlete": "Sharman-Newell, Reece",
-                "team": "Texas A&M",
-                "time": "1:46.14"
-            },
-            {
-                "rank": 16,
+                "rank": 13,
                 "athlete": "Dodoo, Stefon",
                 "team": "Texas A&M",
                 "time": "1:46.17"
             },
             {
-                "rank": 17,
+                "rank": 14,
                 "athlete": "Endrody, Matthew",
                 "team": "New Mexico",
                 "time": "1:46.21"
             },
             {
-                "rank": 18,
+                "rank": 15,
                 "athlete": "Cutting, Carter",
                 "team": "BYU",
-                "time": "1:46.50@"
+                "time": "1:46.50"
             },
             {
-                "rank": 19,
+                "rank": 16,
                 "athlete": "Ngetich, Lawi",
                 "team": "Arizona",
                 "time": "1:46.50"
             },
             {
-                "rank": 20,
+                "rank": 17,
                 "athlete": "Kalmar, Alex",
                 "team": "UT-Arlington",
                 "time": "1:46.55"
             },
             {
-                "rank": 21,
+                "rank": 18,
                 "athlete": "Ayoub, Ramy",
                 "team": "Minnesota",
                 "time": "1:46.62"
             },
             {
-                "rank": 22,
+                "rank": 19,
                 "athlete": "Barco, Martin",
                 "team": "Washington",
                 "time": "1:46.69"
             },
             {
-                "rank": 23,
+                "rank": 20,
                 "athlete": "Kingsmith, Kaden",
                 "team": "Bradley",
                 "time": "1:46.74"
             },
             {
-                "rank": 24,
+                "rank": 21,
                 "athlete": "Dunbar, Kyzer",
                 "team": "Texas Tech",
                 "time": "1:46.75"
             },
             {
-                "rank": 25,
+                "rank": 22,
                 "athlete": "Locke, David",
                 "team": "Bradley",
                 "time": "1:46.75"
             },
             {
-                "rank": 26,
+                "rank": 23,
                 "athlete": "Johnson, Terrick",
                 "team": "Iowa",
                 "time": "1:46.87"
             },
             {
-                "rank": 27,
-                "athlete": "Mutai, Stephen",
-                "team": "Texas Tech",
-                "time": "1:46.93"
-            },
-            {
-                "rank": 28,
+                "rank": 24,
                 "athlete": "Nash, Gabe",
                 "team": "Nebraska",
                 "time": "1:46.95"
             },
             {
-                "rank": 29,
+                "rank": 25,
                 "athlete": "Galdino, Emanuel",
                 "team": "Iowa State",
                 "time": "1:47.05"
             },
             {
-                "rank": 30,
+                "rank": 26,
                 "athlete": "Lemaitre, Germain",
                 "team": "Grand Canyon",
                 "time": "1:47.17"
             },
             {
-                "rank": 31,
+                "rank": 27,
                 "athlete": "Jenks, Colby",
                 "team": "Weber State",
-                "time": "1:47.17@"
+                "time": "1:47.17"
             },
             {
-                "rank": 32,
-                "athlete": "Sohna, Jailan",
-                "team": "Iowa State",
-                "time": "1:47.19"
-            },
-            {
-                "rank": 33,
+                "rank": 28,
                 "athlete": "Hitchcock, Luke",
                 "team": "Cal St. Fullerton",
                 "time": "1:47.20"
             },
             {
-                "rank": 34,
+                "rank": 29,
                 "athlete": "Rammage, Josh",
                 "team": "Arkansas",
                 "time": "1:47.30"
             },
             {
-                "rank": 35,
+                "rank": 30,
                 "athlete": "Risser, Henry",
                 "team": "Wisconsin",
                 "time": "1:47.33"
             },
             {
-                "rank": 36,
+                "rank": 31,
                 "athlete": "Burnett, Matthew",
                 "team": "Bradley",
                 "time": "1:47.37"
             },
             {
-                "rank": 37,
+                "rank": 32,
                 "athlete": "Sharp, Kaleb",
                 "team": "Nebraska",
                 "time": "1:47.39"
             },
             {
-                "rank": 38,
+                "rank": 33,
                 "athlete": "Ashby, Grant",
                 "team": "Texas A&M",
                 "time": "1:47.48"
             },
             {
-                "rank": 39,
+                "rank": 34,
                 "athlete": "Packard, Brayden",
                 "team": "BYU",
-                "time": "1:47.48@"
+                "time": "1:47.48"
             },
             {
-                "rank": 40,
+                "rank": 35,
                 "athlete": "McCarthy, Aidan",
                 "team": "Cal Poly",
                 "time": "1:47.51"
             },
             {
-                "rank": 41,
+                "rank": 36,
                 "athlete": "Lehr, Chase",
                 "team": "North Texas",
                 "time": "1:47.56"
             },
             {
-                "rank": 42,
-                "athlete": "Fahl, Hannes",
-                "team": "Nebraska",
-                "time": "1:47.62"
-            },
-            {
-                "rank": 43,
+                "rank": 37,
                 "athlete": "Gajdos, Ondrej",
                 "team": "Texas A&M",
                 "time": "1:47.64"
             },
             {
-                "rank": 44,
+                "rank": 38,
                 "athlete": "Smith, Carson",
                 "team": "Cal Poly",
                 "time": "1:47.65"
             },
             {
-                "rank": 45,
+                "rank": 39,
                 "athlete": "Logorodi, Owan",
                 "team": "Arkansas",
                 "time": "1:47.78"
             },
             {
-                "rank": 46,
-                "athlete": "Copelin, Jaxson",
-                "team": "Bradley",
-                "time": "1:47.80"
-            },
-            {
-                "rank": 47,
+                "rank": 40,
                 "athlete": "Foltz, Kaleb",
                 "team": "North Dakota State",
                 "time": "1:47.82"
             },
             {
-                "rank": 48,
+                "rank": 41,
                 "athlete": "Vittone, Pierce",
                 "team": "Utah Valley",
-                "time": "1:47.90@"
-            },
-            {
-                "rank": 49,
-                "athlete": "Kampsen, Brandon",
-                "team": "South Dakota St.",
                 "time": "1:47.90"
             },
             {
-                "rank": 50,
-                "athlete": "Levy, Caleb",
-                "team": "Iowa",
-                "time": "1:48.03"
+                "rank": 42,
+                "athlete": "Kampsen, Brandon",
+                "team": "South Dakota St.",
+                "time": "1:47.90"
             }
         ]
     },
     {
-        "year": "2026 (2026-06-06)",
+        "year": "2026 (2026-06-07)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",
@@ -3035,27 +2939,27 @@
         "rankings": [
             {
                 "rank": 1,
+                "athlete": "Brown, Miles",
+                "team": "Michigan",
+                "time": "1:44.68"
+            },
+            {
+                "rank": 2,
                 "athlete": "Marshall, Camden",
                 "team": "Indiana",
                 "time": "1:45.72"
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "athlete": "Law, Camden",
                 "team": "Michigan",
                 "time": "1:45.86"
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "athlete": "Hilby, Patrick",
                 "team": "Wisconsin",
                 "time": "1:46.03"
-            },
-            {
-                "rank": 4,
-                "athlete": "Brown, Miles",
-                "team": "Michigan",
-                "time": "1:46.30"
             },
             {
                 "rank": 5,
@@ -3103,7 +3007,7 @@
                 "rank": 12,
                 "athlete": "Mangum, Andrew",
                 "team": "Indiana",
-                "time": "1:47.42"
+                "time": "1:47.36"
             },
             {
                 "rank": 13,
@@ -3115,7 +3019,7 @@
                 "rank": 14,
                 "athlete": "Cherry, Reed",
                 "team": "Notre Dame",
-                "time": "1:47.80"
+                "time": "1:47.68"
             },
             {
                 "rank": 15,

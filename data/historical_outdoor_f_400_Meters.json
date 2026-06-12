@@ -1751,81 +1751,81 @@
             },
             {
                 "rank": 6,
+                "athlete": "Minor, Bayleigh",
+                "team": "Texas",
+                "time": "51.22"
+            },
+            {
+                "rank": 7,
                 "athlete": "Nwachukwu, Chioma",
                 "team": "Iowa",
                 "time": "51.24"
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "athlete": "Cooper, Elise",
                 "team": "Texas",
                 "time": "51.24"
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "athlete": "Cooper, Lacarthea",
                 "team": "Texas A&M",
                 "time": "51.36"
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "athlete": "Batista, Analisse",
                 "team": "Arkansas",
                 "time": "51.46"
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "athlete": "Mallard, Christine",
                 "team": "USC",
                 "time": "51.66"
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "athlete": "Johnson, Naomi",
                 "team": "UCLA",
                 "time": "51.79"
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "athlete": "Ngom, Eva",
                 "team": "New Mexico",
                 "time": "51.83"
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "athlete": "Mercera, Vanessa",
                 "team": "Kansas State",
                 "time": "51.83"
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "athlete": "Farrington, Collinique",
                 "team": "Texas Tech",
                 "time": "51.85"
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "athlete": "Kalma, Annalies",
                 "team": "Nevada",
                 "time": "51.87"
             },
             {
-                "rank": 16,
+                "rank": 17,
                 "athlete": "Registre, Jahnile",
                 "team": "Texas A&M",
                 "time": "51.88"
             },
             {
-                "rank": 17,
+                "rank": 18,
                 "athlete": "Sharpe, Amirah",
                 "team": "Arkansas",
                 "time": "51.95"
-            },
-            {
-                "rank": 18,
-                "athlete": "Malikova, Barbora",
-                "team": "Rice",
-                "time": "52.02"
             },
             {
                 "rank": 19,
@@ -1835,141 +1835,189 @@
             },
             {
                 "rank": 20,
+                "athlete": "Malikova, Barbora",
+                "team": "Rice",
+                "time": "52.02"
+            },
+            {
+                "rank": 21,
+                "athlete": "Ncube, Nontokozo",
+                "team": "Minnesota",
+                "time": "52.07"
+            },
+            {
+                "rank": 22,
                 "athlete": "Sharpe, Arianna",
                 "team": "Arkansas",
                 "time": "52.07"
             },
             {
-                "rank": 21,
+                "rank": 23,
                 "athlete": "Uche, Princess",
                 "team": "Iowa",
                 "time": "52.10"
             },
             {
-                "rank": 22,
+                "rank": 24,
+                "athlete": "Williams, Aariyana",
+                "team": "North Texas",
+                "time": "52.12"
+            },
+            {
+                "rank": 25,
                 "athlete": "Skeete, Deshana",
                 "team": "Kansas",
                 "time": "52.14"
             },
             {
-                "rank": 23,
+                "rank": 26,
                 "athlete": "Kelley, Mekenze",
                 "team": "Texas Tech",
                 "time": "52.17"
             },
             {
-                "rank": 24,
+                "rank": 27,
                 "athlete": "Jones, Mashaylee",
                 "team": "Utah State",
                 "time": "52.23"
             },
             {
-                "rank": 25,
+                "rank": 28,
                 "athlete": "Riehle, Desirae",
                 "team": "Kansas State",
                 "time": "52.24"
             },
             {
-                "rank": 26,
+                "rank": 29,
                 "athlete": "Vallerie, Treasure",
                 "team": "UT-Rio Grande Valley",
                 "time": "52.35"
             },
             {
-                "rank": 27,
+                "rank": 30,
                 "athlete": "Lowe, Tyler",
                 "team": "Texas A&M",
                 "time": "52.37"
             },
             {
-                "rank": 28,
+                "rank": 31,
                 "athlete": "Belquist, Kelsie",
                 "team": "Nebraska",
                 "time": "52.41"
             },
             {
-                "rank": 29,
+                "rank": 32,
                 "athlete": "Elliott, Ramiah",
                 "team": "Texas",
                 "time": "52.42"
             },
             {
-                "rank": 30,
+                "rank": 33,
                 "athlete": "Nwaelehia, Peace",
                 "team": "Texas A&M",
                 "time": "52.43"
             },
             {
-                "rank": 31,
+                "rank": 34,
+                "athlete": "Kudoro, Taiwo",
+                "team": "Arizona State",
+                "time": "52.44"
+            },
+            {
+                "rank": 35,
+                "athlete": "Thames, Leah",
+                "team": "Southern Illinois",
+                "time": "52.46"
+            },
+            {
+                "rank": 36,
                 "athlete": "Campbell, Abigail",
                 "team": "Arkansas",
                 "time": "52.48"
             },
             {
-                "rank": 32,
+                "rank": 37,
+                "athlete": "Trepagnier, Joelle",
+                "team": "USC",
+                "time": "52.50"
+            },
+            {
+                "rank": 38,
                 "athlete": "Cain, Alexis",
                 "team": "UT-Arlington",
                 "time": "52.53"
             },
             {
-                "rank": 33,
+                "rank": 39,
                 "athlete": "Artley, Abrielle",
                 "team": "Nebraska",
                 "time": "52.55"
             },
             {
-                "rank": 34,
+                "rank": 40,
                 "athlete": "Mosby, Madison",
                 "team": "USC",
                 "time": "52.58"
             },
             {
-                "rank": 35,
+                "rank": 41,
                 "athlete": "Cenci, Takiya",
                 "team": "USC",
                 "time": "52.59"
             },
             {
-                "rank": 36,
+                "rank": 42,
                 "athlete": "Awanya, Pearl",
                 "team": "Kansas",
                 "time": "52.63"
             },
             {
-                "rank": 37,
+                "rank": 43,
+                "athlete": "Hawkes, Caroline",
+                "team": "Montana State",
+                "time": "52.64"
+            },
+            {
+                "rank": 44,
                 "athlete": "Williams, Alivia",
                 "team": "Iowa",
                 "time": "52.67"
             },
             {
-                "rank": 38,
+                "rank": 45,
                 "athlete": "Doht-Barron, Lakely",
                 "team": "Oregon",
                 "time": "52.69"
             },
             {
-                "rank": 39,
+                "rank": 46,
                 "athlete": "Pouzancre, Louanne",
                 "team": "New Mexico",
                 "time": "52.70"
             },
             {
-                "rank": 40,
+                "rank": 47,
                 "athlete": "Booker, Taliyah",
                 "team": "Grand Canyon",
                 "time": "52.77"
             },
             {
-                "rank": 41,
+                "rank": 48,
                 "athlete": "Simms, Ava",
                 "team": "UCLA",
                 "time": "52.80"
             },
             {
-                "rank": 42,
+                "rank": 49,
                 "athlete": "Green, Riana",
                 "team": "Rice",
                 "time": "52.89"
+            },
+            {
+                "rank": 50,
+                "athlete": "Williams, Tia",
+                "team": "TCU",
+                "time": "52.90"
             }
         ]
     },
@@ -2283,7 +2331,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -2592,7 +2640,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
@@ -2630,81 +2678,81 @@
             },
             {
                 "rank": 6,
+                "athlete": "Minor, Bayleigh",
+                "team": "Texas",
+                "time": "51.22"
+            },
+            {
+                "rank": 7,
                 "athlete": "Nwachukwu, Chioma",
                 "team": "Iowa",
                 "time": "51.24"
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "athlete": "Cooper, Elise",
                 "team": "Texas",
                 "time": "51.24"
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "athlete": "Cooper, Lacarthea",
                 "team": "Texas A&M",
                 "time": "51.36"
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "athlete": "Batista, Analisse",
                 "team": "Arkansas",
                 "time": "51.46"
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "athlete": "Mallard, Christine",
                 "team": "USC",
                 "time": "51.66"
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "athlete": "Johnson, Naomi",
                 "team": "UCLA",
                 "time": "51.79"
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "athlete": "Ngom, Eva",
                 "team": "New Mexico",
                 "time": "51.83"
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "athlete": "Mercera, Vanessa",
                 "team": "Kansas State",
                 "time": "51.83"
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "athlete": "Farrington, Collinique",
                 "team": "Texas Tech",
                 "time": "51.85"
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "athlete": "Kalma, Annalies",
                 "team": "Nevada",
                 "time": "51.87"
             },
             {
-                "rank": 16,
+                "rank": 17,
                 "athlete": "Registre, Jahnile",
                 "team": "Texas A&M",
                 "time": "51.88"
             },
             {
-                "rank": 17,
+                "rank": 18,
                 "athlete": "Sharpe, Amirah",
                 "team": "Arkansas",
                 "time": "51.95"
-            },
-            {
-                "rank": 18,
-                "athlete": "Malikova, Barbora",
-                "team": "Rice",
-                "time": "52.02"
             },
             {
                 "rank": 19,
@@ -2714,146 +2762,194 @@
             },
             {
                 "rank": 20,
+                "athlete": "Malikova, Barbora",
+                "team": "Rice",
+                "time": "52.02"
+            },
+            {
+                "rank": 21,
+                "athlete": "Ncube, Nontokozo",
+                "team": "Minnesota",
+                "time": "52.07"
+            },
+            {
+                "rank": 22,
                 "athlete": "Sharpe, Arianna",
                 "team": "Arkansas",
                 "time": "52.07"
             },
             {
-                "rank": 21,
+                "rank": 23,
                 "athlete": "Uche, Princess",
                 "team": "Iowa",
                 "time": "52.10"
             },
             {
-                "rank": 22,
+                "rank": 24,
+                "athlete": "Williams, Aariyana",
+                "team": "North Texas",
+                "time": "52.12"
+            },
+            {
+                "rank": 25,
                 "athlete": "Skeete, Deshana",
                 "team": "Kansas",
                 "time": "52.14"
             },
             {
-                "rank": 23,
+                "rank": 26,
                 "athlete": "Kelley, Mekenze",
                 "team": "Texas Tech",
                 "time": "52.17"
             },
             {
-                "rank": 24,
+                "rank": 27,
                 "athlete": "Jones, Mashaylee",
                 "team": "Utah State",
                 "time": "52.23"
             },
             {
-                "rank": 25,
+                "rank": 28,
                 "athlete": "Riehle, Desirae",
                 "team": "Kansas State",
                 "time": "52.24"
             },
             {
-                "rank": 26,
+                "rank": 29,
                 "athlete": "Vallerie, Treasure",
                 "team": "UT-Rio Grande Valley",
                 "time": "52.35"
             },
             {
-                "rank": 27,
+                "rank": 30,
                 "athlete": "Lowe, Tyler",
                 "team": "Texas A&M",
                 "time": "52.37"
             },
             {
-                "rank": 28,
+                "rank": 31,
                 "athlete": "Belquist, Kelsie",
                 "team": "Nebraska",
                 "time": "52.41"
             },
             {
-                "rank": 29,
+                "rank": 32,
                 "athlete": "Elliott, Ramiah",
                 "team": "Texas",
                 "time": "52.42"
             },
             {
-                "rank": 30,
+                "rank": 33,
                 "athlete": "Nwaelehia, Peace",
                 "team": "Texas A&M",
                 "time": "52.43"
             },
             {
-                "rank": 31,
+                "rank": 34,
+                "athlete": "Kudoro, Taiwo",
+                "team": "Arizona State",
+                "time": "52.44"
+            },
+            {
+                "rank": 35,
+                "athlete": "Thames, Leah",
+                "team": "Southern Illinois",
+                "time": "52.46"
+            },
+            {
+                "rank": 36,
                 "athlete": "Campbell, Abigail",
                 "team": "Arkansas",
                 "time": "52.48"
             },
             {
-                "rank": 32,
+                "rank": 37,
+                "athlete": "Trepagnier, Joelle",
+                "team": "USC",
+                "time": "52.50"
+            },
+            {
+                "rank": 38,
                 "athlete": "Cain, Alexis",
                 "team": "UT-Arlington",
                 "time": "52.53"
             },
             {
-                "rank": 33,
+                "rank": 39,
                 "athlete": "Artley, Abrielle",
                 "team": "Nebraska",
                 "time": "52.55"
             },
             {
-                "rank": 34,
+                "rank": 40,
                 "athlete": "Mosby, Madison",
                 "team": "USC",
                 "time": "52.58"
             },
             {
-                "rank": 35,
+                "rank": 41,
                 "athlete": "Cenci, Takiya",
                 "team": "USC",
                 "time": "52.59"
             },
             {
-                "rank": 36,
+                "rank": 42,
                 "athlete": "Awanya, Pearl",
                 "team": "Kansas",
                 "time": "52.63"
             },
             {
-                "rank": 37,
+                "rank": 43,
+                "athlete": "Hawkes, Caroline",
+                "team": "Montana State",
+                "time": "52.64"
+            },
+            {
+                "rank": 44,
                 "athlete": "Williams, Alivia",
                 "team": "Iowa",
                 "time": "52.67"
             },
             {
-                "rank": 38,
+                "rank": 45,
                 "athlete": "Doht-Barron, Lakely",
                 "team": "Oregon",
                 "time": "52.69"
             },
             {
-                "rank": 39,
+                "rank": 46,
                 "athlete": "Pouzancre, Louanne",
                 "team": "New Mexico",
                 "time": "52.70"
             },
             {
-                "rank": 40,
+                "rank": 47,
                 "athlete": "Booker, Taliyah",
                 "team": "Grand Canyon",
                 "time": "52.77"
             },
             {
-                "rank": 41,
+                "rank": 48,
                 "athlete": "Simms, Ava",
                 "team": "UCLA",
                 "time": "52.80"
             },
             {
-                "rank": 42,
+                "rank": 49,
                 "athlete": "Green, Riana",
                 "team": "Rice",
                 "time": "52.89"
+            },
+            {
+                "rank": 50,
+                "athlete": "Williams, Tia",
+                "team": "TCU",
+                "time": "52.90"
             }
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",

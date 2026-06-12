@@ -1268,192 +1268,282 @@
             },
             {
                 "rank": 4,
+                "athlete": "Johnson, Josiah",
+                "team": "Northern Arizona",
+                "time": "49.56"
+            },
+            {
+                "rank": 5,
+                "athlete": "Parrish, Jason",
+                "team": "Wichita State",
+                "time": "49.58"
+            },
+            {
+                "rank": 6,
                 "athlete": "Ochonogor, Prior",
                 "team": "Iowa",
                 "time": "49.83"
             },
             {
-                "rank": 5,
+                "rank": 7,
                 "athlete": "Tragarz, Danny",
                 "team": "Colorado",
                 "time": "49.84"
             },
             {
-                "rank": 6,
+                "rank": 8,
                 "athlete": "Vazquez, Yan",
                 "team": "Arizona",
                 "time": "49.85"
             },
             {
-                "rank": 7,
+                "rank": 9,
+                "athlete": "Andrews, Finn",
+                "team": "UC Santa Barbara",
+                "time": "49.88"
+            },
+            {
+                "rank": 10,
+                "athlete": "Brinkley, Chris",
+                "team": "Texas",
+                "time": "49.92"
+            },
+            {
+                "rank": 11,
+                "athlete": "Mauricette, Yougendy",
+                "team": "USC",
+                "time": "49.97"
+            },
+            {
+                "rank": 12,
+                "athlete": "Anderson , Jarvis",
+                "team": "Stephen F. Austin",
+                "time": "49.98"
+            },
+            {
+                "rank": 13,
                 "athlete": "Canivet, Thomas",
                 "team": "Kansas State",
                 "time": "50.04"
             },
             {
-                "rank": 8,
+                "rank": 14,
                 "athlete": "Dixon, Sean",
                 "team": "Texas Tech",
                 "time": "50.05"
             },
             {
-                "rank": 9,
+                "rank": 15,
+                "athlete": "Myers II, Tamaal",
+                "team": "UCLA",
+                "time": "50.14"
+            },
+            {
+                "rank": 16,
                 "athlete": "Dahl, Brayden",
                 "team": "BYU",
                 "time": "50.32"
             },
             {
-                "rank": 10,
+                "rank": 17,
                 "athlete": "West, Cheyne",
                 "team": "East Texas A&M",
                 "time": "50.32"
             },
             {
-                "rank": 11,
+                "rank": 18,
+                "athlete": "Wenthe, Davis",
+                "team": "Lamar",
+                "time": "50.40"
+            },
+            {
+                "rank": 19,
                 "athlete": "DeVaughn III, Vaughn",
                 "team": "Iowa",
                 "time": "50.43"
             },
             {
-                "rank": 12,
+                "rank": 20,
+                "athlete": "Moore, Tyler",
+                "team": "North Texas",
+                "time": "50.46"
+            },
+            {
+                "rank": 21,
                 "athlete": "Atilano, Vincent",
                 "team": "Cal Poly",
                 "time": "50.52"
             },
             {
-                "rank": 13,
+                "rank": 22,
                 "athlete": "Dasher, Jaden",
                 "team": "Long Beach St.",
                 "time": "50.56"
             },
             {
-                "rank": 14,
+                "rank": 23,
+                "athlete": "Katanic, Mihajlo",
+                "team": "Texas State",
+                "time": "50.60"
+            },
+            {
+                "rank": 24,
+                "athlete": "Ledbetter, James",
+                "team": "Nebraska",
+                "time": "50.61"
+            },
+            {
+                "rank": 25,
                 "athlete": "Copelin, Garrett",
                 "team": "BYU",
                 "time": "50.64"
             },
             {
-                "rank": 15,
+                "rank": 26,
                 "athlete": "Paige, Chris",
                 "team": "UCLA",
                 "time": "50.68"
             },
             {
-                "rank": 16,
+                "rank": 27,
+                "athlete": "Leacock, Dillon",
+                "team": "Missouri",
+                "time": "50.68"
+            },
+            {
+                "rank": 28,
                 "athlete": "Hubler, Logan",
                 "team": "BYU",
                 "time": "50.69"
             },
             {
-                "rank": 17,
+                "rank": 29,
+                "athlete": "Frazier, Jonathan",
+                "team": "Washington",
+                "time": "50.69"
+            },
+            {
+                "rank": 30,
                 "athlete": "Reynolds, Ryce",
                 "team": "Stanford",
                 "time": "50.75"
             },
             {
-                "rank": 18,
+                "rank": 31,
                 "athlete": "Ellis, Ethan",
                 "team": "Lamar",
                 "time": "50.76"
             },
             {
-                "rank": 19,
+                "rank": 32,
                 "athlete": "Holmes, Jaylin",
                 "team": "Iowa",
                 "time": "50.76"
             },
             {
-                "rank": 20,
+                "rank": 33,
                 "athlete": "Madison, Colin",
                 "team": "Tulsa",
                 "time": "50.80"
             },
             {
-                "rank": 21,
+                "rank": 34,
                 "athlete": "Martinez, Nicolas",
                 "team": "Northern Arizona",
                 "time": "50.83"
             },
             {
-                "rank": 22,
+                "rank": 35,
                 "athlete": "Bruns, Carsen",
                 "team": "Colorado St.",
                 "time": "50.88"
             },
             {
-                "rank": 23,
+                "rank": 36,
                 "athlete": "Carr, Alec",
                 "team": "Iowa State",
                 "time": "50.89"
             },
             {
-                "rank": 24,
+                "rank": 37,
                 "athlete": "Soos, Levente",
                 "team": "New Mexico",
                 "time": "50.89"
             },
             {
-                "rank": 25,
+                "rank": 38,
+                "athlete": "Lamkin, Mac",
+                "team": "UC Santa Barbara",
+                "time": "50.97"
+            },
+            {
+                "rank": 39,
                 "athlete": "Mourtada, Rayhan",
                 "team": "Houston Christian",
                 "time": "51.00"
             },
             {
-                "rank": 26,
+                "rank": 40,
                 "athlete": "Bocock, Edward",
                 "team": "Rice",
                 "time": "51.02"
             },
             {
-                "rank": 27,
+                "rank": 41,
                 "athlete": "King IV, William",
                 "team": "Houston",
                 "time": "51.10"
             },
             {
-                "rank": 28,
+                "rank": 42,
                 "athlete": "Waring, Zaire",
                 "team": "UCLA",
                 "time": "51.10"
             },
             {
-                "rank": 29,
+                "rank": 43,
                 "athlete": "Anderson, Treyton",
                 "team": "BYU",
                 "time": "51.11"
             },
             {
-                "rank": 30,
+                "rank": 44,
                 "athlete": "Jessee, Jayden",
                 "team": "BYU",
                 "time": "51.11"
             },
             {
-                "rank": 31,
+                "rank": 45,
+                "athlete": "Ashton, Shane",
+                "team": "Southern Illinois",
+                "time": "51.14"
+            },
+            {
+                "rank": 46,
                 "athlete": "Dickerson, Jalen",
                 "team": "Southern Illinois",
                 "time": "51.14"
             },
             {
-                "rank": 32,
+                "rank": 47,
                 "athlete": "Siaffa, Daniel",
                 "team": "UT-Rio Grande Valley",
                 "time": "51.17"
             },
             {
-                "rank": 33,
+                "rank": 48,
                 "athlete": "Taylor, DJ",
                 "team": "Texas A&M",
                 "time": "51.17"
             },
             {
-                "rank": 34,
+                "rank": 49,
                 "athlete": "McGill, Clarence",
                 "team": "North Texas",
                 "time": "51.23"
             },
             {
-                "rank": 35,
+                "rank": 50,
                 "athlete": "Ligons, Ambodai",
                 "team": "Washington",
                 "time": "51.29"
@@ -1740,7 +1830,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -2055,7 +2145,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -2081,192 +2171,282 @@
             },
             {
                 "rank": 4,
+                "athlete": "Johnson, Josiah",
+                "team": "Northern Arizona",
+                "time": "49.56"
+            },
+            {
+                "rank": 5,
+                "athlete": "Parrish, Jason",
+                "team": "Wichita State",
+                "time": "49.58"
+            },
+            {
+                "rank": 6,
                 "athlete": "Ochonogor, Prior",
                 "team": "Iowa",
                 "time": "49.83"
             },
             {
-                "rank": 5,
+                "rank": 7,
                 "athlete": "Tragarz, Danny",
                 "team": "Colorado",
                 "time": "49.84"
             },
             {
-                "rank": 6,
+                "rank": 8,
                 "athlete": "Vazquez, Yan",
                 "team": "Arizona",
                 "time": "49.85"
             },
             {
-                "rank": 7,
+                "rank": 9,
+                "athlete": "Andrews, Finn",
+                "team": "UC Santa Barbara",
+                "time": "49.88"
+            },
+            {
+                "rank": 10,
+                "athlete": "Brinkley, Chris",
+                "team": "Texas",
+                "time": "49.92"
+            },
+            {
+                "rank": 11,
+                "athlete": "Mauricette, Yougendy",
+                "team": "USC",
+                "time": "49.97"
+            },
+            {
+                "rank": 12,
+                "athlete": "Anderson , Jarvis",
+                "team": "Stephen F. Austin",
+                "time": "49.98"
+            },
+            {
+                "rank": 13,
                 "athlete": "Canivet, Thomas",
                 "team": "Kansas State",
                 "time": "50.04"
             },
             {
-                "rank": 8,
+                "rank": 14,
                 "athlete": "Dixon, Sean",
                 "team": "Texas Tech",
                 "time": "50.05"
             },
             {
-                "rank": 9,
+                "rank": 15,
+                "athlete": "Myers II, Tamaal",
+                "team": "UCLA",
+                "time": "50.14"
+            },
+            {
+                "rank": 16,
                 "athlete": "Dahl, Brayden",
                 "team": "BYU",
                 "time": "50.32"
             },
             {
-                "rank": 10,
+                "rank": 17,
                 "athlete": "West, Cheyne",
                 "team": "East Texas A&M",
                 "time": "50.32"
             },
             {
-                "rank": 11,
+                "rank": 18,
+                "athlete": "Wenthe, Davis",
+                "team": "Lamar",
+                "time": "50.40"
+            },
+            {
+                "rank": 19,
                 "athlete": "DeVaughn III, Vaughn",
                 "team": "Iowa",
                 "time": "50.43"
             },
             {
-                "rank": 12,
+                "rank": 20,
+                "athlete": "Moore, Tyler",
+                "team": "North Texas",
+                "time": "50.46"
+            },
+            {
+                "rank": 21,
                 "athlete": "Atilano, Vincent",
                 "team": "Cal Poly",
                 "time": "50.52"
             },
             {
-                "rank": 13,
+                "rank": 22,
                 "athlete": "Dasher, Jaden",
                 "team": "Long Beach St.",
                 "time": "50.56"
             },
             {
-                "rank": 14,
+                "rank": 23,
+                "athlete": "Katanic, Mihajlo",
+                "team": "Texas State",
+                "time": "50.60"
+            },
+            {
+                "rank": 24,
+                "athlete": "Ledbetter, James",
+                "team": "Nebraska",
+                "time": "50.61"
+            },
+            {
+                "rank": 25,
                 "athlete": "Copelin, Garrett",
                 "team": "BYU",
                 "time": "50.64"
             },
             {
-                "rank": 15,
+                "rank": 26,
                 "athlete": "Paige, Chris",
                 "team": "UCLA",
                 "time": "50.68"
             },
             {
-                "rank": 16,
+                "rank": 27,
+                "athlete": "Leacock, Dillon",
+                "team": "Missouri",
+                "time": "50.68"
+            },
+            {
+                "rank": 28,
                 "athlete": "Hubler, Logan",
                 "team": "BYU",
                 "time": "50.69"
             },
             {
-                "rank": 17,
+                "rank": 29,
+                "athlete": "Frazier, Jonathan",
+                "team": "Washington",
+                "time": "50.69"
+            },
+            {
+                "rank": 30,
                 "athlete": "Reynolds, Ryce",
                 "team": "Stanford",
                 "time": "50.75"
             },
             {
-                "rank": 18,
+                "rank": 31,
                 "athlete": "Ellis, Ethan",
                 "team": "Lamar",
                 "time": "50.76"
             },
             {
-                "rank": 19,
+                "rank": 32,
                 "athlete": "Holmes, Jaylin",
                 "team": "Iowa",
                 "time": "50.76"
             },
             {
-                "rank": 20,
+                "rank": 33,
                 "athlete": "Madison, Colin",
                 "team": "Tulsa",
                 "time": "50.80"
             },
             {
-                "rank": 21,
+                "rank": 34,
                 "athlete": "Martinez, Nicolas",
                 "team": "Northern Arizona",
                 "time": "50.83"
             },
             {
-                "rank": 22,
+                "rank": 35,
                 "athlete": "Bruns, Carsen",
                 "team": "Colorado St.",
                 "time": "50.88"
             },
             {
-                "rank": 23,
+                "rank": 36,
                 "athlete": "Carr, Alec",
                 "team": "Iowa State",
                 "time": "50.89"
             },
             {
-                "rank": 24,
+                "rank": 37,
                 "athlete": "Soos, Levente",
                 "team": "New Mexico",
                 "time": "50.89"
             },
             {
-                "rank": 25,
+                "rank": 38,
+                "athlete": "Lamkin, Mac",
+                "team": "UC Santa Barbara",
+                "time": "50.97"
+            },
+            {
+                "rank": 39,
                 "athlete": "Mourtada, Rayhan",
                 "team": "Houston Christian",
                 "time": "51.00"
             },
             {
-                "rank": 26,
+                "rank": 40,
                 "athlete": "Bocock, Edward",
                 "team": "Rice",
                 "time": "51.02"
             },
             {
-                "rank": 27,
+                "rank": 41,
                 "athlete": "King IV, William",
                 "team": "Houston",
                 "time": "51.10"
             },
             {
-                "rank": 28,
+                "rank": 42,
                 "athlete": "Waring, Zaire",
                 "team": "UCLA",
                 "time": "51.10"
             },
             {
-                "rank": 29,
+                "rank": 43,
                 "athlete": "Anderson, Treyton",
                 "team": "BYU",
                 "time": "51.11"
             },
             {
-                "rank": 30,
+                "rank": 44,
                 "athlete": "Jessee, Jayden",
                 "team": "BYU",
                 "time": "51.11"
             },
             {
-                "rank": 31,
+                "rank": 45,
+                "athlete": "Ashton, Shane",
+                "team": "Southern Illinois",
+                "time": "51.14"
+            },
+            {
+                "rank": 46,
                 "athlete": "Dickerson, Jalen",
                 "team": "Southern Illinois",
                 "time": "51.14"
             },
             {
-                "rank": 32,
+                "rank": 47,
                 "athlete": "Siaffa, Daniel",
                 "team": "UT-Rio Grande Valley",
                 "time": "51.17"
             },
             {
-                "rank": 33,
+                "rank": 48,
                 "athlete": "Taylor, DJ",
                 "team": "Texas A&M",
                 "time": "51.17"
             },
             {
-                "rank": 34,
+                "rank": 49,
                 "athlete": "McGill, Clarence",
                 "team": "North Texas",
                 "time": "51.23"
             },
             {
-                "rank": 35,
+                "rank": 50,
                 "athlete": "Ligons, Ambodai",
                 "team": "Washington",
                 "time": "51.29"
@@ -2274,7 +2454,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",

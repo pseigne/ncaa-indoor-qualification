@@ -1358,150 +1358,180 @@
             },
             {
                 "rank": 21,
+                "athlete": "Weimer, Ali",
+                "team": "Minnesota",
+                "time": "32:58.91"
+            },
+            {
+                "rank": 22,
+                "athlete": "Machu, Rosina",
+                "team": "Gonzaga",
+                "time": "33:02.80"
+            },
+            {
+                "rank": 23,
                 "athlete": "Bainbridge, Ali",
                 "team": "Nebraska",
                 "time": "33:06.73"
             },
             {
-                "rank": 22,
+                "rank": 24,
                 "athlete": "Nisoli, Christina",
                 "team": "New Mexico",
                 "time": "33:07.15"
             },
             {
-                "rank": 23,
+                "rank": 25,
                 "athlete": "Stiles, Maeve",
                 "team": "Washington",
                 "time": "33:07.79"
             },
             {
-                "rank": 24,
+                "rank": 26,
                 "athlete": "Jones, India",
                 "team": "Air Force",
                 "time": "33:08.30"
             },
             {
-                "rank": 25,
+                "rank": 27,
                 "athlete": "Cheptoo, Zenah",
                 "team": "Washington St.",
                 "time": "33:11.08"
             },
             {
-                "rank": 26,
+                "rank": 28,
+                "athlete": "DeVeau, Abby",
+                "team": "Washington",
+                "time": "33:18.23"
+            },
+            {
+                "rank": 29,
                 "athlete": "Criniti, Ava",
                 "team": "Northwestern",
                 "time": "33:19.10"
             },
             {
-                "rank": 27,
+                "rank": 30,
                 "athlete": "Foody, Olivia",
                 "team": "UCLA",
                 "time": "33:20.31"
             },
             {
-                "rank": 28,
+                "rank": 31,
                 "athlete": "Ndungu, Lucy",
                 "team": "Wichita State",
                 "time": "33:20.55"
             },
             {
-                "rank": 29,
+                "rank": 32,
                 "athlete": "Doman, Reagan",
                 "team": "Utah Valley",
                 "time": "33:24.35"
             },
             {
-                "rank": 30,
+                "rank": 33,
+                "athlete": "Engel, Addie",
+                "team": "Northern Arizona",
+                "time": "33:26.05"
+            },
+            {
+                "rank": 34,
                 "athlete": "Jemutai, Valentine",
                 "team": "Stephen F. Austin",
                 "time": "33:26.94"
             },
             {
-                "rank": 31,
+                "rank": 35,
                 "athlete": "Holman, Jackie",
                 "team": "Northwestern",
                 "time": "33:32.10"
             },
             {
-                "rank": 32,
+                "rank": 36,
                 "athlete": "Dillon, Charlotte",
                 "team": "Gonzaga",
                 "time": "33:32.93"
             },
             {
-                "rank": 33,
+                "rank": 37,
                 "athlete": "Koma, Amit",
                 "team": "Boise State",
                 "time": "33:39.15"
             },
             {
-                "rank": 34,
+                "rank": 38,
                 "athlete": "Schiffman, Sarah",
                 "team": "CBU",
                 "time": "33:41.48"
             },
             {
-                "rank": 35,
+                "rank": 39,
                 "athlete": "Atkinson, Sophie",
                 "team": "Texas",
                 "time": "33:42.19"
             },
             {
-                "rank": 36,
+                "rank": 40,
                 "athlete": "Prosser, Hannah",
                 "team": "Colorado",
                 "time": "33:42.99"
             },
             {
-                "rank": 37,
+                "rank": 41,
                 "athlete": "Crawford, Elizabeth",
                 "team": "Pepperdine",
                 "time": "33:44.39"
             },
             {
-                "rank": 38,
+                "rank": 42,
                 "athlete": "Johnson, Shewaye",
                 "team": "North Dakota",
                 "time": "33:44.70"
             },
             {
-                "rank": 39,
+                "rank": 43,
                 "athlete": "Trimble, Ari",
                 "team": "Utah Valley",
                 "time": "33:45.29"
             },
             {
-                "rank": 40,
+                "rank": 44,
+                "athlete": "Thompson, Anika",
+                "team": "Oregon",
+                "time": "33:47.18"
+            },
+            {
+                "rank": 45,
                 "athlete": "Jones, Ashley",
                 "team": "Colorado",
                 "time": "33:47.48"
             },
             {
-                "rank": 41,
+                "rank": 46,
                 "athlete": "Gaffney, Kelli",
                 "team": "Cal Poly",
                 "time": "33:49.78"
             },
             {
-                "rank": 42,
+                "rank": 47,
                 "athlete": "Siana, Madi",
                 "team": "Montana State",
                 "time": "33:49.85"
             },
             {
-                "rank": 43,
+                "rank": 48,
                 "athlete": "Roemer, Izzy",
                 "team": "Minnesota",
                 "time": "33:49.87"
             },
             {
-                "rank": 44,
+                "rank": 49,
                 "athlete": "Grabowski, Anna",
                 "team": "Gonzaga",
                 "time": "33:50.80"
             },
             {
-                "rank": 45,
+                "rank": 50,
                 "athlete": "Weiler, Naja",
                 "team": "North Dakota",
                 "time": "33:51.36"
@@ -1818,7 +1848,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "East",
         "gender": "f",
@@ -2127,7 +2157,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "West",
         "gender": "f",
@@ -2255,150 +2285,180 @@
             },
             {
                 "rank": 21,
+                "athlete": "Weimer, Ali",
+                "team": "Minnesota",
+                "time": "32:58.91"
+            },
+            {
+                "rank": 22,
+                "athlete": "Machu, Rosina",
+                "team": "Gonzaga",
+                "time": "33:02.80"
+            },
+            {
+                "rank": 23,
                 "athlete": "Bainbridge, Ali",
                 "team": "Nebraska",
                 "time": "33:06.73"
             },
             {
-                "rank": 22,
+                "rank": 24,
                 "athlete": "Nisoli, Christina",
                 "team": "New Mexico",
                 "time": "33:07.15"
             },
             {
-                "rank": 23,
+                "rank": 25,
                 "athlete": "Stiles, Maeve",
                 "team": "Washington",
                 "time": "33:07.79"
             },
             {
-                "rank": 24,
+                "rank": 26,
                 "athlete": "Jones, India",
                 "team": "Air Force",
                 "time": "33:08.30"
             },
             {
-                "rank": 25,
+                "rank": 27,
                 "athlete": "Cheptoo, Zenah",
                 "team": "Washington St.",
                 "time": "33:11.08"
             },
             {
-                "rank": 26,
+                "rank": 28,
+                "athlete": "DeVeau, Abby",
+                "team": "Washington",
+                "time": "33:18.23"
+            },
+            {
+                "rank": 29,
                 "athlete": "Criniti, Ava",
                 "team": "Northwestern",
                 "time": "33:19.10"
             },
             {
-                "rank": 27,
+                "rank": 30,
                 "athlete": "Foody, Olivia",
                 "team": "UCLA",
                 "time": "33:20.31"
             },
             {
-                "rank": 28,
+                "rank": 31,
                 "athlete": "Ndungu, Lucy",
                 "team": "Wichita State",
                 "time": "33:20.55"
             },
             {
-                "rank": 29,
+                "rank": 32,
                 "athlete": "Doman, Reagan",
                 "team": "Utah Valley",
                 "time": "33:24.35"
             },
             {
-                "rank": 30,
+                "rank": 33,
+                "athlete": "Engel, Addie",
+                "team": "Northern Arizona",
+                "time": "33:26.05"
+            },
+            {
+                "rank": 34,
                 "athlete": "Jemutai, Valentine",
                 "team": "Stephen F. Austin",
                 "time": "33:26.94"
             },
             {
-                "rank": 31,
+                "rank": 35,
                 "athlete": "Holman, Jackie",
                 "team": "Northwestern",
                 "time": "33:32.10"
             },
             {
-                "rank": 32,
+                "rank": 36,
                 "athlete": "Dillon, Charlotte",
                 "team": "Gonzaga",
                 "time": "33:32.93"
             },
             {
-                "rank": 33,
+                "rank": 37,
                 "athlete": "Koma, Amit",
                 "team": "Boise State",
                 "time": "33:39.15"
             },
             {
-                "rank": 34,
+                "rank": 38,
                 "athlete": "Schiffman, Sarah",
                 "team": "CBU",
                 "time": "33:41.48"
             },
             {
-                "rank": 35,
+                "rank": 39,
                 "athlete": "Atkinson, Sophie",
                 "team": "Texas",
                 "time": "33:42.19"
             },
             {
-                "rank": 36,
+                "rank": 40,
                 "athlete": "Prosser, Hannah",
                 "team": "Colorado",
                 "time": "33:42.99"
             },
             {
-                "rank": 37,
+                "rank": 41,
                 "athlete": "Crawford, Elizabeth",
                 "team": "Pepperdine",
                 "time": "33:44.39"
             },
             {
-                "rank": 38,
+                "rank": 42,
                 "athlete": "Johnson, Shewaye",
                 "team": "North Dakota",
                 "time": "33:44.70"
             },
             {
-                "rank": 39,
+                "rank": 43,
                 "athlete": "Trimble, Ari",
                 "team": "Utah Valley",
                 "time": "33:45.29"
             },
             {
-                "rank": 40,
+                "rank": 44,
+                "athlete": "Thompson, Anika",
+                "team": "Oregon",
+                "time": "33:47.18"
+            },
+            {
+                "rank": 45,
                 "athlete": "Jones, Ashley",
                 "team": "Colorado",
                 "time": "33:47.48"
             },
             {
-                "rank": 41,
+                "rank": 46,
                 "athlete": "Gaffney, Kelli",
                 "team": "Cal Poly",
                 "time": "33:49.78"
             },
             {
-                "rank": 42,
+                "rank": 47,
                 "athlete": "Siana, Madi",
                 "team": "Montana State",
                 "time": "33:49.85"
             },
             {
-                "rank": 43,
+                "rank": 48,
                 "athlete": "Roemer, Izzy",
                 "team": "Minnesota",
                 "time": "33:49.87"
             },
             {
-                "rank": 44,
+                "rank": 49,
                 "athlete": "Grabowski, Anna",
                 "team": "Gonzaga",
                 "time": "33:50.80"
             },
             {
-                "rank": 45,
+                "rank": 50,
                 "athlete": "Weiler, Naja",
                 "team": "North Dakota",
                 "time": "33:51.36"
@@ -2406,7 +2466,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "National",
         "gender": "f",

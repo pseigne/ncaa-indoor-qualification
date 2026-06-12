@@ -1889,204 +1889,270 @@
             },
             {
                 "rank": 6,
-                "athlete": "Blackwood, Kody",
-                "team": "Texas",
-                "time": "45.24"
+                "athlete": "Stadlman, Jack",
+                "team": "USC",
+                "time": "45.18"
             },
             {
                 "rank": 7,
+                "athlete": "Clement II, Gabriel",
+                "team": "UCLA",
+                "time": "45.24"
+            },
+            {
+                "rank": 8,
                 "athlete": "Kaalund, Garrett",
                 "team": "USC",
                 "time": "45.24"
             },
             {
-                "rank": 8,
+                "rank": 9,
+                "athlete": "Blackwood, Kody",
+                "team": "Texas",
+                "time": "45.24"
+            },
+            {
+                "rank": 10,
                 "athlete": "Tinega, Brian",
                 "team": "Texas Tech",
                 "time": "45.25"
             },
             {
-                "rank": 9,
+                "rank": 11,
                 "athlete": "Underwood, Tavon",
                 "team": "Kansas State",
                 "time": "45.30"
             },
             {
-                "rank": 10,
+                "rank": 12,
+                "athlete": "Farquharson, Kimar",
+                "team": "Texas A&M",
+                "time": "45.39"
+            },
+            {
+                "rank": 13,
                 "athlete": "Boyce, DeSean",
                 "team": "Texas Tech",
                 "time": "45.43@"
             },
             {
-                "rank": 11,
+                "rank": 14,
                 "athlete": "Kendrick, Ronnie",
                 "team": "TCU",
                 "time": "45.45"
             },
             {
-                "rank": 12,
+                "rank": 15,
                 "athlete": "Gilbert, Jackson",
                 "team": "Illinois",
                 "time": "45.47"
             },
             {
-                "rank": 13,
+                "rank": 16,
                 "athlete": "Miller, Tyrese",
                 "team": "Iowa",
                 "time": "45.51"
             },
             {
-                "rank": 14,
+                "rank": 17,
+                "athlete": "Joseph, Michael",
+                "team": "Kansas",
+                "time": "45.53"
+            },
+            {
+                "rank": 18,
                 "athlete": "Wright, Devyn",
                 "team": "Arkansas",
                 "time": "45.56"
             },
             {
-                "rank": 15,
+                "rank": 19,
                 "athlete": "Garcia Jr., George",
                 "team": "Texas Tech",
                 "time": "45.62@"
             },
             {
-                "rank": 16,
+                "rank": 20,
                 "athlete": "Franklin, Malik",
                 "team": "Baylor",
                 "time": "45.63"
             },
             {
-                "rank": 17,
+                "rank": 21,
                 "athlete": "Popelka, Logan",
                 "team": "Texas",
                 "time": "45.65"
             },
             {
-                "rank": 18,
+                "rank": 22,
                 "athlete": "Uter, Shaemar",
                 "team": "Texas Tech",
                 "time": "45.72"
             },
             {
-                "rank": 19,
+                "rank": 23,
                 "athlete": "Dunbar, Kyzer",
                 "team": "Texas Tech",
                 "time": "45.73@"
             },
             {
-                "rank": 20,
+                "rank": 24,
                 "athlete": "McElroy, Steven",
                 "team": "Arkansas",
                 "time": "45.77"
             },
             {
-                "rank": 21,
+                "rank": 25,
+                "athlete": "Tomlyanovich, TJ",
+                "team": "Arkansas",
+                "time": "45.79"
+            },
+            {
+                "rank": 26,
                 "athlete": "Spencer, Aren",
                 "team": "Baylor",
                 "time": "45.79"
             },
             {
-                "rank": 22,
+                "rank": 27,
+                "athlete": "Carpenter, Kenny",
+                "team": "Colorado St.",
+                "time": "45.82@"
+            },
+            {
+                "rank": 28,
                 "athlete": "Page, Mason",
                 "team": "Oklahoma State",
                 "time": "45.82"
             },
             {
-                "rank": 23,
+                "rank": 29,
                 "athlete": "Thomas, Evander",
                 "team": "TCU",
                 "time": "45.86"
             },
             {
-                "rank": 24,
+                "rank": 30,
                 "athlete": "Fontenot, Landon",
                 "team": "Iowa",
                 "time": "45.88"
             },
             {
-                "rank": 25,
+                "rank": 31,
+                "athlete": "Hemphill III, Eric",
+                "team": "Texas A&M",
+                "time": "45.91"
+            },
+            {
+                "rank": 32,
                 "athlete": "Cruzan, Zander",
                 "team": "Arkansas",
                 "time": "45.92"
             },
             {
-                "rank": 26,
+                "rank": 33,
+                "athlete": "Kouyoumdjian, Martin",
+                "team": "UTSA",
+                "time": "45.95"
+            },
+            {
+                "rank": 34,
+                "athlete": "Andrews, Jacob",
+                "team": "USC",
+                "time": "45.96"
+            },
+            {
+                "rank": 35,
                 "athlete": "Haynes, Jayden",
                 "team": "UT-Arlington",
                 "time": "45.99"
             },
             {
-                "rank": 27,
+                "rank": 36,
                 "athlete": "Goudeau, Detrevyon",
                 "team": "Prairie View",
                 "time": "46.02"
             },
             {
-                "rank": 28,
+                "rank": 37,
                 "athlete": "Toili, Samuel",
                 "team": "Oklahoma",
                 "time": "46.05"
             },
             {
-                "rank": 29,
+                "rank": 38,
                 "athlete": "Simpson, Richard",
                 "team": "Nebraska",
                 "time": "46.08"
             },
             {
-                "rank": 30,
+                "rank": 39,
                 "athlete": "Brown, Zidane",
                 "team": "Iowa",
                 "time": "46.08"
             },
             {
-                "rank": 31,
+                "rank": 40,
                 "athlete": "Smith, Kwame",
                 "team": "Southern Illinois",
                 "time": "46.09"
             },
             {
-                "rank": 32,
+                "rank": 41,
                 "athlete": "Thorne, Charlie",
                 "team": "Oklahoma State",
                 "time": "46.10"
             },
             {
-                "rank": 33,
+                "rank": 42,
                 "athlete": "Bynum, Will",
                 "team": "Oklahoma State",
                 "time": "46.10"
             },
             {
-                "rank": 34,
+                "rank": 43,
                 "athlete": "Pierce, Walter",
                 "team": "CSUN",
                 "time": "46.11"
             },
             {
-                "rank": 35,
+                "rank": 44,
+                "athlete": "Isah, Musa",
+                "team": "Texas A&M",
+                "time": "46.12"
+            },
+            {
+                "rank": 45,
+                "athlete": "Sanni-Thomas, Evan",
+                "team": "Tulsa",
+                "time": "46.12"
+            },
+            {
+                "rank": 46,
                 "athlete": "Escobar, DeMarco",
                 "team": "Texas A&M",
                 "time": "46.16"
             },
             {
-                "rank": 36,
+                "rank": 47,
                 "athlete": "Rowswell, Austin",
                 "team": "Iowa",
                 "time": "46.16"
             },
             {
-                "rank": 37,
+                "rank": 48,
                 "athlete": "Scott, Ja'Qualon",
                 "team": "Texas A&M",
                 "time": "46.17"
             },
             {
-                "rank": 38,
+                "rank": 49,
                 "athlete": "Smith, Dwyne",
                 "team": "Minnesota",
                 "time": "46.19"
             },
             {
-                "rank": 39,
+                "rank": 50,
                 "athlete": "Hansard, Keaton",
                 "team": "Central Arkansas",
                 "time": "46.22"
@@ -2403,7 +2469,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "East",
         "gender": "m",
@@ -2712,7 +2778,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "West",
         "gender": "m",
@@ -2750,204 +2816,270 @@
             },
             {
                 "rank": 6,
-                "athlete": "Blackwood, Kody",
-                "team": "Texas",
-                "time": "45.24"
+                "athlete": "Stadlman, Jack",
+                "team": "USC",
+                "time": "45.18"
             },
             {
                 "rank": 7,
+                "athlete": "Clement II, Gabriel",
+                "team": "UCLA",
+                "time": "45.24"
+            },
+            {
+                "rank": 8,
                 "athlete": "Kaalund, Garrett",
                 "team": "USC",
                 "time": "45.24"
             },
             {
-                "rank": 8,
+                "rank": 9,
+                "athlete": "Blackwood, Kody",
+                "team": "Texas",
+                "time": "45.24"
+            },
+            {
+                "rank": 10,
                 "athlete": "Tinega, Brian",
                 "team": "Texas Tech",
                 "time": "45.25"
             },
             {
-                "rank": 9,
+                "rank": 11,
                 "athlete": "Underwood, Tavon",
                 "team": "Kansas State",
                 "time": "45.30"
             },
             {
-                "rank": 10,
+                "rank": 12,
+                "athlete": "Farquharson, Kimar",
+                "team": "Texas A&M",
+                "time": "45.39"
+            },
+            {
+                "rank": 13,
                 "athlete": "Boyce, DeSean",
                 "team": "Texas Tech",
                 "time": "45.43@"
             },
             {
-                "rank": 11,
+                "rank": 14,
                 "athlete": "Kendrick, Ronnie",
                 "team": "TCU",
                 "time": "45.45"
             },
             {
-                "rank": 12,
+                "rank": 15,
                 "athlete": "Gilbert, Jackson",
                 "team": "Illinois",
                 "time": "45.47"
             },
             {
-                "rank": 13,
+                "rank": 16,
                 "athlete": "Miller, Tyrese",
                 "team": "Iowa",
                 "time": "45.51"
             },
             {
-                "rank": 14,
+                "rank": 17,
+                "athlete": "Joseph, Michael",
+                "team": "Kansas",
+                "time": "45.53"
+            },
+            {
+                "rank": 18,
                 "athlete": "Wright, Devyn",
                 "team": "Arkansas",
                 "time": "45.56"
             },
             {
-                "rank": 15,
+                "rank": 19,
                 "athlete": "Garcia Jr., George",
                 "team": "Texas Tech",
                 "time": "45.62@"
             },
             {
-                "rank": 16,
+                "rank": 20,
                 "athlete": "Franklin, Malik",
                 "team": "Baylor",
                 "time": "45.63"
             },
             {
-                "rank": 17,
+                "rank": 21,
                 "athlete": "Popelka, Logan",
                 "team": "Texas",
                 "time": "45.65"
             },
             {
-                "rank": 18,
+                "rank": 22,
                 "athlete": "Uter, Shaemar",
                 "team": "Texas Tech",
                 "time": "45.72"
             },
             {
-                "rank": 19,
+                "rank": 23,
                 "athlete": "Dunbar, Kyzer",
                 "team": "Texas Tech",
                 "time": "45.73@"
             },
             {
-                "rank": 20,
+                "rank": 24,
                 "athlete": "McElroy, Steven",
                 "team": "Arkansas",
                 "time": "45.77"
             },
             {
-                "rank": 21,
+                "rank": 25,
+                "athlete": "Tomlyanovich, TJ",
+                "team": "Arkansas",
+                "time": "45.79"
+            },
+            {
+                "rank": 26,
                 "athlete": "Spencer, Aren",
                 "team": "Baylor",
                 "time": "45.79"
             },
             {
-                "rank": 22,
+                "rank": 27,
+                "athlete": "Carpenter, Kenny",
+                "team": "Colorado St.",
+                "time": "45.82@"
+            },
+            {
+                "rank": 28,
                 "athlete": "Page, Mason",
                 "team": "Oklahoma State",
                 "time": "45.82"
             },
             {
-                "rank": 23,
+                "rank": 29,
                 "athlete": "Thomas, Evander",
                 "team": "TCU",
                 "time": "45.86"
             },
             {
-                "rank": 24,
+                "rank": 30,
                 "athlete": "Fontenot, Landon",
                 "team": "Iowa",
                 "time": "45.88"
             },
             {
-                "rank": 25,
+                "rank": 31,
+                "athlete": "Hemphill III, Eric",
+                "team": "Texas A&M",
+                "time": "45.91"
+            },
+            {
+                "rank": 32,
                 "athlete": "Cruzan, Zander",
                 "team": "Arkansas",
                 "time": "45.92"
             },
             {
-                "rank": 26,
+                "rank": 33,
+                "athlete": "Kouyoumdjian, Martin",
+                "team": "UTSA",
+                "time": "45.95"
+            },
+            {
+                "rank": 34,
+                "athlete": "Andrews, Jacob",
+                "team": "USC",
+                "time": "45.96"
+            },
+            {
+                "rank": 35,
                 "athlete": "Haynes, Jayden",
                 "team": "UT-Arlington",
                 "time": "45.99"
             },
             {
-                "rank": 27,
+                "rank": 36,
                 "athlete": "Goudeau, Detrevyon",
                 "team": "Prairie View",
                 "time": "46.02"
             },
             {
-                "rank": 28,
+                "rank": 37,
                 "athlete": "Toili, Samuel",
                 "team": "Oklahoma",
                 "time": "46.05"
             },
             {
-                "rank": 29,
+                "rank": 38,
                 "athlete": "Simpson, Richard",
                 "team": "Nebraska",
                 "time": "46.08"
             },
             {
-                "rank": 30,
+                "rank": 39,
                 "athlete": "Brown, Zidane",
                 "team": "Iowa",
                 "time": "46.08"
             },
             {
-                "rank": 31,
+                "rank": 40,
                 "athlete": "Smith, Kwame",
                 "team": "Southern Illinois",
                 "time": "46.09"
             },
             {
-                "rank": 32,
+                "rank": 41,
                 "athlete": "Thorne, Charlie",
                 "team": "Oklahoma State",
                 "time": "46.10"
             },
             {
-                "rank": 33,
+                "rank": 42,
                 "athlete": "Bynum, Will",
                 "team": "Oklahoma State",
                 "time": "46.10"
             },
             {
-                "rank": 34,
+                "rank": 43,
                 "athlete": "Pierce, Walter",
                 "team": "CSUN",
                 "time": "46.11"
             },
             {
-                "rank": 35,
+                "rank": 44,
+                "athlete": "Isah, Musa",
+                "team": "Texas A&M",
+                "time": "46.12"
+            },
+            {
+                "rank": 45,
+                "athlete": "Sanni-Thomas, Evan",
+                "team": "Tulsa",
+                "time": "46.12"
+            },
+            {
+                "rank": 46,
                 "athlete": "Escobar, DeMarco",
                 "team": "Texas A&M",
                 "time": "46.16"
             },
             {
-                "rank": 36,
+                "rank": 47,
                 "athlete": "Rowswell, Austin",
                 "team": "Iowa",
                 "time": "46.16"
             },
             {
-                "rank": 37,
+                "rank": 48,
                 "athlete": "Scott, Ja'Qualon",
                 "team": "Texas A&M",
                 "time": "46.17"
             },
             {
-                "rank": 38,
+                "rank": 49,
                 "athlete": "Smith, Dwyne",
                 "team": "Minnesota",
                 "time": "46.19"
             },
             {
-                "rank": 39,
+                "rank": 50,
                 "athlete": "Hansard, Keaton",
                 "team": "Central Arkansas",
                 "time": "46.22"
@@ -2955,7 +3087,7 @@
         ]
     },
     {
-        "year": "2026 (2026-06-11)",
+        "year": "2026 (2026-06-12)",
         "season": "outdoor",
         "region": "National",
         "gender": "m",

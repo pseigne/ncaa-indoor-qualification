@@ -30,8 +30,8 @@ function Archive({ onBackHome }) {
       try {
         setLoading(true);
         const [bubbleRes, activeRes] = await Promise.all([
-          fetch('/data/tfrrs_bubble_cutoffs.json'),
-          fetch('/data/tfrrs_active_data.json')
+          fetch(import.meta.env.BASE_URL + 'data/tfrrs_bubble_cutoffs.json'),
+          fetch(import.meta.env.BASE_URL + 'data/tfrrs_active_data.json')
         ]);
         if (!bubbleRes.ok || !activeRes.ok) throw new Error("Could not load databases");
         const bubData = await bubbleRes.json();
@@ -101,7 +101,7 @@ function Archive({ onBackHome }) {
       let data = cachedEventData[cacheKey];
       if (!data) {
         setLoadingFullData(true);
-        const res = await fetch(`/data/historical_${cacheKey}.json`);
+        const res = await fetch(`${import.meta.env.BASE_URL}data/historical_${cacheKey}.json`);
         if (!res.ok) throw new Error("Could not load historical roster");
         data = await res.json();
         setCachedEventData(prev => ({ ...prev, [cacheKey]: data }));

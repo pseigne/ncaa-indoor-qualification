@@ -33,8 +33,8 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
       try {
         setLoading(true);
         const [activeRes, bubbleRes] = await Promise.all([
-          fetch('/data/tfrrs_active_data.json'),
-          fetch('/data/tfrrs_bubble_cutoffs.json')
+          fetch(import.meta.env.BASE_URL + 'data/tfrrs_active_data.json'),
+          fetch(import.meta.env.BASE_URL + 'data/tfrrs_bubble_cutoffs.json')
         ]);
         if (!activeRes.ok || !bubbleRes.ok) throw new Error("Could not load initial databases");
         const actData = await activeRes.json();

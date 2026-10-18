@@ -6,6 +6,7 @@ import subprocess
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
+from urllib.parse import parse_qs, urlparse
 
 import requests
 
@@ -23,10 +24,16 @@ def record(year="2025-2026", gender="m", performance="45.00"):
                 event="400 Meters", rankings=[dict(rank=1, athlete="Runner", team="School", time=performance)])
 
 
-def html(performance="45.00", count=1):
+def html(performance="45.00", count=1, cfg=CFG, gender="m"):
     row = (f'<div class="performance-list-row"><div data-label="Athlete">Runner</div>'
            f'<div data-label="Team">School</div><div data-label="Time">{performance}</div></div>')
-    return ('<div class="custom-table-title"><h3>Men\'s 400 Meters (Final)</h3></div>'
+    title = (f"{cfg['year']} NCAA Division I " +
+             (f"{cfg['region']} " if cfg['region'] != 'National' else '') +
+             f"{cfg['season'].title()} Qualifying List")
+    return (f'<h3 class="panel-title">{title}</h3>'
+            f'<form id="list_filter" action="/list_data/{cfg["list_id"]}"></form>'
+            f'<select name="gender"><option selected value="{gender}"></option></select>'
+            '<div class="custom-table-title"><h3>Men\'s 400 Meters (Final)</h3></div>'
             '<div class="performance-list">' + row * count + '</div>')
 
 
@@ -38,6 +45,19 @@ def response(body=None, failure=None):
 
 def files_in(directory):
     return {str(p.relative_to(directory)): p.read_bytes() for p in directory.rglob('*') if p.is_file()}
+
+
+def session_for(configs=(CFG,), performance="45.00"):
+    session = Mock()
+
+    def get(url, **kwargs):
+        parsed = urlparse(url)
+        cfg = next(c for c in configs if c['list_id'] == parsed.path.split('/')[2])
+        gender = parse_qs(parsed.query)['gender'][0]
+        return response(html(performance, cfg=cfg, gender=gender))
+
+    session.get.side_effect = get
+    return session
 
 
 class DataTests(unittest.TestCase):
@@ -52,15 +72,13 @@ class DataTests(unittest.TestCase):
     def scrape(self, **kwargs):
         session = kwargs.pop("session", None)
         if session is None:
-            session = Mock()
-            session.get.return_value = response()
+            session = session_for(CONFIG[kwargs.get('mode', 'active')])
         return run_scrape(data_dir=self.data, config=CONFIG, session=session,
                           sleeper=lambda _: None, **kwargs)
 
     def test_consecutive_days_preserve_snapshots_and_latest_standings(self):
         self.scrape(today="2026-10-02")
-        session = Mock()
-        session.get.return_value = response(html("44.50"))
+        session = session_for(performance="44.50")
         self.scrape(today="2026-10-03", session=session)
         dates = json.loads((self.data / "dates.json").read_text())
         self.assertEqual(dates, ["2026-10-01", "2026-10-02", "2026-10-03"])
@@ -71,8 +89,7 @@ class DataTests(unittest.TestCase):
 
     def test_same_day_rerun_replaces_without_duplicates_and_noop_is_stable(self):
         self.scrape(today="2026-10-02")
-        session = Mock()
-        session.get.return_value = response(html("44.50"))
+        session = session_for(performance="44.50")
         records = self.scrape(today="2026-10-02", session=session)
         self.assertEqual(len(records), len({record_key(r) for r in records}))
         before = files_in(self.data)
@@ -82,7 +99,7 @@ class DataTests(unittest.TestCase):
 
     def test_retries_timeout_and_success(self):
         session = Mock()
-        session.get.side_effect = [requests.Timeout(), requests.ConnectionError(), response(), response()]
+        session.get.side_effect = [requests.Timeout(), requests.ConnectionError(), response(), response(html(gender='f'))]
         collected = collect([CFG], session=session, sleeper=lambda _: None)
         self.assertEqual(len(collected), 2)
         self.assertEqual(session.get.call_count, 4)
@@ -160,13 +177,12 @@ class DataTests(unittest.TestCase):
 
     def test_real_configuration_collects_all_eight_pages(self):
         config = load_config()
-        session = Mock()
-        session.get.return_value = response()
+        session = session_for(config['active'])
         rows = collect(config['active'], session=session, sleeper=lambda _: None)
-        self.assertEqual(session.get.call_count, 8)
-        self.assertEqual(len({record_key(r) for r in rows}), 8)
-        self.assertEqual({c['year'] for c in config['historical']},
-                         {'2025-2026', '2026', '2024-2025', '2025', '2023-2024', '2024'})
+        self.assertEqual(session.get.call_count, len(config['active']) * 2)
+        self.assertEqual(len({record_key(r) for r in rows}), len(config['active']) * 2)
+        self.assertTrue({(c['year'], c['season'], c['region']) for c in config['active']}.issubset(
+            {(c['year'], c['season'], c['region']) for c in config['historical']}))
 
     def test_configured_year_controls_active_selection(self):
         config = copy.deepcopy(CONFIG)

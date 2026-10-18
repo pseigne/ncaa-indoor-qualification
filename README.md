@@ -16,8 +16,34 @@ serves root data in development and copies it into `dist/data/` during builds.
 
 `scrape_config.json` defines active and historical lists: year, season, region,
 TFRRS list ID, and URL slug. Indoor years use `2025-2026`; old underscore-style
-years are accepted when reading existing data. Update active lists when a new
-season begins; current targets remain 2025-26 indoor and 2026 outdoor.
+years are accepted when reading existing data. Current targets remain 2025-26
+indoor and 2026 outdoor. The national outdoor source is the NCAA DI national
+qualifying list, which includes the combined events; qualification calculations
+are unchanged. The old configuration incorrectly pointed some outdoor IDs at
+unrelated lists. Those IDs are corrected; saved snapshots are not rewritten.
+
+### Automatic season discovery
+
+Before an active scrape, the monitor reads the public TFRRS homepage and the
+season dropdowns at the permanent NCAA DI indoor, outdoor, East, and West URLs.
+These sources are configured under `discovery.sources`; it reads published IDs
+and titles rather than guessing IDs or incrementing years in URLs. Indoor can
+roll over independently. Outdoor advances only when East, West, and National
+have a complete matching season. Older targets never replace newer ones, and
+years beyond the next calendar year are ignored.
+
+All selected pages must match the actual season, division, region, list ID,
+and requested gender and contain valid rankings for both genders. Ambiguous
+IDs, unavailable navigation, or new lists with no results retain the last
+verified configuration and log the reason. The normal scrape still validates
+every existing target and fails if it cannot collect it. Configuration and data
+are staged together and rolled back together if saving fails. Replaced active
+seasons remain in `historical`, without inventing earlier daily snapshots.
+
+Set `discovery.enabled` to `false` to pin the configured seasons. Manual list
+edits still work but must pass the same page identity checks. If TFRRS changes
+its navigation or title formats, update discovery and its tests; fallback
+messages appear in the Actions log.
 
 ## Scraping and recovery
 
@@ -26,6 +52,7 @@ environment. Run commands from the repository root:
 
 ```sh
 python tfrrs-scraper.py             # active lists, both genders, up to 60 rows/event
+python discover_seasons.py          # live discovery + eight-page validation, no file edits
 python historical-scraper.py        # historical backfill, no new dated snapshots
 python generate_bubble_cutoffs.py   # regenerate derived files from root data
 python -m unittest discover -s tests -v
@@ -65,7 +92,8 @@ npm run test:data
 
 The daily action is scheduled at 06:00 UTC and can be run manually. Automated
 and manual runs share one concurrency group. Tests and a subpath website build
-must pass first; only scheduled or manual runs on `main` scrape and commit data.
+must pass first; only scheduled or manual runs on `main` scrape and commit data
+and any validated season configuration changes in the same commit.
 Feature-branch and pull-request runs validate code without publishing.
 
 A successful main-branch scrape triggers the portfolio notification workflow,

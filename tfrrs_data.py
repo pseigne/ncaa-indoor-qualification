@@ -17,7 +17,10 @@ SNAPSHOT = re.compile(r"^(.+) \((\d{4}-\d{2}-\d{2})\)$")
 
 
 def load_config(path=ROOT / "scrape_config.json"):
-    config = json.loads(Path(path).read_text())
+    return validate_config(json.loads(Path(path).read_text()))
+
+
+def validate_config(config):
     for group in ("active", "historical"):
         if not isinstance(config.get(group), list) or not config[group]:
             raise ValueError(f"Missing {group} list configuration")
@@ -36,6 +39,19 @@ def load_config(path=ROOT / "scrape_config.json"):
             if key in seen:
                 raise ValueError(f"Duplicate list: {key}")
             seen.add(key)
+    settings = config.get("discovery", {})
+    if not isinstance(settings, dict) or type(settings.get("enabled", False)) is not bool:
+        raise ValueError("Invalid discovery configuration")
+    if settings.get("enabled"):
+        from urllib.parse import urlparse
+        from tfrrs_lists import HOSTS
+        sources = settings.get("sources")
+        if not isinstance(sources, list) or not sources:
+            raise ValueError("Missing discovery sources")
+        for url in sources:
+            parsed = urlparse(url) if isinstance(url, str) else None
+            if parsed is None or parsed.scheme != "https" or parsed.hostname not in HOSTS:
+                raise ValueError("Discovery sources must be public HTTPS TFRRS pages")
     return config
 
 
@@ -132,39 +148,43 @@ def derive_files(records, config):
     return files
 
 
-def publish(records, config, data_dir=DATA_DIR):
+def publish(records, config, data_dir=DATA_DIR, config_path=None):
     """Stage every output before replacing files; roll back replacement failures."""
     files = derive_files(records, config)
     data_dir = Path(data_dir)
     data_dir.mkdir(parents=True, exist_ok=True)
     originals, replaced = {}, []
+    config_target = Path(config_path) if config_path is not None else None
     with tempfile.TemporaryDirectory(prefix=".tfrrs-stage-", dir=data_dir.parent) as tmp:
         stage = Path(tmp)
-        for name, value in files.items():
+        outputs = [(data_dir / name, value) for name, value in files.items()]
+        if config_target is not None:
+            outputs.append((config_target, validate_config(config)))
+        staged = {}
+        for index, (target, value) in enumerate(outputs):
+            name = target.name
             # One event record per line keeps diffs focused and the recovered
             # master below GitHub's file limit without changing its JSON shape.
-            encoded = (json.dumps(value, indent=4) + "\n" if name == "dates.json" else
+            encoded = (json.dumps(value, indent=4) + "\n" if name == "dates.json" or target == config_target else
                        "[\n" + ",\n".join(json.dumps(row, ensure_ascii=False, separators=(",", ":"))
                                          for row in value) + "\n]\n")
             if len(encoded.encode("utf-8")) >= 100 * 1024 * 1024:
                 raise ValueError(f"{name} exceeds GitHub's 100 MiB file limit; archive storage must be partitioned")
-            (stage / name).write_text(encoded, encoding="utf-8")
-            target = data_dir / name
-            originals[name] = target.read_bytes() if target.exists() else None
+            staged[target] = stage / f"{index}.json"
+            staged[target].write_text(encoded, encoding="utf-8")
+            originals[target] = target.read_bytes() if target.exists() else None
         try:
-            for name in files:
-                target = data_dir / name
-                if originals[name] == (stage / name).read_bytes():
+            for target, source in staged.items():
+                if originals[target] == source.read_bytes():
                     continue
-                os.replace(stage / name, target)
-                replaced.append(name)
+                os.replace(source, target)
+                replaced.append(target)
         except OSError:
-            for name in reversed(replaced):
-                target = data_dir / name
-                if originals[name] is None:
+            for target in reversed(replaced):
+                if originals[target] is None:
                     target.unlink()
                 else:
-                    target.write_bytes(originals[name])
+                    target.write_bytes(originals[target])
             raise
     return len(replaced)
 
@@ -213,6 +233,7 @@ def parse_page(html, cfg, gender):
 
 def collect(configs, session=None, sleeper=time.sleep):
     import requests
+    from tfrrs_lists import fetch_page, verify_page_identity
 
     owned_session = session is None
     session = session or requests.Session()
@@ -222,19 +243,9 @@ def collect(configs, session=None, sleeper=time.sleep):
             for gender in GENDERS:
                 url = f"https://tf.tfrrs.org/lists/{cfg['list_id']}/{cfg['list_name']}?gender={gender}"
                 print(f"Collecting {cfg['year']} {cfg['season']} {cfg['region']} {gender}", flush=True)
-                for attempt in range(3):
-                    try:
-                        response = session.get(url, timeout=(10, 45), headers={
-                            "User-Agent": "Mozilla/5.0 (compatible; TFRRS-Monitor/1.0)",
-                            "Referer": "https://www.tfrrs.org/",
-                        })
-                        response.raise_for_status()
-                        break
-                    except requests.RequestException:
-                        if attempt == 2:
-                            raise
-                        sleeper(2 ** attempt)
-                records.extend(parse_page(response.text, cfg, gender))
+                html = fetch_page(session, url, sleeper)
+                verify_page_identity(html, cfg, gender)
+                records.extend(parse_page(html, cfg, gender))
                 sleeper(1)
     finally:
         if owned_session:
@@ -243,15 +254,41 @@ def collect(configs, session=None, sleeper=time.sleep):
 
 
 def run_scrape(mode="active", data_dir=DATA_DIR, config=None, session=None,
-               today=None, sleeper=time.sleep):
-    config = config or load_config()
+               today=None, sleeper=time.sleep, discover=False,
+               config_path=ROOT / "scrape_config.json"):
+    import requests
+    from tfrrs_lists import discover_config
+
+    config = validate_config(config) if config is not None else load_config(config_path)
     existing = load_records(Path(data_dir) / MASTER)
-    collected = collect(config[mode], session=session, sleeper=sleeper)
+    proposed = config
+    owned_session = session is None
+    session = session or requests.Session()
+    try:
+        if discover and mode == "active" and config.get("discovery", {}).get("enabled"):
+            try:
+                proposed = validate_config(discover_config(config, session, sleeper))
+            except (requests.RequestException, ValueError) as error:
+                print(f"Season discovery unavailable; keeping verified configuration: {error}", flush=True)
+        try:
+            collected = collect(proposed[mode], session=session, sleeper=sleeper)
+        except (requests.RequestException, ValueError) as error:
+            if proposed == config:
+                raise
+            print(f"New lists are not ready; keeping verified configuration: {error}", flush=True)
+            proposed = config
+            collected = collect(config[mode], session=session, sleeper=sleeper)
+    finally:
+        if owned_session:
+            session.close()
     if mode == "active":
         today = today or datetime.now(timezone.utc).date().isoformat()
         date.fromisoformat(today)
         collected += [dict(entry, year=f"{entry['year']} ({today})") for entry in collected]
     records = merge_records(existing, collected)
-    changed = publish(records, config, data_dir)
+    changed = publish(records, proposed, data_dir,
+                      config_path=config_path if proposed != config else None)
+    if proposed != config:
+        print("Saved validated season configuration", flush=True)
     print(f"Validated {len(records)} records; updated {changed} files", flush=True)
     return records

@@ -61,12 +61,13 @@ jobs:
       - run: python validate_data.py
       - name: Collect and validate all configured lists
         run: python tfrrs-scraper.py
+      - run: python validate_data.py
       - name: Commit validated data changes
         run: |
           set -euo pipefail
           git config user.name 'TFRRS Bot'
           git config user.email 'actions@github.com'
-          git add -- data/
+          git add -- data/ scrape_config.json
           diff_status=0
           git diff --cached --quiet || diff_status=$?
           if [ "$diff_status" -eq 0 ]; then

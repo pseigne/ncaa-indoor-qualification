@@ -56,6 +56,9 @@ class WorkflowTests(unittest.TestCase):
     def test_commit_step_distinguishes_noop_commit_failure_and_push_failure(self):
         steps = workflow('daily_scrape.yml')['jobs']['scrape-and-update']['steps']
         script = next(step['run'] for step in steps if step.get('name') == 'Commit validated data changes')
+        self.assertIn('git add -- data/ scrape_config.json', script)
+        collect_index = next(i for i, step in enumerate(steps) if step.get('run') == 'python tfrrs-scraper.py')
+        self.assertEqual(steps[collect_index + 1]['run'], 'python validate_data.py')
         with tempfile.TemporaryDirectory() as tmp:
             mock_git = Path(tmp) / 'git'
             log = Path(tmp) / 'calls'

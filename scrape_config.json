@@ -5,28 +5,28 @@
       "season": "outdoor",
       "region": "East",
       "list_id": "5622",
-      "list_name": "NCAA_Div_I_East_Outdoor_List"
+      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL"
     },
     {
       "year": "2026",
       "season": "outdoor",
       "region": "West",
       "list_id": "5623",
-      "list_name": "NCAA_Div_I_West_Outdoor_List"
+      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL"
     },
     {
       "year": "2026",
       "season": "outdoor",
       "region": "National",
-      "list_id": "5624",
-      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+      "list_id": "5602",
+      "list_name": "2026_NCAA_Division_I_Outdoor_Qualifying_FINAL"
     },
     {
       "year": "2025-2026",
       "season": "indoor",
       "region": "National",
       "list_id": "5352",
-      "list_name": "2025_2026_NCAA_Division_I_Indoor_Qualifying_List"
+      "list_name": "2025_2026_NCAA_Division_I_Indoor_List_FINAL"
     }
   ],
   "historical": [
@@ -35,49 +35,49 @@
       "season": "outdoor",
       "region": "East",
       "list_id": "5622",
-      "list_name": "NCAA_Div_I_East_Outdoor_List"
+      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL"
     },
     {
       "year": "2026",
       "season": "outdoor",
       "region": "West",
       "list_id": "5623",
-      "list_name": "NCAA_Div_I_West_Outdoor_List"
+      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL"
     },
     {
       "year": "2026",
       "season": "outdoor",
       "region": "National",
-      "list_id": "5624",
-      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+      "list_id": "5602",
+      "list_name": "2026_NCAA_Division_I_Outdoor_Qualifying_FINAL"
     },
     {
       "year": "2025-2026",
       "season": "indoor",
       "region": "National",
       "list_id": "5352",
-      "list_name": "2025_2026_NCAA_Division_I_Indoor_Qualifying_List"
+      "list_name": "2025_2026_NCAA_Division_I_Indoor_List_FINAL"
     },
     {
       "year": "2025",
       "season": "outdoor",
       "region": "East",
-      "list_id": "5055",
-      "list_name": "NCAA_Div_I_East_Outdoor_Qualifying_List"
+      "list_id": "5052",
+      "list_name": "2025_NCAA_Div_I_East_Outdoor_List_FINAL"
     },
     {
       "year": "2025",
       "season": "outdoor",
       "region": "West",
-      "list_id": "5056",
-      "list_name": "NCAA_Div_I_West_Outdoor_Qualifying_List"
+      "list_id": "5053",
+      "list_name": "2025_NCAA_Div_I_West_Outdoor_List_FINAL"
     },
     {
       "year": "2025",
       "season": "outdoor",
       "region": "National",
-      "list_id": "5057",
-      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+      "list_id": "5018",
+      "list_name": "2025_NCAA_Division_I_Outdoor_Qualifying_List"
     },
     {
       "year": "2024-2025",
@@ -90,22 +90,22 @@
       "year": "2024",
       "season": "outdoor",
       "region": "East",
-      "list_id": "4950",
-      "list_name": "NCAA_Div_I_East_Outdoor_Qualifying_List"
+      "list_id": "4573",
+      "list_name": "2024_NCAA_Div_I_East_Outdoor_Qualifying_FINAL"
     },
     {
       "year": "2024",
       "season": "outdoor",
       "region": "West",
-      "list_id": "4951",
-      "list_name": "NCAA_Div_I_West_Outdoor_Qualifying_List"
+      "list_id": "4574",
+      "list_name": "2024_NCAA_Div_I_West_Outdoor_Qualifying_FINAL"
     },
     {
       "year": "2024",
       "season": "outdoor",
       "region": "National",
-      "list_id": "4952",
-      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+      "list_id": "4515",
+      "list_name": "2024_NCAA_Division_I_Rankings_FINAL"
     },
     {
       "year": "2023-2024",
@@ -114,5 +114,15 @@
       "list_id": "4364",
       "list_name": "2023_2024_NCAA_Division_I_Indoor_Qualifying_List"
     }
-  ]
+  ],
+  "discovery": {
+    "enabled": true,
+    "sources": [
+      "https://tf.tfrrs.org/",
+      "https://www.tfrrs.org/ncaad1/indoortrack/men",
+      "https://www.tfrrs.org/ncaad1/outdoortrack/men",
+      "https://www.tfrrs.org/ncaad1east/outdoortrack/men",
+      "https://www.tfrrs.org/ncaad1west/outdoortrack/men"
+    ]
+  }
 }

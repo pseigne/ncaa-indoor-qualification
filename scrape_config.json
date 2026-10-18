@@ -1,0 +1,118 @@
+{
+  "active": [
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "5622",
+      "list_name": "NCAA_Div_I_East_Outdoor_List"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "5623",
+      "list_name": "NCAA_Div_I_West_Outdoor_List"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "5624",
+      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+    },
+    {
+      "year": "2025-2026",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "5352",
+      "list_name": "2025_2026_NCAA_Division_I_Indoor_Qualifying_List"
+    }
+  ],
+  "historical": [
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "5622",
+      "list_name": "NCAA_Div_I_East_Outdoor_List"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "5623",
+      "list_name": "NCAA_Div_I_West_Outdoor_List"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "5624",
+      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+    },
+    {
+      "year": "2025-2026",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "5352",
+      "list_name": "2025_2026_NCAA_Division_I_Indoor_Qualifying_List"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "5055",
+      "list_name": "NCAA_Div_I_East_Outdoor_Qualifying_List"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "5056",
+      "list_name": "NCAA_Div_I_West_Outdoor_Qualifying_List"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "5057",
+      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+    },
+    {
+      "year": "2024-2025",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "4867",
+      "list_name": "2024_2025_NCAA_Division_I_Indoor_Qualifying"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "4950",
+      "list_name": "NCAA_Div_I_East_Outdoor_Qualifying_List"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "4951",
+      "list_name": "NCAA_Div_I_West_Outdoor_Qualifying_List"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "4952",
+      "list_name": "NCAA_Div_I_Outdoor_Multis_List"
+    },
+    {
+      "year": "2023-2024",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "4364",
+      "list_name": "2023_2024_NCAA_Division_I_Indoor_Qualifying_List"
+    }
+  ]
+}

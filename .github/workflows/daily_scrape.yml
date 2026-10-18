@@ -2,39 +2,77 @@ name: Daily TFRRS Scraper
 
 on:
   schedule:
-    # Runs at 6:00 AM UTC, which is Midnight CST (Madison time)
     - cron: '0 6 * * *'
-  # Allows you to click "Run Now" in GitHub for testing
   workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
-  scrape-and-update:
+  test:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # CRITICAL: Allows the bot to write to your repo
-
+    timeout-minutes: 15
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: 'requirements*.txt'
+      - run: pip install -r requirements-dev.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python validate_data.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: ncaa-qualification/package-lock.json
+      - run: npm ci --prefix ncaa-qualification
+      - run: npm run test:data --prefix ncaa-qualification
+      - run: npm run build --prefix ncaa-qualification -- --base=/ncaa-indoor-qualification/
 
-      - name: Install libraries
-        run: |
-          pip install -r requirements.txt
-
-      - name: Run Scraper
+  scrape-and-update:
+    needs: test
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: tfrrs-data-main
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      # Checkout main after entering the concurrency group so queued runs see
+      # previously published data. Validate that exact checkout before scraping.
+      - run: python -m unittest discover -s tests -v
+      - run: python validate_data.py
+      - name: Collect and validate all configured lists
         run: python tfrrs-scraper.py
-
-      - name: Commit and Push Data
+      - name: Commit validated data changes
         run: |
-          git config --global user.name 'TFRRS Bot'
-          git config --global user.email 'actions@github.com'
-          # Add all files in the data folder (handles new dates automatically)
-          git add data/*
-          # Only commit if there are actually changes
-          git commit -m "Daily update: $(date +'%Y-%m-%d')" || exit 0
-          git push
+          set -euo pipefail
+          git config user.name 'TFRRS Bot'
+          git config user.email 'actions@github.com'
+          git add -- data/
+          diff_status=0
+          git diff --cached --quiet || diff_status=$?
+          if [ "$diff_status" -eq 0 ]; then
+            echo 'No data changes to publish.'
+            exit 0
+          fi
+          if [ "$diff_status" -ne 1 ]; then exit "$diff_status"; fi
+          git commit -m "Daily update: $(date -u +'%Y-%m-%d')"
+          git push origin HEAD:main

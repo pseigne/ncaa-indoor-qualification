@@ -1,0 +1,36 @@
+{
+  "indoor": {
+    "2025-2026": {
+      "name": "NCAA indoor championships",
+      "source": "https://ncaaorg.s3.amazonaws.com/championships/sports/crosstrack/d1/indoortf/2025-26D1XTI_CompetitionSchedule.pdf",
+      "start_date": "2026-03-13"
+    },
+    "2026-2027": {
+      "name": "NCAA indoor championships",
+      "source": "https://ncaaorg.s3.amazonaws.com/championships/marketing/bids/2026-28BidSpec/2026-28D1XTI_BID_SPECS.pdf",
+      "start_date": "2027-03-12"
+    },
+    "2027-2028": {
+      "name": "NCAA indoor championships",
+      "source": "https://ncaaorg.s3.amazonaws.com/championships/marketing/bids/2026-28BidSpec/2026-28D1XTI_BID_SPECS.pdf",
+      "start_date": "2028-03-10"
+    }
+  },
+  "outdoor": {
+    "2026": {
+      "name": "NCAA regional First Rounds",
+      "source": "https://ncaaorg.s3.amazonaws.com/championships/sports/crosstrack/d1/outdoortf/2025-26D1XTO_PrechampionshipsManual.pdf",
+      "start_date": "2026-05-27"
+    },
+    "2027": {
+      "name": "NCAA regional First Rounds",
+      "source": "https://ncaaorg.s3.amazonaws.com/championships/marketing/bids/2026-28BidSpec/2026-28D1XTO_FIRSTROUNDS_BID_SPECS.pdf",
+      "start_date": "2027-05-26"
+    },
+    "2028": {
+      "name": "NCAA regional First Rounds",
+      "source": "https://ncaaorg.s3.amazonaws.com/championships/marketing/bids/2026-28BidSpec/2026-28D1XTO_FIRSTROUNDS_BID_SPECS.pdf",
+      "start_date": "2028-05-24"
+    }
+  }
+}

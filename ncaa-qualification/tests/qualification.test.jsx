@@ -7,6 +7,7 @@ import EventsList from '../src/components/EventsList';
 import EventCard from '../src/components/EventCard';
 import Monitor from '../src/components/Monitor';
 import Archive from '../src/components/Archive';
+import { championshipFor, progressionData } from '../src/utils/progression';
 
 const chart = vi.hoisted(() => ({ configs: [] }));
 vi.mock('chart.js', () => ({
@@ -153,5 +154,71 @@ describe('qualification across views and chart input', () => {
     await waitFor(() => expect(chart.configs.length).toBeGreaterThan(0));
     expect(chart.configs.at(-1).data.datasets[0].data).toEqual([null]);
     expect(screen.queryByText(/Rank 16/)).toBeNull();
+  });
+});
+
+
+describe('pre-championship progression', () => {
+  it.each([
+    ['relay', 'indoor', 'National', '2025-2026', '2026-03-12', '2026-03-13', '2026-03-14', '2026-03-15'],
+    ['outdoor', 'outdoor', 'East', '2026', '2026-05-26', '2026-05-27', '2026-05-30', '2026-05-31'],
+    ['outdoor', 'outdoor', 'West', '2026', '2026-05-26', '2026-05-27', '2026-05-30', '2026-05-31'],
+  ])('excludes competition days and later snapshots for %s / %s / %s', async (key, season, region, year, before, start, end, after) => {
+    const record = { ...fixtures[key].record, year, region };
+    const saved = { ...fixtures[key].summary, year, region };
+    const missing = { ...fixtures.short.summary, year, region, season };
+    const old = { ...saved, year: season === 'indoor' ? '2024-2025' : '2025' };
+    const observations = [snapshot(saved, after), snapshot(saved, end), snapshot(saved, start),
+      snapshot(missing, before), snapshot(saved, '2026-01-01'), snapshot(old, '2026-01-02')];
+    const original = JSON.stringify(observations);
+    serve([record], observations);
+    vi.spyOn(HTMLCanvasElement.prototype, 'getContext').mockReturnValue({});
+    render(<Monitor initialSeason={season} />);
+    if (region === 'West') fireEvent.click(screen.getByRole('button', { name: 'West', exact: true }));
+    await screen.findByText(`Bubble (#${record.qualification.rank})`);
+    fireEvent.click(screen.getByRole('button', { name: record.event, exact: true }));
+    await waitFor(() => expect(chart.configs.length).toBeGreaterThan(0));
+    const config = chart.configs.at(-1);
+    expect(config.data.labels).toEqual(['2026-01-01', before]);
+    expect(config.data.datasets[0].data).toEqual([192.27, null]);
+    expect(screen.getByText('Before', { exact: false })).toBeTruthy();
+    expect(document.querySelector('time').dateTime).toBe(start);
+    expect(JSON.stringify(observations)).toBe(original);
+  });
+
+  it('shows an honest empty state when every saved snapshot is after regionals', async () => {
+    serve([fixtures.outdoor.record], [snapshot(fixtures.outdoor.summary, '2026-06-01')]);
+    render(<Monitor initialSeason="outdoor" />);
+    await screen.findByText('Bubble (#24)');
+    fireEvent.click(screen.getByRole('button', { name: '4 x 400 Relay', exact: true }));
+    expect(await screen.findByText('No saved observations before this championship.')).toBeTruthy();
+    expect(document.querySelector('time').dateTime).toBe('2026-05-27');
+    expect(chart.configs).toHaveLength(0);
+  });
+
+  it.each([
+    ['indoor', '2026-2027', '2027-03-12'],
+    ['indoor', '2027-2028', '2028-03-10'],
+    ['outdoor', '2027', '2027-05-26'],
+    ['outdoor', '2028', '2028-05-24'],
+  ])('uses the configured schedule for %s / %s', (season, year, start) => {
+    const source = { ...fixtures.relay.summary, year, season, region: season === 'indoor' ? 'National' : 'East' };
+    const before = new Date(`${start}T00:00:00Z`);
+    before.setUTCDate(before.getUTCDate() - 1);
+    const previousDay = before.toISOString().slice(0, 10);
+    const results = progressionData([snapshot(source, previousDay), snapshot(source, start)], {
+      year: year.replace(/-/g, '_'), season, region: source.region, gender: source.gender, event: source.event
+    });
+    expect(championshipFor(season, year).start_date).toBe(start);
+    expect(results.map(r => r.snapshotDate)).toEqual([previousDay]);
+  });
+
+  it('does not guess dates or invent points for an unconfigured season', () => {
+    expect(championshipFor('indoor', '2028-2029')).toBeNull();
+    const source = { ...fixtures.relay.summary, year: '2028-2029' };
+    const results = progressionData([snapshot(source, '2029-02-01')], {
+      year: '2028-2029', season: 'indoor', region: 'National', gender: 'm', event: source.event
+    });
+    expect(results.map(r => r.snapshotDate)).toEqual(['2029-02-01']);
   });
 });

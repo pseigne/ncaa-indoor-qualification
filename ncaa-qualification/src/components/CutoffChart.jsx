@@ -4,7 +4,7 @@ import { formatSecondsToMinsSecs } from '../utils/helpers';
 
 Chart.register(...registerables);
 
-function CutoffChart({ historicalData, selectedEvent, gender, loadingGraph, cutoffRank, isArchive = false }) {
+function CutoffChart({ historicalData, selectedEvent, gender, loadingGraph, cutoffRank, isArchive = false, championship = null }) {
   const canvasRef = useRef(null);
   const chartInstanceRef = useRef(null);
 
@@ -113,6 +113,12 @@ function CutoffChart({ historicalData, selectedEvent, gender, loadingGraph, cuto
     <section className="chart-section">
       <div className="chart-header">
         <h2>{titleText}</h2>
+        {!isArchive && <p className="chart-desc">{championship ? <>
+          Before <time dateTime={championship.start_date}>{new Intl.DateTimeFormat('en-US', {
+            year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
+          }).format(new Date(`${championship.start_date}T00:00:00Z`))}</time>
+          {' · '}<a href={championship.source} target="_blank" rel="noopener noreferrer">{championship.name}</a>
+        </> : 'Championship cutoff date unavailable for this season.'}</p>}
         {historicalData?.some(point => point.time === null) && <p className="chart-desc">Cutoff unavailable for some observations; gaps indicate missing cutoffs.</p>}
         <span className="chart-desc">
           {descText}
@@ -128,7 +134,7 @@ function CutoffChart({ historicalData, selectedEvent, gender, loadingGraph, cuto
           <canvas ref={canvasRef} style={{ width: '100%', height: '100%' }}></canvas>
         ) : (
           <div className="graph-placeholder">
-            <p>No progression data found for this selection.</p>
+            <p>{!isArchive && championship ? 'No saved observations before this championship.' : 'No progression data found for this selection.'}</p>
           </div>
         )}
       </div>

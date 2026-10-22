@@ -4,7 +4,8 @@ import EventsList from './EventsList';
 import AltitudeModal from './AltitudeModal';
 import CutoffChart from './CutoffChart';
 import { isFieldEvent, sortEvents } from '../utils/helpers';
-import { readQualification, cutoffSeconds } from '../utils/qualification';
+import { readQualification } from '../utils/qualification';
+import { championshipFor, progressionData } from '../utils/progression';
 
 function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
   const [activeData, setActiveData] = useState([]);
@@ -52,42 +53,6 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
     loadInitialData();
   }, []);
 
-  // 2. Resolve active season progression when filters change
-  useEffect(() => {
-    if (selectedEvent === 'all' || !gender || !season || bubbleData.length === 0) {
-      setSeasonProgressionData(null);
-      return;
-    }
-
-    setLoadingGraph(true);
-
-    const targetRegion = season === 'indoor' ? 'National' : region;
-    const matchingBubble = bubbleData.filter(item =>
-      item.season === season &&
-      item.gender === gender &&
-      item.event === selectedEvent &&
-      (item.region === targetRegion || item.region === 'Unified')
-    );
-
-    // Active season progression (those with dates in parentheses)
-    const progressionResults = matchingBubble
-      .filter(item => item.year.includes('('))
-      .map(item => ({
-        date: item.year,
-        time: cutoffSeconds(item)
-      }))
-      .sort((a, b) => {
-        const getSortKey = (str) => {
-          const m = str.match(/\((.*?)\)/);
-          return m ? m[1] : str;
-        };
-        return getSortKey(a.date).localeCompare(getSortKey(b.date));
-      });
-
-    setSeasonProgressionData(progressionResults);
-    setLoadingGraph(false);
-  }, [selectedEvent, gender, season, region, bubbleData]);
-
   // Determine active year dynamically
   const activeSelectionYears = activeData
     .filter(item => item.season === season && item.gender === gender)
@@ -98,6 +63,23 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
     });
   const uniqueYears = Array.from(new Set(activeSelectionYears)).sort();
   const latestYear = uniqueYears.length > 0 ? uniqueYears[uniqueYears.length - 1] : '2026';
+
+  // 2. Resolve active season progression when filters change
+  useEffect(() => {
+    if (selectedEvent === 'all' || !gender || !season || bubbleData.length === 0) {
+      setSeasonProgressionData(null);
+      return;
+    }
+
+    setLoadingGraph(true);
+
+    const progressionResults = progressionData(bubbleData, {
+      season, gender, region, event: selectedEvent, year: latestYear
+    });
+
+    setSeasonProgressionData(progressionResults);
+    setLoadingGraph(false);
+  }, [selectedEvent, gender, season, region, bubbleData, latestYear]);
 
   // Filter events to display
   const targetRegion = season === 'indoor' ? 'National' : region;
@@ -172,7 +154,7 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
           eventOptions={eventOptions}
         />
 
-        {selectedEvent !== 'all' && seasonProgressionData && seasonProgressionData.length > 0 && (
+        {selectedEvent !== 'all' && seasonProgressionData && (
           <CutoffChart
             historicalData={seasonProgressionData}
             selectedEvent={selectedEvent}
@@ -180,6 +162,7 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
             loadingGraph={loadingGraph}
             cutoffRank={currentCutoffRank}
             isArchive={false}
+            championship={championshipFor(season, latestYear)}
           />
         )}
 

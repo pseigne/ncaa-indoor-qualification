@@ -61,6 +61,21 @@ saved-list position, not confirmation of championship entry (see GLOSSARY.md).
 Regenerate derived files with `python generate_bubble_cutoffs.py` after changing
 the interpretation; commit those files together with the code change.
 
+### Progression graph end dates
+
+Current progression graphs include only the selected season's dated snapshots,
+strictly before the first day of indoor NCAAs or outdoor regional First Rounds
+(for both East and West). Meet-day and later snapshots remain saved but are
+excluded from progression; historical year-to-year charts and current rosters
+are unchanged. No missing pre-meet value is invented. This is a pre-meet display
+cap, not a claim about the separate performance submission or declaration deadlines.
+
+`ncaa-qualification/src/config/championships.json` stores explicit dates and NCAA
+source links by season/year. Dates for 2026–2028 are included. Add or revise an
+entry when the NCAA publishes a new schedule; dates are not inferred from the
+calendar. If an entry is missing, the graph keeps that season's observations and
+labels the championship cutoff date as unavailable.
+
 ## Scraping and recovery
 
 Use Python 3.12+ and install `pip install -r requirements-dev.txt` in a virtual

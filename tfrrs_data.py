@@ -9,6 +9,8 @@ import re
 import tempfile
 import time
 
+from qualification import get_cutoff_rank, interpret_qualification
+
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 MASTER = "tfrrs_historical_data.json"
@@ -108,12 +110,6 @@ def merge_records(*batches):
     return [merged[key] for key in sorted(merged)]
 
 
-def get_cutoff_rank(event_name, season, region):
-    if season == "outdoor":
-        return 24 if "4x" in event_name or region == "National" else 48
-    return 12 if "4x" in event_name or "Distance Medley" in event_name else 16
-
-
 def derive_files(records, config):
     validate_records(records)
     active_scopes = {(c["year"], c["season"], c["region"]) for c in config["active"]}
@@ -121,20 +117,23 @@ def derive_files(records, config):
     groups = defaultdict(list)
     for entry in records:
         year, season, region = entry["year"], entry["season"], entry["region"]
-        event, rankings = entry["event"], entry["rankings"]
-        rank = min(get_cutoff_rank(event, season, region), len(rankings))
-        bubble = next((row for row in rankings if row["rank"] == rank), None)
-        if bubble:
-            cutoffs.append(dict(year=year, season=season, region=region,
-                                gender=entry["gender"], event=event, cutoff_rank=rank,
-                                cutoff_time=bubble["time"], cutoff_athlete=bubble["athlete"],
-                                cutoff_team=bubble.get("team", "N/A")))
+        event = entry["event"]
+        qualification = interpret_qualification(entry)
+        derived = dict(entry, qualification=qualification)
+        bubble = qualification["entry"]
+        cutoffs.append(dict(year=year, season=season, region=region,
+                            gender=entry["gender"], event=event,
+                            cutoff_rank=qualification["rank"],
+                            cutoff_time=bubble["time"] if bubble is not None else None,
+                            cutoff_athlete=bubble["athlete"] if bubble is not None else None,
+                            cutoff_team=bubble.get("team", "N/A") if bubble is not None else None,
+                            qualification=qualification))
         if (year.replace("_", "-"), season, region) in active_scopes:
-            active.append(entry)
+            active.append(derived)
         match = SNAPSHOT.fullmatch(year)
         if match:
             dates.add(match[2])
-        groups[(season, entry["gender"], event)].append(entry)
+        groups[(season, entry["gender"], event)].append(derived)
     if not active:
         raise ValueError("No configured active standings in the master database")
     files = {MASTER: records, "dates.json": sorted(dates),

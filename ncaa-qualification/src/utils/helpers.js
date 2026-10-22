@@ -18,27 +18,6 @@ export function formatSecondsToMinsSecs(totalSeconds) {
   return minutes > 0 ? `${minutes}:${formattedSeconds}` : `${seconds}`;
 }
 
-// Dynamic Qualifying Cutoff Logic
-// Individuals: 16 (Indoor), 48 (Outdoor Individual)
-// Relays: 12 (Indoor), 24 (Outdoor Relay)
-// Multis & National Region (decathlon/heptathlon): 24 (Outdoor Multi)
-export function getCutoffRank(eventName, season, region) {
-  if (season === 'indoor') {
-    const isRelay = eventName.toLowerCase().includes('relay') ||
-      eventName.toLowerCase().includes('medley') ||
-      eventName.toLowerCase().includes('4x');
-    return isRelay ? 12 : 16;
-  } else {
-    const isRelay = eventName.toLowerCase().includes('4x') || eventName.toLowerCase().includes('relay');
-    const isMulti = eventName.toLowerCase().includes('decathlon') ||
-      eventName.toLowerCase().includes('heptathlon') ||
-      region === 'National';
-    if (isRelay) return 24;
-    if (isMulti) return 24;
-    return 48;
-  }
-}
-
 // Check if an event is a field or multi event that should be filtered out
 export function isFieldEvent(eventName) {
   const name = eventName.toLowerCase();

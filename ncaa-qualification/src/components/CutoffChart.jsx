@@ -40,7 +40,7 @@ function CutoffChart({ historicalData, selectedEvent, gender, loadingGraph, cuto
       data: {
         labels: chartLabels,
         datasets: [{
-          label: `${cutoffRank}th Place Cutoff - ${selectedEvent} (${gender === 'm' ? 'Men' : 'Women'})`,
+          label: `${cutoffRank ? `Rank ${cutoffRank} Cutoff` : 'Cutoff'} - ${selectedEvent} (${gender === 'm' ? 'Men' : 'Women'})`,
           data: chartPoints,
           borderColor: primaryColor,
           backgroundColor: areaColor,
@@ -49,7 +49,8 @@ function CutoffChart({ historicalData, selectedEvent, gender, loadingGraph, cuto
           pointBackgroundColor: primaryColor,
           pointHoverRadius: 8,
           fill: true,
-          tension: 0.15
+          tension: 0.15,
+          spanGaps: false
         }]
       },
       options: {
@@ -101,17 +102,18 @@ function CutoffChart({ historicalData, selectedEvent, gender, loadingGraph, cuto
   }, [historicalData, selectedEvent, gender, cutoffRank, isArchive]);
 
   const titleText = isArchive
-    ? `${cutoffRank}th Place Historical Cutoffs`
-    : `${cutoffRank}th Place Daily Cutoff Progression`;
+    ? `${cutoffRank ? `Rank ${cutoffRank} ` : ''}Historical Cutoffs`
+    : `${cutoffRank ? `Rank ${cutoffRank} ` : ''}Daily Cutoff Progression`;
 
   const descText = isArchive
-    ? `Historical final cutoff times for the top-${cutoffRank} qualifiers in the ${selectedEvent} (${gender === 'm' ? 'Men' : 'Women'}) across previous years`
-    : `Real-time progression of the top-${cutoffRank} qualifying bubble over the course of the active season`;
+    ? `Historical final cutoff times${cutoffRank ? ` at rank ${cutoffRank}` : ''} in the ${selectedEvent} (${gender === 'm' ? 'Men' : 'Women'}) across previous years`
+    : `Recorded progression of the qualifying cutoff${cutoffRank ? ` at rank ${cutoffRank}` : ''} over the course of the active season`;
 
   return (
     <section className="chart-section">
       <div className="chart-header">
         <h2>{titleText}</h2>
+        {historicalData?.some(point => point.time === null) && <p className="chart-desc">Cutoff unavailable for some observations; gaps indicate missing cutoffs.</p>}
         <span className="chart-desc">
           {descText}
         </span>

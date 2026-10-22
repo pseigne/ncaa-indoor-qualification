@@ -3,7 +3,8 @@ import Controls from './Controls';
 import EventsList from './EventsList';
 import AltitudeModal from './AltitudeModal';
 import CutoffChart from './CutoffChart';
-import { parseTime, getCutoffRank, isFieldEvent, sortEvents } from '../utils/helpers';
+import { isFieldEvent, sortEvents } from '../utils/helpers';
+import { readQualification, cutoffSeconds } from '../utils/qualification';
 
 function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
   const [activeData, setActiveData] = useState([]);
@@ -73,9 +74,8 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
       .filter(item => item.year.includes('('))
       .map(item => ({
         date: item.year,
-        time: parseTime(item.cutoff_time)
+        time: cutoffSeconds(item)
       }))
-      .filter(r => r.time !== null && !isNaN(r.time))
       .sort((a, b) => {
         const getSortKey = (str) => {
           const m = str.match(/\((.*?)\)/);
@@ -133,7 +133,7 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
     ...uniqueEvents.map(evt => ({ value: evt, label: evt }))
   ];
 
-  const currentCutoffRank = selectedEvent !== 'all' ? getCutoffRank(selectedEvent, season, region) : 16;
+  const currentCutoffRank = readQualification(filteredEvents[0]).rank;
 
   return (
     <div className="monitor-container" style={{ animation: 'fadeIn 0.5s ease-out' }}>
@@ -187,9 +187,6 @@ function Monitor({ initialSeason, onBackHome, onOpenArchive }) {
           loading={loading}
           error={error}
           filteredEvents={filteredEvents}
-          getCutoffRank={getCutoffRank}
-          season={season}
-          region={region}
           onAltitudeClick={() => setShowAltitudeModal(true)}
           selectedEvent={selectedEvent}
           onSelectEvent={setSelectedEvent}

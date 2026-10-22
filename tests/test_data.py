@@ -190,7 +190,7 @@ class DataTests(unittest.TestCase):
         files = derive_files([record(), record('2026-2027')], config)
         self.assertEqual([r['year'] for r in files['tfrrs_active_data.json']], ['2026-2027'])
 
-    def test_cutoff_rules_and_small_roster_fallback_are_unchanged(self):
+    def test_cutoff_rules_and_missing_rank_remains_unavailable(self):
         for event, season, region, expected in [
             ('400 Meters', 'indoor', 'National', 16),
             ('4x400 Relay', 'indoor', 'National', 12),
@@ -200,10 +200,14 @@ class DataTests(unittest.TestCase):
             ('Decathlon', 'outdoor', 'National', 24),
         ]:
             self.assertEqual(get_cutoff_rank(event, season, region), expected)
-        self.assertEqual(derive_files([record()], CONFIG)['tfrrs_bubble_cutoffs.json'][0]['cutoff_rank'], 1)
+        cutoff = derive_files([record()], CONFIG)['tfrrs_bubble_cutoffs.json'][0]
+        self.assertEqual(cutoff['cutoff_rank'], 16)
+        self.assertEqual(cutoff['qualification']['status'], 'missing_rank')
+        self.assertIsNone(cutoff['cutoff_time'])
 
     def test_legacy_records_can_omit_team_and_normalize_year_for_dedup(self):
         old = record('2025_2026')
+        old['rankings'][0]['rank'] = 16
         del old['rankings'][0]['team']
         self.assertEqual(derive_files([old], CONFIG)['tfrrs_bubble_cutoffs.json'][0]['cutoff_team'], 'N/A')
         self.assertEqual(len(merge_records([old], [record()])), 1)

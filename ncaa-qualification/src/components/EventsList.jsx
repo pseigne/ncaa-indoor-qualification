@@ -1,7 +1,8 @@
 import React from 'react';
 import EventCard from './EventCard';
+import { readQualification, cutoffPerformance } from '../utils/qualification';
 
-function EventsList({ loading, error, filteredEvents, getCutoffRank, season, region, onAltitudeClick, selectedEvent, onSelectEvent }) {
+function EventsList({ loading, error, filteredEvents, onAltitudeClick, selectedEvent, onSelectEvent }) {
   if (loading) {
     return (
       <section className="results-section">
@@ -40,11 +41,8 @@ function EventsList({ loading, error, filteredEvents, getCutoffRank, season, reg
       <section className="results-section">
         <div className="events-summary-grid">
           {filteredEvents.map((eventGroup, idx) => {
-            const cutoffRank = getCutoffRank(eventGroup.event, season, region);
-            const bubbleEntry = eventGroup.rankings.find(r => r.rank === cutoffRank);
-            const bubbleTime = bubbleEntry
-              ? (bubbleEntry.time || '').replace(/[@#]/g, '').trim()
-              : '—';
+            const { rank: cutoffRank } = readQualification(eventGroup);
+            const bubbleTime = cutoffPerformance(eventGroup);
 
             return (
               <button
@@ -54,7 +52,7 @@ function EventsList({ loading, error, filteredEvents, getCutoffRank, season, reg
               >
                 <span className="summary-event-name">{eventGroup.event.replace(/\s+/g, ' ').trim()}</span>
                 <span className="summary-bubble-time">{bubbleTime}</span>
-                <span className="summary-label">Bubble (#{cutoffRank})</span>
+                <span className="summary-label">{cutoffRank ? `Bubble (#${cutoffRank})` : 'Cutoff unavailable'}</span>
               </button>
             );
           })}
@@ -71,9 +69,6 @@ function EventsList({ loading, error, filteredEvents, getCutoffRank, season, reg
           <EventCard
             key={idx}
             eventGroup={eventGroup}
-            getCutoffRank={getCutoffRank}
-            season={season}
-            region={region}
             onAltitudeClick={onAltitudeClick}
           />
         ))}

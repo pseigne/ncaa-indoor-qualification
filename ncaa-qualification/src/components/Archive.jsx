@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Controls from './Controls';
 import CutoffChart from './CutoffChart';
 import AltitudeModal from './AltitudeModal';
-import { parseTime, getCutoffRank, isFieldEvent, sortEvents } from '../utils/helpers';
+import { isFieldEvent, sortEvents } from '../utils/helpers';
+import { readQualification, cutoffPerformance, cutoffSeconds } from '../utils/qualification';
 
 function Archive({ onBackHome }) {
   const [bubbleData, setBubbleData] = useState([]);
@@ -70,12 +71,11 @@ function Archive({ onBackHome }) {
       .filter(item => !item.year.includes('('))
       .map(item => ({
         date: item.year.replace(/_/g, '-'),
-        time: parseTime(item.cutoff_time),
-        athlete: item.cutoff_athlete,
-        team: item.cutoff_team,
+        time: cutoffSeconds(item),
+        athlete: readQualification(item).entry?.athlete,
+        qualification: readQualification(item),
         region: item.region
       }))
-      .filter(r => r.time !== null && !isNaN(r.time))
       .sort((a, b) => a.date.localeCompare(b.date));
 
     // Deduplicate
@@ -147,12 +147,13 @@ function Archive({ onBackHome }) {
     ...uniqueEvents.map(evt => ({ value: evt, label: evt }))
   ];
 
-  const currentCutoffRank = selectedEvent !== 'all' ? getCutoffRank(selectedEvent, season, region) : 16;
+  const historyRanks = new Set(yearlyArchiveData?.map(item => item.qualification.rank));
+  const currentCutoffRank = historyRanks.size === 1 ? [...historyRanks][0] : null;
+  const rosterQualification = readQualification(selectedHistoricalRoster);
 
   // Build summary data for "all events" overview using bubble cutoffs
   const allEventsSummary = selectedEvent === 'all'
     ? uniqueEvents.map(evt => {
-      const cutoffRank = getCutoffRank(evt, season, region);
       const match = bubbleData.find(item =>
         item.season === season &&
         item.gender === gender &&
@@ -162,9 +163,8 @@ function Archive({ onBackHome }) {
       );
       return {
         event: evt,
-        cutoffRank,
-        time: match ? (match.cutoff_time || '').replace(/[@#]/g, '').trim() : '—',
-        athlete: match ? match.cutoff_athlete : '',
+        cutoffRank: readQualification(match).rank,
+        time: cutoffPerformance(match),
         year: match ? match.year.replace(/_/g, '-') : ''
       };
     })
@@ -256,7 +256,7 @@ function Archive({ onBackHome }) {
                   <span className="summary-event-name">{item.event}</span>
                   <span className="summary-bubble-time">{item.time || '—'}</span>
                   <span className="summary-label">
-                    {item.year ? `${item.year} · #${item.cutoffRank}` : `Bubble (#${item.cutoffRank})`}
+                    {item.cutoffRank ? `${item.year} · #${item.cutoffRank}` : 'Cutoff unavailable'}
                   </span>
                 </button>
               ))}
@@ -298,7 +298,7 @@ function Archive({ onBackHome }) {
                           </span>
                         </div>
                         <div className="archive-roster-bubble">
-                          <span className="summary-bubble-time" style={{ fontSize: '1.25rem' }}>{item.time ? `${Math.floor(item.time / 60)}:${(item.time % 60).toFixed(2).padStart(5, '0')}` : '—'}</span>
+                          <span className="summary-bubble-time" style={{ fontSize: '1.25rem' }}>{cutoffPerformance(item)}</span>
                           {item.athlete && (
                             <span className="archive-roster-athlete">{item.athlete}</span>
                           )}
@@ -381,10 +381,10 @@ function Archive({ onBackHome }) {
               </p>
             </div>
 
+            {rosterQualification.status !== 'available' && <p role="status">Cutoff unavailable</p>}
             <div className="historical-roster-list" style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
               {selectedHistoricalRoster.rankings.map(athlete => {
-                const bubbleRank = getCutoffRank(selectedHistoricalRoster.event, selectedHistoricalRoster.season, selectedHistoricalRoster.region);
-                const isBubble = athlete.rank === bubbleRank;
+                const isBubble = rosterQualification.status === 'available' && athlete.rank === rosterQualification.entry.rank;
 
                 return (
                   <div

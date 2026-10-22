@@ -40,6 +40,14 @@ class WorkflowTests(unittest.TestCase):
         for event in ['pull_request', 'push']:
             self.assertFalse(allowed(job['if'], event))
 
+    def test_validation_runs_browser_behavior_suite_before_build(self):
+        steps = workflow('daily_scrape.yml')['jobs']['test']['steps']
+        commands = [step.get('run') for step in steps]
+        behavior = 'npm run test:ui --prefix ncaa-qualification'
+        build = 'npm run build --prefix ncaa-qualification -- --base=/ncaa-indoor-qualification/'
+        self.assertIn(behavior, commands)
+        self.assertLess(commands.index(behavior), commands.index(build))
+
     def test_notification_blocks_failed_feature_and_fork_workflows(self):
         action = workflow('portfolio.yml')
         self.assertEqual(set(action['on']), {'workflow_run'})

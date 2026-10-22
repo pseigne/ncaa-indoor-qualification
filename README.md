@@ -45,6 +45,22 @@ edits still work but must pass the same page identity checks. If TFRRS changes
 its navigation or title formats, update discovery and its tests; fallback
 messages appear in the Actions log.
 
+## Qualification interpretation
+
+Python owns qualification interpretation. Generated active records, historical
+records, and cutoff summaries include `qualification`: `rank` (required list
+position), `is_relay`, `status` (`available` or `missing_rank`), and `entry`
+(the exact saved ranking or `null`). The authoritative master stays unchanged.
+Compatibility summary fields come from the same interpretation; missing ranks
+retain the required rank with null cutoff time, athlete, and team.
+
+The website displays this metadata without calculating qualification rules.
+Missing or invalid metadata displays “Cutoff unavailable”; missing observations
+remain gaps in charts. Rosters remain inspectable. A qualification cutoff is a
+saved-list position, not confirmation of championship entry (see GLOSSARY.md).
+Regenerate derived files with `python generate_bubble_cutoffs.py` after changing
+the interpretation; commit those files together with the code change.
+
 ## Scraping and recovery
 
 Use Python 3.12+ and install `pip install -r requirements-dev.txt` in a virtual
@@ -88,6 +104,7 @@ npm ci
 npm run dev
 npm run build -- --base=/ncaa-indoor-qualification/
 npm run test:data
+npm run test:ui
 ```
 
 The daily action is scheduled at 06:00 UTC and can be run manually. Automated

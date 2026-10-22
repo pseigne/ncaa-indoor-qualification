@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
+import { readQualification } from '../utils/qualification';
 
-function EventCard({ eventGroup, getCutoffRank, season, region, onAltitudeClick }) {
+function EventCard({ eventGroup, onAltitudeClick }) {
   const [expanded, setExpanded] = useState(false);
-  const cutoffRank = getCutoffRank(eventGroup.event, season, region);
-  const hasMore = eventGroup.rankings.length > cutoffRank;
-
-  const displayedRankings = expanded ? eventGroup.rankings : eventGroup.rankings.slice(0, cutoffRank);
-
-  const isRelay = eventGroup.event.toLowerCase().includes('relay') || 
-                  eventGroup.event.toLowerCase().includes('medley') || 
-                  eventGroup.event.toLowerCase().includes('4x');
+  const qualification = readQualification(eventGroup);
+  const cutoffRank = qualification.rank;
+  const available = qualification.status === 'available';
+  const belowCutoff = available ? eventGroup.rankings.filter(row => row.rank > cutoffRank) : [];
+  const hasMore = belowCutoff.length > 0;
+  const displayedRankings = expanded || !available
+    ? eventGroup.rankings : eventGroup.rankings.filter(row => row.rank <= cutoffRank);
+  const isRelay = qualification.is_relay;
 
   return (
     <div className="event-card">
       <div className="event-card-header">
         <h3>{eventGroup.event.replace(/\s+/g, ' ').trim()}</h3>
-        <span className="qualifiers-count">Top {cutoffRank} Qualify</span>
+        <span className="qualifiers-count">{available ? `Top ${cutoffRank} list positions` : 'Cutoff unavailable'}</span>
       </div>
       <div className="table-responsive">
         <table className="results-table">
@@ -29,14 +30,14 @@ function EventCard({ eventGroup, getCutoffRank, season, region, onAltitudeClick 
           </thead>
           <tbody>
             {displayedRankings.map((entry) => {
-              const isCutoff = entry.rank === cutoffRank;
+              const isCutoff = available && entry.rank === qualification.entry.rank;
               return (
                 <tr 
                   key={entry.rank} 
                   className={`athlete-row ${isCutoff ? 'bubble-cutoff' : ''}`}
                 >
                   <td className="rank-cell">
-                    <span className={`rank-badge ${entry.rank <= cutoffRank ? 'in-cutoff' : 'out-cutoff'}`}>
+                    <span className={`rank-badge ${available && entry.rank <= cutoffRank ? 'in-cutoff' : 'out-cutoff'}`}>
                       {entry.rank}
                     </span>
                   </td>
@@ -89,7 +90,7 @@ function EventCard({ eventGroup, getCutoffRank, season, region, onAltitudeClick 
               </>
             ) : (
               <>
-                Show More ({eventGroup.rankings.length - cutoffRank} below bubble)
+                Show More ({belowCutoff.length} below bubble)
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="chevron-icon">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>

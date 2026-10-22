@@ -32,6 +32,7 @@ jobs:
           cache-dependency-path: ncaa-qualification/package-lock.json
       - run: npm ci --prefix ncaa-qualification
       - run: npm run test:data --prefix ncaa-qualification
+      - run: npm run test:ui --prefix ncaa-qualification
       - run: npm run build --prefix ncaa-qualification -- --base=/ncaa-indoor-qualification/
 
   scrape-and-update:

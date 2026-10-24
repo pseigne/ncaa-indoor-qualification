@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+ncaa-qualification/public/data/
+data/list-cache/
+ncaa-qualification/public/team-logos/

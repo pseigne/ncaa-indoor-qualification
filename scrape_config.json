@@ -1,0 +1,582 @@
+{
+  "active": [
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "5622",
+      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "5623",
+      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "5602",
+      "list_name": "2026_NCAA_Division_I_Outdoor_Qualifying_FINAL"
+    },
+    {
+      "year": "2025-2026",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "5352",
+      "list_name": "2025_2026_NCAA_Division_I_Indoor_List_FINAL"
+    }
+  ],
+  "historical": [
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "5622",
+      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "5623",
+      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL"
+    },
+    {
+      "year": "2026",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "5602",
+      "list_name": "2026_NCAA_Division_I_Outdoor_Qualifying_FINAL"
+    },
+    {
+      "year": "2025-2026",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "5352",
+      "list_name": "2025_2026_NCAA_Division_I_Indoor_List_FINAL"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "5052",
+      "list_name": "2025_NCAA_Div_I_East_Outdoor_List_FINAL"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "5053",
+      "list_name": "2025_NCAA_Div_I_West_Outdoor_List_FINAL"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "5018",
+      "list_name": "2025_NCAA_Division_I_Outdoor_Qualifying_List"
+    },
+    {
+      "year": "2024-2025",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "4867",
+      "list_name": "2024_2025_NCAA_Division_I_Indoor_Qualifying"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "4573",
+      "list_name": "2024_NCAA_Div_I_East_Outdoor_Qualifying_FINAL"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "4574",
+      "list_name": "2024_NCAA_Div_I_West_Outdoor_Qualifying_FINAL"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "4515",
+      "list_name": "2024_NCAA_Division_I_Rankings_FINAL"
+    },
+    {
+      "year": "2023-2024",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "4364",
+      "list_name": "2023_2024_NCAA_Division_I_Indoor_Qualifying_List"
+    }
+  ],
+  "discovery": {
+    "enabled": true,
+    "sources": [
+      "https://tf.tfrrs.org/",
+      "https://www.tfrrs.org/ncaad1/indoortrack/men",
+      "https://www.tfrrs.org/ncaad1/outdoortrack/men",
+      "https://www.tfrrs.org/ncaad1east/outdoortrack/men",
+      "https://www.tfrrs.org/ncaad1west/outdoortrack/men"
+    ]
+  },
+  "archive": [
+    {
+      "year": "2009-2010",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "502",
+      "list_name": "list"
+    },
+    {
+      "year": "2010-2011",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "607",
+      "list_name": "list"
+    },
+    {
+      "year": "2011-2012",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "769",
+      "list_name": "list"
+    },
+    {
+      "year": "2012-2013",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "942",
+      "list_name": "list"
+    },
+    {
+      "year": "2013-2014",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "1139",
+      "list_name": "list"
+    },
+    {
+      "year": "2014-2015",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "1345",
+      "list_name": "list"
+    },
+    {
+      "year": "2015-2016",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "1569",
+      "list_name": "list"
+    },
+    {
+      "year": "2016-2017",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "1797",
+      "list_name": "list"
+    },
+    {
+      "year": "2017-2018",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "2124",
+      "list_name": "list"
+    },
+    {
+      "year": "2018-2019",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "2324",
+      "list_name": "list"
+    },
+    {
+      "year": "2019-2020",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "2770",
+      "list_name": "list",
+      "meet": "cancelled"
+    },
+    {
+      "year": "2020-2021",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "3157",
+      "list_name": "list"
+    },
+    {
+      "year": "2021-2022",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "3492",
+      "list_name": "list"
+    },
+    {
+      "year": "2022-2023",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "3901",
+      "list_name": "list"
+    },
+    {
+      "year": "2010",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "528",
+      "list_name": "list"
+    },
+    {
+      "year": "2010",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "537",
+      "list_name": "list"
+    },
+    {
+      "year": "2010",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "538",
+      "list_name": "list"
+    },
+    {
+      "year": "2011",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "673",
+      "list_name": "list"
+    },
+    {
+      "year": "2011",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "693",
+      "list_name": "list"
+    },
+    {
+      "year": "2011",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "694",
+      "list_name": "list"
+    },
+    {
+      "year": "2012",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "840",
+      "list_name": "list"
+    },
+    {
+      "year": "2012",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "843",
+      "list_name": "list"
+    },
+    {
+      "year": "2012",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "844",
+      "list_name": "list"
+    },
+    {
+      "year": "2013",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "1029",
+      "list_name": "list"
+    },
+    {
+      "year": "2013",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "1030",
+      "list_name": "list"
+    },
+    {
+      "year": "2013",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "1031",
+      "list_name": "list"
+    },
+    {
+      "year": "2014",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "1228",
+      "list_name": "list"
+    },
+    {
+      "year": "2014",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "1229",
+      "list_name": "list"
+    },
+    {
+      "year": "2014",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "1230",
+      "list_name": "list"
+    },
+    {
+      "year": "2015",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "1439",
+      "list_name": "list"
+    },
+    {
+      "year": "2015",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "1440",
+      "list_name": "list"
+    },
+    {
+      "year": "2015",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "1441",
+      "list_name": "list"
+    },
+    {
+      "year": "2016",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "1688",
+      "list_name": "list"
+    },
+    {
+      "year": "2016",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "1687",
+      "list_name": "list"
+    },
+    {
+      "year": "2016",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "1686",
+      "list_name": "list"
+    },
+    {
+      "year": "2017",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "1912",
+      "list_name": "list"
+    },
+    {
+      "year": "2017",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "1925",
+      "list_name": "list"
+    },
+    {
+      "year": "2017",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "1926",
+      "list_name": "list"
+    },
+    {
+      "year": "2018",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "2279",
+      "list_name": "list"
+    },
+    {
+      "year": "2018",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "2280",
+      "list_name": "list"
+    },
+    {
+      "year": "2018",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "2281",
+      "list_name": "list"
+    },
+    {
+      "year": "2019",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "2568",
+      "list_name": "list"
+    },
+    {
+      "year": "2019",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "2569",
+      "list_name": "list"
+    },
+    {
+      "year": "2019",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "2570",
+      "list_name": "list"
+    },
+    {
+      "year": "2020",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "2909",
+      "list_name": "list",
+      "status": "cancelled"
+    },
+    {
+      "year": "2020",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "2910",
+      "list_name": "list",
+      "status": "cancelled"
+    },
+    {
+      "year": "2020",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "2911",
+      "list_name": "list",
+      "status": "cancelled"
+    },
+    {
+      "year": "2021",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "3191",
+      "list_name": "list"
+    },
+    {
+      "year": "2021",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "3192",
+      "list_name": "list"
+    },
+    {
+      "year": "2021",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "3193",
+      "list_name": "list"
+    },
+    {
+      "year": "2022",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "3711",
+      "list_name": "list"
+    },
+    {
+      "year": "2022",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "3712",
+      "list_name": "list"
+    },
+    {
+      "year": "2022",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "3713",
+      "list_name": "list"
+    },
+    {
+      "year": "2023",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "4044",
+      "list_name": "list"
+    },
+    {
+      "year": "2023",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "4162",
+      "list_name": "list"
+    },
+    {
+      "year": "2023",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "4163",
+      "list_name": "list"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "5018",
+      "list_name": "list"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "5052",
+      "list_name": "list"
+    },
+    {
+      "year": "2025",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "5053",
+      "list_name": "list"
+    },
+    {
+      "year": "2023-2024",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "4364",
+      "list_name": "list"
+    },
+    {
+      "year": "2024-2025",
+      "season": "indoor",
+      "region": "National",
+      "list_id": "4867",
+      "list_name": "list"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "National",
+      "list_id": "4515",
+      "list_name": "list"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "East",
+      "list_id": "4573",
+      "list_name": "list"
+    },
+    {
+      "year": "2024",
+      "season": "outdoor",
+      "region": "West",
+      "list_id": "4574",
+      "list_name": "list"
+    }
+  ]
+}

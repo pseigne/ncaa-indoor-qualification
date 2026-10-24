@@ -3,20 +3,30 @@
 Status: research and plan only. No code has been written for these features yet.
 Researched 2026-10-24 against the 2025 and 2026 championships.
 
+## Decisions so far
+
+- **RecordTiming:** fetch its pages automatically despite its `Disallow: /`
+  robots.txt. Keep it polite: at least 3 seconds between requests, back off on
+  403/429, send a user agent that names the project, cache every page, and
+  fetch only once a season.
+- **The field line comes from the accepted lists**, the page published on
+  declaration day. Start lists are not used.
+- **Backfill to 2015.** Every season from 2015 to 2026 has accepted lists on
+  RecordTiming, except outdoor 2020, when the meet was cancelled (see 1.1).
+
 ## Summary
 
 | Feature | Data source | Fetch method | Size |
 |---|---|---|---|
-| 1. Actual field line | RecordTiming (the NCAA's entry and timing contractor) "accepted" lists | Saved by hand in a browser, parsed offline | Medium |
+| 1. Actual field line | RecordTiming (the NCAA's entry and timing contractor) accepted lists, 2015–2026 | Polite once-a-season fetch, cached | Medium |
 | 2. Outdoor lists 100 deep | TFRRS East/West lists with `limit=100` | Existing daily scrape | Small |
-| 3. Regionals to nationals | RecordTiming qualifier lists, plus Flash Results round pages | Hand-saved pages, plus a polite once-a-season fetch | Large |
+| 3. Regionals to nationals | RecordTiming qualifier lists, plus Flash Results round pages | Polite once-a-season fetch, cached | Large |
 
 The research changed one assumption. The NCAA does not host any accepted or
 declared lists itself; its championship pages link to RecordTiming
-(`rtspt.com`), and `rtspt.com/robots.txt` disallows all automated access.
-So the seasonal import for features 1 and 3 is designed around pages you save
-in a browser, which the importer then parses from disk. That fits a
-once-a-season refresh and stays within the site's stated rules.
+(`rtspt.com`), and `rtspt.com/robots.txt` disallows all automated access. You
+decided to fetch it anyway, so the importer fetches each season's index page
+and its linked lists once, under the rules above.
 
 ---
 
@@ -32,7 +42,25 @@ The NCAA's championship pages and ncaa.com articles link to RecordTiming under
 - Outdoor: `https://www.rtspt.com/ncaa/d1outdoorYY/`, for example
   <https://www.rtspt.com/ncaa/d1outdoor25/> and <https://www.rtspt.com/ncaa/d1outdoor26/>
 - `https://www.rtspt.com/ncaa/` redirects to the current season. `d1indoor27`
-  returns 404 today. The 2024 directories still exist, so 2024 could be backfilled.
+  returns 404 today.
+
+**Coverage back to 2015.** I checked every index from `d1indoor15` and
+`d1outdoor15` to `d1outdoor24` on 2026-10-24, about 3.5 seconds apart.
+
+| Season | Accepted list filenames | National qualifier list |
+|---|---|---|
+| Indoor 2015–2026 | `*_declared`, `declared_*`, `*_accepted`, `selected_*`, `*_selected`, `*_entry` | n/a (the field line is the national field) |
+| Outdoor 2015–2019, 2021–2026 | `east_*_accepted`, `*_declared`, `*_selected`, `e_w_*`, `e_*`, `w_*` | `*_qualifiers` from 2018; `m_/w_qualifiers` in 2024 |
+| Outdoor 2020 | — (`d1outdoor20/` is 404; the meet was cancelled) | — |
+
+- Indoor 2020 has selected lists and start lists, but the meet was cancelled on
+  the eve of competition. Its field line is still a real selection; the site
+  should label it "meet cancelled".
+- Outdoor 2015–2017 have no qualifier list. Who advanced has to come from each
+  First Round's compiled results (`east_res.htm`, `east_compiled.htm`), which
+  RecordTiming has for those years.
+- `w_` means "women" in some years and "west" in others, so pages are
+  classified by their own header text, never by filename. See 3.1.
 
 The ncaa.com articles that link to these pages:
 
@@ -110,7 +138,7 @@ That is about 10 days before the meet, and a week before the replacement deadlin
 | Tue Jun 2, 3 p.m. ET | Final participant list |
 
 The 2026 qualifier pages were generated May 31 at 9:16 AM. Nobody has checked
-whether pages are rewritten in place after late scratches. Saving them
+whether pages are rewritten in place after late scratches. Fetching them
 *after* the meet captures whatever their final state is.
 
 ### 1.3 Current DI rules
@@ -196,7 +224,7 @@ redirects to ncaatickets.com. It is not a data source.
 
 | Site | Rule | Effect |
 |---|---|---|
-| <https://www.rtspt.com/robots.txt> | `User-agent: *` / `Disallow: /` | No automated fetching. Save pages by hand. |
+| <https://www.rtspt.com/robots.txt> | `User-agent: *` / `Disallow: /` | Fetched anyway, by your decision: once a season, 3+ s apart, cached. |
 | <https://www.tfrrs.org/robots.txt> | A comment line only; nothing disallowed, no Crawl-delay | Allowed by robots. But see the terms below. |
 | <https://www.flashresults.com/robots.txt> | Blocks `/images/ /documents/ …` and `*.pdf *.csv *print=true*`. `.htm` result pages are allowed. No Crawl-delay. | Allowed for `.htm` pages. `flashresults.ncaa.com/robots.txt` returns an S3 403 (no file). |
 | <https://www.ncaa.com/robots.txt> | Generic agents allowed on `/news/`; some named bots blocked site-wide | Not needed as a data source. |
@@ -273,14 +301,16 @@ the list archive is.
   "sources": [
     {"kind": "accepted", "gender": "f", "region": "National",
      "url": "https://www.rtspt.com/ncaa/d1indoor26/women_accepted.htm",
-     "generated": "2026-03-03T16:18", "saved": "2026-10-25", "sha256": "…"}
+     "generated": "2026-03-03T16:18", "fetched": "2026-10-25", "sha256": "…"}
   ],
+  "lists": [{"region": "National", "list_id": "5352", "depth": 100}],
   "fields": [
-    {"gender": "f", "region": "National", "event": "200 Meters", "source": "accepted",
+    {"gender": "f", "region": "National", "event": "200 Meters",
      "entries": [
        {"name": "Adaejah Hodge", "school": "Georgia", "seed": "22.32",
         "list_rank": 1, "match": "mark"},
-       {"name": "…", "school": "…", "seed": "22.94", "list_rank": 18, "match": "manual"}
+       {"name": "…", "school": "…", "seed": "22.94", "list_rank": 18, "match": "manual",
+        "row": {"athlete": "…", "team": "…", "time": "22.94"}}
      ]}
   ]
 }
@@ -289,11 +319,15 @@ the list archive is.
 Field notes:
 
 - `event` uses the archive's TFRRS event names.
-- `list_rank` is the rank on the saved final TFRRS list. It is `null` when there is no match.
+- `list_rank` is the rank on the season's final TFRRS list. It is `null` when there is no match.
 - `match` is one of `exact | mark | name | manual | none`.
 - `region` is `National` for indoor and `East`/`West` for outdoor First Rounds.
 - Outdoor files add the `dec`/`hep` accepted lists as region `National`.
-- `source` leaves room for a later `start_list` refinement (open question 3).
+- `lists` records which TFRRS list the ranks refer to.
+- **`row` is stored only for seasons the archive has no lists for (2015 to
+  2023 indoor, 2015 to 2023 outdoor).** It holds the matched TFRRS row, so the
+  site can show the field line without the archive holding those seasons' full
+  lists. For 2024 onward, the row comes from the archive.
 
 New file `data/archive/aliases.json`:
 
@@ -361,12 +395,20 @@ values. Lists without it keep the current default of 50 with a 60-row cap.
 
 ## 3. Importers
 
-### 3.1 `import_entries.py` (features 1 and 3, offline)
+### 3.1 `import_entries.py` (features 1 and 3)
 
-1. **Input:** a season and year, for example `python import_entries.py indoor 2025-2026`.
-2. **Read the saved files.** It reads every `.htm` page you saved under `data/imports/{season}/{year}/`. That folder is gitignored, like `data/list-cache/`.
-3. **Make no network requests.**
-4. **Identify each page by content, not filename.** It reads the HY-TEK header (meet name, generated timestamp, "Performance List") and the title line, which tells it the region, gender and kind (accepted, review, qualifiers, multi). It refuses pages that are not a DI championship list for that season.
+1. **Input:** a season and year, for example `python import_entries.py indoor 2025-2026`, or `--from 2015` to backfill a range.
+2. **Fetch.**
+   - It fetches `https://www.rtspt.com/ncaa/d1{indoor|outdoor}YY/`, then each linked page whose link or filename looks like an entry list (`declared`, `accepted`, `selected`, `entry`, `qualifiers`), skipping review, start and result pages.
+   - It waits at least 3 seconds between requests and sends a user agent naming the project.
+   - On a 403 or 429 it waits 60 seconds, then 120, and stops after the second refusal, keeping what it has.
+   - Every page is cached under `data/entries-cache/` (gitignored, like `data/list-cache/`), so re-runs and parser fixes need no new requests.
+   - That is about 3–9 requests per season, roughly 120 for the whole 2015–2026 backfill.
+3. **The TFRRS list each season is matched against:**
+   - 2024 onward: the archive's final lists.
+   - 2015–2023: the final TFRRS lists named in `scrape_config.json` under `archive` (the IDs `backfill_cutoffs.py` already uses), fetched once at `limit=100` into the existing `data/list-cache/`.
+   - That is about 54 TFRRS pages for the backfill: 9 indoor seasons plus 8 outdoor seasons × 2 regions, each for both genders.
+4. **Identify each page by content, not filename.** It reads the HY-TEK header (meet name, generated timestamp, "Performance List") and the event headings, which tell it the region, gender and kind (accepted, qualifiers, multi). It refuses pages that are not a DI championship list for that season.
 5. **Parse the `<pre>` block by event:**
    - Event headings (`Event 17  Women 60 Meter Dash Prelims`) map to archive event names through an alias table. `backfill_cutoffs.py` already has `EVENT_ALIASES` to extend.
    - Individual rows: rank, name, class, school, seed, with the seed's `D`/`A`/`S`/`m` suffixes stripped.
@@ -385,7 +427,7 @@ values. Lists without it keep the current default of 50 with a 60-row cap.
 
 ### 3.2 `import_results.py` (feature 3)
 
-- **Qualifiers:** from the saved `women_qualifiers.htm`/`men_qualifiers.htm` (official) and the `dec`/`hep` accepted pages. Region comes from the First Round accepted lists.
+- **Qualifiers:** from RecordTiming's `*_qualifiers` pages (official, 2018 onward) and the `dec`/`hep` accepted pages, all fetched and cached by 3.1. Region comes from the First Round accepted lists. For 2015–2017 there is no qualifier page, so who advanced comes from the First Round compiled results, which have the Q/q markers.
 - **Results:** First Round and nationals places and marks from Flash Results. This is the one place the plan fetches automatically:
   - **URLs:** the Flash index URLs are written into `championships.json` by hand, not guessed.
   - **robots.txt:** it checks robots.txt with `urllib.robotparser` before each host.
@@ -396,7 +438,8 @@ values. Lists without it keep the current default of 50 with a 60-row cap.
   - **Volume:** about 40 events × 3 meets × 2 genders, under 250 requests, once a year.
 - **Joining:** Flash's embedded TFRRS athlete URL gives an exact join where present. Otherwise the 3.1 matcher runs on name, school and mark.
 - **Exhibition events:** filtered out by name.
-- **Alternative:** if you'd rather not fetch at all, the same data is in the official `compiled_res.txt` and `east/west_compiled` files on RecordTiming. Those would be saved by hand too, but 2026's First Round compiled results are PDF only. See open question 7.
+- **Alternative:** the official results are on RecordTiming too (`compiled_res.txt`, `east/west_compiled`), and the importer could fetch those instead. But the First Round compiled results are PDF only in 2021, 2023 and 2026, and their HY-TEK text format varies more than Flash's HTML. See open question 7.
+- **Flash before 2022:** older meets are on other hosts (`dt8v5llb2dwhs.cloudfront.net` in 2019 and 2021, ncaa.com in 2015–2018, linked from each RecordTiming index). Results before 2022 may need the RecordTiming files instead.
 
 ### 3.3 Deeper outdoor lists (feature 2)
 
@@ -413,13 +456,12 @@ Indoor runs in late March, after the meet. Outdoor runs in late June, after nati
 
 **Indoor (e.g. 2026-27, after mid-March)**
 
-1. In a browser, open `https://www.rtspt.com/ncaa/d1indoorYY/`. Save the women's and men's "athletes accepted" pages (File → Save Page As → "Web Page, HTML only") into `data/imports/indoor/2026-2027/`.
-2. Make sure the daily scrape has finished the season (14 days after the start date), so the final TFRRS list is in the archive.
-3. Run the importer:
+1. Make sure the daily scrape has finished the season (14 days after the start date), so the final TFRRS list is in the archive.
+2. Run the importer, which fetches the accepted lists:
    ```sh
    python import_entries.py indoor 2026-2027
    ```
-   Read the report, add any school or athlete aliases it suggests to `data/archive/aliases.json`, and run it again until nothing is unmatched.
+3. Read the report, add any school or athlete aliases it suggests to `data/archive/aliases.json`, and run it again until nothing is unmatched. Re-runs read the cache and make no requests.
 4. Regenerate, validate and test:
    ```sh
    python generate_bubble_cutoffs.py
@@ -432,20 +474,24 @@ Indoor runs in late March, after the meet. Outdoor runs in late June, after nati
 **Outdoor (e.g. 2027, after mid-June)**
 
 1. Add the season's Flash Results index URLs (East, West, nationals) and the nationals dates to `championships.json`.
-2. From `https://www.rtspt.com/ncaa/d1outdoorYY/`, save these into `data/imports/outdoor/2027/`:
-   - the four First Round accepted lists
-   - the two qualifier lists
-   - the decathlon and heptathlon accepted lists
-3. Run the importers:
+2. Run the importers:
    ```sh
    python import_entries.py outdoor 2027
    python import_results.py outdoor 2027
    ```
-   The second one fetches Flash pages once and caches them. Resolve aliases as for indoor.
-4. Regenerate, validate, test and commit, as for indoor.
+   The first fetches the four First Round accepted lists, the two qualifier lists and the decathlon and heptathlon lists. The second fetches the Flash pages. Both cache what they fetch. Resolve aliases as for indoor.
+3. Regenerate, validate, test and commit, as for indoor.
 
-A one-time backfill does the same steps for 2025 and 2026 (and 2024 if wanted),
-plus the feature 2 re-collect of the 2024–2026 East/West final lists. The
+**One-time backfill**
+
+```sh
+python import_entries.py indoor --from 2015
+python import_entries.py outdoor --from 2015
+```
+
+This also fetches the 2015–2023 TFRRS final lists once, and is paired with
+the feature 2 re-collect of the 2024–2026 East/West final lists. Expect a
+couple of rounds of alias fixes, mostly for older school abbreviations. The
 README gets a short "End of season" section with these steps.
 
 ---
@@ -467,7 +513,12 @@ README gets a short "End of season" section with these steps.
 
 **Board** ([BoardView.jsx](../../ncaa-qualification/src/components/BoardView.jsx)): a "Field reached" column (for example "19th · 22.94"), only for seasons with an import.
 
-**Past years dialog** ([PastYears.jsx](../../ncaa-qualification/src/components/PastYears.jsx)): could show each imported season's field line next to its cutoff later. That is not part of the first build.
+**Past years dialog** ([PastYears.jsx](../../ncaa-qualification/src/components/PastYears.jsx)):
+
+- The site only shows lists from indoor 2023-24 and outdoor 2024 onward, so the 2015 backfill shows up here.
+- Each season's row gets its field line next to its qualifying line, for example "Line 16th · 6.71 — field reached 19th · 6.68".
+- The data goes into the `history-{season}-{g}.json` files. Each past line gains a `field` object of the same shape as 2.4.
+- 2020 indoor is labeled "meet cancelled"; 2020 outdoor has no field line.
 
 **100-deep outdoor:**
 
@@ -488,13 +539,20 @@ README gets a short "End of season" section with these steps.
 ## 6. Risks
 
 - **Fetching rules:**
-  - RecordTiming disallows all robots, so the importer never fetches from it. The cost is a manual step each season (about 2 pages indoor, 8 outdoor).
-  - Separately, the TFRRS footer's FloSports terms ban automated access. That already applies to the daily scrape (open question 6).
+  - RecordTiming's robots.txt disallows all robots. By your decision the importer fetches it anyway, at low volume and with caching.
+    - It could start refusing requests or block the user agent.
+    - On a refusal the importer stops and keeps what it has.
+    - The cache means a finished season never needs fetching again.
+  - Separately, the TFRRS footer's FloSports terms ban automated access. That already applies to the daily scrape (open question 6). The backfill adds about 54 one-time TFRRS list fetches.
 - **Pages are HTML, not PDF.** The entry and qualifier lists are fixed-width text in a `<pre>` block, so no PDF parsing is needed for them. PDFs appear only in results: the 2026 First Round compiled results are PDF only, and Flash avoids them.
   - Column widths are fixed but not identical across years. 2026 outdoor added a bib column, and seeds gained `D`/`A`/`S`/`m` suffixes.
   - The parser splits on runs of two or more spaces and reads the right-hand seed, rather than using column offsets.
   - Tests use one saved page per year and kind, trimmed to a few events.
 - **Filenames drift.** Pages are identified by their HY-TEK header and title, never by filename.
+- **Older seasons:**
+  - The 2015–2019 pages may use older HY-TEK layouts, and school abbreviations drift over a decade.
+  - The parser gets one trimmed sample page per distinct layout as a test fixture.
+  - The TFRRS lists for older seasons may have been corrected since the NCAA froze its list, so more entries may need the name-based match.
 - **Matching NCAA names to TFRRS:**
   - NCAA writes "First Last" and abbreviates schools; TFRRS writes "Last, First" with full team names.
   - Seed marks normally equal the TFRRS list mark, which makes a strong key.
@@ -510,7 +568,8 @@ README gets a short "End of season" section with these steps.
     - a report that lists every non-exact match
     - no line drawn while anything in an event is unmatched
 - **Timing:**
-  - The accepted list is a snapshot from declaration day. Indoors, replacements go on for a week, so the real field can reach deeper than the accepted page shows. That is open question 3; the start lists would capture it.
+  - The accepted list is a snapshot from declaration day. Indoors, replacements go on for a week, so the real field can reach deeper than the accepted page shows.
+    - You chose the accepted lists, so the site's wording should say "field as accepted on Mar 3", not imply the final start list.
   - Qualifier pages may be rewritten after scratches. Saving after the meet takes the final state; the saved `generated` timestamp is shown on the site.
   - The importer must run after the season's TFRRS list is final in the archive, so it checks that `finished()` is true.
 - **Depth:**
@@ -542,26 +601,28 @@ Each step is its own commit (or a few), with tests, and can ship on its own.
    - `interpret_field`
    - the `field` site object
    - the second line row and hero sentence on the event page
-3. **Backfill indoor 2025 (and 2024), and add the board column.** This mostly exercises the parser on older formats.
-4. **Outdoor First Round field line (48/24) for 2025–2026.** This reuses step 2 with the regional accepted pages, on top of step 1's depth.
-5. **Nationals view, qualifiers only:** qualifier pages plus the region join from step 4, the new site file, the `view=nationals` page and links from regional events.
-6. **Nationals and First Round results** from Flash (`import_results.py`), filling in places and marks.
-7. **Optional:**
-   - start-list refinement for late indoor replacements
-   - storing TFRRS athlete IDs from list rows (they are linked in the page) for exact joins later
-   - field lines in the past years dialog
+3. **Indoor 2024 and 2025, plus the board column.** These seasons are shown on the site as lists.
+4. **Indoor backfill to 2015, plus field lines in the past years dialog.** This adds the older-layout parsers, the TFRRS `archive` list fetch, and the `history` file `field` objects.
+5. **Outdoor First Round field line (48/24) for 2015–2026.** This reuses steps 2–4 with the regional accepted pages, on top of step 1's depth.
+6. **Nationals view, qualifiers only:**
+   - 2018–2026 from the qualifier pages, plus the region join from step 5
+   - the new site file, the `view=nationals` page and links from regional events
+   - 2015–2017 later, from First Round compiled results
+7. **Nationals and First Round results** from Flash (`import_results.py`), filling in places and marks.
+8. **Optional:** storing TFRRS athlete IDs from list rows (they are linked in the page) for exact joins later.
 
 ---
 
 ## 8. Open questions for you
 
-1. **RecordTiming robots.txt.** It disallows all bots. Are you comfortable with the manual "save page in a browser, parse offline" step? Or would you rather email RecordTiming for permission to fetch the few pages automatically?
-2. **Saved raw pages.** I recommend keeping them out of git (gitignored, `sha256` recorded) and committing only the parsed facts. The alternative is committing them for full reproducibility in this public repo.
-3. **Which field counts as "actual"?** The accepted list from declaration day is what you specified. Late replacements before the scratch deadline appear only in start lists or results. Should v1 stay with accepted lists, with start lists as a later refinement?
-4. **How far back?** 2026 only, 2025–2026, or also 2024? RecordTiming still has 2024, in a different naming scheme. The site currently shows indoor from 2023-24 and outdoor from 2024.
+1. ~~RecordTiming robots.txt~~ **Decided:** fetch it anyway, politely and with caching.
+2. **Fetched raw pages.** I recommend keeping them out of git (gitignored caches, `sha256` recorded) and committing only the parsed facts. The alternative is committing them for full reproducibility in this public repo.
+3. ~~Which field counts as "actual"?~~ **Decided:** the accepted lists.
+4. ~~How far back?~~ **Decided:** 2015.
+   - Remaining question: should the nationals view also go back to 2015? That needs First Round compiled results for 2015–2017, or should it start at 2018, when qualifier lists begin?
 5. **Indoor depth.** Keep indoor lists at about 50, or take them to 100 too, so the field line can never fall off the saved list?
 6. **TFRRS terms of service.** The FloSports terms TFRRS links to ban automated access, which covers the existing daily scrape. Do you want to keep it as is, reduce it, or ask DirectAthletics/FloSports? This plan doesn't change the scrape's scope beyond `limit=100`.
-7. **Results source for the nationals view.** Flash Results is my recommendation: automated at 3 or more seconds per request, `.htm` pages allowed by robots, Q/q markers and TFRRS IDs. The alternative is the official RecordTiming results saved by hand, which means more manual steps and 2026 First Round results that exist only as PDF.
+7. **Results source for the nationals view.** Flash Results is my recommendation: automated at 3 or more seconds per request, `.htm` pages allowed by robots, Q/q markers and TFRRS IDs. The alternative is the official RecordTiming results, fetched the same way, but the First Round compiled results are PDF only in some years.
 8. **Nationals view scope.** Outdoor only, or also indoor nationals results next to the field line? It would be cheap once step 6 exists.
 9. **Wording.** Is "Field line · reached 19th after scratches" right? Should athletes inside 16 who didn't enter be named on the page, or only counted?
 10. **Relays.** The manuals don't say whether scratched relay teams are replaced. Should relays show a field line computed the same way, or only individuals?

@@ -122,6 +122,26 @@ class MatchTests(unittest.TestCase):
         self.assertEqual(matched(match_entries(entries, rankings, ALIASES, relay=True)),
                          [(5, "exact"), (7, "name"), (None, "none")])
 
+    def test_relays_on_lettered_squads_match_on_school_and_mark(self):
+        rankings = [row(1, "Texas (B)", "Texas (B)", "3:29.36"), row(4, "LSU (A)", "LSU (A)", "3:04.28"),
+                    row(5, "Florida (D)", "Florida (D)", "3:04.28"), row(6, "Florida (A)", "Florida (A)", "3:05.10")]
+        entries = [entry("Texas", "Texas", "3:29.36"), entry("Florida", "Florida", "3:04.28", rank=2),
+                   entry("LSU", "LSU", "3:04.28", rank=3), entry("Florida", "Florida", "3:06.00", rank=4)]
+        self.assertEqual(matched(match_entries(entries, rankings, ALIASES, relay=True)),
+                         [(1, "exact"), (5, "exact"), (4, "exact"), (None, "none")])
+        # A school's own team still comes first: its B team only matches on its own mark.
+        rankings = [row(1, "Arkansas", "Arkansas", "3:25.82"), row(2, "Arkansas (B)", "Arkansas (B)", "3:26.81")]
+        self.assertEqual(matched(match_entries([entry("Arkansas", "Arkansas", "3:25.82")], rankings, ALIASES,
+                                               relay=True)), [(1, "exact")])
+        # Two of a school's squads at the seed: the higher row is the school's.
+        rankings = [row(5, "N. Carolina A&T", "N. Carolina A&T", "39.14"),
+                    row(6, "N. Carolina A&T (B)", "N. Carolina A&T (B)", "39.14"),
+                    row(21, "Eastern Illinois (E)", "Eastern Illinois (E)", "39.79"),
+                    row(22, "Eastern Illinois (A)", "Eastern Illinois (A)", "39.79")]
+        entries = [entry("N. Carolina A&T", "N. Carolina A&T", "39.14"),
+                   entry("Eastern Illinois", "Eastern Illinois", "39.79", rank=2)]
+        self.assertEqual(matched(match_entries(entries, rankings, ALIASES, relay=True)), [(5, "exact"), (21, "exact")])
+
     def test_beyond_saved_depth(self):
         rankings = [row(1, "A, B", "X", "10.10"), row(50, "C, D", "Y", "10.40")]
         self.assertTrue(beyond_depth(entry("E F", "Z", "10.41"), rankings, "100 Meters"))

@@ -18,6 +18,8 @@ PARTICLES = {"van", "von", "de", "der", "den", "da", "das", "del", "della", "di"
              "du", "la", "le", "st", "st.", "ten", "ter", "el", "al", "mc", "mac"}
 SUFFIXES = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv"}
 CONVERTED = re.compile(r"Converted from\s+(\S+)", re.I)
+# Older TFRRS lists letter every relay squad, "Texas (B)" for Texas's best team among them.
+SQUAD = re.compile(r"\s*\([A-Z]\)$")
 # Names at least this long may have been cut by the name column.
 NAME_WIDTH = 26
 
@@ -126,6 +128,11 @@ def same_athlete(row, other):
     return fold(row["athlete"]) == fold(other["athlete"]) and school_key(row["team"]) == school_key(other["team"])
 
 
+def same_squad(row, other):
+    """Two relay rows for one school, as when TFRRS lists two of its squads at the same mark."""
+    return school_key(SQUAD.sub("", row["team"])) == school_key(SQUAD.sub("", other["team"]))
+
+
 def clean_mark(text):
     return re.sub(r"[#@]|\(\d+\)", "", text or "").strip().rstrip("m").strip()
 
@@ -162,7 +169,7 @@ def match_entries(entries, rankings, aliases, relay=False, scope=None):
     results = [dict(entry=entry, list_rank=None, match="none", row=None) for entry in entries]
     taken = set()
 
-    def settle(label, test, candidates=None):
+    def settle(label, test, candidates=None, same=same_athlete):
         claims = {}
         for index, result in enumerate(results):
             if result["row"] is not None:
@@ -170,7 +177,7 @@ def match_entries(entries, rankings, aliases, relay=False, scope=None):
             hits = [row for row in (candidates(result["entry"]) if candidates else rankings)
                     if row["rank"] not in taken and test(result["entry"], row)]
             # TFRRS sometimes lists one athlete twice with the same mark; the higher row counts.
-            if hits and all(same_athlete(row, hits[0]) for row in hits):
+            if hits and all(same(row, hits[0]) for row in hits):
                 best = min(hits, key=lambda row: row["rank"])
                 claims.setdefault(best["rank"], []).append((index, best, [row["rank"] for row in hits]))
         for rank, claimants in claims.items():
@@ -187,6 +194,8 @@ def match_entries(entries, rankings, aliases, relay=False, scope=None):
     settle("manual", lambda entry, row: True, manual)
     if relay:
         settle("exact", lambda e, r: same_school(e["school"], r["team"], schools) and e["seed"] in row_marks(r))
+        settle("exact", lambda e, r: (same_school(e["school"], SQUAD.sub("", r["team"]), schools)
+                                      and e["seed"] in row_marks(r)), same=same_squad)
         settle("name", lambda e, r: same_school(e["school"], r["team"], schools))
         return results
     settle("exact", lambda e, r: (e["seed"] in row_marks(r) and same_surname(e["name"], r["athlete"])

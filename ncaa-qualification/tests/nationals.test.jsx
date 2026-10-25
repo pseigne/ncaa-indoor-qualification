@@ -7,7 +7,7 @@ import {
 } from '../src/utils/nationals'
 import { href, readQuery } from '../src/utils/route'
 import { nationalsFile, nationalsSite } from './nationals'
-import { fetched, serveSite } from './site'
+import { fetched, savedFile, serveSite } from './site'
 
 afterEach(() => {
   cleanup()
@@ -382,6 +382,86 @@ describe('the regional event page’s nationals card', () => {
     expect(go.mock.calls[0][0]).toContain('view=nationals')
     fireEvent.click(screen.getByRole('link'), { button: 0, metaKey: true })
     expect(go).toHaveBeenCalledTimes(1)
+  })
+})
+
+describe('a regional event page with the national meet imported', () => {
+  // The women's 100m fixture sends these places on the East list to nationals.
+  const EAST = [2, 3, 5, 6, 8, 10, 11, 12, 13, 14, 15, 23]
+  const card = () => document.querySelector('a.detail-card[data-detail="nationals"]')
+  const tagged = () => [...document.querySelectorAll('tr[data-rank]')]
+    .filter(row => row.querySelector('.tag-nat')).map(row => Number(row.dataset.rank))
+
+  it('loads that year’s meet and shows the nationals card beside the other cards', async () => {
+    await openMeet('/?g=f&s=outdoor&r=East&event=100m')
+    await screen.findByText('48', { selector: 'tr.bubble .pl' })
+    await waitFor(() => expect(card()).not.toBeNull())
+    expect(fetched()).toContain('nationals-outdoor-2026-f.json')
+    expect(card().textContent).toBe('Nationals12 went to nationals · best finish 2ndThe national meet')
+    expect(card().getAttribute('href')).toBe('?g=f&s=outdoor&r=East&y=2026&event=100m&view=nationals')
+    expect(card().closest('.details')).not.toBeNull()
+    fireEvent.click(card(), { button: 0 })
+    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })).toBeTruthy()
+  })
+
+  it('tags the places that went to nationals from this First Round, in words a screen reader reads', async () => {
+    await openMeet('/?g=f&s=outdoor&r=East&event=100m')
+    await screen.findByText('48', { selector: 'tr.bubble .pl' })
+    await waitFor(() => expect(tagged()).toEqual(EAST))
+    const row = document.querySelector('tr[data-rank="2"]')
+    expect(row.querySelector('.tag-nat').textContent).toBe('to nationals')
+    expect(row.getAttribute('aria-label')).toMatch(/, went to nationals$/)
+    expect(document.querySelector('tr[data-rank="4"]').getAttribute('aria-label')).not.toContain('nationals')
+  })
+
+  it('counts the West’s own qualifiers on the West page', async () => {
+    await openMeet('/?g=f&s=outdoor&r=West&event=100m')
+    await screen.findByText('48', { selector: 'tr.bubble .pl' })
+    await waitFor(() => expect(card()?.textContent).toContain('12 went to nationals · best finish 1st'))
+    expect(tagged()).toEqual([1, 4, 7, 9, 16, 17, 18, 19, 20, 21, 22, 24])
+  })
+
+  it('asks for no meet for a gender without one, and shows no card or tags', async () => {
+    await openMeet('/?g=m&s=outdoor&r=East&event=100m')
+    await screen.findByText('48', { selector: 'tr.bubble .pl' })
+    expect(fetched().some(name => name.startsWith('nationals-'))).toBe(false)
+    expect(card()).toBeNull()
+    expect(tagged()).toEqual([])
+  })
+
+  it('shows the event page as before when the meet fails to load', async () => {
+    await openMeet('/?g=f&s=outdoor&r=East&event=100m', { fail: name => (name.startsWith('nationals-') ? '404' : null) })
+    await screen.findByText('48', { selector: 'tr.bubble .pl' })
+    await waitFor(() => expect(fetched()).toContain('nationals-outdoor-2026-f.json'))
+    expect(card()).toBeNull()
+    expect(tagged()).toEqual([])
+    expect(screen.queryByText('The qualifying lists could not be loaded.')).toBeNull()
+  })
+})
+
+describe('the published nationals files', () => {
+  const index = savedFile('index.json')
+
+  it('are each listed once in index.json, and the page reads every event and qualifier in them', () => {
+    expect(index.nationals.length).toBeGreaterThan(0)
+    expect(new Set(index.nationals.map(item => item.file)).size).toBe(index.nationals.length)
+    for (const item of index.nationals) {
+      const raw = savedFile(item.file)
+      const read = readNationals(raw)
+      expect(read, item.file).not.toBeNull()
+      expect([read.year, read.gender]).toEqual([item.year, item.gender])
+      expect(read.events.map(event => event.qualifiers.length)).toEqual(raw.events.map(event => event.qualifiers.length))
+      expect(read.sources.length).toBe(raw.sources.length)
+    }
+  })
+
+  it('show the 2026 women’s 100m final in order, East and West', async () => {
+    const site = { 'index.json': index, 'nationals-outdoor-2026-f.json': savedFile('nationals-outdoor-2026-f.json') }
+    await openMeet('/?g=f&s=outdoor&y=2026&event=100m&view=nationals', { site })
+    await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })
+    expect(names().slice(0, 3)).toEqual(['Shenese Walker', 'Adaejah Hodge', 'Shawnti Jackson'])
+    expect(rows()[0].querySelector('td.pl').textContent).toBe('1')
+    expect(rows().length).toBe(24)
   })
 })
 

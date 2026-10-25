@@ -19,6 +19,8 @@ import Spark from './Spark'
 import { Source } from './Frame'
 import { Mark } from './Mark'
 import Logo from './Logo'
+import NationalsCard from './NationalsCard'
+import { wentOn } from '../utils/nationals'
 import { YearSpark } from './PastYears'
 
 const ARROW = (
@@ -33,7 +35,7 @@ const CHEVRON = (
   </svg>
 )
 
-export default function EventView({ event, query, go, context, past = null, onOpenPicker, footnote = false }) {
+export default function EventView({ event, query, go, context, past = null, onOpenPicker, footnote = false, nationals = null }) {
   const phone = usePhone()
   const compact = useCompact()
   const split = useSplit()
@@ -364,8 +366,11 @@ export default function EventView({ event, query, go, context, past = null, onOp
       trend={trend}
       trendSeries={trendSeries}
       lines={lines}
+      nationals={nationals}
     />
   )
+  // The places on this list whose athletes went on to nationals from this First Round.
+  const onward = useMemo(() => new Set(wentOn(nationals, event.name, query.region)?.listRanks || []), [nationals, event.name, query.region])
 
   const sheet = (
     <>
@@ -480,6 +485,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
                   stop={row.rank === stop}
                   tag={field ? (field.in.has(row.rank) ? 'in' : field.out.has(row.rank) ? 'out' : null) : null}
                   fieldLine={field && row.rank === field.rank ? <FieldLine field={field} event={event} /> : null}
+                  onward={onward.has(row.rank)}
                   onFocusRow={() => setCursor(row.rank)}
                   onMove={key => moveRow(key, row.rank)}
                   hoverable={!scrollLinked}
@@ -579,10 +585,11 @@ const LIST_NOTE = 'Saved daily lists hold the top 20 marks from mid-January to l
 
 // Two cards under the cutoff: how it moved this season and how it compares with past years. Each opens
 // its dialog; the card says the one thing worth knowing so the dialog is only for the detail.
-function Details({ event, query, go, context, points, trend, trendSeries, lines }) {
+function Details({ event, query, go, context, points, trend, trendSeries, lines, nationals = null }) {
   const seasonCard = points.length >= 1
   const historyCard = lines.length > 0
-  if (!seasonCard && !historyCard) return null
+  const nationalsCard = query.season === 'outdoor' && Boolean(wentOn(nationals, event.name, query.region))
+  if (!seasonCard && !historyCard && !nationalsCard) return null
   const open = click => { if (plainClick(click)) go(click.currentTarget.href, click) }
   return (
     <div className="details">
@@ -601,6 +608,9 @@ function Details({ event, query, go, context, points, trend, trendSeries, lines 
           <span className="detail-x">{historySentence(lines, event.kind, context)}</span>
           <span className="detail-go">Every season{ARROW}</span>
         </a>
+      )}
+      {nationalsCard && (
+        <NationalsCard event={event.name} region={query.region} gender={query.gender} year={context.year} data={nationals} go={go} />
       )}
     </div>
   )
@@ -633,12 +643,12 @@ function lineLabel(event) {
   return phrase ? `Qualifying line ${mark}, ${phrase}` : `Qualifying line ${mark}`
 }
 
-function rowLabel(event, row, name, tag) {
+function rowLabel(event, row, name, tag, onward = false) {
   const mark = formatMark(row.v, event.kind)
   const phrase = accessibleConversion(row.conversion)
   const shown = phrase ? `${mark}, ${phrase}` : mark
   const base = event.isRelay ? `${row.rank}. ${name}, ${shown}` : `${row.rank}. ${name}, ${tidy(row.team)}, ${shown}`
-  const status = [rowStatus(event, row), TAG_LABEL[tag]].filter(Boolean).join(', ')
+  const status = [rowStatus(event, row), TAG_LABEL[tag], onward && 'went to nationals'].filter(Boolean).join(', ')
   return status ? `${base}, ${status}` : base
 }
 
@@ -701,7 +711,7 @@ function rowStatus(event, row) {
 // Where scrolling picks the row there is no hover: a row passing under a resting finger or pointer must
 // not take over the strip's readout. A tap still selects the row, through focus.
 function FragmentRow({
-  row, event, name, gap, inside, bubble, hover, setHover, line, fieldLine = null, tag = null, active = false, hoverable = true, stop = false, onFocusRow, onMove,
+  row, event, name, gap, inside, bubble, hover, setHover, line, fieldLine = null, tag = null, onward = false, active = false, hoverable = true, stop = false, onFocusRow, onMove,
 }) {
   const on = hover?.fromStrip && hover.rank === row.rank
   return (
@@ -710,7 +720,7 @@ function FragmentRow({
         className={`${bubble ? 'in bubble' : inside ? 'in' : 'out'}${on ? ' on' : ''}${active ? ' act' : ''}`}
         data-rank={row.rank}
         tabIndex={stop ? 0 : -1}
-        aria-label={rowLabel(event, row, name, tag)}
+        aria-label={rowLabel(event, row, name, tag, onward)}
         onPointerEnter={hoverable ? () => setHover({ rank: row.rank, fromStrip: false }) : undefined}
         onPointerLeave={hoverable ? () => setHover(null) : undefined}
         onFocus={() => {
@@ -724,6 +734,7 @@ function FragmentRow({
         <td className="ath">
           {event.isRelay ? <span className="tl tx"><Logo team={row.team || row.athlete} />{name}</span> : <span className="tx">{name}</span>}
           {tag && <>{' '}<span className={`tag tag-${tag}`}>{TAG_TEXT[tag]}</span></>}
+          {onward && <>{' '}<span className="tag tag-nat">to nationals</span></>}
         </td>
         {!event.isRelay && <td className="team"><span className="tl tx"><Logo team={row.team} />{tidy(row.team)}</span></td>}
         <td className="t r"><Mark text={formatBare(row.v, event.kind)} conversion={row.conversion} raw={row.raw} hang /></td>

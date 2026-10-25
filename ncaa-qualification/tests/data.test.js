@@ -41,6 +41,8 @@ test('build publishes the site files and leaves the archive out', async t => {
   const index = JSON.parse(await readFile(join(app, 'dist/data/index.json'), 'utf8'))
   assert.ok(index.lists.length > 0)
   await readFile(join(app, 'dist/data', index.lists[0].file))
+  assert.ok(Array.isArray(index.nationals))
+  for (const item of index.nationals) await readFile(join(app, 'dist/data', item.file))
   await assert.rejects(readFile(join(app, 'dist/data/past_cutoffs.json')), { code: 'ENOENT' })
   await assert.rejects(readFile(join(app, 'dist/data/tfrrs_historical_data.json')), { code: 'ENOENT' })
 })

@@ -127,7 +127,12 @@ export default function App() {
   // Past cutoffs that fail to load leave the page without them, as when there are none.
   const history = historyName ? files[historyName] : NO_HISTORY
   const pastData = history || NO_HISTORY
-  const needed = ['index.json', entry?.file, historyName, meet?.file].filter(name => name && files[name] === undefined)
+  // An outdoor regional page shows how its First Round did at nationals, when that meet is imported.
+  const onward = !nationals && view === 'event' && query.season === 'outdoor' && year
+    ? meets.find(item => item.year === endYear(year)) || null
+    : null
+  const onwardFile = onward ? files[onward.file] || null : null
+  const needed = ['index.json', entry?.file, historyName, meet?.file, onward?.file].filter(name => name && files[name] === undefined)
   const missing = needed.join(' ')
   useEffect(() => {
     if (missing) request(missing.split(' '))
@@ -261,6 +266,7 @@ export default function App() {
               past={pastData}
               onOpenPicker={() => setPicker(true)}
               footnote={model.events.some(item => item.line?.conversion)}
+              nationals={onwardFile}
             />
           )}
           {meetEvent && (

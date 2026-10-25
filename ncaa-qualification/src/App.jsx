@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import BoardView from './components/BoardView'
 import EventView from './components/EventView'
 import NationalsDetail from './components/NationalsDetail'
@@ -170,7 +170,8 @@ export default function App() {
     request(Object.keys(files).filter(name => files[name] === false)).then(() => setRetrying(false))
   }
 
-  useEffect(() => {
+  // In the commit that draws the heading, so focus is never left on the page in between.
+  useLayoutEffect(() => {
     if (!model || !retried.current) return
     retried.current = false
     focusHeading()

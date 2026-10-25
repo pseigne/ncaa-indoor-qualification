@@ -708,7 +708,8 @@ TFRRS are checked with `urllib.robotparser` first.
 
 - `parse_round(html) -> {"event", "gender", "round", "rows": [{"place", "name", "school", "mark", "wind", "q" ("Q"|"q"|None), "status" (None|"DNS"|"DNF"|"DQ"|"NM"|"NH"|"FS"), "tfrrs_id" (str|None)}]}`
 - `fetch_meet(index_url, …) -> [paths]`, skipping exhibition and wheelchair events.
-- The Flash index URLs for each season are listed in `championships.json` under `results`: `{"east": url, "west": url, "nationals": url}`. Outdoor seasons also gain `"nationals": {"name", "start_date"}`.
+- The Flash index URLs for each season are listed in a new `results_config.json` at the repository root, keyed by outdoor year: `{"2026": {"east": url, "west": url, "nationals": url, "meet": {"name", "start_date"}}}`.
+  - They are not in `championships.json`: adding past seasons there would change the existing site files' `championship` and `final` values.
 
 **`nationals.py`** builds the nationals view's data:
 
@@ -755,8 +756,13 @@ saved rows.
  "events": [{"event": "100 Meters", "qualifiers": [
    {"athlete": "Selby, Brianna", "team": "USC", "region": "West", "listRank": 2, "seed": "10.83",
     "firstRound": {"place": 1, "mark": "10.91", "wind": "+1.2", "q": "Q"} | null,
-    "nationals": {"place": 1, "mark": "10.84", "wind": "+0.4", "status": null, "points": 10} | null}]}]}
+    "nationals": {"place": 1, "round": "final", "mark": "10.84", "wind": "+0.4", "status": null, "points": 10} | null}]}]}
 ```
+
+- **`nationals.round`** is the last round the athlete reached: `final | semifinal | prelim`.
+  - `place` is the final place for finalists, and `null` otherwise.
+  - `mark`, `wind` and `status` come from that last round.
+  - Field events and the multis are a single `final` round.
 
 - `region` is `National` for the decathlon and heptathlon.
 - Qualifiers are ordered by national place, then by seed for those without a place.

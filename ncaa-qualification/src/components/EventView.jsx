@@ -13,6 +13,8 @@ import {
   useCompact, useMedia, usePhone, useReduceMotion, useSplit, useWidth,
 } from '../utils/media'
 import { freeTop, nearestRow, readingLine } from '../utils/active'
+import { sceneFor } from '../utils/scene'
+import FieldScene from './FieldScene'
 import RaceColumn from './RaceColumn'
 import RaceStrip from './RaceStrip'
 import Spark from './Spark'
@@ -87,8 +89,10 @@ export default function EventView({ event, query, go, context, past = null, onOp
   const listed = raced < event.rows.length ? event.rows.length : runners.length
   const scale = useMemo(() => scaleFor(event), [event])
   const fieldRank = field && event.line && field.rank !== event.line.rank ? field.rank : null
+  // Jumps and throws are drawn on their own venue instead of the race.
+  const scene = event.kind === 'mark' && event.strip && event.line ? sceneFor(event.name) : null
   const layout = useMemo(() => {
-    if (split || !event.strip || !event.line) return null
+    if (split || !event.strip || !event.line || scene) return null
     return layoutStrip({
       rows: runners,
       lineV: event.line.v,
@@ -100,9 +104,9 @@ export default function EventView({ event, query, go, context, past = null, onOp
       phone,
       listed,
     })
-  }, [event, runners, listed, split, phone, stripWidth, scale])
+  }, [event, runners, listed, split, phone, stripWidth, scale, scene])
   const column = useMemo(() => {
-    if (!split || !railSize || !event.strip || !event.line) return null
+    if (!split || !railSize || !event.strip || !event.line || scene) return null
     return layoutColumn({
       rows: runners,
       lineV: event.line.v,
@@ -117,10 +121,11 @@ export default function EventView({ event, query, go, context, past = null, onOp
       measure,
       listed,
     })
-  }, [event, runners, listed, split, railSize, measure, width, scale, fieldRank])
+  }, [event, runners, listed, split, railSize, measure, width, scale, fieldRank, scene])
   const railed = split && Boolean(event.strip && event.line)
   // Without hover (phones, touch screens with the flat strip) scrolling picks the row instead.
-  const scrollLinked = Boolean(layout) && (phone || noHover)
+  const flat = Boolean(layout) || Boolean(scene && !split)
+  const scrollLinked = flat && (phone || noHover)
 
   useEffect(() => {
     if (!phone || !lineRank) return undefined
@@ -152,7 +157,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
   // screen becomes the active one, but only once the reader has scrolled. One read pass per frame at most,
   // no writes to layout.
   useEffect(() => {
-    if (!(phone && layout) && !scrollLinked) return undefined
+    if (!(phone && flat) && !scrollLinked) return undefined
     let frame = 0
     let moved = false
     const measure = () => {
@@ -193,7 +198,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
       window.removeEventListener('scroll', onScroll)
       window.removeEventListener('resize', queue)
     }
-  }, [phone, layout, scrollLinked, all, from])
+  }, [phone, flat, scrollLinked, all, from])
 
   // Measure label widths again once the web font has arrived.
   useEffect(() => {
@@ -409,7 +414,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
           )}
         </div>
       </section>
-      {layout && (
+      {flat && (
         <div className={`stick${phone && stuck ? ' stuck' : ''}`} ref={stickRef}>
           {phone && (
             <div className={`minihero${mini ? ' on' : ''}`} ref={miniRef} aria-hidden="true">
@@ -417,6 +422,21 @@ export default function EventView({ event, query, go, context, past = null, onOp
               <span className="mini-n">{event.line ? <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} interactive={false} /> : null}</span>
             </div>
           )}
+          {scene ? (
+            <FieldScene
+              scene={scene}
+              rows={runners}
+              scale={scale}
+              lineRank={event.line.rank}
+              fieldRank={fieldRank}
+              width={stripWidth}
+              phone={phone}
+              listed={listed}
+              activeRank={(scrollLinked ? scrollRank : null) ?? hover?.rank ?? null}
+              onHover={rank => setHover(rank == null ? null : { rank, fromStrip: true })}
+              caption={phone ? null : <StripCaption event={event} scale={scale} top={racedWords} scene={scene} />}
+            />
+          ) : (
           <RaceStrip
             layout={layout}
             card
@@ -437,9 +457,10 @@ export default function EventView({ event, query, go, context, past = null, onOp
             memory={memory?.strip || null}
             runKey={`ran:${query.season}:${query.gender}:${event.slug}`}
           />
+          )}
         </div>
       )}
-      {layout && phone && <p className="strip-cap">{scale.estimate ? `Top ${racedWords} as one race. Meters are estimates.` : `Top ${racedWords} measured from the line.`}</p>}
+      {flat && phone && <p className="strip-cap">{scale.estimate ? `Top ${racedWords} as one race. Meters are estimates.` : `Top ${racedWords} measured from the line.`}</p>}
       <section className="tablecard">
         <table id="list" aria-label={`${title} around the qualifying line`} className={event.isRelay ? 'relay' : undefined}>
           <thead>
@@ -525,6 +546,29 @@ export default function EventView({ event, query, go, context, past = null, onOp
       {railed ? (
         <div className="split">
           <div className="split-sheet">{sheet}</div>
+          {scene ? (
+            <FieldScene
+              rail
+              scene={scene}
+              rows={runners}
+              scale={scale}
+              lineRank={event.line.rank}
+              fieldRank={fieldRank}
+              listed={listed}
+              activeRank={hover?.rank ?? null}
+              onHover={rank => {
+                setHover(rank == null ? null : { rank, fromStrip: true })
+                if (rank != null) setPointed(rank)
+              }}
+              onLeave={() => {
+                setPointed(null)
+                setHover(prev => (prev?.fromStrip && !prev.held ? null : prev))
+              }}
+              chip={chip}
+              onChip={() => chip && reveal(chip.rank)}
+              caption={<StripCaption event={event} scale={scale} top={racedWords} scene={scene} />}
+            />
+          ) : (
           <RaceColumn
             layout={column}
             kind={event.kind}
@@ -549,6 +593,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
               </>
             )}
           />
+          )}
         </div>
       ) : sheet}
       {phone && details}
@@ -696,11 +741,14 @@ function FieldLine({ field, event }) {
 
 // What the race or the field picture shows: a race at the moment the line mark finishes, or every mark
 // measured from the line mark.
-function StripCaption({ event, scale, top }) {
+function StripCaption({ event, scale, top, scene = null }) {
   const mark = <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} />
   if (scale.estimate) {
     return <>The top {top} as one race, as {mark} crosses the line. Meters are estimates from each mark’s average speed.</>
   }
+  if (scene === 'bar' || scene === 'vault') return <>The top {top} at the heights they cleared, with the bar set at the line, {mark}.</>
+  if (scene === 'pit') return <>The top {top} landed in one pit, with the line drawn across the sand at {mark}.</>
+  if (scene) return <>The top {top} landed in one sector, with the line drawn as an arc at {mark}.</>
   return <>The top {top} as one {scale.noun}, each mark measured from the line at {mark}.</>
 }
 

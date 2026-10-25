@@ -215,6 +215,23 @@ tr.act .logo{opacity:1;filter:none}
 .rail .race .lead-l,.race.card .lead-l{stroke:rgba(255,255,255,.75)}
 /* caption text on the track is white: anything dimmer drops under 4.5:1 on the red */
 .rail figcaption,.race.card figcaption{color:#fff}
+/* jumps and throws on their own venue: the sector, the bar and standards, the pit, all in white on the track */
+.race.scene .venue .zone{fill:#fff;fill-opacity:.08}
+.race.scene .venue .edge{fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round}
+.race.scene .venue .ring{fill:none;stroke:#fff;stroke-width:2.5}
+.race.scene .venue .sand{fill:#f4d9a6;fill-opacity:.22;stroke:#fff;stroke-width:1.5}
+.race.scene .venue .board,.race.scene .venue .standard{fill:#fff}
+.race.scene .venue .mat{fill:#fff;fill-opacity:.22}
+.race.scene .venue .runway{fill:#fff;fill-opacity:.12}
+.race.scene .gauge{fill:none;stroke:#fff;stroke-opacity:.35;stroke-width:1}
+.race.scene text.tick{font-size:13px}
+.race.scene .fl path{fill:none;stroke:#151515;stroke-width:3}
+.race.scene .fl.bar path{stroke-width:6;stroke-linecap:round}
+.race.scene .fl.bar path.stripe{stroke:#fff;stroke-width:4;stroke-dasharray:12 12;stroke-linecap:butt}
+.race.scene .fld-l path{fill:none;stroke:var(--field);stroke-width:3;stroke-dasharray:10 6}
+.race.scene tspan.a{fill:#fff;font-weight:600}
+.race.scene tspan.k{fill:#fff;font-weight:400}
+.race.scene text.halo{stroke:var(--track)}
 .why{text-wrap:pretty}
 
 table{width:100%;max-width:960px;border-collapse:collapse}

@@ -1,10 +1,9 @@
-import { useContext, useEffect, useLayoutEffect, useRef } from 'react'
+import { useEffect, useLayoutEffect, useRef } from 'react'
 import { accessibleConversion, FOOTNOTE, formatBare, formatMark, shortDate } from '../utils/format'
 import { grouped } from '../utils/model'
 import { endYear, href, listLink, plainClick, yearLabel } from '../utils/route'
 import { focusHeading } from '../utils/focus'
 import { useMedia } from '../utils/media'
-import { NationalsOffered } from '../utils/nationals'
 import { Mark } from './Mark'
 
 export const SITE_TITLE = 'NCAA TF Qualification Monitor'
@@ -65,14 +64,13 @@ function YearMenu({ query, go, years, year }) {
 }
 
 // Men or women, indoor or outdoor, and the outdoor region: above the event list, on the board, and in
-// the picker on phones. Outdoors the national meet sits beside the two regions, once there is one to show.
+// the picker on phones.
 export function Filters({ query, go, onChoose }) {
-  const offered = useContext(NationalsOffered)
-  const link = (next, label, current = sameSelection(query, next)) => (
+  const link = (next, label) => (
     <a
       className="press"
       href={href(next)}
-      aria-current={current ? 'page' : undefined}
+      aria-current={sameSelection(query, next) ? 'page' : undefined}
       onClick={event => {
         if (!plainClick(event)) return
         go(event.currentTarget.href, event)
@@ -91,10 +89,9 @@ export function Filters({ query, go, onChoose }) {
         {link({ ...query, season: 'outdoor' }, 'Outdoor')}
       </span>
       {query.season === 'outdoor' && (
-        <span className={offered ? 'grp three' : 'grp'}>
-          {link(regionLink(query, 'East'), 'East', regionShown(query, 'East'))}
-          {link(regionLink(query, 'West'), 'West', regionShown(query, 'West'))}
-          {offered && link(nationalsLink(query), 'Nationals', query.view === 'nationals')}
+        <span className="grp">
+          {link({ ...query, region: 'East' }, 'East')}
+          {link({ ...query, region: 'West' }, 'West')}
         </span>
       )}
     </nav>
@@ -103,24 +100,6 @@ export function Filters({ query, go, onChoose }) {
 
 function sameSelection(query, next) {
   return query.gender === next.gender && query.season === next.season && (next.season !== 'outdoor' || query.region === next.region)
-}
-
-// On the national meet neither region is the one shown, and picking one opens that region's event page.
-function regionLink(query, region) {
-  return { ...query, region, view: query.view === 'nationals' ? 'event' : query.view }
-}
-
-function regionShown(query, region) {
-  return query.view !== 'nationals' && query.region === region
-}
-
-function nationalsLink(query) {
-  return { ...query, view: 'nationals', day: '' }
-}
-
-// Event links stay on the national meet when that's where they are.
-function eventLink(query, slug) {
-  return { ...query, view: query.view === 'nationals' ? 'nationals' : 'event', event: slug }
 }
 
 export function Index({ events, query, current, go }) {
@@ -135,7 +114,7 @@ export function Index({ events, query, current, go }) {
               <a
                 key={event.slug}
                 className="press"
-                href={href(eventLink(query, event.slug))}
+                href={href({ ...query, view: 'event', event: event.slug })}
                 aria-current={event === current ? 'page' : undefined}
                 aria-label={lineName(event)}
                 onClick={click => { if (plainClick(click)) go(click.currentTarget.href, click) }}
@@ -152,7 +131,6 @@ export function Index({ events, query, current, go }) {
 }
 
 export function Picker({ open, onClose, events, query, go }) {
-  const offered = useContext(NationalsOffered)
   const ref = useRef(null)
   const shown = useRef(false)
   useEffect(() => {
@@ -213,28 +191,18 @@ export function Picker({ open, onClose, events, query, go }) {
         {query.season === 'outdoor' && (
           <>
             <span className="sep" aria-hidden="true" />
-            <a href={href(regionLink(query, 'East'))} aria-current={regionShown(query, 'East') ? 'page' : undefined} onClick={choose}>East</a>
-            <a href={href(regionLink(query, 'West'))} aria-current={regionShown(query, 'West') ? 'page' : undefined} onClick={choose}>West</a>
+            <a href={href({ ...query, region: 'East' })} aria-current={query.region === 'East' ? 'page' : undefined} onClick={choose}>East</a>
+            <a href={href({ ...query, region: 'West' })} aria-current={query.region === 'West' ? 'page' : undefined} onClick={choose}>West</a>
           </>
         )}
       </div>
       <a className="press board-link" href={href({ ...query, view: 'board', event: '' })} onClick={choose}>Every qualifying line</a>
-      {offered && query.season === 'outdoor' && (
-        <a
-          className="press board-link"
-          href={href(nationalsLink(query))}
-          aria-current={query.view === 'nationals' ? 'page' : undefined}
-          onClick={choose}
-        >
-          Nationals
-        </a>
-      )}
       <div className="events">
         {grouped(events).map(group => (
           <div key={group.name}>
             <h2>{group.name}</h2>
             {group.events.map(event => (
-              <a key={event.slug} className="press" href={href(eventLink(query, event.slug))} aria-label={lineName(event, formatBare)} onClick={choose}>
+              <a key={event.slug} className="press" href={href({ ...query, view: 'event', event: event.slug })} aria-label={lineName(event, formatBare)} onClick={choose}>
                 <span>{event.label}</span>{' '}
                 <span>{event.line ? <Mark text={formatBare(event.line.v, event.kind)} conversion={event.line.conversion} interactive={false} hang /> : '—'}</span>
               </a>

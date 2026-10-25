@@ -208,7 +208,8 @@ the share of qualifiers with a region, a First Round result, a nationals result
 and a list rank, and every case it couldn't settle; those are left empty, never
 guessed. Add school aliases and run it again (`--offline` reads the caches
 only), then regenerate, validate and commit `data/archive/nationals/…` with
-`data/site/`. The nationals view starts in 2018, when the qualifier lists begin.
+`data/site/`. The results show in a Nationals dialog on each outdoor regional
+event page, from 2018, when the qualifier lists begin.
 
 ## Website and publishing
 

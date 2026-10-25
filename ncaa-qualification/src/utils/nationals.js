@@ -1,6 +1,5 @@
-import { createContext } from 'react'
 import { compareEvents, eventMeta, slugFromLabel } from './catalog'
-import { formatBare, genderWord, MINUS } from './format'
+import { formatBare, MINUS } from './format'
 import { parseTime } from './helpers'
 
 // The national meet, outdoors: the 24 who went on from the two First Rounds in each event, and how they
@@ -10,9 +9,6 @@ export const REGIONS = ['East', 'West']
 const PLACES = new Set([...REGIONS, 'National'])
 const ROUNDS = ['final', 'semifinal', 'prelim']
 const STATUSES = new Set(['DNS', 'DNF', 'DQ', 'NM', 'NH', 'FS'])
-
-// True when index.json lists a national meet for the shown gender, so the nav can offer it.
-export const NationalsOffered = createContext(false)
 
 // The national meets index.json lists for one gender, newest first. An entry that isn't an outdoor
 // year with a nationals file is left out, so a bad one never reaches the page.
@@ -213,15 +209,12 @@ export function summaryParts(summary, multi = false) {
   return parts
 }
 
-// Each event in meet order, shaped like the site's other events so the event list and the picker can
-// show it: the winning mark stands where a list shows its line.
+// Each event in meet order, with its qualifiers in final order and the East against West count.
 export function nationalsEvents(data) {
   if (!data) return []
   const events = data.events.map(item => {
     const meta = eventMeta(item.event)
     const qualifiers = orderQualifiers(item.qualifiers, meta.kind)
-    const winner = qualifiers.find(q => q.nationals?.place === 1 && !q.nationals.status)
-    const v = winner ? markValue(winner.nationals.mark) : null
     return {
       name: item.event,
       label: meta.label,
@@ -231,7 +224,6 @@ export function nationalsEvents(data) {
       isRelay: meta.group === 'Relays',
       multi: meta.kind === 'points',
       qualifiers,
-      line: v == null ? null : { v, conversion: null },
       summary: regionSummary(qualifiers),
     }
   })
@@ -239,34 +231,31 @@ export function nationalsEvents(data) {
   return events
 }
 
-// The page's title: "Women’s 100m, nationals", as a regional page is "Women’s 100m, East".
-export function nationalsTitle(event, gender) {
-  return `${genderWord(gender, { possessive: true })} ${event.label.toLowerCase()}, nationals`
-}
-
-export function pickNational(events, slug) {
-  return events.find(event => event.slug === slug)
-    || events.find(event => event.slug === '1500m')
-    || events[0]
-    || null
+// One event at nationals, matched to a regional event by its label, or null when the meet has none.
+export function nationalsEvent(data, eventName) {
+  const slug = slugFromLabel(eventMeta(eventName).label)
+  return nationalsEvents(readNationals(data)).find(event => event.slug === slug) || null
 }
 
 // How one First Round's qualifiers in an event did at nationals, for the regional event page: how many
-// went, the best final place among them, and their ranks on the region's list. Null when the file has
-// no such event, or for the decathlon and heptathlon, which qualify from the national list.
+// went, the best final place among them, and their ranks on the region's list. The decathlon and
+// heptathlon go from the national list, so for them it is the whole field, with no places to tag. Null
+// when the file has no such event.
 export function wentOn(data, eventName, region) {
   const read = readNationals(data)
   if (!read || !REGIONS.includes(region)) return null
   const slug = slugFromLabel(eventMeta(eventName).label)
   const item = read.events.find(entry => slugFromLabel(eventMeta(entry.event).label) === slug)
-  if (!item || eventMeta(item.event).kind === 'points') return null
-  const mine = item.qualifiers.filter(q => q.region === region)
+  if (!item) return null
+  const multi = eventMeta(item.event).kind === 'points'
+  const mine = multi ? item.qualifiers : item.qualifiers.filter(q => q.region === region)
   const places = mine.map(q => (q.nationals?.status ? null : q.nationals?.place)).filter(Boolean)
   return {
     slug,
+    multi,
     count: mine.length,
     best: places.length ? Math.min(...places) : null,
     results: item.qualifiers.some(q => q.nationals),
-    listRanks: mine.map(q => q.listRank).filter(Boolean).sort((a, b) => a - b),
+    listRanks: multi ? [] : mine.map(q => q.listRank).filter(Boolean).sort((a, b) => a - b),
   }
 }

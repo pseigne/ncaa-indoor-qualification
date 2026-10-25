@@ -1,16 +1,9 @@
 import { Fragment } from 'react'
 import { longDate, ordinal, surname, tidy } from '../utils/format'
-import { useCompact } from '../utils/media'
-import { markText, nationalsTitle, rowGroup, summaryParts, windText } from '../utils/nationals'
-import { yearLabel } from '../utils/route'
+import { markText, rowGroup, summaryParts, windText } from '../utils/nationals'
+import { DetailHero } from './DetailSheet'
 import Logo from './Logo'
 import '../nationals.css'
-
-const CHEVRON = (
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
-    <path d="m6 9 6 6 6-6" />
-  </svg>
-)
 
 const ROUND = {
   semifinal: ['SF', 'Semifinal'],
@@ -35,11 +28,9 @@ const GROUP = {
   pending: 'No result',
 }
 
-// One event at the national meet: the 24 who went on from the First Rounds, as a heat sheet in final
-// order, with the East against West count above it.
-export default function NationalsView({ event, data, query, onOpenPicker }) {
-  const compact = useCompact()
-  const title = nationalsTitle(event, query.gender)
+// The national meet dialog for one event, over a regional event page: the 24 who went on from the two
+// First Rounds, as a heat sheet in final order, with the East against West count above it.
+export default function NationalsDetail({ event, data }) {
   const results = event.summary.results
   const firstRounds = event.qualifiers.some(q => q.firstRound)
   const wind = results && event.qualifiers.some(q => q.nationals?.wind)
@@ -49,42 +40,28 @@ export default function NationalsView({ event, data, query, onOpenPicker }) {
   const markHead = results
     ? (event.kind === 'time' ? 'Time' : event.kind === 'mark' ? 'Mark (m)' : 'Points')
     : 'Seed'
+  const meet = data.meet.name || 'NCAA Division I Outdoor Championships'
 
   return (
     <>
-      <section className="herocard nat-hero">
-        {compact ? (
-          <h1>
-            <button
-              type="button"
-              className="picker press"
-              aria-haspopup="dialog"
-              aria-label={`Change event, gender or season. Now: ${title}, ${yearLabel(data.year)}`}
-              onClick={onOpenPicker}
-            >
-              {title}{CHEVRON}
-            </button>
-          </h1>
-        ) : <h1>{title}</h1>}
-        <p className="nat-meet">
-          {data.meet.name || 'NCAA Division I Outdoor Championships'}
-          {data.meet.start_date
-            ? <>, from <time dateTime={data.meet.start_date}>{longDate(data.meet.start_date)}</time></>
-            : `, ${data.year}`}
-        </p>
-        <p className="nat-lead">{leadCopy(event)}</p>
-        <ul className="nat-sum" aria-label={event.multi ? 'The field' : 'East and West'}>
-          {summaryParts(event.summary, event.multi).map(part => (
-            <li key={part.label}><b>{part.label}</b> {part.words}</li>
-          ))}
-        </ul>
-      </section>
-      <section className="tablecard">
+      <DetailHero
+        lead={(
+          <>
+            <span className="nat-meet">
+              {meet}
+              {data.meet.start_date
+                ? <>, from <time dateTime={data.meet.start_date}>{longDate(data.meet.start_date)}</time></>
+                : `, ${data.year}`}.
+            </span>{' '}
+            {leadCopy(event)}
+          </>
+        )}
+        stats={summaryParts(event.summary, event.multi).map(part => ({ label: part.label, value: part.words }))}
+      />
+      <section className="detail-box nat-box">
         <table
-          id="list"
-          tabIndex={-1}
           className={`nat${event.isRelay ? ' relay' : ''}`}
-          aria-label={`${title}, ${results ? 'in final order' : 'in seed order'}`}
+          aria-label={`${event.label} at nationals, ${results ? 'in final order' : 'in seed order'}`}
         >
           <thead>
             <tr>
@@ -112,18 +89,18 @@ export default function NationalsView({ event, data, query, onOpenPicker }) {
             })}
           </tbody>
         </table>
+        {data.sources.length > 0 && (
+          <p className="source">
+            Source:{' '}
+            {data.sources.map((source, at) => (
+              <Fragment key={source.url}>
+                {at ? ' · ' : null}
+                <a href={source.url}>{source.label}</a>
+              </Fragment>
+            ))}.
+          </p>
+        )}
       </section>
-      {data.sources.length > 0 && (
-        <p className="source">
-          Source:{' '}
-          {data.sources.map((source, at) => (
-            <Fragment key={source.url}>
-              {at ? ' · ' : null}
-              <a href={source.url}>{source.label}</a>
-            </Fragment>
-          ))}.
-        </p>
-      )}
     </>
   )
 }

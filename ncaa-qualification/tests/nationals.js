@@ -81,20 +81,33 @@ export function nationalsFile({ year = '2026', gender = 'f' } = {}) {
 }
 
 // One regional list per region for women's outdoor 2026 and men's, so the event pages have something.
-function hundredList(region, gender) {
+// Women's also have the meet's other events, so each one's nationals dialog can open.
+function regionalList(event, region, gender, mark, rank = 48) {
   const rankings = Array.from({ length: 50 }, (_, at) => ({
-    rank: at + 1, athlete: `Sprinter${at + 1}, ${region}`, team: `School ${at + 1}`, time: (11 + at / 100).toFixed(2),
+    rank: at + 1, athlete: `Sprinter${at + 1}, ${region}`, team: `School ${at + 1}`, time: mark(at),
   }))
   return {
-    year: '2026', season: 'outdoor', region, gender, event: '100 Meters', rankings,
-    qualification: { rank: 48, is_relay: false, status: 'available', entry: { ...rankings[47] } },
+    year: '2026', season: 'outdoor', region, gender, event, rankings,
+    qualification: { rank, is_relay: false, status: 'available', entry: { ...rankings[rank - 1] } },
   }
+}
+
+function regionalLists(region, gender) {
+  const lists = [regionalList('100 Meters', region, gender, at => (11 + at / 100).toFixed(2))]
+  if (gender === 'f') {
+    lists.push(
+      regionalList('400 Meters', region, gender, at => (50 + at / 10).toFixed(2)),
+      regionalList('Long Jump', region, gender, at => (6.9 - at / 100).toFixed(2)),
+      regionalList('Heptathlon', region, gender, at => String(6200 - at * 10), 24),
+    )
+  }
+  return lists
 }
 
 // Site files with the national meet listed for women in 2026 and 2019, or, with `nationals: false`,
 // index.json exactly as today's, with no "nationals" key.
 export function nationalsSite({ nationals = true } = {}) {
-  const files = siteFiles(['East', 'West'].flatMap(region => ['f', 'm'].map(gender => hundredList(region, gender))))
+  const files = siteFiles(['East', 'West'].flatMap(region => ['f', 'm'].flatMap(gender => regionalLists(region, gender))))
   if (!nationals) return files
   files['nationals-outdoor-2026-f.json'] = nationalsFile()
   files['nationals-outdoor-2019-f.json'] = nationalsFile({ year: '2019' })

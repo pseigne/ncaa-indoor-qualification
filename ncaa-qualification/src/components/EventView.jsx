@@ -571,8 +571,8 @@ export default function EventView({ event, query, go, context, past = null, onOp
 
 const LIST_NOTE = 'Saved daily lists hold the top 20 marks from mid-January to late May and the top 50 after that.'
 
-// Two cards under the cutoff: how it moved this season and how it compares with past years. Each opens
-// its dialog; the card says the one thing worth knowing so the dialog is only for the detail.
+// Cards under the cutoff: how it moved this season, how it compares with past years and, outdoors, how
+// this First Round did at nationals. Each opens its dialog; the card says the one thing worth knowing so the dialog is only for the detail.
 function Details({ event, query, go, context, points, trend, trendSeries, lines, nationals = null }) {
   const seasonCard = points.length >= 1
   const historyCard = lines.length > 0
@@ -598,7 +598,7 @@ function Details({ event, query, go, context, points, trend, trendSeries, lines,
         </a>
       )}
       {nationalsCard && (
-        <NationalsCard event={event.name} region={query.region} gender={query.gender} year={context.year} data={nationals} go={go} />
+        <NationalsCard event={event.name} query={query} data={nationals} go={go} />
       )}
     </div>
   )

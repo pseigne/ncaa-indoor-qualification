@@ -799,7 +799,8 @@ differs from sections 1–9:
 - **2019 men's 400m hurdles** keeps all 25 qualifiers.
 - **Points:** Flash Results never shows team points, so `points` is always `null`.
 - **Archive keys:** the archive also stores `school` (as RecordTiming writes it), `tfrrs_id` and `meet`.
-- **On regional event pages,** a card links to the nationals view and qualifiers are tagged "to nationals".
+- **No separate page.** The results open in a Nationals dialog over each outdoor regional event page, like This season and Past years (`detail=nationals`). There is no `view=nationals` and no Nationals entry in the nav. The card under the cutoff opens it, and qualifiers are tagged "to nationals".
+- **Multis get the card too,** counting the whole field from the national list, since their results have nowhere else to show.
 
 **Fetching**
 

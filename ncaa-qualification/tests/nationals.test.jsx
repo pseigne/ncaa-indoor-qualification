@@ -31,38 +31,31 @@ function screenAt(width) {
   vi.stubGlobal('matchMedia', query => ({ matches: holds(query, width), addEventListener() {}, removeEventListener() {} }))
 }
 
-async function openMeet(url = '/?g=f&s=outdoor&r=East&y=2026&event=100m&view=nationals', { width = 1440, site = nationalsSite(), fail } = {}) {
+async function openPage(url = '/?g=f&s=outdoor&r=East&event=100m&detail=nationals', { width = 1440, site = nationalsSite(), fail } = {}) {
   screenAt(width)
   window.history.replaceState(null, '', url)
   serveSite(site, { fail })
   render(<App />)
 }
 
-const rows = () => [...document.querySelectorAll('table.nat tbody tr:not(.nat-grp)')]
+// The nationals dialog, once its meet has loaded.
+const sheet = (name = 'Women’s 100m, East Nationals') => screen.findByRole('dialog', { name })
+const rows = () => [...document.querySelectorAll('dialog table.nat tbody tr:not(.nat-grp)')]
 const names = () => rows().map(row => row.querySelector('td.ath').textContent)
+const stats = () => [...document.querySelectorAll('dialog .stats > div')].map(item => item.textContent)
+const card = () => document.querySelector('a.detail-card[data-detail="nationals"]')
 const filters = () => screen.getByRole('navigation', { name: 'Season and gender' })
 
-describe('the nationals route', () => {
-  it('reads and writes view=nationals for outdoor, keyed by gender, year and event', () => {
-    const search = '?g=f&s=outdoor&r=East&y=2026&event=100m&view=nationals'
-    const query = readQuery(search)
-    expect(query).toMatchObject({ view: 'nationals', gender: 'f', season: 'outdoor', year: '2026', event: '100m' })
-    expect(href(query)).toBe(search)
-    expect(href(readQuery('?g=m&s=outdoor&view=nationals'))).toBe('?g=m&s=outdoor&r=East&view=nationals')
+describe('the nationals dialog link', () => {
+  it('reads and writes detail=nationals outdoors, over the regional event page', () => {
+    const query = readQuery('?g=f&s=outdoor&r=East&y=2026&event=100m&detail=nationals')
+    expect(query).toMatchObject({ view: 'event', gender: 'f', season: 'outdoor', region: 'East', year: '2026', event: '100m', detail: 'nationals' })
+    expect(href(query)).toBe('?g=f&s=outdoor&r=East&y=2026&event=100m')
   })
 
-  it('falls back to the event page indoors, and never writes view=nationals there', () => {
-    expect(readQuery('?g=f&s=indoor&view=nationals').view).toBe('event')
-    expect(readQuery('?g=f&view=nationals').view).toBe('event')
-    expect(href({ view: 'nationals', gender: 'f', season: 'indoor', event: 'mile' })).toBe('?g=f&s=indoor&event=mile')
-  })
-
-  it('keeps every other view as it was', () => {
-    for (const search of ['?g=m&s=indoor&event=mile', '?g=f&s=outdoor&r=West&y=2025&view=board', '?g=m&s=indoor&event=mile&d=2026-02-01']) {
-      expect(href(readQuery(search))).toBe(search)
-    }
-    expect(readQuery('?view=season')).toMatchObject({ view: 'event', detail: 'season', legacy: true })
-    expect(readQuery('?view=elsewhere').view).toBe('event')
+  it('opens no nationals dialog indoors, and has no nationals page', () => {
+    expect(readQuery('?g=f&s=indoor&event=mile&detail=nationals').detail).toBe('')
+    expect(readQuery('?g=f&s=outdoor&r=East&event=100m&view=nationals').view).toBe('event')
   })
 })
 
@@ -131,11 +124,12 @@ describe('reading the nationals file', () => {
   })
 })
 
-describe('the nationals page', () => {
-  it('shows the 24 qualifiers as a heat sheet in final order', async () => {
-    await openMeet()
-    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })).toBeTruthy()
-    expect(document.title).toBe('Women’s 100m, nationals, 2026 · NCAA TF Qualification Monitor')
+describe('the nationals dialog', () => {
+  it('opens over the regional event page and shows the 24 qualifiers as a heat sheet in final order', async () => {
+    await openPage()
+    expect(await sheet()).toBeTruthy()
+    expect(screen.getByRole('heading', { level: 1, name: 'Women’s 100m, East' })).toBeTruthy()
+    expect(document.title).toBe('Women’s 100m, East at nationals · NCAA TF Qualification Monitor')
     expect(rows()).toHaveLength(24)
     expect(names().slice(0, 3)).toEqual(['Ann Runner1', 'Ann Runner2', 'Ann Runner3'])
     const first = rows()[0]
@@ -149,8 +143,8 @@ describe('the nationals page', () => {
   })
 
   it('tags each qualifier with their First Round, East or West', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
+    await openPage()
+    await sheet()
     const chips = rows().slice(0, 3).map(row => row.querySelector('.nat-reg'))
     expect(chips.map(chip => chip.className)).toEqual(['nat-reg west', 'nat-reg east', 'nat-reg east'])
     expect(chips.map(chip => chip.textContent)).toEqual(['WWest', 'EEast', 'EEast'])
@@ -159,8 +153,8 @@ describe('the nationals page', () => {
   })
 
   it('names the round for those out before the final and puts no results at the bottom', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
+    await openPage()
+    await sheet()
     const headings = [...document.querySelectorAll('tr.nat-grp th')].map(cell => cell.textContent)
     expect(headings).toEqual(['Final', 'Out in the semifinals', 'Did not start, finish or mark'])
     const semi = rows()[9]
@@ -175,20 +169,18 @@ describe('the nationals page', () => {
     expect(dns.querySelector('td.wind').textContent).toBe('')
   })
 
-  it('sums up East against West above the sheet, and explains how the field was made', async () => {
-    await openMeet()
-    const strip = await screen.findByRole('list', { name: 'East and West' })
-    expect(within(strip).getAllByRole('listitem').map(item => item.textContent)).toEqual([
-      'Qualifiers 12 East, 12 West', 'Final 5 East, 4 West', 'Top 8 5 East, 3 West', 'Points 22 East, 17 West',
-    ])
-    expect(screen.getByText(/The top 12 athletes in each event at each First Round, East and West, go on to nationals, 24 in all\. A place left by a scratch at nationals is not filled\./)).toBeTruthy()
-    expect(document.querySelector('.nat-meet').textContent).toBe('NCAA Division I Outdoor Track & Field Championships, from June 10, 2026')
+  it('names the meet, explains how the field was made, and counts East against West', async () => {
+    await openPage()
+    await sheet()
+    expect(document.querySelector('dialog .nat-meet').textContent).toBe('NCAA Division I Outdoor Track & Field Championships, from June 10, 2026.')
+    expect(document.querySelector('dialog .detail-lead').textContent).toMatch(/The top 12 athletes in each event at each First Round, East and West, go on to nationals, 24 in all\. A place left by a scratch at nationals is not filled\.$/)
+    expect(stats()).toEqual(['Qualifiers12 East, 12 West', 'Final5 East, 4 West', 'Top 85 East, 3 West', 'Points22 East, 17 West'])
   })
 
   it('links the meet’s sources and nothing that is not a web link', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
-    const source = document.querySelector('.source')
+    await openPage()
+    await sheet()
+    const source = document.querySelector('dialog .source')
     expect(source.textContent).toBe('Source: RecordTiming qualifier list · Flash Results.')
     expect([...source.querySelectorAll('a')].map(a => a.getAttribute('href'))).toEqual([
       'https://www.rtspt.com/ncaa/d1outdoor26/women_qualifiers.htm',
@@ -197,178 +189,132 @@ describe('the nationals page', () => {
   })
 
   it('shows the multis from the national list, with no First Round column', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&y=2026&event=heptathlon&view=nationals')
-    await screen.findByRole('heading', { level: 1, name: 'Women’s heptathlon, nationals' })
-    expect([...document.querySelectorAll('table.nat thead th')].map(th => th.textContent)).toEqual(['Place', 'Athlete', 'Team', 'Region', 'Points'])
+    await openPage('/?g=f&s=outdoor&r=West&event=heptathlon&detail=nationals')
+    await sheet('Women’s heptathlon, West Nationals')
+    expect([...document.querySelectorAll('dialog table.nat thead th')].map(th => th.textContent)).toEqual(['Place', 'Athlete', 'Team', 'Region', 'Points'])
     expect(rows().map(row => row.querySelector('.nat-reg').textContent)).toEqual(['National list', 'National list', 'National list'])
     expect(rows().map(row => row.querySelector('td.t').textContent)).toEqual(['6,230', '6,050', 'DNF'])
-    expect(screen.getByRole('list', { name: 'The field' }).textContent).toBe('Qualifiers 3 from the national list')
-    expect(screen.getByText(/The heptathlon has no First Round: the top 24 declared on the national list go to nationals\./)).toBeTruthy()
+    expect(stats()).toEqual(['Qualifiers3 from the national list'])
+    expect(document.querySelector('dialog .detail-lead').textContent).toContain('The heptathlon has no First Round: the top 24 declared on the national list go to nationals.')
   })
 
   it('puts a field event’s no mark under the final, and leaves out the final count with one round', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&y=2026&event=long-jump&view=nationals')
-    await screen.findByRole('heading', { level: 1, name: 'Women’s long jump, nationals' })
+    await openPage('/?g=f&s=outdoor&r=East&event=long-jump&detail=nationals')
+    await sheet('Women’s long jump, East Nationals')
     expect(names()).toEqual(['Pia Bounder', 'Ola Leaper', 'Nina Jumper'])
     expect(rows().map(row => row.querySelector('td.t').textContent)).toEqual(['6.88', '6.75', 'NM'])
     expect(rows()[1].querySelector('td.wind').textContent).toBe('wind +1.4')
-    expect(screen.getByRole('list', { name: 'East and West' }).textContent).not.toContain('Final')
+    expect(stats().join(' ')).not.toContain('Final')
   })
 
   it('shows qualifiers in seed order before any results', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&y=2026&event=400m&view=nationals')
-    await screen.findByRole('heading', { level: 1, name: 'Women’s 400m, nationals' })
-    expect([...document.querySelectorAll('table.nat thead th')].map(th => th.textContent)).toEqual(['#', 'Athlete', 'Team', 'Region', 'First Round', 'Seed'])
+    await openPage('/?g=f&s=outdoor&r=East&event=400m&detail=nationals')
+    await sheet('Women’s 400m, East Nationals')
+    expect([...document.querySelectorAll('dialog table.nat thead th')].map(th => th.textContent)).toEqual(['#', 'Athlete', 'Team', 'Region', 'First Round', 'Seed'])
     expect(names()).toEqual(['Ida Quick', 'Fay Turn', 'Bea Lap'])
     expect(rows().map(row => row.querySelector('td.pl').textContent)).toEqual(['1', '2', '3'])
     expect(document.querySelectorAll('tr.nat-grp')).toHaveLength(0)
-    expect(screen.getByRole('list', { name: 'East and West' }).textContent).toBe('Qualifiers 1 East, 2 West')
+    expect(stats()).toEqual(['Qualifiers1 East, 2 West'])
   })
 
-  it('lists the meet’s events beside the sheet with the winning marks, and keeps to nationals', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
-    const nav = screen.getByRole('navigation', { name: 'Events' })
-    const links = within(nav).getAllByRole('link')
-    expect(links.map(link => link.getAttribute('aria-label'))).toEqual(['100m, 10.80', '400m', 'Long jump, 6.88\u00A0m', 'Heptathlon, 6,230\u00A0pts'])
-    expect(links[0].getAttribute('aria-current')).toBe('page')
-    fireEvent.click(links[2])
-    expect(window.location.search).toBe('?g=f&s=outdoor&r=East&y=2026&event=long-jump&view=nationals')
-    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s long jump, nationals' })).toBeTruthy()
+  it('closes back to the event page, and Back closes it when the card opened it', async () => {
+    await openPage('/?g=f&s=outdoor&r=East&event=100m')
+    await waitFor(() => expect(card()).not.toBeNull())
+    fireEvent.click(card(), { button: 0 })
+    expect(window.location.search).toBe('?g=f&s=outdoor&r=East&event=100m&detail=nationals')
+    await sheet()
+    fireEvent.click(screen.getByRole('button', { name: 'Close' }))
+    await waitFor(() => expect(document.querySelector('dialog.detail')).toBeNull())
+    expect(screen.getByRole('heading', { level: 1, name: 'Women’s 100m, East' })).toBeTruthy()
   })
 
-  it('offers the meet’s own years in the year menu, back to 2019', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
-    const menu = screen.getByRole('combobox', { name: 'Outdoor season' })
-    expect([...menu.options].map(option => option.textContent)).toEqual(['2026', '2019'])
-    fireEvent.change(menu, { target: { value: '2019' } })
-    expect(window.location.search).toBe('?g=f&s=outdoor&r=East&y=2019&event=100m&view=nationals')
-    await waitFor(() => expect(document.querySelector('.nat-meet').textContent).toContain('2019'))
-    expect(fetched()).toContain('nationals-outdoor-2019-f.json')
+  it('opens for the year shown, from that year’s meet', async () => {
+    const site = nationalsSite()
+    await openPage('/?g=f&s=outdoor&r=East&y=2026&event=100m&detail=nationals', { site })
+    await sheet()
+    expect(fetched()).toContain('nationals-outdoor-2026-f.json')
+    expect(fetched()).not.toContain('nationals-outdoor-2019-f.json')
   })
 
-  it('loads only index.json and the meet, not the regional lists', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
-    expect(fetched().sort()).toEqual(['index.json', 'nationals-outdoor-2026-f.json'])
-  })
-
-  it('drops a year with no meet from the link and shows the latest', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&y=2024&event=100m&view=nationals')
-    await screen.findByRole('heading', { level: 1 })
-    await waitFor(() => expect(window.location.search).toBe('?g=f&s=outdoor&r=East&event=100m&view=nationals'))
-    expect(screen.getByRole('combobox', { name: 'Outdoor season' }).value).toBe('2026')
-  })
-
-  it('says so when the meet file fails to load, and Try again loads it', async () => {
-    let broken = true
-    await openMeet(undefined, { fail: name => (broken && name.startsWith('nationals-') ? '404' : null) })
-    expect(await screen.findByText('The nationals results could not be loaded.')).toBeTruthy()
-    broken = false
-    fireEvent.click(screen.getByRole('button', { name: 'Try again' }))
-    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })).toBeTruthy()
-  })
-
-  it('treats a file that is not a national meet as missing', async () => {
+  it('leaves the event page as it is when the meet fails to load, has no such event or is not a meet', async () => {
+    await openPage(undefined, { fail: name => (name.startsWith('nationals-') ? '404' : null) })
+    await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, East' })
+    await waitFor(() => expect(fetched()).toContain('nationals-outdoor-2026-f.json'))
+    expect(document.querySelector('dialog.detail')).toBeNull()
+    expect(screen.queryByText('The qualifying lists could not be loaded.')).toBeNull()
+    cleanup()
     const site = nationalsSite()
     site['nationals-outdoor-2026-f.json'] = { events: 'nope' }
-    await openMeet(undefined, { site })
-    expect(await screen.findByText('The nationals results could not be loaded.')).toBeTruthy()
+    await openPage(undefined, { site })
+    await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, East' })
+    await waitFor(() => expect(fetched()).toContain('nationals-outdoor-2026-f.json'))
+    expect(document.querySelector('dialog.detail')).toBeNull()
+    expect(card()).toBeNull()
   })
 })
 
-describe('the Nationals entry', () => {
-  it('sits beside East and West outdoors when there is a meet, and opens it for the event shown', async () => {
-    await openMeet('/?g=f&s=outdoor&r=West&event=100m')
-    await screen.findByText('48', { selector: 'tr.bubble .pl' })
-    const link = within(filters()).getByRole('link', { name: 'Nationals' })
-    expect(link.getAttribute('href')).toBe('?g=f&s=outdoor&r=West&event=100m&view=nationals')
-    expect(link.hasAttribute('aria-current')).toBe(false)
-    expect(within(filters()).getByRole('link', { name: 'West' }).getAttribute('aria-current')).toBe('page')
-    fireEvent.click(link)
-    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })).toBeTruthy()
-    expect(within(filters()).getByRole('link', { name: 'Nationals' }).getAttribute('aria-current')).toBe('page')
-    // On the meet neither region is current, and each goes back to its own event page.
-    const west = within(filters()).getByRole('link', { name: 'West' })
-    expect(west.hasAttribute('aria-current')).toBe(false)
-    expect(west.getAttribute('href')).toBe('?g=f&s=outdoor&r=West&event=100m')
-    expect(within(filters()).getByRole('link', { name: 'Women' }).getAttribute('aria-current')).toBe('page')
+describe('the nav', () => {
+  it('offers East and West outdoors and no Nationals entry, even with a meet', async () => {
+    await openPage('/?g=f&s=outdoor&r=East&event=100m')
+    await waitFor(() => expect(card()).not.toBeNull())
+    expect(within(filters()).getAllByRole('link').map(link => link.textContent)).toEqual(['Men', 'Women', 'Indoor', 'Outdoor', 'East', 'West'])
   })
 
-  it('is not offered indoors, or for a gender with no meet', async () => {
-    await openMeet('/?g=m&s=outdoor&r=East&event=100m')
-    await screen.findByText('48', { selector: 'tr.bubble .pl' })
-    expect(within(filters()).queryByRole('link', { name: 'Nationals' })).toBeNull()
-    expect(within(filters()).getByRole('link', { name: 'Indoor' }).getAttribute('href')).not.toContain('nationals')
-  })
-
-  it('is in the phone picker next to Every qualifying line', async () => {
-    await openMeet(undefined, { width: 390 })
-    fireEvent.click(await screen.findByRole('button', { name: /^Change event, gender or season\. Now: Women’s 100m, nationals, 2026/ }))
-    const sheet = document.querySelector('dialog.sheet')
-    const board = within(sheet).getByRole('link', { name: 'Every qualifying line' })
-    const nationals = within(sheet).getByRole('link', { name: 'Nationals' })
-    expect(board.nextElementSibling).toBe(nationals)
-    expect(nationals.getAttribute('aria-current')).toBe('page')
-    expect(within(sheet).getByRole('link', { name: 'Long jump, 6.88' }).getAttribute('href')).toContain('view=nationals')
+  it('has no Nationals entry in the phone picker', async () => {
+    await openPage('/?g=f&s=outdoor&r=East&event=100m', { width: 390 })
+    fireEvent.click(await screen.findByRole('button', { name: /^Change event, gender or season\. Now: Women’s 100m, East/ }))
+    const picker = document.querySelector('dialog.sheet')
+    expect(within(picker).queryByRole('link', { name: 'Nationals' })).toBeNull()
   })
 })
 
 describe('without nationals in index.json', () => {
-  it('offers no Nationals entry and loads no meet', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&event=100m', { site: nationalsSite({ nationals: false }) })
+  it('loads no meet and shows no card, and a nationals link shows the event page', async () => {
+    await openPage(undefined, { site: nationalsSite({ nationals: false }) })
+    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, East' })).toBeTruthy()
     await screen.findByText('48', { selector: 'tr.bubble .pl' })
-    expect(within(filters()).queryByRole('link', { name: 'Nationals' })).toBeNull()
-    expect(within(filters()).getAllByRole('link').map(link => link.textContent)).toEqual(['Men', 'Women', 'Indoor', 'Outdoor', 'East', 'West'])
     expect(fetched().some(name => name.startsWith('nationals-'))).toBe(false)
-  })
-
-  it('opens the event page for a nationals link, and the link drops the view', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&event=100m&view=nationals', { site: nationalsSite({ nationals: false }) })
-    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, East' })).toBeTruthy()
-    await waitFor(() => expect(window.location.search).toBe('?g=f&s=outdoor&r=East&event=100m'))
-    expect(document.querySelector('.nat-hero')).toBeNull()
-  })
-
-  it('treats an empty nationals list the same way', async () => {
-    const site = nationalsSite({ nationals: false })
-    site['index.json'] = { ...site['index.json'], nationals: [] }
-    await openMeet('/?g=f&s=outdoor&r=East&event=100m&view=nationals', { site })
-    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, East' })).toBeTruthy()
-    expect(within(filters()).queryByRole('link', { name: 'Nationals' })).toBeNull()
+    expect(card()).toBeNull()
+    expect(document.querySelector('dialog.detail')).toBeNull()
   })
 })
 
 describe('the regional event page’s nationals card', () => {
   const data = nationalsFile()
+  const query = (region = 'East', event = '100m') => ({ view: 'event', gender: 'f', season: 'outdoor', region, year: '2026', event, day: '' })
 
-  it('says how many went and the best finish, and links to that event at nationals', () => {
-    render(<NationalsCard event="100 Meters" region="East" gender="f" year="2026" data={data} />)
+  it('says how many went and the best finish, and opens the nationals dialog', () => {
+    render(<NationalsCard event="100 Meters" query={query()} data={data} />)
     const link = screen.getByRole('link')
     expect(link.textContent).toBe('Nationals12 went to nationals · best finish 2ndThe national meet')
-    expect(link.getAttribute('href')).toBe('?g=f&s=outdoor&r=East&y=2026&event=100m&view=nationals')
+    expect(link.getAttribute('href')).toBe('?g=f&s=outdoor&r=East&y=2026&event=100m&detail=nationals')
+    expect(link.getAttribute('aria-haspopup')).toBe('dialog')
     cleanup()
-    render(<NationalsCard event="100 Meters" region="West" gender="f" year="2026" data={data} />)
+    render(<NationalsCard event="100 Meters" query={query('West')} data={data} />)
     expect(screen.getByRole('link').textContent).toContain('12 went to nationals · best finish 1st')
   })
 
   it('counts only before results, and matches the event by its label', () => {
-    render(<NationalsCard event="400 Meters" region="West" gender="f" year="2026" data={data} />)
+    render(<NationalsCard event="400 Meters" query={query('West', '400m')} data={data} />)
     expect(screen.getByRole('link').textContent).toContain('2 went to nationals')
     expect(screen.getByRole('link').textContent).not.toContain('best')
     expect(wentOn(data, '400 Meters', 'West')).toMatchObject({ count: 2, best: null, results: false, listRanks: [2, 4] })
   })
 
-  it('shows nothing for the multis, a missing event, a bad file or no file', () => {
+  it('counts the whole field for the multis, with no places to tag', () => {
+    render(<NationalsCard event="Heptathlon" query={query('East', 'heptathlon')} data={data} />)
+    expect(screen.getByRole('link').textContent).toContain('3 went to nationals from the national list')
+    expect(wentOn(data, 'Heptathlon', 'East')).toMatchObject({ multi: true, count: 3, listRanks: [] })
+  })
+
+  it('shows nothing for a missing event, a bad file, no file or no region', () => {
     for (const props of [
-      { event: 'Heptathlon', data },
       { event: '800 Meters', data },
       { event: '100 Meters', data: { events: 'nope' } },
       { event: '100 Meters', data: null },
-      { event: '100 Meters', data, region: 'National' },
+      { event: '100 Meters', data, query: query('National') },
     ]) {
-      const { container } = render(<NationalsCard region="East" gender="f" year="2026" {...props} />)
+      const { container } = render(<NationalsCard query={query()} {...props} />)
       expect(container.innerHTML).toBe('')
       cleanup()
     }
@@ -376,10 +322,10 @@ describe('the regional event page’s nationals card', () => {
 
   it('goes through the app’s navigation on a plain click', () => {
     const go = vi.fn()
-    render(<NationalsCard event="100 Meters" region="East" gender="f" year="2026" data={data} go={go} />)
+    render(<NationalsCard event="100 Meters" query={query()} data={data} go={go} />)
     fireEvent.click(screen.getByRole('link'), { button: 0 })
     expect(go).toHaveBeenCalledTimes(1)
-    expect(go.mock.calls[0][0]).toContain('view=nationals')
+    expect(go.mock.calls[0][0]).toContain('detail=nationals')
     fireEvent.click(screen.getByRole('link'), { button: 0, metaKey: true })
     expect(go).toHaveBeenCalledTimes(1)
   })
@@ -388,24 +334,20 @@ describe('the regional event page’s nationals card', () => {
 describe('a regional event page with the national meet imported', () => {
   // The women's 100m fixture sends these places on the East list to nationals.
   const EAST = [2, 3, 5, 6, 8, 10, 11, 12, 13, 14, 15, 23]
-  const card = () => document.querySelector('a.detail-card[data-detail="nationals"]')
   const tagged = () => [...document.querySelectorAll('tr[data-rank]')]
     .filter(row => row.querySelector('.tag-nat')).map(row => Number(row.dataset.rank))
 
   it('loads that year’s meet and shows the nationals card beside the other cards', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&event=100m')
+    await openPage('/?g=f&s=outdoor&r=East&event=100m')
     await screen.findByText('48', { selector: 'tr.bubble .pl' })
     await waitFor(() => expect(card()).not.toBeNull())
     expect(fetched()).toContain('nationals-outdoor-2026-f.json')
     expect(card().textContent).toBe('Nationals12 went to nationals · best finish 2ndThe national meet')
-    expect(card().getAttribute('href')).toBe('?g=f&s=outdoor&r=East&y=2026&event=100m&view=nationals')
     expect(card().closest('.details')).not.toBeNull()
-    fireEvent.click(card(), { button: 0 })
-    expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })).toBeTruthy()
   })
 
   it('tags the places that went to nationals from this First Round, in words a screen reader reads', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&event=100m')
+    await openPage('/?g=f&s=outdoor&r=East&event=100m')
     await screen.findByText('48', { selector: 'tr.bubble .pl' })
     await waitFor(() => expect(tagged()).toEqual(EAST))
     const row = document.querySelector('tr[data-rank="2"]')
@@ -415,34 +357,25 @@ describe('a regional event page with the national meet imported', () => {
   })
 
   it('counts the West’s own qualifiers on the West page', async () => {
-    await openMeet('/?g=f&s=outdoor&r=West&event=100m')
+    await openPage('/?g=f&s=outdoor&r=West&event=100m')
     await screen.findByText('48', { selector: 'tr.bubble .pl' })
     await waitFor(() => expect(card()?.textContent).toContain('12 went to nationals · best finish 1st'))
     expect(tagged()).toEqual([1, 4, 7, 9, 16, 17, 18, 19, 20, 21, 22, 24])
   })
 
   it('asks for no meet for a gender without one, and shows no card or tags', async () => {
-    await openMeet('/?g=m&s=outdoor&r=East&event=100m')
+    await openPage('/?g=m&s=outdoor&r=East&event=100m')
     await screen.findByText('48', { selector: 'tr.bubble .pl' })
     expect(fetched().some(name => name.startsWith('nationals-'))).toBe(false)
     expect(card()).toBeNull()
     expect(tagged()).toEqual([])
-  })
-
-  it('shows the event page as before when the meet fails to load', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&event=100m', { fail: name => (name.startsWith('nationals-') ? '404' : null) })
-    await screen.findByText('48', { selector: 'tr.bubble .pl' })
-    await waitFor(() => expect(fetched()).toContain('nationals-outdoor-2026-f.json'))
-    expect(card()).toBeNull()
-    expect(tagged()).toEqual([])
-    expect(screen.queryByText('The qualifying lists could not be loaded.')).toBeNull()
   })
 })
 
 describe('the published nationals files', () => {
   const index = savedFile('index.json')
 
-  it('are each listed once in index.json, and the page reads every event and qualifier in them', () => {
+  it('are each listed once in index.json, and the dialog reads every event and qualifier in them', () => {
     expect(index.nationals.length).toBeGreaterThan(0)
     expect(new Set(index.nationals.map(item => item.file)).size).toBe(index.nationals.length)
     for (const item of index.nationals) {
@@ -456,9 +389,10 @@ describe('the published nationals files', () => {
   })
 
   it('show the 2026 women’s 100m final in order, East and West', async () => {
-    const site = { 'index.json': index, 'nationals-outdoor-2026-f.json': savedFile('nationals-outdoor-2026-f.json') }
-    await openMeet('/?g=f&s=outdoor&y=2026&event=100m&view=nationals', { site })
-    await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })
+    const site = Object.fromEntries(['index.json', 'outdoor-2026-f-East.json', 'history-outdoor-f.json', 'nationals-outdoor-2026-f.json']
+      .map(name => [name, savedFile(name)]))
+    await openPage('/?g=f&s=outdoor&r=East&y=2026&event=100m&detail=nationals', { site })
+    await sheet()
     expect(names().slice(0, 3)).toEqual(['Shenese Walker', 'Adaejah Hodge', 'Shawnti Jackson'])
     expect(rows()[0].querySelector('td.pl').textContent).toBe('1')
     expect(rows().length).toBe(24)
@@ -466,28 +400,29 @@ describe('the published nationals files', () => {
 })
 
 describe('nationals accessibility', () => {
-  it('offers the skip link to the sheet, which takes focus without becoming a tab stop', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
-    const skip = screen.getByRole('link', { name: 'Skip to the list' })
-    fireEvent.click(skip, { button: 0 })
-    const table = screen.getByRole('table', { name: 'Women’s 100m, nationals, in final order' })
-    expect(document.activeElement).toBe(table)
-    expect(table.getAttribute('tabindex')).toBe('-1')
-  })
-
-  it('names every column and heads each break in the sheet as a row group', async () => {
-    await openMeet()
-    await screen.findByRole('heading', { level: 1 })
-    expect(screen.getAllByRole('columnheader').map(th => th.textContent)).toEqual(['Place', 'Athlete', 'Team', 'Region', 'First Round', 'Time', 'Wind'])
-    const groups = [...document.querySelectorAll('tr.nat-grp th')]
+  it('names the sheet, every column and each break in it as a row group', async () => {
+    await openPage()
+    const dialog = await sheet()
+    expect(within(dialog).getByRole('table', { name: '100m at nationals, in final order' })).toBeTruthy()
+    expect(within(dialog).getAllByRole('columnheader').map(th => th.textContent)).toEqual(['Place', 'Athlete', 'Team', 'Region', 'First Round', 'Time', 'Wind'])
+    const groups = [...dialog.querySelectorAll('tr.nat-grp th')]
     expect(groups.every(th => th.getAttribute('scope') === 'rowgroup' && th.getAttribute('colspan') === '7')).toBe(true)
   })
 
   it('gives the region chips and dashes words a screen reader can read', async () => {
-    await openMeet('/?g=f&s=outdoor&r=East&y=2026&event=heptathlon&view=nationals')
-    await screen.findByRole('heading', { level: 1 })
+    await openPage('/?g=f&s=outdoor&r=East&event=heptathlon&detail=nationals')
+    await sheet('Women’s heptathlon, East Nationals')
     expect(rows()[2].querySelector('td.pl').textContent).toBe('—No place')
     expect(rows()[2].querySelector('td.pl [aria-hidden="true"]').textContent).toBe('—')
+  })
+
+  it('returns focus to the card when the dialog closes', async () => {
+    await openPage('/?g=f&s=outdoor&r=East&event=100m')
+    await waitFor(() => expect(card()).not.toBeNull())
+    fireEvent.click(card(), { button: 0 })
+    await sheet()
+    fireEvent.keyDown(document.querySelector('dialog.detail'), { key: 'Escape' })
+    await waitFor(() => expect(document.querySelector('dialog.detail')).toBeNull())
+    await waitFor(() => expect(document.activeElement).toBe(card()))
   })
 })

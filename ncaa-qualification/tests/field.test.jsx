@@ -108,7 +108,7 @@ describe('reading the saved field', () => {
     undefined, null, 'field', {},
     accepted({ status: 'missing' }),
     accepted({ accepted: '2026-03-03T16:18' }),
-    accepted({ accepted: null }),
+    accepted({ accepted: undefined }),
     accepted({ cancelled: undefined }),
     accepted({ size: 0 }),
     accepted({ rank: '19' }),
@@ -192,6 +192,16 @@ describe('the field line on the heat sheet', () => {
     expect(fieldRow.textContent).toBe('Field line · held at the line as accepted Mar 3')
     expect(document.querySelector('.field-lead').textContent).toBe('The field held at the line.')
     expect(tags()).toEqual({})
+  })
+
+  it('leaves out the date when the accepted list had none', async () => {
+    expect(readField({ field: accepted({ accepted: null }) })?.accepted).toBeNull()
+    await open([mile(30, 16, accepted({ accepted: null }))])
+    expect(document.querySelector('tr.fieldrow').textContent).toBe('Field line · reached 19th')
+    expect(document.querySelector('tr.fieldrow .why')).toBeNull()
+    cleanup()
+    await open([mile(30, 16, accepted({ accepted: null, cancelled: true }))])
+    expect(document.querySelector('tr.fieldrow').textContent).toBe('Field line · reached 19th · meet cancelled')
   })
 
   it('says the meet was cancelled', async () => {

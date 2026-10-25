@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from unittest.mock import Mock
 
-from flash_results import (USER_AGENT, CacheOnly, Fetcher, HostBlocked, event_name, fetch_meet,
+from flash_results import (USER_AGENT, CacheOnly, Fetcher, HostBlocked, Robots, event_name, fetch_meet,
                            parse_dates, parse_index, parse_round, season_checks, season_results)
 
 ROBOTS = "User-agent: *\nDisallow: /documents/\nDisallow: /*.pdf\n"
@@ -156,6 +156,18 @@ class FetcherTests(unittest.TestCase):
         s3 = fake_session({"https://flashresults.ncaa.com/x.htm": "ok"},
                           {"https://flashresults.ncaa.com/robots.txt": [403]})
         self.assertEqual(self.fetcher(s3).get("https://flashresults.ncaa.com/x.htm"), "ok")
+
+    def test_robots_patterns_match_the_same_on_every_python(self):
+        robots = Robots("User-agent: *\nDisallow: /*.pdf\nDisallow: /private/\nAllow: /private/open$\n\n"
+                        "User-agent: other-bot\nDisallow: /\n")
+        url = "https://www.flashresults.com"
+        self.assertFalse(robots.can_fetch(USER_AGENT, f"{url}/2026_Meets/results.pdf"))
+        self.assertTrue(robots.can_fetch(USER_AGENT, f"{url}/2026_Meets/results.htm"))
+        self.assertFalse(robots.can_fetch(USER_AGENT, f"{url}/private/page.htm"))
+        self.assertTrue(robots.can_fetch(USER_AGENT, f"{url}/private/open"))
+        self.assertFalse(robots.can_fetch(USER_AGENT, f"{url}/private/open/more"))
+        self.assertTrue(robots.can_fetch(USER_AGENT, f"{url}/index.htm"))
+        self.assertFalse(robots.can_fetch("other-bot/1.0", f"{url}/index.htm"))
 
     def test_refusals_back_off_then_stop_the_host(self):
         url = "https://flashresults.ncaa.com/Outdoor/2025/index.htm"

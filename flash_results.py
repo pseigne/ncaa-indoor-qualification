@@ -9,7 +9,6 @@ import re
 import sys
 import time
 from urllib.parse import urljoin, urlparse
-import urllib.robotparser
 
 from bs4 import BeautifulSoup
 import requests
@@ -44,6 +43,57 @@ EVENT_ORDER = ("100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Met
 
 class HostBlocked(Exception):
     pass
+
+
+class Robots:
+    """robots.txt rules with * and $ patterns, matched the same way on every Python version.
+    The longest matching rule wins and Allow wins a tie."""
+
+    def __init__(self, text="", allow_all=False, disallow_all=False):
+        self.allow_all = allow_all
+        self.disallow_all = disallow_all
+        self.groups = []
+        agents, rules, in_rules = [], [], False
+        for raw in text.splitlines():
+            line = raw.split("#", 1)[0].strip()
+            if ":" not in line:
+                continue
+            key, value = (part.strip() for part in line.split(":", 1))
+            key = key.lower()
+            if key == "user-agent":
+                if in_rules:
+                    self.groups.append((agents, rules))
+                    agents, rules, in_rules = [], [], False
+                agents.append(value.lower())
+            elif key in ("allow", "disallow") and agents:
+                in_rules = True
+                if value:
+                    rules.append((key == "allow", value))
+        if agents:
+            self.groups.append((agents, rules))
+
+    def rules_for(self, agent):
+        agent = agent.lower()
+        named = [rules for agents, rules in self.groups if any(a != "*" and a in agent for a in agents)]
+        if named:
+            return [rule for rules in named for rule in rules]
+        return [rule for agents, rules in self.groups if "*" in agents for rule in rules]
+
+    def can_fetch(self, agent, url):
+        if self.allow_all:
+            return True
+        if self.disallow_all:
+            return False
+        parts = urlparse(url)
+        path = (parts.path or "/") + (f"?{parts.query}" if parts.query else "")
+        best = None
+        for allow, pattern in self.rules_for(agent):
+            anchored = pattern.endswith("$")
+            body = pattern[:-1] if anchored else pattern
+            regex = ".*".join(re.escape(piece) for piece in body.split("*")) + ("$" if anchored else "")
+            if re.match(regex, path) and (best is None or (len(pattern), allow) > best):
+                best = (len(pattern), allow)
+        return True if best is None else best[1]
 
 
 def decode(body):
@@ -108,19 +158,18 @@ class Fetcher:
             raise HostBlocked(host)
         if host not in self.robots:
             robots_url = f"{parts.scheme}://{host}/robots.txt"
-            parser = urllib.robotparser.RobotFileParser(robots_url)
             response = self._send(robots_url)
             if response.status_code == 200:
-                parser.parse(response.text.splitlines())
+                rules = Robots(response.text)
             elif response.status_code == 429:
                 self.blocked.add(host)
                 raise HostBlocked(f"{host} refused robots.txt with 429")
             elif 400 <= response.status_code < 500:
                 # A missing robots file (S3 answers 403) means no rules.
-                parser.allow_all = True
+                rules = Robots(allow_all=True)
             else:
-                parser.disallow_all = True
-            self.robots[host] = parser
+                rules = Robots(disallow_all=True)
+            self.robots[host] = rules
         return self.robots[host].can_fetch(USER_AGENT, url)
 
     def cached(self, url):

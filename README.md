@@ -15,6 +15,9 @@ event that leaves a list is stored once with `rankings: null`. Rebuilding every
 day from the stored changes gives exactly what was collected. A daily scrape
 rewrites only the current season's file. `archive/past_cutoffs.json` holds the
 qualifying lines of seasons before the saved lists, from `backfill_cutoffs.py`.
+`archive/entries/{season}/{year}.json` holds each championship's accepted
+entries matched to its final list, from `import_entries.py`, and
+`archive/aliases.json` the school and athlete aliases that matching uses.
 
 `data/site/` is generated from the archive, and it is all the website loads:
 
@@ -79,6 +82,16 @@ includes `qualification`: `rank` (required list position), `is_relay`, `status`
 `null` when that day's list doesn't reach the required rank. The archive stays
 unchanged.
 
+Events of a season with imported entries also include `field`, the field as
+accepted: `status` (`available`, `unmatched` when an accepted entry isn't on the
+saved list, or `beyond_list` when the field reached past it), `rank` (the deepest
+list position in the field), `size`, `accepted` (the accepted list's date, or
+`null` when the page has none), `cancelled`, `entry` (the list row at `rank`),
+`unmatched`, and `in` and `out` (positions below the line that got in, and
+positions at or inside it that didn't). Past cutoffs carry the same `field`
+without `in` and `out`. The outdoor decathlon and heptathlon are selected from
+the national list, so their regional lists have no field.
+
 The website displays this metadata without calculating qualification rules.
 Missing or invalid metadata displays “Cutoff unavailable”; missing observations
 remain gaps in charts. Rosters remain inspectable. A qualification cutoff is a
@@ -128,6 +141,52 @@ timeouts and at most three attempts, and pages are fetched 3 seconds apart; a
 403 or 429 waits 60 seconds, then 120, then stops. Collection and generation
 finish before any data is replaced; failures exit nonzero and do not publish
 partial data.
+
+## End of season
+
+After each championship, the NCAA's accepted lists (posted on declaration day on
+RecordTiming) are matched to the season's final list. Indoor runs in late March,
+after the meet; outdoor in late June, after nationals.
+
+1. Make sure the daily scrape has finished the season (two weeks after its
+   championship starts), so its final list is in the archive.
+2. Import the accepted lists:
+   ```sh
+   python import_entries.py indoor 2026-2027
+   python import_entries.py outdoor 2027
+   ```
+   The importer fetches the season's RecordTiming index and its entry lists
+   once, 3 seconds apart, waiting 60 and then 120 seconds on a 403 or 429 and
+   then stopping. Pages are cached in `data/entries-cache/` (gitignored) with
+   their URL, date and checksum; re-runs read the cache and make no requests.
+   Pages are recognized by their own HY-TEK header, never by filename.
+3. Read the report. Each event shows its field size, how deep the field reached,
+   and every entry it couldn't match, with nearby rows and a suggested school
+   alias. Add school aliases, or an athlete override with its list rank, to
+   `data/archive/aliases.json` and run it again. Leave an entry unmatched when
+   the saved list doesn't hold it; never guess. The importer writes nothing
+   while entries are unmatched unless given `--allow-unmatched`, and that event
+   then shows no field line.
+4. Regenerate, validate and test:
+   ```sh
+   python generate_bubble_cutoffs.py
+   python validate_data.py
+   python -m unittest discover -s tests -v
+   cd ncaa-qualification && npm run test:data && npm run test:ui
+   ```
+5. Commit `data/archive/entries/…`, `aliases.json` and `data/site/` together.
+
+Seasons before the archive's lists (indoor 2014-15 to 2022-23, outdoor 2015 to
+2023) are matched to their final lists cached 100 deep by `list_cache.py`, and
+store the matched rows. To redo every season from the caches:
+
+```sh
+python import_entries.py indoor --from 2015
+python import_entries.py outdoor --from 2015
+```
+
+Years are championship years, so indoor 2015 is 2014-15. Outdoor 2020 had no
+meet. Indoor 2019-20 was selected but cancelled, and is marked so.
 
 ## Website and publishing
 

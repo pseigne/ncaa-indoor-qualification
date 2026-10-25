@@ -1,0 +1,60 @@
+/* The national meet: the same heat sheet, with each qualifier's region as a chip. East is solid, West an
+   outline and the national list dashed, so the letters are never the only difference. */
+.nat-hero .picker{text-align:left}
+.nat-meet{margin-top:10px;font-size:15px;color:var(--ink-2)}
+.nat-lead{max-width:62ch;margin-top:14px;font-size:17px;text-wrap:pretty}
+.nat-sum{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0;padding:0;list-style:none}
+.nat-sum li{display:inline-flex;align-items:baseline;gap:8px;min-height:36px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.08);font-size:15px;font-variant-numeric:tabular-nums}
+.nat-sum b{font-weight:600;color:var(--accent)}
+
+.nat-reg{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:22px;padding:0 7px;border:1.5px solid var(--ink);border-radius:999px;font-size:12px;font-weight:600;line-height:1;letter-spacing:.02em;white-space:nowrap;font-stretch:100%}
+.nat-reg.east{background:var(--ink);color:var(--bg)}
+.nat-reg.west{background:transparent;color:var(--ink)}
+.nat-reg.national{border-style:dashed;border-color:var(--ink-2);color:var(--ink-2);font-weight:500}
+tr.out .nat-reg{opacity:.6}
+
+/* East, West and Nationals share one pill group: each takes its own width, so the longer word fits in
+   the narrow event list */
+.filters .grp.three a{flex:1 1 auto;padding:0 6px}
+
+/* in the picker, the national meet reads as chosen the way the segments above it do */
+.sheet .board-link[aria-current]{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:8px}
+
+table.nat{max-width:none}
+table.nat td.reg{width:72px}
+table.nat td.fr{width:168px;white-space:nowrap;color:var(--ink-2)}
+table.nat td.wind{width:64px;color:var(--ink-2);font-size:14px}
+table.nat td.pl abbr,table.nat abbr{text-decoration:none}
+.nat-frp{color:var(--ink)}
+tr.out .nat-frp{color:inherit}
+.nat-q{margin-left:6px;font-size:12px;font-weight:700;color:var(--ink)}
+.nat-q.time{font-weight:500;color:var(--ink-2)}
+.nat-status{font-size:14px;font-weight:600;letter-spacing:.02em}
+table.nat tr.nat-grp th{height:auto;padding:22px 12px 8px;border-top:0;font-size:14px;font-weight:400;color:var(--ink-2);text-align:left}
+table.nat tbody tr.nat-grp:first-child th{padding-top:6px}
+
+@media (min-width: 721px) and (max-width: 1099px){
+  table.nat td.fr{width:auto}
+  table.nat td.reg{width:56px}
+}
+
+/* phones: name and mark on the first line, region, team and wind under them, the First Round last */
+@media (max-width: 720px){
+  .nat-lead{font-size:16px}
+  /* the counts as a two-by-two grid: the label over its words */
+  .nat-sum{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:16px}
+  .nat-sum li{flex-direction:column;align-items:flex-start;gap:2px;min-height:0;padding:10px 14px;border-radius:16px;font-size:14px}
+  table.nat tbody tr{grid-template-columns:32px auto minmax(0,1fr) auto;column-gap:8px;row-gap:2px}
+  table.nat td.pl{grid-column:1;grid-row:1/4}
+  table.nat td.ath{grid-column:2/4;grid-row:1}
+  table.nat td.t{grid-column:4;grid-row:1}
+  table.nat td.reg{grid-column:2;grid-row:2;width:auto;align-self:center}
+  table.nat td.team{grid-column:3;grid-row:2;min-width:0}
+  table.nat td.wind{grid-column:4;grid-row:2;width:auto;font-size:13px}
+  table.nat td.fr{grid-column:2/5;grid-row:3;width:auto;font-size:13px;white-space:normal}
+  table.nat.relay td.fr{grid-column:3/5;grid-row:2}
+  table.nat .nat-reg{height:20px;min-width:22px;padding:0 6px;font-size:11px}
+  table.nat tr.nat-grp{display:block;border:0;padding:0}
+  table.nat tr.nat-grp th{display:block;padding:18px 0 4px}
+  table.nat tbody tr.nat-grp:first-child th{padding-top:8px}
+}

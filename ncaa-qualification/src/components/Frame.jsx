@@ -7,8 +7,8 @@ import { useMedia } from '../utils/media'
 import { NationalsOffered } from '../utils/nationals'
 import { Mark } from './Mark'
 
-export const SITE_TITLE = 'NCAA Track and Field National Qualification Tracker'
-export const SITE_SHORT = 'NCAA T&F Qualification Tracker'
+export const SITE_TITLE = 'NCAA TF Qualification Monitor'
+export const SITE_SHORT = 'NCAA TF Qualification Monitor'
 
 const CHEVRON = (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" aria-hidden="true">

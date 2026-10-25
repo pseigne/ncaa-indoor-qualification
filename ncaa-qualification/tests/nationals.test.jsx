@@ -135,7 +135,7 @@ describe('the nationals page', () => {
   it('shows the 24 qualifiers as a heat sheet in final order', async () => {
     await openMeet()
     expect(await screen.findByRole('heading', { level: 1, name: 'Women’s 100m, nationals' })).toBeTruthy()
-    expect(document.title).toBe('Women’s 100m, nationals, 2026 · NCAA Track and Field National Qualification Tracker')
+    expect(document.title).toBe('Women’s 100m, nationals, 2026 · NCAA TF Qualification Monitor')
     expect(rows()).toHaveLength(24)
     expect(names().slice(0, 3)).toEqual(['Ann Runner1', 'Ann Runner2', 'Ann Runner3'])
     const first = rows()[0]

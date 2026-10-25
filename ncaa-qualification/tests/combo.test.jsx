@@ -250,9 +250,9 @@ describe('chips on the column and the strip', () => {
 describe('the nav', () => {
   it('shows the full and the short title, and switches at 960px', async () => {
     await open(1440)
-    const link = screen.getByRole('link', { name: 'NCAA Track and Field National Qualification Tracker' })
-    expect(link.querySelector('.mark-full').textContent).toBe('NCAA Track and Field National Qualification Tracker')
-    expect(link.querySelector('.mark-short').textContent).toBe('NCAA T&F Qualification Tracker')
+    const link = screen.getByRole('link', { name: 'NCAA TF Qualification Monitor' })
+    expect(link.querySelector('.mark-full').textContent).toBe('NCAA TF Qualification Monitor')
+    expect(link.querySelector('.mark-short').textContent).toBe('NCAA TF Qualification Monitor')
     expect(link.querySelector('.mark-short').getAttribute('aria-hidden')).toBe('true')
     expect(css).toMatch(/@media \(max-width: 960px\)\{ \.mark-full\{display:none\} \.mark-short\{display:inline\} \}/)
   })

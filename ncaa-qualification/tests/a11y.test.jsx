@@ -95,10 +95,10 @@ afterEach(() => {
 describe('names start with the visible words', () => {
   it('names the brand link by the title that is showing', async () => {
     await open(1440)
-    expect(screen.getByRole('link', { name: 'NCAA Track and Field National Qualification Tracker' })).toBeTruthy()
+    expect(screen.getByRole('link', { name: 'NCAA TF Qualification Monitor' })).toBeTruthy()
     cleanup()
     await open(390)
-    const link = screen.getByRole('link', { name: 'NCAA T&F Qualification Tracker' })
+    const link = screen.getByRole('link', { name: 'NCAA TF Qualification Monitor' })
     expect(link.hasAttribute('aria-label')).toBe(false)
     expect(link.querySelector('.mark-full').getAttribute('aria-hidden')).toBe('true')
     expect(link.querySelector('.mark-short').hasAttribute('aria-hidden')).toBe(false)

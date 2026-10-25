@@ -134,10 +134,10 @@ describe('split heat sheet', () => {
 
   it('names the site in the header and the document title, short on narrow screens', async () => {
     await openWide(1440)
-    expect(document.title).toBe('Men’s distance medley relay · NCAA Track and Field National Qualification Tracker')
-    const link = screen.getByRole('link', { name: 'NCAA Track and Field National Qualification Tracker' })
-    expect(link.querySelector('.mark-full').textContent).toBe('NCAA Track and Field National Qualification Tracker')
-    expect(link.querySelector('.mark-short').textContent).toBe('NCAA T&F Qualification Tracker')
+    expect(document.title).toBe('Men’s distance medley relay · NCAA TF Qualification Monitor')
+    const link = screen.getByRole('link', { name: 'NCAA TF Qualification Monitor' })
+    expect(link.querySelector('.mark-full').textContent).toBe('NCAA TF Qualification Monitor')
+    expect(link.querySelector('.mark-short').textContent).toBe('NCAA TF Qualification Monitor')
     expect(document.querySelector('header.top').classList.contains('event')).toBe(true)
     expect(document.querySelector('.wrap').classList.contains('event')).toBe(true)
     const css = readFileSync(resolve(process.cwd(), 'src/index.css'), 'utf8')

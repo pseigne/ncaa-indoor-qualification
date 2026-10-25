@@ -15,6 +15,22 @@ function sideWord(meters) {
   return meters > 0 ? 'ahead' : 'back'
 }
 
+// How deep the race runs. Saved lists were at most 60 deep when the strip was drawn for them, so it holds 60
+// places, or 12 past the deeper of the qualifying line and the field line when that is further down. A
+// 100-deep outdoor list keeps every row in its table; the race stops here.
+export const STRIP_DEPTH = 60
+export const STRIP_PAST_LINE = 12
+
+export function stripDepth(lineRank, fieldRank = null) {
+  const deepest = Math.max(Number.isInteger(lineRank) ? lineRank : 0, Number.isInteger(fieldRank) ? fieldRank : 0)
+  return Math.max(STRIP_DEPTH, deepest + STRIP_PAST_LINE)
+}
+
+// "60 of 100" when the race stops short of the list, the list's length when it does not.
+export function topWords(shown, listed) {
+  return listed > shown ? `${shown} of ${listed}` : `${shown}`
+}
+
 // Place direct labels so they do not cross the qualifying line or each other.
 // A label that does not fit tries a shorter line, then drops.
 // Lane hairlines are horizontal rules between stacked rows; color is applied by the page, never here.
@@ -29,6 +45,7 @@ export function layoutStrip({
   domain = null,
   charWidth = 7.2,
   lineConversion = null,
+  listed = rows.length,
 }) {
   const usable = rows.filter(row => Number.isFinite(row.v) && row.v > 0 && Number.isFinite(lineV) && lineV > 0)
   if (!usable.length || !Number.isFinite(dist) || dist <= 0) return null
@@ -217,7 +234,7 @@ export function layoutStrip({
   const outside = dots.find(q => q.rank === rank + 1)
   const phrase = accessibleConversion(lineConversion)
   const aria = [
-    `The top ${rows.length} placed as one race at the moment ${formatMark(lineV, 'time')} finishes${phrase ? `, ${phrase}` : ''}.`,
+    `The top ${topWords(rows.length, listed)} placed as one race at the moment ${formatMark(lineV, 'time')} finishes${phrase ? `, ${phrase}` : ''}.`,
     first ? `${surname(first.name) || '1st'} is ${formatMeters(first.m)} ahead of the line.` : '',
     outside ? `The first one out is ${formatMeters(outside.m)} back.` : '',
     'Meters are estimates.',
@@ -391,6 +408,7 @@ export function layoutColumn({
   charWidth = 7.2,
   measure = null,
   lineConversion = null,
+  listed = rows.length,
 }) {
   const usable = rows.filter(row => Number.isFinite(row.v) && row.v > 0 && Number.isFinite(lineV) && lineV > 0)
   if (!usable.length || !Number.isFinite(dist) || dist <= 0 || !(width > 0) || !(height > 0)) return null
@@ -520,7 +538,7 @@ export function layoutColumn({
 
   const phrase = accessibleConversion(lineConversion)
   const aria = [
-    `The top ${rows.length} placed as one race at the moment ${formatMark(lineV, 'time')} finishes${phrase ? `, ${phrase}` : ''}, ahead at the top.`,
+    `The top ${topWords(rows.length, listed)} placed as one race at the moment ${formatMark(lineV, 'time')} finishes${phrase ? `, ${phrase}` : ''}, ahead at the top.`,
     leader ? `${surname(leader.name) || '1st'} is ${formatMeters(leader.m)} ahead of the line.` : '',
     firstOut ? `The first one out is ${formatMeters(firstOut.m)} back.` : '',
     'Meters are estimates.',

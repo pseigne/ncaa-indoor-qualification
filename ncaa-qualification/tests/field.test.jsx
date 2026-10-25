@@ -5,6 +5,7 @@ import PastYears from '../src/components/PastYears'
 import { buildEvents } from '../src/utils/model'
 import { pastLines } from '../src/utils/past'
 import { readField } from '../src/utils/qualification'
+import { STRIP_DEPTH, stripDepth, topWords } from '../src/utils/strip'
 import { serveSite, siteFiles } from './site'
 
 // A men's indoor mile with the line at 16: 3:53.00, 3:53.25, ... a quarter second apart.
@@ -315,4 +316,63 @@ describe('past years', () => {
     const more = [...view.container.querySelectorAll('button.more')].find(button => /^Show all/.test(button.textContent))
     more?.click()
   }
+})
+
+describe('the race strip on a 100-deep list', () => {
+  function deep(count = 100, field = undefined) {
+    const rankings = Array.from({ length: count }, (_, index) => ({
+      rank: index + 1, athlete: `Runner, ${index + 1}`, team: `School ${index + 1}`, time: `3:${(40 + index * 0.1).toFixed(2)}`,
+    }))
+    return {
+      year: '2026', event: '1500 Meters', season: 'outdoor', region: 'East', gender: 'm', rankings,
+      qualification: { rank: 48, is_relay: false, status: 'available', entry: { ...rankings[47] } },
+      ...(field ? { field } : {}),
+    }
+  }
+  const url = '/?s=outdoor&g=m&r=East&event=1500m'
+
+  it('runs 60 places, or 12 past the deeper line', () => {
+    expect(STRIP_DEPTH).toBe(60)
+    expect(stripDepth(16)).toBe(60)
+    expect(stripDepth(48)).toBe(60)
+    expect(stripDepth(48, 55)).toBe(67)
+    expect(stripDepth(24, 19)).toBe(60)
+    expect(stripDepth(null, null)).toBe(60)
+    expect(topWords(60, 100)).toBe('60 of 100')
+    expect(topWords(30, 30)).toBe('30')
+  })
+
+  it('stops the standing strip at 60 and says so, while the table keeps all 100', async () => {
+    await open([deep()], { url, line: 48 })
+    await vi.waitFor(() => expect(document.querySelector('.rail .dot')).toBeTruthy())
+    expect(document.querySelectorAll('.rail .dot')).toHaveLength(60)
+    expect(Math.max(...[...document.querySelectorAll('.rail .dot')].map(dot => Number(dot.dataset.rank)))).toBe(60)
+    expect(document.querySelector('.rail figcaption').textContent).toMatch(/^The top 60 of 100 as one race, as 3:44\.70 crosses the line\./)
+    expect(document.querySelector('.rail svg').getAttribute('aria-label')).toMatch(/^The top 60 of 100 placed as one race/)
+    expect(screen.getByRole('button', { name: 'Show all 100' })).toBeTruthy()
+  })
+
+  it('runs 12 past a field line deeper than 48', async () => {
+    const field = accepted({ rank: 55, size: 48, accepted: '2026-05-21', entry: { rank: 55, athlete: 'Runner, 55', team: 'School 55', time: '3:45.40' }, in: [50, 55], out: [3, 9] })
+    await open([deep(100, field)], { url, line: 48 })
+    await vi.waitFor(() => expect(document.querySelector('.rail .dot')).toBeTruthy())
+    expect(document.querySelectorAll('.rail .dot')).toHaveLength(67)
+    expect(document.querySelector('.rail figcaption').textContent).toMatch(/^The top 67 of 100 as one race/)
+    expect(Number([...document.querySelectorAll('tbody tr[data-rank]')].at(-1).dataset.rank)).toBe(61)
+    expect(document.querySelector('tr.fieldrow').textContent).toBe('Field line · reached 55th as accepted May 21')
+  })
+
+  it('stops the flat strip at 60 on phones and says so in its caption', async () => {
+    await open([deep()], { url, line: 48, width: 390 })
+    expect(document.querySelectorAll('.race.card .dot')).toHaveLength(60)
+    expect(document.querySelector('.strip-cap').textContent).toBe('Top 60 of 100 as one race. Meters are estimates.')
+    expect(document.querySelector('.race.card svg').getAttribute('aria-label')).toMatch(/^The top 60 of 100 placed as one race/)
+  })
+
+  it('keeps every row of a list no deeper than 60', async () => {
+    await open([deep(54)], { url, line: 48, width: 390 })
+    expect(document.querySelectorAll('.race.card .dot')).toHaveLength(54)
+    expect(document.querySelector('.strip-cap').textContent).toBe('Top 54 as one race. Meters are estimates.')
+    expect(document.querySelector('.race.card svg').getAttribute('aria-label')).toMatch(/^The top 54 placed as one race/)
+  })
 })

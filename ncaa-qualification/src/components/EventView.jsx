@@ -4,7 +4,7 @@ import {
   accessibleConversion, eventTitle, formatBare, formatGap, formatMark, gapToLine, longDate, ordinal, shortDate, surname, tidy, unitWord,
 } from '../utils/format'
 import {
-  canvasMeasure, formatMeters, metersAhead, layoutColumn, layoutStrip,
+  canvasMeasure, formatMeters, metersAhead, layoutColumn, layoutStrip, stripDepth, topWords,
 } from '../utils/strip'
 import { comparisonSeries, pickComparison } from '../utils/comparison'
 import { detailHref, plainClick, yearLabel } from '../utils/route'
@@ -71,13 +71,18 @@ export default function EventView({ event, query, go, context, past = null, onOp
   const stripWidth = phone ? Math.max(280, width - 32) : 960
   // The field line is drawn only once every accepted entry is matched to a saved row.
   const field = event.field?.status === 'available' ? event.field : null
-  const runners = useMemo(() => event.rows.filter(row => Number.isFinite(row.v)).map(row => ({
+  const depth = stripDepth(event.line?.rank, field?.rank)
+  const raced = event.rows.filter(row => row.rank <= depth).length
+  const racedWords = topWords(raced, event.rows.length)
+  const runners = useMemo(() => event.rows.filter(row => Number.isFinite(row.v) && row.rank <= depth).map(row => ({
     rank: row.rank,
     name: event.isRelay ? (row.team || row.athlete) : row.athlete,
     team: row.team || row.athlete,
     v: row.v,
     conversion: row.conversion,
-  })), [event])
+  })), [event, depth])
+  // Say "of 100" only when the race stops short of the list.
+  const listed = raced < event.rows.length ? event.rows.length : runners.length
   const layout = useMemo(() => {
     if (split || !event.strip || !event.line) return null
     return layoutStrip({
@@ -89,8 +94,9 @@ export default function EventView({ event, query, go, context, past = null, onOp
       width: stripWidth,
       radius: phone ? 4.5 : 8,
       phone,
+      listed,
     })
-  }, [event, runners, split, phone, stripWidth])
+  }, [event, runners, listed, split, phone, stripWidth])
   const column = useMemo(() => {
     if (!split || !railSize || !event.strip || !event.line) return null
     return layoutColumn({
@@ -104,8 +110,9 @@ export default function EventView({ event, query, go, context, past = null, onOp
       bottom: 52,
       minPitch: width >= 1440 ? 16 : 14,
       measure,
+      listed,
     })
-  }, [event, runners, split, railSize, measure, width])
+  }, [event, runners, listed, split, railSize, measure, width])
   const railed = split && Boolean(event.strip && event.line)
   // Without hover (phones, touch screens with the flat strip) scrolling picks the row instead.
   const scrollLinked = Boolean(layout) && (phone || noHover)
@@ -420,7 +427,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
               ? null
               : (
                 <>
-                  The top {event.rows.length} as one race, as <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} /> crosses the line. Meters are estimates from each mark’s average speed.
+                  The top {racedWords} as one race, as <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} /> crosses the line. Meters are estimates from each mark’s average speed.
                 </>
               )}
             activeRank={hover?.rank ?? null}
@@ -431,7 +438,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
           />
         </div>
       )}
-      {layout && phone && <p className="strip-cap">Top {event.rows.length} as one race. Meters are estimates.</p>}
+      {layout && phone && <p className="strip-cap">Top {racedWords} as one race. Meters are estimates.</p>}
       <section className="tablecard">
         <table id="list" aria-label={`${title} around the qualifying line`} className={event.isRelay ? 'relay' : undefined}>
           <thead>
@@ -538,7 +545,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
             onChip={() => chip && reveal(chip.rank)}
             caption={(
               <>
-                The top {event.rows.length} as one race, as <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} /> crosses the line. Meters are estimates from each mark’s average speed.
+                The top {racedWords} as one race, as <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} /> crosses the line. Meters are estimates from each mark’s average speed.
               </>
             )}
           />

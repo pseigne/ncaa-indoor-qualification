@@ -18,16 +18,42 @@ SCOPES = {("indoor", "National"), ("outdoor", "East"),
           ("outdoor", "West"), ("outdoor", "National")}
 
 
-def fetch_page(session, url, sleeper=time.sleep, headers=None):
-    for attempt in range(3):
+# Seconds between requests to TFRRS.
+PAUSE = 3
+# Waits after a 403 or 429 before trying again; after the last, stop.
+BACKOFF = (60, 120)
+# The row counts TFRRS's list form offers.
+LIMITS = (5, 10, 20, 25, 30, 50, 100, 200, 500)
+
+
+class Blocked(requests.HTTPError):
+    """TFRRS kept refusing requests: stop asking it, keeping what has been fetched."""
+
+
+def fetch_response(session, url, sleeper=time.sleep, headers=None):
+    failures = blocked = 0
+    while True:
         try:
             response = session.get(url, timeout=(10, 45), headers=headers or HEADERS)
+            if response.status_code in (403, 429):
+                if blocked == len(BACKOFF):
+                    raise Blocked(f"TFRRS returned {response.status_code} for {url}", response=response)
+                sleeper(BACKOFF[blocked])
+                blocked += 1
+                continue
             response.raise_for_status()
-            return response.text
+            return response
+        except Blocked:
+            raise
         except requests.RequestException:
-            if attempt == 2:
+            failures += 1
+            if failures == 3:
                 raise
-            sleeper(2 ** attempt)
+            sleeper(2 ** (failures - 1))
+
+
+def fetch_page(session, url, sleeper=time.sleep, headers=None):
+    return fetch_response(session, url, sleeper, headers).text
 
 
 # National outdoor lists that are Division I but are not labelled FINAL.
@@ -124,6 +150,11 @@ def verify_page_identity(html, cfg, gender):
     selected = soup.select('select[name="gender"] option[selected]')
     if len(selected) != 1 or selected[0].get("value") != gender:
         raise ValueError(f"TFRRS did not return the requested gender: {gender}")
+    if cfg.get("depth"):
+        # TFRRS may ignore the limit; never save a default-length list as a deep one.
+        limit = soup.select('select[name="limit"] option[selected]')
+        if len(limit) != 1 or limit[0].get("value") != str(cfg["depth"]):
+            raise ValueError(f"TFRRS did not return the requested depth: {cfg['depth']}")
 
 
 def discover_config(config, session, sleeper=time.sleep, current_year=None):
@@ -143,7 +174,7 @@ def discover_config(config, session, sleeper=time.sleep, current_year=None):
                 raise ValueError(f"Ambiguous TFRRS list IDs for {key}")
             # A slug may change when a list is marked FINAL. The ID must agree.
             candidates[key] = candidate
-        sleeper(1)
+        sleeper(PAUSE)
     by_scope = {}
     for item in candidates.values():
         by_scope.setdefault((item["season"], item["region"]), {})[item["year"]] = item
@@ -153,6 +184,7 @@ def discover_config(config, session, sleeper=time.sleep, current_year=None):
     if not SCOPES.issubset(by_scope):
         raise ValueError("Discovery did not find all four NCAA DI list scopes")
     proposed = deepcopy(config)
+    replaced = dict(active)
     indoor = by_scope[("indoor", "National")]
     indoor_year = max(indoor)
     if indoor_year >= active[("indoor", "National")]["year"]:
@@ -166,6 +198,10 @@ def discover_config(config, session, sleeper=time.sleep, current_year=None):
     if outdoor_year >= max(active[scope]["year"] for scope in outdoor_scopes):
         for scope in outdoor_scopes:
             active[scope] = by_scope[scope][outdoor_year]
+    for scope, item in active.items():
+        # A new season keeps the depth of the list it replaces.
+        if "depth" in replaced[scope] and item is not replaced[scope]:
+            active[scope] = dict(item, depth=replaced[scope]["depth"])
     proposed["active"] = [active[(c["season"], c["region"])] for c in config["active"]]
     history = {(c["year"], c["season"], c["region"]): c for c in config["historical"]}
     for item in config["active"] + proposed["active"]:

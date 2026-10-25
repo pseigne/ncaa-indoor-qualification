@@ -5,14 +5,16 @@
       "season": "outdoor",
       "region": "East",
       "list_id": "5622",
-      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL"
+      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL",
+      "depth": 100
     },
     {
       "year": "2026",
       "season": "outdoor",
       "region": "West",
       "list_id": "5623",
-      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL"
+      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL",
+      "depth": 100
     },
     {
       "year": "2026",
@@ -35,14 +37,16 @@
       "season": "outdoor",
       "region": "East",
       "list_id": "5622",
-      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL"
+      "list_name": "2026_NCAA_Div_I_East_Outdoor_List_FINAL",
+      "depth": 100
     },
     {
       "year": "2026",
       "season": "outdoor",
       "region": "West",
       "list_id": "5623",
-      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL"
+      "list_name": "2026_NCAA_Div_I_West_Outdoor_List_FINAL",
+      "depth": 100
     },
     {
       "year": "2026",
@@ -63,14 +67,16 @@
       "season": "outdoor",
       "region": "East",
       "list_id": "5052",
-      "list_name": "2025_NCAA_Div_I_East_Outdoor_List_FINAL"
+      "list_name": "2025_NCAA_Div_I_East_Outdoor_List_FINAL",
+      "depth": 100
     },
     {
       "year": "2025",
       "season": "outdoor",
       "region": "West",
       "list_id": "5053",
-      "list_name": "2025_NCAA_Div_I_West_Outdoor_List_FINAL"
+      "list_name": "2025_NCAA_Div_I_West_Outdoor_List_FINAL",
+      "depth": 100
     },
     {
       "year": "2025",
@@ -91,14 +97,16 @@
       "season": "outdoor",
       "region": "East",
       "list_id": "4573",
-      "list_name": "2024_NCAA_Div_I_East_Outdoor_Qualifying_FINAL"
+      "list_name": "2024_NCAA_Div_I_East_Outdoor_Qualifying_FINAL",
+      "depth": 100
     },
     {
       "year": "2024",
       "season": "outdoor",
       "region": "West",
       "list_id": "4574",
-      "list_name": "2024_NCAA_Div_I_West_Outdoor_Qualifying_FINAL"
+      "list_name": "2024_NCAA_Div_I_West_Outdoor_Qualifying_FINAL",
+      "depth": 100
     },
     {
       "year": "2024",

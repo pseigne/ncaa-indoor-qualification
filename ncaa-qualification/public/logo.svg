@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <clipPath id="tile"><rect width="32" height="32" rx="7"/></clipPath>
+  <g clip-path="url(#tile)">
+    <rect width="32" height="32" fill="#C4532F"/>
+    <path d="M0 16H32" stroke="#fff" stroke-opacity=".45" stroke-width="1.5"/>
+    <path d="M18 0V32" stroke="#fff" stroke-width="3.5"/>
+  </g>
+  <circle cx="26.5" cy="9" r="3.25" fill="#fff"/>
+  <circle cx="9" cy="23" r="3.75" fill="#151515"/>
+</svg>

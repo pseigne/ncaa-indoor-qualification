@@ -37,7 +37,7 @@ export function Header({ query, go, years = [], year = null, wide = false }) {
   return (
     <header className={`top${wide ? ' event' : ''}`} ref={ref}>
       <a className="mark press" href={href({ ...query, view: 'event' })} onClick={event => { if (plainClick(event)) go(event.currentTarget.href, event) }}>
-        <img className="mark-logo" src={`${import.meta.env.BASE_URL}ncaa-tf.png`} alt="" width="32" height="40" />
+        <img className="mark-logo" src={`${import.meta.env.BASE_URL}logo.svg`} alt="" width="32" height="32" />
         <span className="mark-full" aria-hidden={short ? 'true' : undefined}>{SITE_TITLE}</span>
         <span className="mark-short" aria-hidden={short ? undefined : 'true'}>{SITE_SHORT}</span>
       </a>

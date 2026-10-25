@@ -651,3 +651,116 @@ Each step is its own commit (or a few), with tests, and can ship on its own.
 - a Flash First Round field-event or relay page
 - whether Flash event numbering is the same across all meets
 - the ncaa.org championship landing pages (403 to scripts)
+
+---
+
+## 9. Build interfaces
+
+These are the contracts that the parallel pieces build to. Change one only
+together with every piece that uses it.
+
+### 9.1 Shared caches (gitignored, never committed)
+
+| Path | What | Key |
+|---|---|---|
+| `data/entries-cache/{dir}/{file}` | RecordTiming pages | `dir` is e.g. `d1indoor26`; `file` is the page's own filename |
+| `data/list-cache/{list_id}-{gender}-{limit}.html` | TFRRS list pages fetched at a given `limit` | |
+| `data/results-cache/{host}/{path}` | Flash Results pages | Mirrors the URL path |
+
+Every fetching module takes a `cache_dir` argument that defaults to these
+paths, and reads from the cache before it fetches. Each cache file also gets a
+`.meta.json` holding `{url, fetched, status, sha256}`.
+
+**Fetching rules for every module:**
+
+- `requests` with a user agent naming the project
+- at least 3 seconds between requests to the same host (a `sleeper` argument, so tests don't wait)
+- on a 403 or 429, wait 60 seconds, then 120, then stop for that host, keeping what has been fetched
+- timeouts of `(10, 45)`
+
+RecordTiming is fetched despite its robots.txt, by decision. Flash Results and
+TFRRS are checked with `urllib.robotparser` first.
+
+### 9.2 Python modules
+
+**`hytek.py`** parses HY-TEK "Performance List" pages:
+
+- `parse_performance_list(html) -> {"meet", "generated" (ISO "YYYY-MM-DDTHH:MM"), "kind", "region", "events": [...]}`
+  - `kind` is `accepted | qualifiers | multi | other`.
+  - `region` is `East | West | National`, taken from the header and title, never the filename.
+  - Each event is `{"gender": "m"|"f", "event": <archive event name>, "relay": bool, "entries": [{"rank", "name" ("First Last"), "class", "school", "seed" (suffixes stripped), "status" ("A"|"S"|"D"|None)}]}`.
+  - Relay entries use the school as both `name` and `school`.
+- `EVENT_NAMES`: maps HY-TEK event headings to the archive's TFRRS event names, for example `60 Meter Dash` → `60 Meters`, `1 Mile Run` → `Mile`, `4x400 Meter Relay` → `4 x 400 Relay`, `Distance Medley Relay`, and `3000 Meter Steeplechase` → `3000 Steeplechase`. The archive names are those in `ncaa-qualification/src/utils/catalog.js`.
+
+**`matching.py`** matches NCAA entries to TFRRS list rows:
+
+- `match_entries(entries, rankings, aliases, relay=False) -> [{"entry", "list_rank" (int|None), "match" ("exact"|"mark"|"name"|"manual"|"none"), "row" (the TFRRS row or None)}]`
+  - `rankings` are archive ranking rows (`athlete` "Last, First", `team`, `time`, `rank`).
+  - `aliases` is the loaded `data/archive/aliases.json`: `{"schools": {"FL State": "Florida State", …}, "athletes": [{"season", "year", "gender", "event", "name", "list_rank"}]}`.
+- `tfrrs_name(name) -> "Last, First"`.
+
+**`rtspt.py`** fetches RecordTiming:
+
+- `season_dir(season, year)`: indoor `2025-2026` gives `d1indoor26`; outdoor `2026` gives `d1outdoor26`.
+- `fetch_season(season, year, session=None, sleeper=time.sleep, cache_dir=…) -> [paths]` fetches the index page, then every linked page that may be an entry list (`declared|accepted|selected|entry|qualifiers`), skipping review, start and result pages.
+
+**`flash_results.py`** fetches and parses Flash Results:
+
+- `parse_round(html) -> {"event", "gender", "round", "rows": [{"place", "name", "school", "mark", "wind", "q" ("Q"|"q"|None), "status" (None|"DNS"|"DNF"|"DQ"|"NM"|"NH"|"FS"), "tfrrs_id" (str|None)}]}`
+- `fetch_meet(index_url, …) -> [paths]`, skipping exhibition and wheelchair events.
+- The Flash index URLs for each season are listed in `championships.json` under `results`: `{"east": url, "west": url, "nationals": url}`. Outdoor seasons also gain `"nationals": {"name", "start_date"}`.
+
+**`nationals.py`** builds the nationals view's data:
+
+- `derive_nationals(nationals_archive, records) -> {site file name: value}`
+- `derive_files` calls it, and adds `index.json["nationals"]`.
+
+### 9.3 Archive files (committed)
+
+- `data/archive/entries/{season}/{year}.json`: as in 2.1.
+- `data/archive/aliases.json`: as in 9.2.
+- `data/archive/nationals/outdoor/{year}.json`: as in 2.2. Athlete names are stored as `"Last, First"` once matched.
+
+### 9.4 Site contracts
+
+**Per event, in list files: `"field"`**
+
+```
+"field": {
+  "status": "available" | "unmatched" | "beyond_list",
+  "rank": int | null,       // deepest saved-list rank in the field
+  "size": int,              // athletes or teams accepted
+  "accepted": "YYYY-MM-DD", // the accepted list's generated date
+  "cancelled": bool,        // true for indoor 2020: selected, but the meet never ran
+  "entry": {"rank", "athlete", "team", "time"} | null,  // the list row at `rank`
+  "in": [int],              // ranks below qualification.rank that are in the field
+  "out": [int],             // ranks at or inside qualification.rank that are not
+  "unmatched": int
+}
+```
+
+It is omitted when the season has no import. The status is `unmatched` when
+`unmatched > 0`, and `beyond_list` when a matched entry's rank is past the
+saved rows.
+
+**History lines:** each line in `history-{season}-{g}.json` may carry the same
+`field` object, without `in` and `out`.
+
+**Nationals site file `nationals-outdoor-{year}-{g}.json`**
+
+```
+{"season": "outdoor", "year": "2026", "gender": "f",
+ "meet": {"name": "…", "start_date": "2026-06-10"},
+ "sources": [{"label": "…", "url": "…"}],
+ "events": [{"event": "100 Meters", "qualifiers": [
+   {"athlete": "Selby, Brianna", "team": "USC", "region": "West", "listRank": 2, "seed": "10.83",
+    "firstRound": {"place": 1, "mark": "10.91", "wind": "+1.2", "q": "Q"} | null,
+    "nationals": {"place": 1, "mark": "10.84", "wind": "+0.4", "status": null, "points": 10} | null}]}]}
+```
+
+- `region` is `National` for the decathlon and heptathlon.
+- Qualifiers are ordered by national place, then by seed for those without a place.
+
+**`index.json`** gains
+`"nationals": [{"season": "outdoor", "year": "2026", "gender": "f", "file": "nationals-outdoor-2026-f.json"}]`.
+It is an empty list when there is nothing to show.

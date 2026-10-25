@@ -1,7 +1,7 @@
 import { useEffect, useSyncExternalStore } from 'react'
 
-// School logos are optional. A local, untracked team-logos/index.json maps a team name to a logo file
-// id; without it (a clean checkout, a failed fetch) every logo falls back to the team's initials.
+// School logos are optional. team-logos/index.json maps a team name to a logo file id; without it (a
+// failed fetch) every logo falls back to the team's initials.
 let map = null
 let loading = null
 const listeners = new Set()

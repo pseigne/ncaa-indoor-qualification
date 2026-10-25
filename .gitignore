@@ -4,6 +4,5 @@ __pycache__/
 .venv/
 ncaa-qualification/public/data/
 data/list-cache/
-ncaa-qualification/public/team-logos/
 data/entries-cache/
 data/results-cache/

@@ -770,3 +770,43 @@ saved rows.
 **`index.json`** gains
 `"nationals": [{"season": "outdoor", "year": "2026", "gender": "f", "file": "nationals-outdoor-2026-f.json"}]`.
 It is an empty list when there is nothing to show.
+
+---
+
+## 10. As built
+
+All three features are built on `feature/scratch-line`. Where the build
+differs from sections 1–9:
+
+**Field line**
+
+- **Coverage:** every indoor season from 2014-15 and every outdoor season from 2015 (no 2020), imported from RecordTiming accepted lists.
+- **Unmatched entries:**
+  - Outdoor 2016, 2017, 2021, 2022 and 2025 keep a few events `unmatched` or `beyond_list`, where an accepted athlete is on no saved TFRRS list.
+  - In 2025 East the cause appears to be that TFRRS's East list leaves out athletes whose seed came from the IC4A/ECAC championships. This was confirmed for 4 of 11 athletes; the rest fit the pattern.
+- **`accepted`** is `null` when the HY-TEK page carries no generated stamp, and the page then leaves out "as accepted".
+- **`entry`** may carry `flag`, `conversion` and `converted`.
+- **Non-`available` statuses** carry `rank: null`, `entry: null`, and empty `in` and `out`.
+- **Outdoor multis are left out.** The decathlon and heptathlon are selected from the national list, so the regional pages get no field line for them.
+- **Relays get field lines.** Older TFRRS lists letter every relay squad ("Texas (B)"), and the matcher strips the letter.
+- **Entries files** gain a top-level `cancelled` (indoor 2019-20) and `beyond: true` on entries past the saved rows.
+
+**Nationals**
+
+- **Coverage:** 2018, 2019 and 2021–2026, by decision.
+- **Qualifier lists exist back to 2015** (`*_perf` in 2015–16, `*_q` in 2017), if the view is ever extended.
+- **Multis are the one event with replacements.** They come from the multi lists, plus any replacement found only in the results, so they can show 25 rows.
+- **2019 men's 400m hurdles** keeps all 25 qualifiers.
+- **Points:** Flash Results never shows team points, so `points` is always `null`.
+- **Archive keys:** the archive also stores `school` (as RecordTiming writes it), `tfrrs_id` and `meet`.
+- **On regional event pages,** a card links to the nationals view and qualifiers are tagged "to nationals".
+
+**Fetching**
+
+- RecordTiming: 104 requests.
+- TFRRS: 54 archive-list prefetches plus 12 re-collects at `limit=100`.
+- Flash Results: 1,165 pages, one process per host.
+- Every request was at least 3 seconds apart, with no 403 or 429. Everything is cached in the gitignored caches in section 9.1.
+- The daily TFRRS scrape now also waits 3 seconds between pages and backs off on refusals.
+
+**Name:** the app is now "NCAA TF Qualification Monitor".

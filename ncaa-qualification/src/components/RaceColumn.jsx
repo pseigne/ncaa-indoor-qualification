@@ -79,7 +79,7 @@ export default function RaceColumn({
               {layout.ends.map(end => (
                 <text key={end.text} x={0} y={end.y}>{end.text}</text>
               ))}
-              <g className="fl" style={memory ? { transform: `translateY(${memory.dy}px)`, opacity: memory.opacity } : undefined}>
+              <g className="fl">
                 <line x1={0} x2={layout.width} y1={layout.lineY} y2={layout.lineY} />
               </g>
               <g className="labels leads">

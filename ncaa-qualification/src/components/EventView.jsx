@@ -281,11 +281,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
     const count = event.rows.filter(row => Number.isFinite(row.v) && (
       event.kind === 'time' ? row.v <= opening.v : row.v >= opening.v
     )).length
-    const shown = [...document.querySelectorAll('tbody tr[data-rank]')].filter(row => row.offsetParent)
-    const rowH = shown[1] ? shown[1].getBoundingClientRect().top - shown[0].getBoundingClientRect().top : 41
-    const lastShown = shown.length ? Number(shown.at(-1).dataset.rank) : event.line.rank
     const off = count >= event.rows.length
-    const shift = off ? 0 : (Math.min(count, lastShown) - event.line.rank) * rowH
     const when = shortDate(opening.d)
     const mark = formatMark(opening.v, event.kind)
     const text = off
@@ -294,26 +290,20 @@ export default function EventView({ event, query, go, context, past = null, onOp
     let strip = null
     if (column) {
       const meters = metersAhead(event.dist, event.line.v, opening.v)
-      const y = column.yAt(meters)
-      const floor = column.height - column.bottom
-      const held = Math.min(Math.max(y, 2), floor - 2)
       strip = {
-        dy: held - column.lineY,
-        opacity: y < 0 || y > floor ? 0.35 : 1,
-        y: held > 48 ? held - 28 : held + 20,
+        y: column.lineY > 48 ? column.lineY - 28 : column.lineY + 20,
         lines: [`${when}’s line, ${mark},`, `runs ${formatMeters(meters)} ${meters > 0 ? 'ahead of' : 'behind'} today’s`],
       }
     } else if (layout) {
       const meters = metersAhead(event.dist, event.line.v, opening.v)
-      const x = layout.xAt(meters)
+      const right = layout.lineX > layout.width / 2
       strip = {
-        dx: Math.max(0, x) - layout.lineX,
-        opacity: x < 0 ? 0.35 : 1,
-        x: Math.max(0, x) + 8,
+        x: right ? layout.lineX - 8 : layout.lineX + 8,
+        anchor: right ? 'end' : 'start',
         text: `${when}’s line, ${mark}, runs ${formatMeters(meters)} ${meters > 0 ? 'ahead of' : 'behind'} today’s`,
       }
     }
-    setMemory({ shift, off, text, strip })
+    setMemory({ off, text, strip })
   }
 
   function nameOf(rank) {
@@ -498,10 +488,8 @@ export default function EventView({ event, query, go, context, past = null, onOp
                           id="finish"
                           ref={finishRef}
                           aria-label={holdLabel}
-                          style={memory?.shift ? { transform: `translateY(${memory.shift}px)` } : undefined}
                           onPointerDown={eventDown => {
                             if (eventDown.button !== 0 || !opening) return
-                            eventDown.currentTarget.setPointerCapture?.(eventDown.pointerId)
                             clearTimeout(timer.current)
                             timer.current = setTimeout(remember, 300)
                           }}

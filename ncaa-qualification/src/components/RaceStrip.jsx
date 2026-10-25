@@ -24,7 +24,7 @@ export default function RaceStrip({
   const fitted = active && !memory ? fitActive(active, layout.width, kind, lineRank, measureText) : null
   const readout = memory?.text || fitted?.readout || ''
   const readoutX = memory ? memory.x : fitted ? fitted.x : 0
-  const anchor = memory ? 'start' : fitted ? fitted.anchor : 'middle'
+  const anchor = memory ? memory.anchor : fitted ? fitted.anchor : 'middle'
 
   useEffect(() => {
     const svg = svgRef.current
@@ -151,7 +151,7 @@ export default function RaceStrip({
             </>
           )}
         </text>
-        <g className="fl" style={memory ? { transform: `translateX(${memory.dx}px)`, opacity: memory.opacity } : undefined}>
+        <g className="fl">
           <line x1={layout.lineX} x2={layout.lineX} y1={layout.top - 10} y2={layout.baseY + layout.lane / 2 + 5} />
         </g>
         {chipsLast(layout.placed, drawn).map(dot => {

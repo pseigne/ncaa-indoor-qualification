@@ -13,7 +13,7 @@ const CHEVRON = (
   </svg>
 )
 
-export default function BoardView({ events, query, go, context, phone = false, onOpenPicker }) {
+export default function BoardView({ events, query, go, context, phone = false, compact = phone, onOpenPicker }) {
   const who = genderWord(query.gender, { possessive: true })
   const place = query.season === 'outdoor' ? `${who} outdoor, ${query.region}` : `${who} indoor`
   const when = context.listDate ? `${shortDate(context.listDate)}, ${context.listDate.slice(0, 4)}` : null
@@ -21,14 +21,14 @@ export default function BoardView({ events, query, go, context, phone = false, o
   const fielded = events.some(event => event.field)
   return (
     <>
-      {!phone && <Filters query={query} go={go} />}
+      {!compact && <Filters query={query} go={go} />}
       {phone ? (
         <h1>
           <button
             type="button"
             className="picker press"
             aria-haspopup="dialog"
-            aria-label="Change event, gender or season. Now: Every qualifying line"
+            aria-label="Change event or season. Now: Every qualifying line"
             onClick={onOpenPicker}
           >
             Every qualifying line{CHEVRON}

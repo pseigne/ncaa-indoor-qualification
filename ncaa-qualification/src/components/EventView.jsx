@@ -365,13 +365,15 @@ export default function EventView({ event, query, go, context, past = null, onOp
   const sheet = (
     <>
       <section className="herocard" ref={heroRef}>
+        {/* the header has no year on phones: the season and year sit over the event */}
+        {compact && <p className="hero-eyebrow">{query.season === 'outdoor' ? 'Outdoor' : 'Indoor'} {yearLabel(context.year)}</p>}
         {compact && (
           <h1>
             <button
               type="button"
               className="picker press"
               aria-haspopup="dialog"
-              aria-label={`Change event, gender or season. Now: ${title}, ${query.season} ${yearLabel(context.year)}`}
+              aria-label={`Change event or season. Now: ${title}, ${query.season} ${yearLabel(context.year)}`}
               onClick={onOpenPicker}
             >
               {title}{CHEVRON}

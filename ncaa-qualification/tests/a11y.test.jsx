@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import process from 'node:process'
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import App from '../src/App'
 import { fetched, savedSite, serveSite, siteFiles } from './site'
 
@@ -268,9 +268,9 @@ describe('the keyboard', () => {
   })
 })
 
-describe('the phone event dialog', () => {
+describe('the phone menu', () => {
   const picker = () => document.querySelector('main h1 button.picker')
-  const dialog = () => document.querySelector('dialog.sheet')
+  const dialog = () => document.querySelector('dialog.menu')
 
   async function openSheet(width = 390, url) {
     await open(width, { records: [mile(), eight()], ...(url ? { url } : {}) })
@@ -317,14 +317,75 @@ describe('the phone event dialog', () => {
     expect(document.activeElement).toBe(picker())
   })
 
-  it('keeps Tab inside the sheet while it is open', async () => {
+  it('keeps Tab inside the menu while it is open', async () => {
     await openSheet()
-    const stops = [...dialog().querySelectorAll('a[href], button')]
+    const stops = [...dialog().querySelectorAll('a[href], button, select')]
     act(() => stops.at(-1).focus())
     fireEvent.keyDown(stops.at(-1), { key: 'Tab' })
     expect(document.activeElement).toBe(stops[0])
     fireEvent.keyDown(stops[0], { key: 'Tab', shiftKey: true })
     expect(document.activeElement).toBe(stops.at(-1))
+  })
+})
+
+describe('phones: the menu button, the switches and the sheets', () => {
+  const burger = () => screen.getByRole('button', { name: 'Menu' })
+  const menu = () => document.querySelector('dialog.menu')
+
+  it('opens the menu from the nav, marks the event shown, and gives focus back to the button on Close', async () => {
+    await open(390, { records: [mile(), eight()] })
+    expect(burger().getAttribute('aria-expanded')).toBe('false')
+    act(() => burger().focus())
+    fireEvent.click(burger())
+    expect(menu().open).toBe(true)
+    expect(burger().getAttribute('aria-expanded')).toBe('true')
+    expect(menu().querySelector('.events [aria-current]').getAttribute('href')).toContain('event=mile')
+    fireEvent.click(within(menu()).getByRole('button', { name: 'Close' }))
+    expect(menu().open).toBe(false)
+    expect(document.activeElement).toBe(burger())
+  })
+
+  it('keeps the menu open when the season changes inside it, so an event can be picked next', async () => {
+    const outdoor = { ...eight(), season: 'outdoor', region: 'East', year: '2026' }
+    await open(390, { records: [mile(), eight(), outdoor] })
+    fireEvent.click(burger())
+    fireEvent.click(within(menu()).getByRole('link', { name: 'Outdoor' }))
+    await waitFor(() => expect(menu().querySelector('.events a[href*="s=outdoor"]')).toBeTruthy())
+    expect(menu().open).toBe(true)
+    expect(menu().querySelector('.menu-who').textContent).toBe('Men’s lines, East')
+    fireEvent.click(menu().querySelector('.events a[href*="event=800m"]'))
+    expect(menu().open).toBe(false)
+  })
+
+  it('switches men and women above the event and keeps the event', async () => {
+    await open(390, { records: [mile(), { ...mile(), gender: 'f' }] })
+    const switches = screen.getByRole('navigation', { name: 'Gender' })
+    fireEvent.click(within(switches).getByRole('link', { name: 'Women' }))
+    await waitFor(() => expect(document.querySelector('main h1').textContent).toBe('Women’s mile'))
+    expect(window.location.search).toContain('event=mile')
+  })
+
+  it('offers East and West beside them outdoors', async () => {
+    const outdoor = { ...eight(), season: 'outdoor', region: 'East', year: '2026' }
+    await open(390, { records: [outdoor, { ...outdoor, region: 'West' }], url: '/?s=outdoor&g=m&r=East&event=800m' })
+    const switches = screen.getByRole('navigation', { name: 'Gender and region' })
+    expect(within(switches).getAllByRole('link').map(link => link.textContent)).toEqual(['Men', 'Women', 'East', 'West'])
+  })
+
+  it('keeps the event list, and no menu button or switches, on wide screens', async () => {
+    await open(1440)
+    expect(screen.queryByRole('button', { name: 'Menu' })).toBeNull()
+    expect(document.querySelector('.filters.quick')).toBeNull()
+  })
+
+  it('slides a detail sheet away before closing it', async () => {
+    await open(390, { url: '/?s=indoor&g=m&event=mile&detail=history' })
+    const sheet = document.querySelector('dialog.detail')
+    fireEvent.click(within(sheet).getByRole('button', { name: 'Close' }))
+    expect(sheet.classList.contains('leaving')).toBe(true)
+    expect(window.location.search).toContain('detail=history')
+    await waitFor(() => expect(document.querySelector('dialog.detail')).toBeNull())
+    expect(window.location.search).not.toContain('detail')
   })
 })
 

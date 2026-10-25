@@ -260,10 +260,10 @@ describe('the nav', () => {
     expect(within(filters()).getAllByRole('link').map(link => link.textContent)).toEqual(['Men', 'Women', 'Indoor', 'Outdoor', 'East', 'West'])
   })
 
-  it('has no Nationals entry in the phone picker', async () => {
+  it('has no Nationals entry in the phone menu', async () => {
     await openPage('/?g=f&s=outdoor&r=East&event=100m', { width: 390 })
-    fireEvent.click(await screen.findByRole('button', { name: /^Change event, gender or season\. Now: Women’s 100m, East/ }))
-    const picker = document.querySelector('dialog.sheet')
+    fireEvent.click(await screen.findByRole('button', { name: /^Change event or season\. Now: Women’s 100m, East/ }))
+    const picker = document.querySelector('dialog.menu')
     expect(within(picker).queryByRole('link', { name: 'Nationals' })).toBeNull()
   })
 })

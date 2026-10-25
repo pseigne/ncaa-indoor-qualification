@@ -10,7 +10,7 @@ export function focusHeading() {
 // Tab and Shift+Tab wrap inside an open dialog.
 export function trapTab(key, root) {
   if (key.key !== 'Tab' || !root) return
-  const stops = [...root.querySelectorAll('a[href], button, [tabindex="0"]')]
+  const stops = [...root.querySelectorAll('a[href], button, select, [tabindex="0"]')]
   if (!stops.length) return
   const first = stops[0]
   const last = stops.at(-1)

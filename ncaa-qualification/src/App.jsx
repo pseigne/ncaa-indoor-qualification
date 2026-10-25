@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import BoardView from './components/BoardView'
 import EventView from './components/EventView'
 import NationalsDetail from './components/NationalsDetail'
-import { Footer, Header, Index, Picker, SITE_TITLE } from './components/Frame'
+import { Footer, Header, Index, Menu, SITE_TITLE, Switches } from './components/Frame'
 import { focusHeading } from './utils/focus'
 import DetailSheet from './components/DetailSheet'
 import PastYears from './components/PastYears'
@@ -77,7 +77,8 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPop)
   }, [])
 
-  const go = (url, event) => {
+  // A choice closes the menu, except a season or year picked inside it.
+  const go = (url, event, { keep = false } = {}) => {
     if (event) {
       if (!plainClick(event)) return
       event.preventDefault()
@@ -86,7 +87,7 @@ export default function App() {
     openedHere.current = Boolean(next.searchParams.get('detail')) && !query.detail
     window.history.pushState(null, '', `${next.pathname}${next.search}`)
     setSearch(next.search)
-    setPicker(false)
+    if (!keep) setPicker(false)
   }
 
   const index = files['index.json'] || null
@@ -205,11 +206,21 @@ export default function App() {
   return (
     <>
       {listed && <a className="skip" href="#list" onClick={skipToList}>Skip to the list</a>}
-      <Header query={shown} go={go} years={years} year={year || currentYear} wide={wide} />
+      <Header
+        query={shown}
+        go={go}
+        years={years}
+        year={year || currentYear}
+        wide={wide}
+        menu={compact}
+        menuOpen={picker}
+        onMenu={() => setPicker(true)}
+      />
       <div className={`wrap${wide ? ' event' : ''}`} style={wide ? undefined : { gridTemplateColumns: '1fr' }}>
         {/* the sidebar stays when a choice has no list, so its toggles can always switch back */}
         {wide && <Index events={model?.events || []} query={shown} current={event} go={go} />}
         <main id="main">
+          {compact && <Switches query={shown} go={go} />}
           {/* one live region for loading and failure, so each change is announced once; the button stays
               outside it, and stays put while a retry loads so focus is not dropped */}
           {status && <p className="dek" role="status">{status}</p>}
@@ -230,6 +241,7 @@ export default function App() {
               go={go}
               context={model.context}
               phone={phone}
+              compact={compact}
               onOpenPicker={() => setPicker(true)}
             />
           )}
@@ -270,8 +282,18 @@ export default function App() {
           )}
         </DetailSheet>
       )}
-      {compact && model && (
-        <Picker open={picker} onClose={() => setPicker(false)} events={model.events} query={shown} go={go} />
+      {/* stays while a season picked inside it loads, with its events to follow */}
+      {compact && (
+        <Menu
+          open={picker}
+          onClose={() => setPicker(false)}
+          events={model ? model.events : null}
+          current={event}
+          query={shown}
+          go={go}
+          years={years}
+          year={year || currentYear}
+        />
       )}
     </>
   )

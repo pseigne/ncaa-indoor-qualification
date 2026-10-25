@@ -114,8 +114,9 @@ describe('split heat sheet', () => {
 
     await openWide(1200)
     await waitFor(() => expect(document.querySelector('aside.rail svg')).toBeTruthy())
-    expect(screen.getByRole('button', { name: /Change event, gender or season/ })).toBeTruthy()
-    expect(document.querySelector('dialog.sheet')).toBeTruthy()
+    expect(screen.getByRole('button', { name: /Change event or season/ })).toBeTruthy()
+    expect(screen.getByRole('button', { name: 'Menu' })).toBeTruthy()
+    expect(document.querySelector('dialog.menu')).toBeTruthy()
     cleanup()
     vi.restoreAllMocks()
 
@@ -168,7 +169,7 @@ describe('split heat sheet', () => {
     // plus the dialog's own header, which sticks inside the dialog and not to the page.
     const pinned = css.replace(block, '').match(/[^{}\n]+\{[^}]*sticky[^}]*\}/g).map(rule => rule.slice(0, rule.indexOf('{')).trim())
     expect(pinned).toEqual(['.top', '.index', '.stick', '.detail-head'])
-    expect(css).not.toMatch(/scroll-behavior/)
+    expect(css).not.toMatch(/(?<!over)scroll-behavior/)
   })
 
   it('marks the table as stuck once its header reaches the pinned line', async () => {

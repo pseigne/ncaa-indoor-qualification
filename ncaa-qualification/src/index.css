@@ -2,7 +2,7 @@
 :root{
   color-scheme: light dark;
   --bg:#ffffff; --ink:#151515; --ink-2:#5c5c58; --rule:#ebebe8; --lane:#d9d9d5; --sel:#f2f2ef; --ring:#8c8c88; --line:#c4361b;
-  --cond: 72%; --ease: cubic-bezier(.2,.8,.2,1); --fast:120ms; --run:700ms;
+  --cond: 72%; --ease: cubic-bezier(.2,.8,.2,1); --sheet-ease: cubic-bezier(.32,.72,0,1); --fast:120ms; --run:700ms;
   /* the page is a warm grey ground; the table sits on a white card, the hero on black, the race on the track */
   --page:#EDEBE6; --page-rule:#dcd9d2; --page-sel:#e4e1da; --card:#ffffff; --card-rule:#ebebe8; --card-sel:#f2f2ef;
   --nav:#151515; --hero:#151515; --paper:#F4F2EE; --track:#C4532F; --track-ink:#5a1c0c; --accent:#FF7A57;
@@ -33,10 +33,6 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .mark-short{display:none}
 .minihero{display:none}
 @media (max-width: 960px){ .mark-full{display:none} .mark-short{display:inline} }
-.seg{display:flex;gap:4px;align-items:center;color:var(--ink-2)}
-.seg a{min-height:44px;padding:0 12px;text-decoration:none;display:inline-flex;align-items:center}
-.seg [aria-current]{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:8px}
-.seg .sep{width:1px;height:18px;background:var(--rule);margin:0 8px}
 
 /* the nav: a dark bar pinned to the top, with an orange curb and a white lane line under it */
 .top{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:calc(10px + env(safe-area-inset-top, 0px)) 40px 10px;background:var(--nav);color:var(--paper);box-shadow:inset 0 -3px 0 var(--track),0 1px 0 #fff}
@@ -52,6 +48,48 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .yearpick svg{position:absolute;right:14px;pointer-events:none;color:#A9A69F}
 .yearpick:focus-within{outline:2px solid var(--accent);outline-offset:2px}
 .yearpick select:focus-visible{outline:none}
+/* the menu button: on phones and the narrow split, where the event list is hidden */
+.top-end{display:flex;align-items:center;gap:8px;flex:none}
+.burger{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:999px;background:rgba(255,255,255,.08);color:var(--paper)}
+.burger:hover{background:rgba(255,255,255,.16)}
+.burger:focus-visible,.menu :focus-visible{outline-color:var(--accent)}
+/* the menu is the nav's black. On phones it fills the screen and its top row is the nav's, so Close sits
+   where the menu button was; from 721px it is a panel from the right. */
+.menu{--ink:var(--paper);--ink-2:#A9A69F;--rule:rgba(255,255,255,.14);--page:#151515;--page-sel:rgba(255,255,255,.08);position:fixed;inset:0;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;background:var(--nav);color:var(--paper)}
+.menu[open]{display:flex;flex-direction:column;animation:menu-in 200ms var(--ease)}
+.menu::backdrop{background:rgba(21,21,21,.55)}
+@keyframes menu-in{from{opacity:0;transform:translateY(-8px)}}
+.menu-top{flex:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px));box-shadow:inset 0 -3px 0 var(--track)}
+.menu-top .mark{font-size:17px;margin:-2px 0;min-width:0;white-space:nowrap}
+.menu-top .mark-logo{width:28px;height:28px;margin-right:8px}
+.menu .close{flex:none;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:999px;background:var(--paper);color:#151515}
+.menu-body{flex:1;overflow:auto;overscroll-behavior:contain;padding:20px max(16px, env(safe-area-inset-right, 0px)) calc(32px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px))}
+.menu-season{display:flex;gap:8px;align-items:center}
+.menu-season .filters{flex:1;margin:0}
+.menu-season .filters a{min-height:40px;font-size:16px}
+.menu .yearpick select{min-height:48px}
+.menu .board-link{display:flex;align-items:center;justify-content:space-between;min-height:56px;margin:12px 0 0;padding:0 18px;border-radius:16px;background:rgba(255,255,255,.08);text-decoration:none;font-size:20px;font-weight:600;font-stretch:var(--cond)}
+.menu .board-link::after{content:'→';color:var(--ink-2);font-stretch:100%}
+.menu .board-link[aria-current]{background:var(--track);color:#fff}
+.menu .board-link[aria-current]::after{color:#fff}
+/* events as tiles, two to a row: the whole list fits in a couple of screens, and the line is under each */
+.menu .events > div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.menu .events h2{grid-column:1/-1;margin:22px 0 2px;font-size:13px;font-weight:600;font-stretch:100%;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.menu .events a{display:flex;flex-direction:column;justify-content:center;gap:1px;min-height:64px;padding:8px 14px;border-radius:14px;background:rgba(255,255,255,.06);text-decoration:none}
+.menu .events a:hover{background:rgba(255,255,255,.12)}
+.menu .events a span:first-child{font-size:20px;line-height:1.15;font-weight:600;font-stretch:var(--cond)}
+.menu .events a span:last-child{font-size:15px;color:var(--ink-2)}
+.menu .events a[aria-current]{background:var(--track);color:#fff}
+.menu .events a[aria-current] span:last-child{color:rgba(255,255,255,.85)}
+.menu-who{margin:22px 2px -10px;font-size:15px;color:var(--ink-2)}
+.menu-wait{margin:24px 2px;color:var(--ink-2)}
+.menu-foot{margin:28px 2px 0;font-size:13px;color:var(--ink-2)}
+html:has(dialog.menu[open]){overflow:hidden}
+@media (min-width: 721px){
+  .menu{left:auto;width:min(440px,100%);box-shadow:-24px 0 80px rgba(0,0,0,.35)}
+  .menu[open]{animation-name:menu-from-side}
+  @keyframes menu-from-side{from{transform:translateX(24px);opacity:0}}
+}
 /* gender, season and region: pill groups over the event list, and across the top of the board */
 .filters{display:flex;flex-direction:column;gap:8px;margin:0 0 14px}
 .filters .grp{display:flex;gap:2px;padding:4px;border-radius:999px;background:var(--page-sel)}
@@ -60,6 +98,13 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .filters [aria-current]{background:var(--ink);color:var(--page);font-weight:600}
 main > .filters{flex-direction:row;flex-wrap:wrap;gap:8px 12px;margin-bottom:24px}
 main > .filters .grp{flex:none}
+/* on phones: men or women and the region, at the top of the page */
+.filters.quick{flex-direction:row;gap:8px;margin:8px 0 4px}
+.filters.quick .grp{flex:1}
+.filters.quick a{min-height:40px;font-size:16px}
+.filters.quick ~ h1{margin-top:16px}
+@media (min-width: 721px){ .filters.quick{max-width:440px;margin-bottom:16px} }
+.hero-eyebrow{margin:0 0 4px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
 
 .wrap{display:grid;grid-template-columns:272px minmax(0,1fr);gap:88px;padding:28px 40px 64px;max-width:1440px;--bg:var(--page);--rule:var(--page-rule);--sel:var(--page-sel)}
 .wrap.event{padding-top:24px}
@@ -373,6 +418,9 @@ h2{font-size:20px;font-weight:600;font-stretch:var(--cond);margin-bottom:10px}
   /* 44px to tap; the margins give back the extra 4px so the nav keeps its height */
   .top .mark{font-size:17px;min-height:44px;margin:-2px 0}
   .mark-logo{width:28px;height:28px;margin-right:8px}
+  .top .mark{min-width:0}
+  .top .mark span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .top .yearpick{display:none}
   .wrap,.wrap.event{display:block;padding:4px max(16px, env(safe-area-inset-right, 0px)) calc(40px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px))}
   .index{display:none}
   .picker{display:flex;font:inherit;align-items:center;gap:8px;min-height:44px;margin-left:-2px}
@@ -474,14 +522,6 @@ h2{font-size:20px;font-weight:600;font-stretch:var(--cond);margin-bottom:10px}
 main{min-width:0}
 .sheet{border:1px solid var(--ink);border-radius:8px;background:var(--bg);color:var(--ink);width:min(440px,calc(100vw - 32px));padding:8px 8px 20px}
 .sheet::backdrop{background:rgba(21,21,21,.45)}
-.sheet h2{margin:12px 12px 4px}
-.sheet .seg{flex-wrap:wrap;padding:0 4px}
-.sheet .events a,.sheet .board-link{display:flex;justify-content:space-between;align-items:center;min-height:44px;padding:0 12px;border-radius:8px;text-decoration:none;font-stretch:var(--cond);font-size:18px;color:inherit}
-.sheet .events a span:last-child{color:var(--ink-2);font-stretch:100%;font-size:16px;font-variant-numeric:tabular-nums}
-.sheet .board-link{font-weight:600}
-.sheet .sheet-copy{padding:0 12px 8px}
-.sheet .sheet-copy a{display:inline-flex;align-items:center;min-height:44px}
-.sheet .close{min-height:44px;padding:0 12px;font-weight:600}
 @media (max-width: 720px){
   .num.unavailable{font-size:40px}
 }
@@ -514,6 +554,7 @@ main{min-width:0}
 @keyframes detail-in{from{opacity:0;transform:translateY(12px) scale(.99)}}
 @keyframes detail-fade{from{opacity:0}}
 .detail-head,.detail-hero{--bg:var(--hero);--ink:var(--paper);--ink-2:#A9A69F;--rule:rgba(255,255,255,.14);--line:var(--accent);background:var(--bg);color:var(--ink)}
+.grab{display:none}
 .detail-head{position:sticky;top:0;z-index:2;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px 20px 12px 28px}
 .detail-eyebrow{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
 .detail-head h2{margin:2px 0 0;font-size:40px;line-height:1;font-weight:600;font-stretch:var(--cond);letter-spacing:-.01em}
@@ -543,9 +584,14 @@ html:has(dialog.detail[open]){overflow:hidden}
 .past .who-name .logo{flex:none}
 @media (min-width: 721px){ .past .vs{display:none} }
 @media (max-width: 720px){
-  .sheet.detail{width:calc(100vw - 16px);max-height:calc(100dvh - 40px);margin:auto auto max(8px, env(safe-area-inset-bottom, 0px))}
-  @keyframes detail-in{from{opacity:0;transform:translateY(32px)}}
-  .detail-head{padding:16px 12px 10px 20px}
+  /* a sheet from the bottom edge: it slides up, and a drag down on it lets it go */
+  .sheet.detail{width:100%;max-height:calc(100dvh - 32px - env(safe-area-inset-top, 0px));margin:auto 0 0;padding-bottom:env(safe-area-inset-bottom, 0px);border-radius:24px 24px 0 0;overscroll-behavior:contain;transition:transform 280ms var(--sheet-ease)}
+  .sheet.detail[open]{animation:sheet-up 360ms var(--sheet-ease)}
+  .sheet.detail.leaving{transform:translateY(100%);transition-duration:220ms}
+  .sheet.detail.leaving::backdrop{opacity:0;transition:opacity 220ms var(--ease)}
+  @keyframes sheet-up{from{transform:translateY(100%)}}
+  .grab{display:block;position:absolute;top:8px;left:50%;width:40px;height:5px;margin-left:-20px;border-radius:3px;background:rgba(255,255,255,.3)}
+  .detail-head{padding:24px 12px 10px 20px}
   .detail-head h2{font-size:32px}
   .detail-body{padding:0 8px 8px}
   .detail-hero{margin:0 -8px 8px;padding:2px 20px 20px}
@@ -558,5 +604,6 @@ html:has(dialog.detail[open]){overflow:hidden}
 @media (prefers-reduced-motion: reduce){
   .detail-card,.detail-go svg{transition:none}
   .detail-card:hover .detail-go svg{transform:none}
-  .sheet.detail[open],.sheet.detail[open]::backdrop{animation:none}
+  .sheet.detail[open],.sheet.detail[open]::backdrop,.menu[open]{animation:none}
+  .sheet.detail{transition:none}
 }

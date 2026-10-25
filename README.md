@@ -40,6 +40,13 @@ qualifying list, which includes the combined events; qualification calculations
 are unchanged. The old configuration incorrectly pointed some outdoor IDs at
 unrelated lists. Those IDs are corrected; saved snapshots are not rewritten.
 
+A list may set `"depth"`, one of TFRRS's `limit` values (5, 10, 20, 25, 30, 50,
+100, 200, 500). It is fetched with `&limit=` and keeps up to 20 rows past the
+depth for ties; the page must show that limit selected. Lists without a depth
+use TFRRS's default page and keep up to 60 rows. The outdoor East and West lists
+are 100 deep from 2024, and discovery carries a list's depth to the season that
+replaces it.
+
 ### Automatic season discovery
 
 Before an active scrape, the monitor reads the public TFRRS homepage and the
@@ -105,6 +112,10 @@ environment. Run commands from the repository root:
 python tfrrs-scraper.py             # active lists, both genders, up to 60 rows/event
 python discover_seasons.py          # live discovery + eight-page validation, no file edits
 python historical-scraper.py        # historical backfill, no new dated snapshots
+python historical-scraper.py --season outdoor --years 2024,2025,2026 --regions East,West
+                                    # re-collect only those final lists
+python list_cache.py --from 2015 --to 2023
+                                    # cache archive list pages at limit=100 in data/list-cache
 python generate_bubble_cutoffs.py   # regenerate data/site from the archive
 python -m unittest discover -s tests -v
 python validate_data.py             # check the archive and data/site without edits
@@ -113,8 +124,10 @@ python validate_data.py             # check the archive and data/site without ed
 Daily runs use UTC dates. They update current standings and replace only the
 matching records for that day, preserving earlier snapshots. Every configured
 page must have recognized event tables and nonempty, valid rows. Requests have
-timeouts and at most three attempts. Collection and generation finish before
-any data is replaced; failures exit nonzero and do not publish partial data.
+timeouts and at most three attempts, and pages are fetched 3 seconds apart; a
+403 or 429 waits 60 seconds, then 120, then stops. Collection and generation
+finish before any data is replaced; failures exit nonzero and do not publish
+partial data.
 
 ## Website and publishing
 

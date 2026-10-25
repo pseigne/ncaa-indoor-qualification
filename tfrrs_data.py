@@ -24,6 +24,10 @@ STRIP_ROWS = 20
 # Days after a championship starts that its season is still collected, in case the list is corrected.
 FINAL_AFTER = 14
 GENDERS = ("m", "f")
+# Rows kept per event on a list of TFRRS's default length.
+ROW_CAP = 60
+# Rows kept past a list's depth, for marks tied at its last place.
+TIE_MARGIN = 20
 SNAPSHOT = re.compile(r"^(.+) \((\d{4}-\d{2}-\d{2})\)$")
 MARK_FLAG = re.compile(r"#|@|\(\d+\)")
 
@@ -52,6 +56,10 @@ def validate_config(config):
             # A historical list whose saved rankings can't be trusted stays in the master but off the site.
             if type(item.get("show_on_site", True)) is not bool:
                 raise ValueError(f"Invalid show_on_site: {item}")
+            if "depth" in item:
+                from tfrrs_lists import LIMITS
+                if type(item["depth"]) is not int or item["depth"] not in LIMITS:
+                    raise ValueError(f"Invalid depth: {item}")
             key = (item["year"], item["season"], item["region"])
             if key in seen:
                 raise ValueError(f"Duplicate list: {key}")
@@ -422,8 +430,20 @@ def split_mark(cell):
     return clean, "".join(flags) or None, converted
 
 
-def parse_page(html, cfg, gender):
+def list_url(cfg, gender, limit=None):
+    limit = limit or cfg.get("depth")
+    url = f"https://tf.tfrrs.org/lists/{cfg['list_id']}/{cfg['list_name']}?gender={gender}"
+    return f"{url}&limit={limit}" if limit else url
+
+
+def row_cap(cfg):
+    return cfg["depth"] + TIE_MARGIN if cfg.get("depth") else ROW_CAP
+
+
+def parse_page(html, cfg, gender, cap=None):
     from bs4 import BeautifulSoup
+
+    cap = cap or row_cap(cfg)
 
     soup = BeautifulSoup(html, "html.parser")
     headers = soup.select("div.custom-table-title")
@@ -439,7 +459,7 @@ def parse_page(html, cfg, gender):
         for prefix in ("Men's", "Women's", "Men", "Women"):
             name = name.replace(prefix, "")
         name = re.sub(r"\s+", " ", name).strip()
-        rows = table.select("div.performance-list-row")[:60]
+        rows = table.select("div.performance-list-row")[:cap]
         if not name or not rows:
             raise ValueError("Empty event or rankings")
         rankings = []
@@ -481,7 +501,7 @@ def parse_page(html, cfg, gender):
 
 def collect(configs, session=None, sleeper=time.sleep):
     import requests
-    from tfrrs_lists import fetch_page, verify_page_identity
+    from tfrrs_lists import PAUSE, fetch_page, verify_page_identity
 
     owned_session = session is None
     session = session or requests.Session()
@@ -489,25 +509,38 @@ def collect(configs, session=None, sleeper=time.sleep):
     try:
         for cfg in configs:
             for gender in GENDERS:
-                url = f"https://tf.tfrrs.org/lists/{cfg['list_id']}/{cfg['list_name']}?gender={gender}"
                 print(f"Collecting {cfg['year']} {cfg['season']} {cfg['region']} {gender}", flush=True)
-                html = fetch_page(session, url, sleeper)
+                html = fetch_page(session, list_url(cfg, gender), sleeper)
                 verify_page_identity(html, cfg, gender)
                 records.extend(parse_page(html, cfg, gender))
-                sleeper(1)
+                sleeper(PAUSE)
     finally:
         if owned_session:
             session.close()
     return records
 
 
+def selected(cfg, filters):
+    """Whether a list matches every given filter: season, years (championship years) and regions."""
+    filters = filters or {}
+    return ((not filters.get("season") or cfg["season"] == filters["season"])
+            and (not filters.get("years") or cfg["year"].split("-")[-1] in filters["years"])
+            and (not filters.get("regions") or cfg["region"] in filters["regions"]))
+
+
 def run_scrape(mode="active", data_dir=DATA_DIR, config=None, session=None,
                today=None, sleeper=time.sleep, discover=False,
-               config_path=ROOT / "scrape_config.json", championships=None):
+               config_path=ROOT / "scrape_config.json", championships=None, filters=None):
+    """Collect one configuration group. `filters` limits which of its lists are collected.
+
+    Historical lists are saved as final lists: they replace the saved final list of each event
+    and add no saved day."""
     import requests
     from tfrrs_lists import discover_config
 
     config = validate_config(config) if config is not None else load_config(config_path)
+    if filters and not any(selected(c, filters) for c in config[mode]):
+        raise ValueError(f"No {mode} lists match {filters}")
     championships = load_championships() if championships is None else championships
     existing, checked = load_archive(data_dir)
     today = today or datetime.now(timezone.utc).date().isoformat()
@@ -519,8 +552,8 @@ def run_scrape(mode="active", data_dir=DATA_DIR, config=None, session=None,
     def wanted(cfg):
         # A finished season's lists are final: collecting them again would only repeat them. A list
         # discovery changed is still collected, so it's checked before the change is saved.
-        return [c for c in cfg[mode] if mode != "active" or not finished(c, today, championships)
-                or c not in config[mode]]
+        return [c for c in cfg[mode] if selected(c, filters) and (
+            mode != "active" or not finished(c, today, championships) or c not in config[mode])]
 
     try:
         if discover and mode == "active" and config.get("discovery", {}).get("enabled"):

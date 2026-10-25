@@ -33,7 +33,7 @@ def read(data, name):
     return json.loads((data / name).read_text())
 
 
-def html(performance="45.00", count=1, cfg=CFG, gender="m"):
+def html(performance="45.00", count=1, cfg=CFG, gender="m", limit=None):
     row = (f'<div class="performance-list-row"><div data-label="Athlete">Runner</div>'
            f'<div data-label="Team">School</div><div data-label="Time">{performance}</div></div>')
     title = (f"{cfg['year']} NCAA Division I " +
@@ -42,12 +42,14 @@ def html(performance="45.00", count=1, cfg=CFG, gender="m"):
     return (f'<h3 class="panel-title">{title}</h3>'
             f'<form id="list_filter" action="/list_data/{cfg["list_id"]}"></form>'
             f'<select name="gender"><option selected value="{gender}"></option></select>'
+            + (f'<select name="limit"><option value="50"></option><option selected value="{limit}"></option></select>'
+               if limit else '') +
             '<div class="custom-table-title"><h3>Men\'s 400 Meters (Final)</h3></div>'
             '<div class="performance-list">' + row * count + '</div>')
 
 
-def response(body=None, failure=None):
-    result = Mock(text=body if body is not None else html())
+def response(body=None, failure=None, status=200):
+    result = Mock(text=body if body is not None else html(), status_code=status)
     result.raise_for_status.side_effect = failure
     return result
 
@@ -56,14 +58,15 @@ def files_in(directory):
     return {str(p.relative_to(directory)): p.read_bytes() for p in directory.rglob('*') if p.is_file()}
 
 
-def session_for(configs=(CFG,), performance="45.00"):
+def session_for(configs=(CFG,), performance="45.00", count=1):
     session = Mock()
 
     def get(url, **kwargs):
         parsed = urlparse(url)
         cfg = next(c for c in configs if c['list_id'] == parsed.path.split('/')[2])
-        gender = parse_qs(parsed.query)['gender'][0]
-        return response(html(performance, cfg=cfg, gender=gender))
+        query = parse_qs(parsed.query)
+        limit = query.get('limit', [None])[0]
+        return response(html(performance, count, cfg=cfg, gender=query['gender'][0], limit=limit))
 
     session.get.side_effect = get
     return session

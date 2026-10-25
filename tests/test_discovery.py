@@ -139,6 +139,24 @@ class DiscoveryTests(unittest.TestCase):
                                      sleeper=lambda _: None, current_year=year - 1)
             self.assertEqual(tuple(c['list_id'] for c in result['active']), ids)
 
+    def test_a_new_season_keeps_the_depth_of_the_list_it_replaces(self):
+        deep = copy.deepcopy(self.config)
+        for cfg in deep['active'] + deep['historical']:
+            if cfg['region'] in ('East', 'West'):
+                cfg['depth'] = 100
+        result = discover_config(deep, self.session(navigation(self.config) + navigation(self.new)),
+                                 sleeper=lambda _: None, current_year=2026)
+        depths = {(c['year'], c['region']): c.get('depth') for c in result['active']}
+        self.assertEqual(depths, {('2027', 'East'): 100, ('2027', 'West'): 100,
+                                  ('2027', 'National'): None, ('2026-2027', 'National'): None})
+        self.assertIn(deep['active'][0], result['historical'])
+        # A list renamed within its season keeps its depth too, and the same lists change nothing.
+        renamed = discover_config(deep, self.session(navigation(self.config)),
+                                  sleeper=lambda _: None, current_year=2026)
+        self.assertEqual([c.get('depth') for c in renamed['active']], [100, 100, None, None])
+        self.assertEqual(discover_config(renamed, self.session(navigation(self.config)),
+                                         sleeper=lambda _: None, current_year=2026), renamed)
+
     def test_outdoor_waits_for_all_three_lists_and_indoor_can_roll_independently(self):
         partial = copy.deepcopy(self.new)
         partial['active'] = [c for c in partial['active'] if c['region'] != 'West']

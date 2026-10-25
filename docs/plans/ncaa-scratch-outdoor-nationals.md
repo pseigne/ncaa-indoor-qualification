@@ -13,6 +13,9 @@ Researched 2026-10-24 against the 2025 and 2026 championships.
   declaration day. Start lists are not used.
 - **Backfill to 2015.** Every season from 2015 to 2026 has accepted lists on
   RecordTiming, except outdoor 2020, when the meet was cancelled (see 1.1).
+- **The nationals view starts in 2018**, when the qualifier lists begin.
+- **Fetched pages stay out of git**, in gitignored caches. Only the parsed
+  facts are committed.
 
 ## Summary
 
@@ -607,7 +610,6 @@ Each step is its own commit (or a few), with tests, and can ship on its own.
 6. **Nationals view, qualifiers only:**
    - 2018–2026 from the qualifier pages, plus the region join from step 5
    - the new site file, the `view=nationals` page and links from regional events
-   - 2015–2017 later, from First Round compiled results
 7. **Nationals and First Round results** from Flash (`import_results.py`), filling in places and marks.
 8. **Optional:** storing TFRRS athlete IDs from list rows (they are linked in the page) for exact joins later.
 
@@ -616,10 +618,10 @@ Each step is its own commit (or a few), with tests, and can ship on its own.
 ## 8. Open questions for you
 
 1. ~~RecordTiming robots.txt~~ **Decided:** fetch it anyway, politely and with caching.
-2. **Fetched raw pages.** I recommend keeping them out of git (gitignored caches, `sha256` recorded) and committing only the parsed facts. The alternative is committing them for full reproducibility in this public repo.
+2. ~~Fetched raw pages~~ **Decided:** kept out of git, in gitignored caches with a `sha256` recorded. Only the parsed facts are committed.
 3. ~~Which field counts as "actual"?~~ **Decided:** the accepted lists.
 4. ~~How far back?~~ **Decided:** 2015.
-   - Remaining question: should the nationals view also go back to 2015? That needs First Round compiled results for 2015–2017, or should it start at 2018, when qualifier lists begin?
+   - **Decided:** the nationals view starts in 2018, when the qualifier lists begin. The field lines still go back to 2015.
 5. **Indoor depth.** Keep indoor lists at about 50, or take them to 100 too, so the field line can never fall off the saved list?
 6. **TFRRS terms of service.** The FloSports terms TFRRS links to ban automated access, which covers the existing daily scrape. Do you want to keep it as is, reduce it, or ask DirectAthletics/FloSports? This plan doesn't change the scrape's scope beyond `limit=100`.
 7. **Results source for the nationals view.** Flash Results is my recommendation: automated at 3 or more seconds per request, `.htm` pages allowed by robots, Q/q markers and TFRRS IDs. The alternative is the official RecordTiming results, fetched the same way, but the First Round compiled results are PDF only in some years.

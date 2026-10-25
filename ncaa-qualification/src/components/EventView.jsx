@@ -476,7 +476,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
                   setHover={setHover}
                   active={scrollLinked && scrollRank === row.rank}
                   stop={row.rank === stop}
-                  tag={field ? (field.in.has(row.rank) ? 'in' : field.out.has(row.rank) ? 'out' : null) : null}
+                  tag={field ? (field.in.has(row.rank) ? 'in' : field.out.has(row.rank) ? 'out' : field.qualified.has(row.rank) ? 'qualified' : null) : null}
                   fieldLine={field && row.rank === field.rank ? <FieldLine field={field} event={event} /> : null}
                   onward={onward.has(row.rank)}
                   onFocusRow={() => setCursor(row.rank)}
@@ -646,10 +646,12 @@ function rowLabel(event, row, name, tag, onward = false) {
 
 // The row's tag, in the words its name uses. The accepted list can't tell a scratch from an athlete who
 // never declared; both show as scratched, and the name still says only that the place wasn't in the field.
-const TAG_TEXT = { in: 'In', out: 'Scratched' }
-const TAG_LABEL = { in: 'in the field', out: 'scratched, not in the field' }
+// A relay's second squad can't be entered: its school's team already is.
+const TAG_TEXT = { in: 'In', out: 'Scratched', qualified: 'Already Qualified' }
+const TAG_LABEL = { in: 'in the field', out: 'scratched, not in the field', qualified: 'already qualified, its school’s team is in the field' }
 const TAG_ICON = {
   in: <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 5.3 4 7.8 8.5 2.5" /></svg>,
+  qualified: <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 5.3 4 7.8 8.5 2.5" /></svg>,
   out: <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2 2l6 6M8 2 2 8" /></svg>,
 }
 

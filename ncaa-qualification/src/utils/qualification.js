@@ -26,7 +26,7 @@ function listRow(entry) {
 }
 
 // The field as accepted, as Python matched it to the saved list; never decide here who got in.
-// Anything malformed reads as no field at all. History lines carry it without `in` and `out`.
+// Anything malformed reads as no field at all. History lines carry it without `in`, `out` and `qualified`.
 export function readField(record, { history = false } = {}) {
   const value = record?.field;
   if (!value || typeof value !== 'object' || !FIELD.has(value.status)) return null;
@@ -35,6 +35,8 @@ export function readField(record, { history = false } = {}) {
       typeof value.cancelled !== 'boolean' || !Number.isInteger(value.unmatched) || value.unmatched < 0) return null;
   if (value.rank !== null && !place(value.rank)) return null;
   if (history ? [value.in, value.out].some(ranks => ranks !== undefined && !places(ranks)) : !(places(value.in) && places(value.out))) return null;
+  // Relay squads lettered B or later whose school is in the field; files from before it have none.
+  if (value.qualified !== undefined && !places(value.qualified)) return null;
   if (value.entry != null && !listRow(value.entry)) return null;
   if (value.status === 'available' && (value.unmatched !== 0 || !place(value.rank) || value.entry?.rank !== value.rank)) return null;
   if (value.status === 'unmatched' && value.unmatched === 0) return null;

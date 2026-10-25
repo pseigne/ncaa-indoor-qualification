@@ -384,7 +384,7 @@ class InterpretFieldTests(unittest.TestCase):
         self.assertEqual(field, {"status": "available", "rank": 16, "size": 16, "accepted": "2026-03-03",
                                  "cancelled": False,
                                  "entry": {"rank": 16, "athlete": "Runner, 16", "team": "School 16", "time": "10.16"},
-                                 "unmatched": 0, "in": [], "out": []})
+                                 "unmatched": 0, "in": [], "out": [], "qualified": []})
 
     def test_a_field_that_fell_past_the_line(self):
         rankings = line_rows(60)
@@ -395,12 +395,20 @@ class InterpretFieldTests(unittest.TestCase):
         self.assertEqual(field["out"], [6, 12, 30])
         self.assertEqual(field["entry"], {"rank": 51, "athlete": "Runner, 51", "team": "School 51", "time": "10.51"})
 
+    def test_places_past_the_line_that_the_field_passed_over_are_out(self):
+        record = dict(event="5000 Meters", season="indoor", region="National", year="2025-2026", rankings=line_rows(30))
+        # 16th and 18th scratched: the field took 17th and 19th, so 18th is out though it sits past the line.
+        field = interpret_field(record, matched(*range(1, 16), 17, 19))
+        self.assertEqual((field["rank"], field["in"], field["out"]), (19, [17, 19], [16, 18]))
+        # Nothing past the deepest place taken is out.
+        self.assertNotIn(20, field["out"])
+
     def test_unmatched_and_beyond_the_list(self):
         rankings = line_rows(50)
         entries = matched(*range(1, 48)) + [dict(name="A B", school="C", seed="9.00", list_rank=None, match="none")]
         field = interpret_field(outdoor(rankings=rankings), entries, None)
         self.assertEqual(field, {"status": "unmatched", "rank": None, "size": 48, "accepted": None, "cancelled": False,
-                                 "entry": None, "unmatched": 1, "in": [], "out": []})
+                                 "entry": None, "unmatched": 1, "in": [], "out": [], "qualified": []})
         entries[-1]["beyond"] = True
         self.assertEqual(interpret_field(outdoor(rankings=rankings), entries)["status"], "beyond_list")
         # A matched rank the saved list no longer reaches is past it too.
@@ -414,11 +422,29 @@ class InterpretFieldTests(unittest.TestCase):
         record = dict(event="4 x 400 Relay", season="indoor", region="National", year="2019-2020",
                       rankings=line_rows(20))
         field = interpret_field(record, matched(*range(1, 12), 14), None, cancelled=True)
-        self.assertEqual((field["rank"], field["in"], field["out"], field["cancelled"]), (14, [14], [12], True))
+        self.assertEqual((field["rank"], field["in"], field["out"], field["cancelled"]), (14, [14], [12, 13], True))
         field = interpret_field(dict(record, event="4 x 100 Relay", season="outdoor", region="West", year="2019",
                                      rankings=line_rows(30)),
                                 matched(*range(1, 25)))
         self.assertEqual((field["rank"], field["in"], field["out"]), (24, [], []))
+
+    def test_a_relay_squad_lettered_b_or_later_is_already_qualified_not_out(self):
+        rankings = line_rows(20)
+        rankings[2].update(athlete="School 1 (B)", team="School 1 (B)")
+        rankings[4].update(athlete="School 5 (C)", team="School 5 (C)")
+        rankings[6].update(athlete="School 30 (B)", team="School 30 (B)")
+        record = dict(event="4 x 400 Relay", season="indoor", region="National", year="2025-2026", rankings=rankings)
+        # 1st and 5th are in; 3rd and 5th's squads are their schools' second teams. 7th is a squad whose school
+        # isn't in the field: not a scratch either. 9th really scratched.
+        taken = [r for r in range(1, 16) if r not in (3, 7, 9)]
+        field = interpret_field(record, matched(*taken))
+        self.assertEqual((field["out"], field["qualified"]), ([9], [3]))
+        rankings[4].update(athlete="School 6 (C)", team="School 6 (C)")
+        field = interpret_field(record, matched(*[r for r in range(1, 16) if r not in (3, 5, 7, 9)], 16))
+        self.assertEqual((field["out"], field["qualified"]), ([9], [3, 5]))
+        # Outside relays a "(B)" is just part of a name.
+        field = interpret_field(dict(record, event="Mile"), matched(*taken))
+        self.assertEqual((field["out"], field["qualified"]), ([3, 7, 9, 16], []))
 
     def test_ties_use_list_positions_and_one_athlete_listed_twice_is_not_out(self):
         rankings = line_rows(20)
@@ -471,7 +497,7 @@ class DeriveTests(unittest.TestCase):
         other, sprint = files["site/indoor-2025-2026-f-National.json"]["events"]
         self.assertEqual(list(sprint)[:3], ["event", "qualification", "field"])
         self.assertEqual(sprint["field"], {"status": "available", "rank": 18, "size": 16, "accepted": "2026-03-03",
-                                           "cancelled": False, "unmatched": 0, "in": [18], "out": [16],
+                                           "cancelled": False, "unmatched": 0, "in": [18], "out": [16, 17], "qualified": [],
                                            "entry": {"rank": 18, "athlete": "Runner, 18", "team": "School 18",
                                                      "time": "10.18"}})
         self.assertNotIn("field", other)

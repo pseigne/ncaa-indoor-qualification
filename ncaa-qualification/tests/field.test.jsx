@@ -232,6 +232,15 @@ describe('the field line on the heat sheet', () => {
     expect(row(17).getAttribute('aria-label')).toBe('17. Runner 17, School 17, 3:57.00, out, 0.25s behind the line')
   })
 
+  it('tags a relay squad whose school is already in the field, and reads a malformed list as no field', async () => {
+    await open([mile(30, 16, accepted({ qualified: [18] }))])
+    expect(tags()).toMatchObject({ 6: 'Scratched', 12: 'Scratched', 17: 'In', 18: 'Already Qualified', 19: 'In' })
+    expect(row(18).querySelector('.tag').className).toBe('tag tag-qualified')
+    expect(row(18).getAttribute('aria-label')).toMatch(/, already qualified, its school’s team is in the field$/)
+    expect(readField({ field: accepted({ qualified: [0] }) })).toBeNull()
+    expect(readField({ field: accepted() })).not.toBeNull()
+  })
+
   it('keeps the field line and tags on phones', async () => {
     await open([mile(30, 16, accepted())], { width: 390 })
     expect(document.querySelector('tr.fieldrow').previousElementSibling).toBe(row(19))

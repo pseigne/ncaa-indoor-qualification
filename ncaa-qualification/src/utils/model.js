@@ -59,8 +59,8 @@ function seconds(mark) {
   return Number.isFinite(value) ? value : null
 }
 
-// The field as accepted: its deepest saved row as a mark like the line's, and the ranks it took in or
-// left out. A field line is drawn only when every entry matched a saved row; otherwise there is just a note.
+// The field as accepted: its deepest saved row as a mark like the line's, the ranks it took in or
+// left out, and the relay squads whose school it already took. A field line is drawn only when every entry matched a saved row; otherwise there is just a note.
 export function fieldOf(record) {
   const field = readField(record)
   if (!field) return null
@@ -83,6 +83,7 @@ export function fieldOf(record) {
     } : null,
     in: new Set(field.in),
     out: new Set(field.out),
+    qualified: new Set(field.qualified || []),
   }
 }
 

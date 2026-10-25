@@ -264,6 +264,8 @@ tr.fieldrow td{height:auto;padding:0;border:0}
 .tag{display:inline-flex;align-items:center;gap:4px;margin-left:8px;padding:0 7px;border-radius:999px;font-size:12px;line-height:18px;font-weight:600;font-stretch:100%;letter-spacing:0;white-space:nowrap;vertical-align:1px}
 .tag-in{color:var(--field);background:var(--field-tint)}
 .tag-out{color:var(--scratch);background:color-mix(in srgb, var(--scratch) 12%, transparent)}
+/* a relay's second squad: neither in nor scratched, so it takes no colour of its own */
+.tag-qualified{color:var(--ink-2);background:var(--sel)}
 .tag svg{flex:none;width:10px;height:10px;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;fill:none}
 /* "Ticket Punched" with the championship logo on a place whose athlete went on from this First Round */
 .tag-nat{color:var(--punched);background:color-mix(in srgb, var(--punched) 13%, transparent)}

@@ -91,6 +91,15 @@ class PerformanceListTests(unittest.TestCase):
             page = parse_performance_list(body)
             self.assertEqual(entries(page, '60 Meters')[0]['name'], 'Zoë Närhi')
 
+    def test_columns_padded_by_bytes_on_utf8_pages(self):
+        # The 2021 First Round lists counted "ñ" as two characters when padding the columns.
+        text = fixture('indoor_accepted_2026.htm').decode('cp1252')
+        text = text.replace('  1  Mara Quill                    SR Ole Miss  ', '  1  Jose Peñalver                SR Ole Miss  ')
+        page = parse_performance_list(text.encode('utf-8'))
+        self.assertEqual(entries(page, '60 Meters')[0], {'rank': 1, 'name': 'Jose Peñalver', 'class': 'SR',
+                                                          'school': 'Ole Miss', 'seed': '7.08', 'status': 'D'})
+        self.assertEqual(entries(page, '60 Meters')[1]['name'], 'Tess Varden')
+
     def test_fails_loudly_on_anything_unrecognized(self):
         good = fixture('indoor_accepted_2026.htm').decode('cp1252')
         broken = {

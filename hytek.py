@@ -93,6 +93,8 @@ RELAY_ROW = re.compile(r"\s*(\d+)\s+(.+?)\s+(\S+)\s*")
 RELAY_TEAM = re.compile(r"\s+'[A-Z]'$")
 DATES = re.compile(r"\s*-?\s*\d{1,2}/\d{1,2}/\d{4}\s+to\s+\d{1,2}/\d{1,2}/\d{4}\s*$")
 REVIEW = re.compile(r"to be considered|coaches review|scratched", re.I)
+# Stands in for the extra bytes of an accented letter on pages padded by bytes.
+FILL = "\0"
 
 
 def event_name(heading):
@@ -174,10 +176,25 @@ def _columns(header):
     return positions
 
 
+def _starts(line, at):
+    return len(line) > at and line[at - 1] == " " and line[at] != " "
+
+
+def _aligned(line, school_at):
+    """Some UTF-8 pages pad their columns by bytes: "Peñalver" pushes the school one place left.
+
+    Each accented letter is widened to its byte length when only that lines the school up."""
+    if line.isascii() or _starts(line, school_at):
+        return line
+    wide = "".join(ch + FILL * (len(ch.encode("utf-8")) - 1) for ch in line)
+    return wide if _starts(wide, school_at) else line
+
+
 def _individual(line, columns, event):
     name_at, year_at, school_at = columns["Name"], columns["Year"], columns["School"]
     if name_at is None or school_at is None:
         raise ValueError(f"No Name or School column in {event}")
+    line = _aligned(line, school_at)
     rank = RANKED.match(line)
     if not rank or (name_at and line[name_at - 1:name_at] != " "):
         raise ValueError(f"Unreadable entry in {event}: {line!r}")
@@ -189,7 +206,7 @@ def _individual(line, columns, event):
             raise ValueError(f"Unrecognized class in {event}: {line!r}")
         athlete_class = year[1]
         left = left[:year.start()]
-    name = left[name_at:].strip()
+    name = left[name_at:].replace(FILL, "").strip()
     if "," in name:
         # A few lists write "Last, First".
         surname, _, first = name.partition(",")
@@ -199,7 +216,7 @@ def _individual(line, columns, event):
         raise ValueError(f"Unreadable entry in {event}: {line!r}")
     right = line[school_at:].rstrip()
     seed_text = right.split()[-1] if right.split() else ""
-    school = right[:len(right) - len(seed_text)].strip()
+    school = right[:len(right) - len(seed_text)].replace(FILL, "").strip()
     if not school:
         raise ValueError(f"No school in {event}: {line!r}")
     seed, status = parse_seed(seed_text)

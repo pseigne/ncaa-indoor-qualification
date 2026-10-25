@@ -95,7 +95,9 @@ export function eventMeta(name) {
   return BY_NAME.get(name) || inferred(name)
 }
 
+// Races, jumps and throws have a strip; combined events score points, which have no distance to show.
 export function hasStrip(meta) {
+  if (meta.kind === 'mark') return true
   return meta.kind === 'time' && Number.isFinite(meta.dist) && meta.dist > 0
 }
 

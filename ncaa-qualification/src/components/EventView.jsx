@@ -4,7 +4,7 @@ import {
   accessibleConversion, eventTitle, formatBare, formatGap, formatMark, gapToLine, longDate, ordinal, shortDate, surname, tidy, unitWord,
 } from '../utils/format'
 import {
-  canvasMeasure, formatMeters, metersAhead, layoutColumn, layoutStrip, stripDepth, topWords,
+  canvasMeasure, formatMeters, layoutColumn, layoutStrip, scaleFor, stripDepth, topWords,
 } from '../utils/strip'
 import { comparisonSeries, pickComparison } from '../utils/comparison'
 import { detailHref, plainClick, yearLabel } from '../utils/route'
@@ -85,28 +85,31 @@ export default function EventView({ event, query, go, context, past = null, onOp
   })), [event, depth])
   // Say "of 100" only when the race stops short of the list.
   const listed = raced < event.rows.length ? event.rows.length : runners.length
+  const scale = useMemo(() => scaleFor(event), [event])
+  const fieldRank = field && event.line && field.rank !== event.line.rank ? field.rank : null
   const layout = useMemo(() => {
     if (split || !event.strip || !event.line) return null
     return layoutStrip({
       rows: runners,
       lineV: event.line.v,
       lineConversion: event.line.conversion,
-      dist: event.dist,
+      scale,
       rank: event.line.rank,
       width: stripWidth,
       radius: phone ? 4.5 : 8,
       phone,
       listed,
     })
-  }, [event, runners, listed, split, phone, stripWidth])
+  }, [event, runners, listed, split, phone, stripWidth, scale])
   const column = useMemo(() => {
     if (!split || !railSize || !event.strip || !event.line) return null
     return layoutColumn({
       rows: runners,
       lineV: event.line.v,
       lineConversion: event.line.conversion,
-      dist: event.dist,
+      scale,
       rank: event.line.rank,
+      fieldRank,
       width: railSize.width,
       height: railSize.height,
       bottom: 52,
@@ -114,7 +117,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
       measure,
       listed,
     })
-  }, [event, runners, listed, split, railSize, measure, width])
+  }, [event, runners, listed, split, railSize, measure, width, scale, fieldRank])
   const railed = split && Boolean(event.strip && event.line)
   // Without hover (phones, touch screens with the flat strip) scrolling picks the row instead.
   const scrollLinked = Boolean(layout) && (phone || noHover)
@@ -288,19 +291,19 @@ export default function EventView({ event, query, go, context, past = null, onOp
       ? `${when}’s line, ${mark}, wouldn’t make today’s top ${event.rows.length}`
       : `${when}’s line, ${mark}, would sit ${ordinal(count)} today`
     let strip = null
+    const meters = scale ? scale.gap(event.line.v, opening.v) : 0
+    const versus = scale && `${scale.estimate ? 'runs' : 'sits'} ${formatMeters(meters, scale.digits)} ${meters > 0 ? scale.beyond : scale.estimate ? 'behind' : `${scale.behind} than`} today’s`
     if (column) {
-      const meters = metersAhead(event.dist, event.line.v, opening.v)
       strip = {
         y: column.lineY > 48 ? column.lineY - 28 : column.lineY + 20,
-        lines: [`${when}’s line, ${mark},`, `runs ${formatMeters(meters)} ${meters > 0 ? 'ahead of' : 'behind'} today’s`],
+        lines: [`${when}’s line, ${mark},`, versus],
       }
     } else if (layout) {
-      const meters = metersAhead(event.dist, event.line.v, opening.v)
       const right = layout.lineX > layout.width / 2
       strip = {
         x: right ? layout.lineX - 8 : layout.lineX + 8,
         anchor: right ? 'end' : 'start',
-        text: `${when}’s line, ${mark}, runs ${formatMeters(meters)} ${meters > 0 ? 'ahead of' : 'behind'} today’s`,
+        text: `${when}’s line, ${mark}, ${versus}`,
       }
     }
     setMemory({ off, text, strip })
@@ -420,12 +423,12 @@ export default function EventView({ event, query, go, context, past = null, onOp
             phone={phone}
             kind={event.kind}
             lineRank={event.line.rank}
-            fieldRank={field && field.rank !== event.line.rank ? field.rank : null}
+            fieldRank={fieldRank}
             caption={phone
               ? null
               : (
                 <>
-                  The top {racedWords} as one race, as <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} /> crosses the line. Meters are estimates from each mark’s average speed.
+                  <StripCaption event={event} scale={scale} top={racedWords} />
                 </>
               )}
             activeRank={hover?.rank ?? null}
@@ -436,7 +439,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
           />
         </div>
       )}
-      {layout && phone && <p className="strip-cap">Top {racedWords} as one race. Meters are estimates.</p>}
+      {layout && phone && <p className="strip-cap">{scale.estimate ? `Top ${racedWords} as one race. Meters are estimates.` : `Top ${racedWords} measured from the line.`}</p>}
       <section className="tablecard">
         <table id="list" aria-label={`${title} around the qualifying line`} className={event.isRelay ? 'relay' : undefined}>
           <thead>
@@ -526,7 +529,6 @@ export default function EventView({ event, query, go, context, past = null, onOp
             layout={column}
             kind={event.kind}
             lineRank={event.line.rank}
-            fieldRank={field && field.rank !== event.line.rank ? field.rank : null}
             activeRank={hover?.rank ?? null}
             onSize={size => setRailSize(prev => (prev && prev.width === size.width && prev.height === size.height ? prev : size))}
             onHover={rank => {
@@ -543,7 +545,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
             onChip={() => chip && reveal(chip.rank)}
             caption={(
               <>
-                The top {racedWords} as one race, as <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} /> crosses the line. Meters are estimates from each mark’s average speed.
+                <StripCaption event={event} scale={scale} top={racedWords} />
               </>
             )}
           />
@@ -690,6 +692,16 @@ function FieldLine({ field, event }) {
       </td>
     </tr>
   )
+}
+
+// What the race or the field picture shows: a race at the moment the line mark finishes, or every mark
+// measured from the line mark.
+function StripCaption({ event, scale, top }) {
+  const mark = <Mark text={formatMark(event.line.v, event.kind)} conversion={event.line.conversion} raw={event.line.raw} />
+  if (scale.estimate) {
+    return <>The top {top} as one race, as {mark} crosses the line. Meters are estimates from each mark’s average speed.</>
+  }
+  return <>The top {top} as one {scale.noun}, each mark measured from the line at {mark}.</>
 }
 
 // In or out, and how far from the line: what the row's place against the line row and its colour show.

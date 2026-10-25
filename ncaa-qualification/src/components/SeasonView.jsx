@@ -7,7 +7,7 @@ import { usePhone, useWidth } from '../utils/media'
 import { listLink } from '../utils/route'
 import { pastLines, seasonLabel } from '../utils/past'
 import { dailyDays } from '../utils/daily'
-import { layoutStrip, metersAhead } from '../utils/strip'
+import { layoutStrip, scaleFor } from '../utils/strip'
 import { Mark, SvgMark } from './Mark'
 import RaceStrip from './RaceStrip'
 import { DetailHero } from './DetailSheet'
@@ -118,7 +118,7 @@ function SeasonChart({ event, query, context, phone, widthPx, points, days, dail
   const layout = day ? layoutStrip({
     rows: day.r.map((row, index) => ({ rank: index + 1, name: row[1] || '', v: row[0] })),
     lineV: day.r[event.line.rank - 1][0],
-    dist: event.dist,
+    scale: scaleFor(event),
     rank: event.line.rank,
     width: stripWidth,
     radius: phone ? 4.5 : 8,
@@ -248,7 +248,7 @@ function SeasonChart({ event, query, context, phone, widthPx, points, days, dail
       </section>
       {layout && (
         <section className="detail-track">
-          <h3 className="detail-sub">{shortDate(day.d)}{day.d === end ? `, ${context.final ? 'final' : 'latest'} list` : ''}: the top 20 as one race</h3>
+          <h3 className="detail-sub">{shortDate(day.d)}{day.d === end ? `, ${context.final ? 'final' : 'latest'} list` : ''}: the top 20 as one {event.kind === 'time' ? 'race' : 'competition'}</h3>
           <RaceStrip
             layout={layout}
             kind="time"
@@ -268,7 +268,7 @@ function SeasonChart({ event, query, context, phone, widthPx, points, days, dail
       )}
       <p className="source">
         TFRRS {listPhrase(query, context)}. <SavedThrough date={end} championship={context.championship} />
-        {days.length > 0 && ' Saved daily lists keep the top 20. Meters are estimates from each mark’s average speed.'}
+        {days.length > 0 && ` Saved daily lists keep the top 20.${event.kind === 'time' ? ' Meters are estimates from each mark’s average speed.' : ''}`}
         {seasonFlagged(event, lines) && <> {FOOTNOTE}</>}
       </p>
     </>
@@ -317,9 +317,11 @@ function EndNotes({ big, endX, last, event, context, plot, priorLines }) {
 }
 
 function seasonDomain(days, event) {
+  const scale = scaleFor(event)
+  if (!scale) return null
   const marks = days.flatMap(day => {
     const lineV = day.r[event.line.rank - 1][0]
-    return day.r.map(row => metersAhead(event.dist, lineV, row[0])).filter(Number.isFinite)
+    return day.r.map(row => scale.gap(lineV, row[0])).filter(Number.isFinite)
   })
   if (!marks.length) return null
   return [Math.min(0, ...marks), Math.max(0, ...marks)]

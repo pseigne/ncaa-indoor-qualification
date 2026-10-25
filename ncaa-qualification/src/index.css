@@ -182,9 +182,9 @@ tr.act .logo{opacity:1;filter:none}
 .race .lead-l{stroke:var(--ink-2);stroke-width:1}
 .race .lane{stroke:var(--rule);stroke-width:1;shape-rendering:crispEdges}
 .race .fl line{stroke:var(--line);stroke-width:2}
-/* the field line in the race: blue dots across the track where the field as accepted stopped */
-.race .fld-l line{stroke:var(--field);stroke-width:4.5;stroke-dasharray:0 9;stroke-linecap:round}
-.race .fld-l line.under{stroke:var(--bg);stroke-width:7}
+/* the field line in the race: a dashed rule across the track where the field as accepted stopped */
+.race .fld-l line{stroke:var(--field);stroke-width:3;stroke-dasharray:10 6}
+.race .fld-l .fld-lead{fill:none;stroke:var(--field);stroke-width:1.5}
 .race .fld-tag rect{fill:var(--field)}
 .race .fld-tag text{fill:var(--bg);font-size:12px;font-weight:600}
 .race .labels{transition:opacity var(--fast) var(--ease)}
@@ -205,9 +205,9 @@ tr.act .logo{opacity:1;filter:none}
 .rail .race.column .lane{stroke-opacity:.9;stroke-width:1.5}
 .rail .race .seen{fill-opacity:.14}
 .rail .race .fl line,.race.card .fl line{stroke:#151515;stroke-width:3}
-.rail .race .fld-l,.race.card .fld-l{--field:#1747d1}
-.rail .race .fld-l line.under,.race.card .fld-l line.under{stroke:#fff}
-.rail .race .fld-tag text,.race.card .fld-tag text{fill:#fff}
+/* on the track the field line is gold: clear of the white dots, the black qualifying line and the red */
+.rail .race .fld-l,.race.card .fld-l{--field:#ffd23f}
+.rail .race .fld-tag text,.race.card .fld-tag text{fill:#151515}
 .rail .dot .pt,.race.card .dot .pt{fill:#fff}
 .rail .dot.out .pt,.race.card .dot.out .pt{fill:none;stroke:#fff;stroke-width:1.75}
 .rail .dot.bub .pt,.race.card .dot.bub .pt{fill:#151515;stroke:#fff;stroke-width:2}

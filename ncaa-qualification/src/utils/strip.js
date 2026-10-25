@@ -11,8 +11,56 @@ export function formatMeters(meters, digits = 1) {
   return `${Math.abs(meters).toFixed(digits)}\u2009m`
 }
 
-function sideWord(meters) {
-  return meters > 0 ? 'ahead' : 'back'
+const RACE_STEPS = [0.2, 0.5, 1, 2, 5, 10, 20, 25, 50, 100]
+const FIELD_STEPS = [0.05, 0.1, 0.2, 0.25, 0.5, 1, 2, 5, 10, 20]
+
+// How far each mark stands from the line, in meters, and the words for it. A race estimates the gap from
+// each mark's average speed when the line mark finishes; a jump or a throw measures it. Null without a scale.
+export function raceScale(dist) {
+  if (!Number.isFinite(dist) || dist <= 0) return null
+  return {
+    gap: (lineV, v) => metersAhead(dist, lineV, v),
+    ahead: 'ahead',
+    behind: 'behind',
+    back: 'back',
+    beyond: 'ahead of',
+    digits: 1,
+    steps: RACE_STEPS,
+    estimate: true,
+    noun: 'race',
+    opening: (top, lineV) => `The top ${top} placed as one race at the moment ${formatMark(lineV, 'time')} finishes`,
+  }
+}
+
+export function fieldScale(name) {
+  const upward = /high jump|vault/i.test(name || '')
+  return {
+    gap: (lineV, v) => v - lineV,
+    ahead: upward ? 'higher' : 'farther',
+    behind: upward ? 'lower' : 'shorter',
+    back: upward ? 'lower' : 'short',
+    beyond: upward ? 'higher than' : 'farther than',
+    digits: 2,
+    steps: FIELD_STEPS,
+    estimate: false,
+    noun: 'competition',
+    opening: (top, lineV) => `The top ${top} measured against the line, ${formatMark(lineV, 'mark')}`,
+  }
+}
+
+export function scaleFor(event) {
+  if (event.kind === 'time') return raceScale(event.dist)
+  if (event.kind === 'mark') return fieldScale(event.name)
+  return null
+}
+
+// Decimals for a tick step: 0.25 m needs two, 0.5 m one, 2 m none.
+function stepDigits(step) {
+  return step >= 1 ? 0 : Number.isInteger(Math.round(step * 1000) / 100) ? 1 : 2
+}
+
+function sideWord(meters, scale) {
+  return meters > 0 ? scale.ahead : scale.back
 }
 
 // How deep the race runs. Saved lists were at most 60 deep when the strip was drawn for them, so it holds 60
@@ -47,6 +95,7 @@ export function layoutStrip({
   rows,
   lineV,
   dist,
+  scale = raceScale(dist),
   rank,
   width,
   radius,
@@ -57,9 +106,9 @@ export function layoutStrip({
   listed = rows.length,
 }) {
   const usable = rows.filter(row => Number.isFinite(row.v) && row.v > 0 && Number.isFinite(lineV) && lineV > 0)
-  if (!usable.length || !Number.isFinite(dist) || dist <= 0) return null
+  if (!usable.length || !scale) return null
 
-  const points = usable.map(row => ({ ...row, m: metersAhead(dist, lineV, row.v) }))
+  const points = usable.map(row => ({ ...row, m: scale.gap(lineV, row.v) }))
   const mMax = domain ? domain[1] : Math.max(0, ...points.map(p => p.m))
   const mMin = domain ? domain[0] : Math.min(0, ...points.map(p => p.m))
   const pad = radius + 2
@@ -69,7 +118,7 @@ export function layoutStrip({
   ), null)
   let lo = mMin
   if (!domain && nearestBehind) {
-    const label = `${ordinal(nearestBehind.rank)}, ${formatMeters(nearestBehind.m)} back`
+    const label = `${ordinal(nearestBehind.rank)}, ${formatMeters(nearestBehind.m, scale.digits)} ${scale.back}`
     const labelPx = 2 * radius + label.length * charWidth
     lo = Math.min(mMin, -(labelPx * mMax) / Math.max(1, plotW - labelPx))
   }
@@ -106,8 +155,8 @@ export function layoutStrip({
       id: 'out',
       q: firstOut,
       texts: [
-        `${surname(firstOut.name) || ordinal(firstOut.rank)}, first one out, ${formatMeters(firstOut.m)} back`,
-        `${ordinal(firstOut.rank)}, ${formatMeters(firstOut.m)} back`,
+        `${surname(firstOut.name) || ordinal(firstOut.rank)}, first one out, ${formatMeters(firstOut.m, scale.digits)} ${scale.back}`,
+        `${ordinal(firstOut.rank)}, ${formatMeters(firstOut.m, scale.digits)} ${scale.back}`,
       ],
       cls: 'k',
       anchor: 'end',
@@ -117,9 +166,9 @@ export function layoutStrip({
       q: leader,
       texts: [
         surname(leader.name)
-          ? `${surname(leader.name)}, 1st, ${formatMeters(leader.m)} ahead`
-          : `1st, ${formatMeters(leader.m)} ahead`,
-        `1st, ${formatMeters(leader.m)} ahead`,
+          ? `${surname(leader.name)}, 1st, ${formatMeters(leader.m, scale.digits)} ${scale.ahead}`
+          : `1st, ${formatMeters(leader.m, scale.digits)} ${scale.ahead}`,
+        `1st, ${formatMeters(leader.m, scale.digits)} ${scale.ahead}`,
       ],
       cls: 'k',
       anchor: 'end',
@@ -127,7 +176,7 @@ export function layoutStrip({
     last && last !== firstOut && {
       id: 'last',
       q: last,
-      texts: [`${ordinal(last.rank)}, ${formatMeters(last.m)} ${sideWord(last.m)}`],
+      texts: [`${ordinal(last.rank)}, ${formatMeters(last.m, scale.digits)} ${sideWord(last.m, scale)}`],
       cls: '',
       anchor: last.m < 0 ? 'end' : 'start',
     },
@@ -200,12 +249,12 @@ export function layoutStrip({
   const lanes = []
   for (let k = -1; k <= kMax; k += 1) lanes.push({ x1: 0, x2: width, y: yAt(k) - lane / 2 })
 
-  const steps = [0.2, 0.5, 1, 2, 5, 10, 20, 25, 50, 100]
+  const { steps } = scale
   const maxTicks = phone ? 3 : 7
-  const step = steps.find(s => (Math.floor(mMax / s) + Math.floor(-lo / s)) <= maxTicks) || 100
+  const step = steps.find(s => (Math.floor(mMax / s) + Math.floor(-lo / s)) <= maxTicks) || steps.at(-1)
   const ticks = []
   const tickAt = (m, digits) => {
-    const text = `${formatMeters(m, digits)} ${m > 0 ? 'ahead' : 'behind'}`
+    const text = `${formatMeters(m, digits)} ${m > 0 ? scale.ahead : scale.behind}`
     const x = xAt(m)
     const w = text.length * charWidth
     if (x - w / 2 < 0 || x + w / 2 > width || Math.abs(x - lineX) < w / 2 + 12 || ticks.some(o => Math.abs(o.x - x) < w + 12)) return null
@@ -213,7 +262,7 @@ export function layoutStrip({
   }
   for (let m = -Math.floor(-lo / step) * step; m <= mMax + 1e-9; m += step) {
     if (Math.abs(m) < 1e-9) continue
-    const tick = tickAt(m, step < 1 ? 1 : 0)
+    const tick = tickAt(m, stepDigits(step))
     if (tick) ticks.push(tick)
   }
   // A side left without a tick (its ticks ran into the edge or the line) gets the roundest distance that
@@ -225,14 +274,14 @@ export function layoutStrip({
     const reach = side < 0 ? -lo : mMax
     let tick = null
     for (const s of [...steps].reverse()) {
-      for (let m = Math.floor(reach / s + 1e-9) * s; m >= s - 1e-9 && !tick; m -= s) tick = tickAt(side * m, s < 1 ? 1 : 0)
+      for (let m = Math.floor(reach / s + 1e-9) * s; m >= s - 1e-9 && !tick; m -= s) tick = tickAt(side * m, stepDigits(s))
       if (tick) break
     }
     if (tick) {
       ticks.push(tick)
       continue
     }
-    const text = `${formatMeters(reach, reach < 10 ? 1 : 0)} ${side < 0 ? 'behind' : 'ahead'}`
+    const text = `${formatMeters(reach, reach < 10 ? scale.digits : 0)} ${side < 0 ? scale.behind : scale.ahead}`
     const room = side < 0 ? lineX : width - lineX
     if (reach > 1e-9 && room > text.length * charWidth + 12) ends.push({ x: side < 0 ? 0 : width, text, anchor: side < 0 ? 'start' : 'end' })
   }
@@ -243,21 +292,20 @@ export function layoutStrip({
   const outside = dots.find(q => q.rank === rank + 1)
   const phrase = accessibleConversion(lineConversion)
   const aria = [
-    `The top ${topWords(rows.length, listed)} placed as one race at the moment ${formatMark(lineV, 'time')} finishes${phrase ? `, ${phrase}` : ''}.`,
-    first ? `${surname(first.name) || '1st'} is ${formatMeters(first.m)} ahead of the line.` : '',
-    outside ? `The first one out is ${formatMeters(outside.m)} back.` : '',
-    'Meters are estimates.',
+    `${scale.opening(topWords(rows.length, listed), lineV)}${phrase ? `, ${phrase}` : ''}.`,
+    first ? `${surname(first.name) || '1st'} is ${formatMeters(first.m, scale.digits)} ${scale.beyond} the line.` : '',
+    outside ? `The first one out is ${formatMeters(outside.m, scale.digits)} ${scale.back}.` : '',
+    scale.estimate ? 'Meters are estimates.' : '',
   ].filter(Boolean).join(' ')
 
   return {
     width, height, top, baseY: y0, readoutY: top + Math.max(labH, 20) - 16,
     viewY: top - 18, viewHeight: height - (top - 18),
     radius, lane, kMax, lineX, xAt, mMin, mMax,
-    placed: dots, lanes, labels, ticks, ends, axisY, aria,
+    placed: dots, lanes, labels, ticks, ends, axisY, aria, scale,
   }
 }
 
-const STEPS = [0.2, 0.5, 1, 2, 5, 10, 20, 25, 50, 100]
 
 function boxesMeet(a, b, gap = 0) {
   return a.x0 < b.x1 + gap && a.x1 > b.x0 - gap && a.y0 < b.y1 + gap && a.y1 > b.y0 - gap
@@ -356,6 +404,7 @@ export function routeLeader({ radius: r, placed, lanes, laneTo, floor }, dot, x2
 // A relay team's letter, as in "Oregon (B)".
 const SUFFIX = /\s*\([A-Z]\)$/
 const LINE_H = 17
+export const FIELD_TAG = { w: 66, h: 18 }
 
 // Estimated text width; the page passes a measured one when it can.
 export function estimateWidth(text, { charWidth = 7.2 } = {}) {
@@ -407,7 +456,9 @@ export function layoutColumn({
   rows,
   lineV,
   dist,
+  scale = raceScale(dist),
   rank,
+  fieldRank = null,
   width,
   height,
   radius = 5,
@@ -420,10 +471,10 @@ export function layoutColumn({
   listed = rows.length,
 }) {
   const usable = rows.filter(row => Number.isFinite(row.v) && row.v > 0 && Number.isFinite(lineV) && lineV > 0)
-  if (!usable.length || !Number.isFinite(dist) || dist <= 0 || !(width > 0) || !(height > 0)) return null
+  if (!usable.length || !scale || !(width > 0) || !(height > 0)) return null
 
   const textW = (text, bold = false) => (measure ? measure(text, bold) : estimateWidth(text, { charWidth }))
-  const points = usable.map(row => ({ ...row, m: metersAhead(dist, lineV, row.v) }))
+  const points = usable.map(row => ({ ...row, m: scale.gap(lineV, row.v) }))
   const mMax = Math.max(0, ...points.map(p => p.m))
   const mMin = Math.min(0, ...points.map(p => p.m))
   const span = (mMax - mMin) || 1
@@ -432,13 +483,13 @@ export function layoutColumn({
 
   // About one tick every 64px, snapped to the same nice steps as the flat strip.
   const maxTicks = Math.max(3, Math.min(12, Math.floor((height - bottom - 2 * top) / 64)))
-  const step = STEPS.find(s => (Math.floor(mMax / s) + Math.floor(-mMin / s)) <= maxTicks) || 100
-  const digits = step < 1 ? 1 : 0
-  const tickText = m => `${formatMeters(m, digits)} ${m > 0 ? 'ahead' : 'behind'}`
+  const step = scale.steps.find(s => (Math.floor(mMax / s) + Math.floor(-mMin / s)) <= maxTicks) || scale.steps.at(-1)
+  const digits = stepDigits(step)
+  const tickText = m => `${formatMeters(m, digits)} ${m > 0 ? scale.ahead : scale.behind}`
   const widest = [step, -step, Math.floor(mMax / step) * step, Math.ceil(mMin / step) * step]
     .filter(m => Math.abs(m) > 1e-9)
     .map(m => textW(tickText(m)))
-  const gutter = Math.ceil(Math.max(textW('behind'), ...widest)) + 10
+  const gutter = Math.ceil(Math.max(textW(scale.behind), textW(scale.ahead), ...widest)) + 10
 
   const padTop = top + r + 2
   const padBottom = bottom + 2 * r + 12
@@ -456,7 +507,7 @@ export function layoutColumn({
     const name = short ? nameOf(q).replace(SUFFIX, '') : nameOf(q)
     return name ? `${name}, ${place}` : place
   }
-  const away = q => `${formatMeters(q.m)}\u00a0${q.m > 0 ? 'ahead' : 'back'}`
+  const away = q => `${formatMeters(q.m, scale.digits)}\u00a0${q.m > 0 ? scale.ahead : scale.back}`
   const bubble = at(rank)
   const leader = at(1)
   const firstOut = at(rank + 1)
@@ -507,6 +558,23 @@ export function layoutColumn({
   // The other three sit in the right gutter, as close to their dot's height as the others allow,
   // each joined to its dot by a hairline.
   const taken = [lineLabel, { x0: 0, x1: width, y0: lineY - 2, y1: lineY + 2 }]
+  // The field line runs across the lanes; its tag sits at the line's right end, on the line's own side of
+  // the qualifying line, and the labels below keep clear of it.
+  const fieldM = fieldRank != null ? fieldMeters(dots, fieldRank) : null
+  let field = null
+  if (fieldM != null) {
+    const y = yAt(fieldM)
+    const side = y > lineY ? 1 : -1
+    const x0 = Math.min(lineX(LANES) + 6, width - FIELD_TAG.w)
+    const tagBox = top => ({ x0, x1: x0 + FIELD_TAG.w, y0: top, y1: top + FIELD_TAG.h })
+    let top = y - FIELD_TAG.h / 2
+    for (let shift = 0; shift <= height && taken.some(box => boxesMeet(tagBox(top), box, 3)); shift += 1) {
+      top = y - FIELD_TAG.h / 2 + side * shift
+    }
+    const tag = tagBox(Math.min(Math.max(top, 0), floor - FIELD_TAG.h))
+    field = { y, tag, rank: fieldRank }
+    taken.push(tag)
+  }
   const labels = wanted
     .map(label => ({ ...label, q: dot(label.q.rank) }))
     .sort((a, b) => a.q.y - b.q.y)
@@ -518,20 +586,27 @@ export function layoutColumn({
       const h = lines.length * LINE_H
       const box = y0 => ({ x0: width - w, x1: width, y0, y1: y0 + h })
       const ideal = Math.min(Math.max(q.y - h / 2, 0), floor - h)
-      let y0 = ideal
+      // The last place's label is only a reference: it stays on its dot's side of the line or is left out.
+      const ownSide = y => cls !== '' || (q.y > lineY ? y > lineY : y + h < lineY)
+      let y0 = null
       for (let shift = 0; shift <= height; shift += 2) {
-        const options = [ideal + shift, ideal - shift].filter(y => y >= 0 && y + h <= floor)
+        const options = [ideal + shift, ideal - shift].filter(y => y >= 0 && y + h <= floor && ownSide(y))
         const free = options.find(y => !taken.some(other => boxesMeet(box(y), other, 4)))
         if (free != null) {
           y0 = free
           break
         }
       }
+      if (y0 == null) {
+        if (cls === '') return null
+        y0 = ideal
+      }
       const placed = { ...box(y0), lines, x: width, anchor: 'end', cls, rank: q.rank }
       placed.leader = { points: routeLeader(track, q, placed.x0 - 4, y0 + Math.min(h, LINE_H * 2) / 2) }
       taken.push(placed)
       return placed
     })
+    .filter(Boolean)
     .sort((a, b) => a.rank - b.rank)
 
   const ticks = []
@@ -542,21 +617,21 @@ export function layoutColumn({
     ticks.push({ y, text: tickText(m) })
   }
   const ends = []
-  if (!ticks.some(tick => tick.y < lineY) && lineY > 28) ends.push({ y: Math.max(14, yAt(mMax) + 5), text: 'ahead' })
-  if (!ticks.some(tick => tick.y > lineY) && floor - lineY > 28) ends.push({ y: Math.min(floor - 4, yAt(mMin) + 5), text: 'behind' })
+  if (!ticks.some(tick => tick.y < lineY) && lineY > 28) ends.push({ y: Math.max(14, yAt(mMax) + 5), text: scale.ahead })
+  if (!ticks.some(tick => tick.y > lineY) && floor - lineY > 28) ends.push({ y: Math.min(floor - 4, yAt(mMin) + 5), text: scale.behind })
 
   const phrase = accessibleConversion(lineConversion)
   const aria = [
-    `The top ${topWords(rows.length, listed)} placed as one race at the moment ${formatMark(lineV, 'time')} finishes${phrase ? `, ${phrase}` : ''}, ahead at the top.`,
-    leader ? `${surname(leader.name) || '1st'} is ${formatMeters(leader.m)} ahead of the line.` : '',
-    firstOut ? `The first one out is ${formatMeters(firstOut.m)} back.` : '',
-    'Meters are estimates.',
+    `${scale.opening(topWords(rows.length, listed), lineV)}${phrase ? `, ${phrase}` : ''}, ${scale.ahead} at the top.`,
+    leader ? `${surname(leader.name) || '1st'} is ${formatMeters(leader.m, scale.digits)} ${scale.beyond} the line.` : '',
+    firstOut ? `The first one out is ${formatMeters(firstOut.m, scale.digits)} ${scale.back}.` : '',
+    scale.estimate ? 'Meters are estimates.' : '',
   ].filter(Boolean).join(' ')
 
   return {
     width, height, bottom, gutter, labelGutter, labelRoom, radius: r, pitch, kMax, lineY, yAt, mMin, mMax, step, charWidth,
     laneFrom: lineX(0), laneTo: lineX(LANES), textW,
-    placed: dots, lanes, lineLabel, labels, ticks, ends, aria,
+    placed: dots, lanes, lineLabel, labels, ticks, ends, aria, field, scale,
   }
 }
 
@@ -566,14 +641,16 @@ export function placeReadout(layout, dot, kind, lineRank) {
   const head = `${dot.rank}. ${surname(dot.name) || `Place ${dot.rank}`}`
   const mark = formatMark(dot.v, kind)
   const sym = symbolString(dot.conversion)
-  const away = dot.rank === lineRank ? 'on the line' : `${formatMeters(dot.m)} ${dot.m > 0 ? 'ahead' : 'back'}`
+  const { scale } = layout
+  const away = dot.rank === lineRank ? 'on the line' : `${formatMeters(dot.m, scale.digits)} ${sideWord(dot.m, scale)}`
   const { textW, radius: r, width, gutter, labelRoom } = layout
   const floor = layout.height - layout.bottom
   const markW = textW(`${mark}${sym}`)
   const besideW = Math.max(textW(head, true), textW(`${mark}${sym} · ${away}`))
   const others = layout.placed.filter(o => o !== dot)
   const line = layout.lineLabel
-  const onLine = (x0, x1, y0, y1) => x0 < line.x1 + 4 && x1 > line.x0 - 4 && y0 < line.y1 + 4 && y1 > line.y0 - 4
+  const boxes = [line, layout.field?.tag].filter(Boolean)
+  const onLine = (x0, x1, y0, y1) => boxes.some(box => x0 < box.x1 + 4 && x1 > box.x0 - 4 && y0 < box.y1 + 4 && y1 > box.y0 - 4)
   const clearOf = (x0, x1, y0, y1) => others.every(o => o.x + r + 2 < x0 || o.x - r - 2 > x1 || o.y + r + 2 < y0 || o.y - r - 2 > y1)
   const spots = [
     [dot.x + r + 8, 'start', dot.y - 3],

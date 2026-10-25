@@ -1,13 +1,13 @@
 import { useLayoutEffect, useRef } from 'react'
 import { chipCentre, chipDots, chipRadius, chipsLast, coveredDots } from '../utils/chips'
-import { fieldMeters, placeReadout } from '../utils/strip'
+import { placeReadout } from '../utils/strip'
 import LogoChip from './LogoChip'
 import { FieldTag } from './RaceStrip'
 
 // The race strip stood upright beside the table on wide screens. The page owns the layout;
 // this reports the space it has, draws the field and points back at rows that are off screen.
 export default function RaceColumn({
-  layout, kind, lineRank, fieldRank = null, activeRank, onHover, onLeave, onSize, memory, seen, chip, onChip, caption, style,
+  layout, kind, lineRank, activeRank, onHover, onLeave, onSize, memory, seen, chip, onChip, caption, style,
 }) {
   const boxRef = useRef(null)
   const svgRef = useRef(null)
@@ -46,9 +46,8 @@ export default function RaceColumn({
   const active = layout?.placed.find(dot => dot.rank === activeRank) || null
   const readout = active && !memory ? placeReadout(layout, active, kind, lineRank) : null
   const band = layout && seen ? bandFor(layout, seen) : null
-  const fieldM = layout && fieldRank != null ? fieldMeters(layout.placed, fieldRank) : null
-  const fieldY = fieldM == null ? null : layout.yAt(fieldM)
-  const chips = layout ? chipDots(layout.placed, lineRank) : []
+  const field = layout?.field || null
+  const chips = layout ? chipDots(layout.placed, lineRank, layout.field?.rank) : []
   const chipR = chipRadius()
   // Ahead is up the column, so the first one out's chip stays below the line and the leader's above it.
   const chipY = dot => chipCentre(dot.y, layout.lineY, dot.rank > lineRank ? 1 : dot.rank < lineRank ? -1 : 0, {
@@ -85,11 +84,13 @@ export default function RaceColumn({
               <g className="fl">
                 <line x1={0} x2={layout.width} y1={layout.lineY} y2={layout.lineY} />
               </g>
-              {fieldY != null && (
+              {field && (
                 <g className="fld-l">
-                  <line className="under" x1={layout.laneFrom} x2={layout.width} y1={fieldY} y2={fieldY} />
-                  <line x1={layout.laneFrom} x2={layout.width} y1={fieldY} y2={fieldY} />
-                  <FieldTag x={layout.width - 66} y={fieldY > layout.lineY ? fieldY + 5 : fieldY - 23} />
+                  <line x1={layout.laneFrom} x2={layout.laneTo} y1={field.y} y2={field.y} />
+                  {field.tag.y0 + 9 !== field.y && (
+                    <polyline className="fld-lead" points={`${layout.laneTo},${field.y} ${field.tag.x0 - 2},${field.tag.y0 + 9}`} />
+                  )}
+                  <FieldTag x={field.tag.x0} y={field.tag.y0} />
                 </g>
               )}
               <g className="labels leads">

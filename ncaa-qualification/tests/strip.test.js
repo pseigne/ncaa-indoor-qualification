@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest'
 import { eventMeta, hasStrip } from '../src/utils/catalog'
 import { markInfo } from '../src/utils/format'
 import {
-  GROUP_GAP, LANE_GAP, LANE_ORDER, groupByHeight, laneDepth, placeDots, layoutColumn, layoutStrip, metersAhead, placeReadout, wrapLine,
+  GROUP_GAP, LANE_GAP, LANE_ORDER, fieldScale, groupByHeight, laneDepth, placeDots, layoutColumn, layoutStrip, metersAhead, placeReadout, scaleFor, wrapLine,
 } from '../src/utils/strip'
 
 function field(count, valueAt) {
@@ -431,14 +431,74 @@ describe('upright race column', () => {
 })
 
 describe('which events get a strip', () => {
-  it('includes sprints and relays, and leaves field events and the heptathlon as tables', () => {
+  it('includes sprints, relays, jumps and throws, and leaves the combined events as tables', () => {
     expect(hasStrip(eventMeta('60 Meters'))).toBe(true)
     expect(hasStrip(eventMeta('Mile'))).toBe(true)
     expect(hasStrip(eventMeta('4 x 400 Relay'))).toBe(true)
     expect(hasStrip(eventMeta('Distance Medley Relay'))).toBe(true)
-    expect(hasStrip(eventMeta('High Jump'))).toBe(false)
+    expect(hasStrip(eventMeta('High Jump'))).toBe(true)
+    expect(hasStrip(eventMeta('Weight Throw'))).toBe(true)
+    expect(hasStrip(eventMeta('Javelin'))).toBe(true)
     expect(hasStrip(eventMeta('Heptathlon'))).toBe(false)
     expect(hasStrip(eventMeta('Pentathlon'))).toBe(false)
     expect(hasStrip(eventMeta('Decathlon'))).toBe(false)
+  })
+})
+
+describe('jumps and throws on the strip', () => {
+  const shot = Array.from({ length: 40 }, (_, index) => ({ rank: index + 1, name: `Thrower ${index + 1}`, v: 21 - index * 0.05 }))
+
+  it('measures each mark from the line in meters, with no estimate', () => {
+    const scale = scaleFor({ kind: 'mark', name: 'Shot Put' })
+    expect(scale.gap(19.5, 20.1)).toBeCloseTo(0.6, 9)
+    expect(scale.estimate).toBe(false)
+    expect(scaleFor({ kind: 'points', name: 'Heptathlon' })).toBeNull()
+    expect(scaleFor({ kind: 'time', dist: 400 }).gap(46, 45)).toBeCloseTo(metersAhead(400, 46, 45), 9)
+  })
+
+  it('says farther and shorter for a throw, higher and lower for a vertical jump', () => {
+    const layout = layoutColumn({ rows: shot, lineV: shot[15].v, scale: fieldScale('Shot Put'), rank: 16, width: 400, height: 760, bottom: 52 })
+    expect(layout.ticks.some(tick => tick.text.endsWith('farther'))).toBe(true)
+    expect(layout.ticks.some(tick => tick.text.endsWith('shorter'))).toBe(true)
+    expect(layout.aria).not.toMatch(/estimate/)
+    const first = layout.labels.find(label => label.rank === 1)
+    expect(first.lines.join(' ')).toMatch(/0\.75\u2009m\u00a0farther/)
+    const vault = layoutStrip({ rows: shot.map(row => ({ ...row, v: row.v / 4 })), lineV: shot[15].v / 4, scale: fieldScale('Pole Vault'), rank: 16, width: 960, radius: 8 })
+    expect(vault.ticks.some(tick => /higher$/.test(tick.text))).toBe(true)
+    expect(vault.aria).toMatch(/higher than the line/)
+  })
+})
+
+describe('the field line on the upright column', () => {
+  const relay = Array.from({ length: 50 }, (_, index) => ({ rank: index + 1, name: `School ${index + 1}`, v: 184 + index * 0.08 }))
+
+  it('tags the line at the end of the lanes, clear of the qualifying label and every runner label', () => {
+    for (const fieldRank of [9, 13, 15]) {
+      const layout = layoutColumn({ rows: relay, lineV: relay[11].v, dist: 1600, rank: 12, fieldRank, width: 380, height: 760, bottom: 52 })
+      const { tag, y } = layout.field
+      expect(tag.x0).toBeGreaterThanOrEqual(layout.laneTo)
+      expect(tag.x1).toBeLessThanOrEqual(layout.width)
+      // On the field line's own side of the qualifying line.
+      expect(Math.sign(tag.y0 + tag.y1 - 2 * layout.lineY)).toBe(Math.sign(y - layout.lineY))
+      const meet = (a, b) => a.x0 < b.x1 && a.x1 > b.x0 && a.y0 < b.y1 && a.y1 > b.y0
+      expect(meet(tag, layout.lineLabel)).toBe(false)
+      for (const label of layout.labels) expect(meet(tag, label)).toBe(false)
+      expect(tag.y0 > layout.lineY + 2 || tag.y1 < layout.lineY - 2).toBe(true)
+    }
+  })
+
+  it('has no field line when the layout is given none', () => {
+    const layout = layoutColumn({ rows: relay, lineV: relay[11].v, dist: 1600, rank: 12, width: 380, height: 760, bottom: 52 })
+    expect(layout.field).toBeNull()
+  })
+})
+
+describe('chips when the field went past the line', () => {
+  it('leaves a first one out the field took in as a plain dot', async () => {
+    const { chipDots } = await import('../src/utils/chips')
+    const placed = [1, 12, 13, 14].map(rank => ({ rank }))
+    expect(chipDots(placed, 12).map(dot => dot.rank)).toEqual([1, 13])
+    expect(chipDots(placed, 12, 13).map(dot => dot.rank)).toEqual([1])
+    expect(chipDots(placed, 12, 10).map(dot => dot.rank)).toEqual([1, 13])
   })
 })

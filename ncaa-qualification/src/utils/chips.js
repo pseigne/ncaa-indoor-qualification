@@ -1,9 +1,11 @@
 // Only the leader and the first one out get a logo chip: the two dots that already carry gutter labels.
 // Like the labels, each takes the first dot listed at that place, so a shared place gets one chip, and a
-// line drawn at the last entry leaves only the leader's.
-export function chipDots(placed, lineRank) {
+// line drawn at the last entry leaves only the leader's. A first one out the field took in stays a plain
+// dot: its chip, drawn clear of the qualifying line, would land on the far side of the field line.
+export function chipDots(placed, lineRank, fieldRank = null) {
   const leader = placed.find(dot => dot.rank === 1)
-  const firstOut = Number.isFinite(lineRank) ? placed.find(dot => dot.rank === lineRank + 1) : null
+  const taken = Number.isFinite(fieldRank) && fieldRank > lineRank
+  const firstOut = Number.isFinite(lineRank) && !taken ? placed.find(dot => dot.rank === lineRank + 1) : null
   return [leader, firstOut].filter((dot, index, list) => dot && list.indexOf(dot) === index)
 }
 

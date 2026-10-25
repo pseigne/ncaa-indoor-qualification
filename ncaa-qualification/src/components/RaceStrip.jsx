@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'react'
 import { formatMark, symbolString } from '../utils/format'
 import {
-  canvasMeasure, fieldMeters, fitReadout, formatMeters, readoutNames,
+  FIELD_TAG, canvasMeasure, fieldMeters, fitReadout, formatMeters, readoutNames,
 } from '../utils/strip'
 import { useReduceMotion } from '../utils/media'
 import { chipCentre, chipDots, chipRadius, chipsLast, coveredDots, liftedDot } from '../utils/chips'
@@ -21,7 +21,7 @@ export default function RaceStrip({
   const reduce = useReduceMotion()
   const measureText = useMemo(() => canvasMeasure(), [])
   const active = layout?.placed.find(dot => dot.rank === activeRank) || null
-  const fitted = active && !memory ? fitActive(active, layout.width, kind, lineRank, measureText) : null
+  const fitted = active && !memory ? fitActive(active, layout, kind, lineRank, measureText) : null
   const readout = memory?.text || fitted?.readout || ''
   const readoutX = memory ? memory.x : fitted ? fitted.x : 0
   const anchor = memory ? memory.anchor : fitted ? fitted.anchor : 'middle'
@@ -79,7 +79,7 @@ export default function RaceStrip({
   }, [fit, glide, layout, reduce])
 
   if (!layout) return null
-  const chips = card ? chipDots(layout.placed, lineRank) : []
+  const chips = card ? chipDots(layout.placed, lineRank, fieldRank) : []
   // The row picked by scrolling lifts its runner's dot into a chip, drawn after everything else.
   const lifted = card ? liftedDot(layout.placed, scrollRank, chips) : null
   const drawn = lifted ? [...chips, lifted] : chips
@@ -96,6 +96,7 @@ export default function RaceStrip({
   }
   const fieldM = fieldRank == null ? null : fieldMeters(layout.placed, fieldRank)
   const fieldX = fieldM == null ? null : layout.xAt(fieldM)
+  const tagX = fieldX == null ? null : fieldTagX(layout, fieldX)
   const counts = {}
   layout.placed.forEach(dot => { counts[dot.name] = (counts[dot.name] || 0) + 1 })
   const near = event => {
@@ -158,9 +159,8 @@ export default function RaceStrip({
         </g>
         {fieldX != null && (
           <g className="fld-l">
-            <line className="under" x1={fieldX} x2={fieldX} y1={layout.top - 10} y2={layout.baseY + layout.lane / 2 + 5} />
             <line x1={fieldX} x2={fieldX} y1={layout.top - 10} y2={layout.baseY + layout.lane / 2 + 5} />
-            <FieldTag x={fieldX > 80 ? fieldX - 72 : fieldX + 6} y={layout.top - 9} />
+            <FieldTag x={tagX} y={layout.top - 9} />
           </g>
         )}
         {chipsLast(layout.placed, drawn).map(dot => {
@@ -193,18 +193,30 @@ export default function RaceStrip({
 export function FieldTag({ x, y }) {
   return (
     <g className="fld-tag" transform={`translate(${x} ${y})`}>
-      <rect width="66" height="18" rx="9" />
-      <text x="33" y="13" textAnchor="middle">Field line</text>
+      <rect width={FIELD_TAG.w} height={FIELD_TAG.h} rx={FIELD_TAG.h / 2} />
+      <text x={FIELD_TAG.w / 2} y="13" textAnchor="middle">Field line</text>
     </g>
   )
 }
 
+// The field line's tag sits in the top label row, beside the line: on the side away from the qualifying
+// line where it fits, and clear of any label in that row.
+function fieldTagX(layout, fieldX) {
+  const w = FIELD_TAG.w
+  const row = layout.labels.filter(label => Math.abs(label.y - (layout.top + 4)) < 10)
+  const away = fieldX < layout.lineX ? [fieldX - w - 6, fieldX + 6] : [fieldX + 6, fieldX - w - 6]
+  const fits = x => x >= 0 && x + w <= layout.width
+    && !(x < layout.lineX + 4 && x + w > layout.lineX - 4)
+    && row.every(label => x + w + 8 < label.x0 || x - 8 > label.x1)
+  return away.find(fits) ?? away.find(x => x >= 0 && x + w <= layout.width) ?? Math.max(0, fieldX - w - 6)
+}
+
 // The readout for the dot being pointed at, fitted inside the strip: a shorter name, the other side of the
 // dot, and only then fewer parts. Never cut off.
-function fitActive(dot, width, kind, lineRank, measure) {
+function fitActive(dot, { width, scale }, kind, lineRank, measure) {
   const mark = formatMark(dot.v, kind)
   const sym = symbolString(dot.conversion)
-  const tail = ` · ${dot.rank === lineRank ? 'on the line' : `${formatMeters(dot.m)} ${dot.m > 0 ? 'ahead' : 'back'}`}`
+  const tail = ` · ${dot.rank === lineRank ? 'on the line' : `${formatMeters(dot.m, scale.digits)} ${dot.m > 0 ? scale.ahead : scale.back}`}`
   const head = name => `${dot.rank}. ${name}`
   const parts = (name, keep) => `${head(name)}${keep.mark ? ` · ${mark}${sym}` : ''}${keep.tail ? tail : ''}`
   const names = readoutNames(dot.name)

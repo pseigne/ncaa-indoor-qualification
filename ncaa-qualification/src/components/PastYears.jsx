@@ -45,6 +45,23 @@ function conversionCopy(line) {
   return null
 }
 
+// Next to the season's line: how deep its field as accepted reached, as "field reached 19th · 6.68 m".
+function fieldNote(line, kind) {
+  const field = line.field
+  if (!field) return null
+  const cancelled = field.cancelled ? ' · meet cancelled' : ''
+  if (field.status === 'unmatched') return `Field not matched to the list${cancelled}`
+  if (field.status === 'beyond_list') return `Field reached past the saved list${cancelled}`
+  const held = field.rank === line.rank && line.comparable
+  const mark = kind === 'time' || !Number.isFinite(field.v) ? field.mark : formatMark(field.v, kind)
+  return (
+    <>
+      {held ? 'Field held at the line · ' : `Field reached ${ordinal(field.rank)} · `}
+      <Mark text={mark} conversion={field.conversion} />{cancelled}
+    </>
+  )
+}
+
 function meetNote(line) {
   if (line.note === 'No meet (COVID)') return 'The championships were cancelled (COVID-19); the list was final.'
   if (line.rule === 'cancelled' || line.note === 'Season cancelled') return 'Season cancelled'
@@ -486,6 +503,7 @@ function SeasonRow({ line, kind, current, currentYear, selected, old = false }) 
   const converted = conversionCopy(line)
   const note = meetNote(line)
   const pile = pileSentence(line)
+  const field = fieldNote(line, kind)
   return (
     <tr className={now ? 'now' : old ? 'old' : undefined}>
       <td className="s">{seasonLabel(line.year)}</td>
@@ -497,6 +515,7 @@ function SeasonRow({ line, kind, current, currentYear, selected, old = false }) 
         {line.raw ? <span className="quiet">{`Raw mark: ${line.raw}`}</span> : null}
         {pile && <span className="tie">{pile}<Mark text={shownMark(line, kind)} conversion={line.conversion} raw={line.raw} /></span>}
         {line.tie && !pile && <span className="tie">{tieSentence(line.tie)}</span>}
+        {field && <span className="fld">{field}</span>}
         {note && <span className="tie">{note}</span>}
         {!line.conversion && converted && <span className="conv">{converted}</span>}
       </td>

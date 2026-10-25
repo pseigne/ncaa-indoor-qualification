@@ -1,0 +1,318 @@
+import { afterEach, describe, expect, it, vi } from 'vitest'
+import { cleanup, render, screen } from '@testing-library/react'
+import App from '../src/App'
+import PastYears from '../src/components/PastYears'
+import { buildEvents } from '../src/utils/model'
+import { pastLines } from '../src/utils/past'
+import { readField } from '../src/utils/qualification'
+import { serveSite, siteFiles } from './site'
+
+// A men's indoor mile with the line at 16: 3:53.00, 3:53.25, ... a quarter second apart.
+function mile(count = 30, rank = 16, field = undefined) {
+  const rankings = Array.from({ length: count }, (_, index) => {
+    const seconds = 53 + index * 0.25
+    return { rank: index + 1, athlete: `Runner ${index + 1}`, team: `School ${index + 1}`, time: `3:${seconds.toFixed(2)}` }
+  })
+  return {
+    year: '2025-2026',
+    event: 'Mile',
+    season: 'indoor',
+    region: 'National',
+    gender: 'm',
+    rankings,
+    qualification: { rank, is_relay: false, status: 'available', entry: { ...rankings[rank - 1] } },
+    ...(field !== undefined ? { field } : {}),
+  }
+}
+
+// The field as accepted on Mar 3: down to 19th, with 17th and 19th in and 6th and 12th not.
+function accepted(extra = {}) {
+  return {
+    status: 'available',
+    rank: 19,
+    size: 16,
+    accepted: '2026-03-03',
+    cancelled: false,
+    entry: { rank: 19, athlete: 'Runner 19', team: 'School 19', time: '3:57.50' },
+    in: [17, 19],
+    out: [6, 12],
+    unmatched: 0,
+    ...extra,
+  }
+}
+
+// A past season's field: the same, without the ranks it took in or left out.
+function pastField(field) {
+  const past = { ...field }
+  delete past.in
+  delete past.out
+  return past
+}
+
+// The same field held at the line: the top 16 all accepted.
+function held(extra = {}) {
+  return accepted({ rank: 16, entry: { rank: 16, athlete: 'Runner 16', team: 'School 16', time: '3:56.75' }, in: [], out: [], ...extra })
+}
+
+function holds(query, width) {
+  return query.split(' and ').every(part => {
+    const min = part.match(/min-width:\s*(\d+)px/)
+    const max = part.match(/max-width:\s*(\d+)px/)
+    if (min) return width >= Number(min[1])
+    if (max) return width <= Number(max[1])
+    return false
+  })
+}
+
+function screenAt(width) {
+  vi.stubGlobal('innerWidth', width)
+  vi.stubGlobal('matchMedia', query => ({ matches: holds(query, width), addEventListener() {}, removeEventListener() {} }))
+  // The standing strip sizes itself from its plot box, which jsdom does not lay out.
+  vi.spyOn(HTMLElement.prototype, 'clientWidth', 'get').mockImplementation(function size() {
+    return this.classList.contains('plot') ? 400 : 0
+  })
+  vi.spyOn(HTMLElement.prototype, 'clientHeight', 'get').mockImplementation(function size() {
+    return this.classList.contains('plot') ? 700 : 0
+  })
+}
+
+async function open(records, { width = 1440, url = '/?s=indoor&g=m&event=mile', line = 16 } = {}) {
+  screenAt(width)
+  window.history.replaceState(null, '', url)
+  serveSite(siteFiles(records))
+  render(<App />)
+  await screen.findByText(String(line), { selector: 'tr.bubble .pl' })
+}
+
+const row = rank => document.querySelector(`tbody tr[data-rank="${rank}"]`)
+const tags = () => Object.fromEntries([...document.querySelectorAll('tbody tr[data-rank] .tag')].map(tag => [tag.closest('tr').dataset.rank, tag.textContent]))
+
+afterEach(() => {
+  cleanup()
+  vi.unstubAllGlobals()
+  vi.restoreAllMocks()
+  window.history.replaceState(null, '', '/')
+})
+
+describe('reading the saved field', () => {
+  it('keeps a field that follows the contract', () => {
+    expect(readField({ field: accepted() })).toEqual(accepted())
+    expect(readField({ field: accepted({ status: 'unmatched', rank: null, entry: null, unmatched: 2 }) })?.status).toBe('unmatched')
+    expect(readField({ field: accepted({ status: 'beyond_list', rank: null, entry: null }) })?.status).toBe('beyond_list')
+    const past = pastField(accepted())
+    expect(readField({ field: past }, { history: true })).toEqual(past)
+  })
+
+  it.each([
+    undefined, null, 'field', {},
+    accepted({ status: 'missing' }),
+    accepted({ accepted: '2026-03-03T16:18' }),
+    accepted({ accepted: null }),
+    accepted({ cancelled: undefined }),
+    accepted({ size: 0 }),
+    accepted({ rank: '19' }),
+    accepted({ unmatched: 1 }),
+    accepted({ entry: null }),
+    accepted({ entry: { rank: 18, athlete: 'Runner 19', team: 'School 19', time: '3:57.50' } }),
+    accepted({ entry: { rank: 19, athlete: '', team: 'School 19', time: '3:57.50' } }),
+    accepted({ entry: { rank: 19, athlete: 'Runner 19', team: 'School 19', time: 237.5 } }),
+    accepted({ in: [17, '19'] }),
+    accepted({ out: null }),
+    accepted({ status: 'unmatched', unmatched: 0 }),
+  ])('reads a malformed field as none %#', field => {
+    expect(readField({ field })).toBeNull()
+  })
+
+  it('needs in and out on a list, never on a past season', () => {
+    const past = pastField(accepted())
+    expect(readField({ field: past })).toBeNull()
+    expect(readField({ field: past }, { history: true })).not.toBeNull()
+    expect(readField({ field: { ...past, in: 'all' } }, { history: true })).toBeNull()
+  })
+
+  it('gives the event its field row as a mark, and the ranks it took in or left out', () => {
+    const [event] = buildEvents({ season: 'indoor', events: [mile(30, 16, accepted())] })
+    expect(event.field).toMatchObject({ status: 'available', rank: 19, size: 16, accepted: '2026-03-03', cancelled: false })
+    expect(event.field.entry).toMatchObject({ rank: 19, athlete: 'Runner 19', team: 'School 19', conversion: null })
+    expect(event.field.entry.v).toBeCloseTo(237.5, 2)
+    expect([...event.field.in]).toEqual([17, 19])
+    expect([...event.field.out]).toEqual([6, 12])
+    expect(buildEvents({ season: 'indoor', events: [mile()] })[0].field).toBeNull()
+    const unread = accepted({ entry: { rank: 19, athlete: 'Runner 19', team: 'School 19', time: 'DNF' } })
+    expect(buildEvents({ season: 'indoor', events: [mile(30, 16, unread)] })[0].field).toBeNull()
+  })
+})
+
+describe('the field line on the heat sheet', () => {
+  it('draws a second line after the deepest place the field took, and keeps the qualifying line as it was', async () => {
+    await open([mile(30, 16, accepted())])
+    const finish = document.getElementById('finish')
+    expect(finish.textContent).toBe('Qualifying line · top 16 go to nationals First one out is 0.25s back')
+    expect(finish.closest('tr').previousElementSibling).toBe(row(16))
+    const fieldRow = document.querySelector('tr.fieldrow')
+    expect(fieldRow.previousElementSibling).toBe(row(19))
+    expect(fieldRow.nextElementSibling).toBe(row(20))
+    expect(fieldRow.textContent).toBe('Field line · reached 19th as accepted Mar 3')
+    expect(fieldRow.querySelector('td').colSpan).toBe(5)
+    expect(fieldRow.querySelector('button, [tabindex]')).toBeNull()
+    expect(document.querySelectorAll('tr.fieldrow')).toHaveLength(1)
+  })
+
+  it('tags who got in from below the line and who inside it is not in the field', async () => {
+    await open([mile(30, 16, accepted())])
+    expect(tags()).toEqual({ 6: 'not in field', 12: 'not in field', 17: 'in', 19: 'in' })
+    expect(row(17).querySelector('.tag').className).toBe('tag tag-in')
+    expect(row(6).querySelector('.tag').className).toBe('tag tag-out')
+    expect(row(17).getAttribute('aria-label')).toBe('17. Runner 17, School 17, 3:57.00, out, 0.25s behind the line, in the field')
+    expect(row(18).getAttribute('aria-label')).toBe('18. Runner 18, School 18, 3:57.25, out, 0.50s behind the line')
+    expect(row(6).getAttribute('aria-label')).toBe('6. Runner 6, School 6, 3:54.25, in, 2.50s ahead of the line, not in the field')
+  })
+
+  it('says how deep the field reached in the hero', async () => {
+    await open([mile(30, 16, accepted())])
+    const lead = document.querySelector('.herocard .lead')
+    expect(lead.querySelector('.field-lead').textContent).toBe('The field reached 19th: Runner 19, School 19 (3:57.50).')
+    expect(lead.textContent).toBe('16th on the list: Runner 16, School 16. The field reached 19th: Runner 19, School 19 (3:57.50).')
+  })
+
+  it('shows rows down to six past the deeper line', async () => {
+    await open([mile(30, 16, accepted())])
+    expect(Number([...document.querySelectorAll('tbody tr[data-rank]')].at(-1).dataset.rank)).toBe(25)
+    expect(screen.getByRole('button', { name: 'Show all 30' })).toBeTruthy()
+    cleanup()
+    await open([mile(40, 16, accepted({ rank: 28, entry: { rank: 28, athlete: 'Runner 28', team: 'School 28', time: '3:59.75' }, in: [17, 28] }))])
+    expect(Number([...document.querySelectorAll('tbody tr[data-rank]')].at(-1).dataset.rank)).toBe(34)
+  })
+
+  it('says the field held at the line when it reached no deeper', async () => {
+    await open([mile(30, 16, held())])
+    const fieldRow = document.querySelector('tr.fieldrow')
+    expect(fieldRow.previousElementSibling).toBe(document.getElementById('finish').closest('tr'))
+    expect(fieldRow.textContent).toBe('Field line · held at the line as accepted Mar 3')
+    expect(document.querySelector('.field-lead').textContent).toBe('The field held at the line.')
+    expect(tags()).toEqual({})
+  })
+
+  it('says the meet was cancelled', async () => {
+    await open([mile(30, 16, accepted({ cancelled: true }))])
+    expect(document.querySelector('tr.fieldrow').textContent).toBe('Field line · reached 19th as accepted Mar 3 · meet cancelled')
+    expect(document.querySelector('.field-lead').textContent).toBe('The field reached 19th: Runner 19, School 19 (3:57.50). The meet was cancelled.')
+  })
+
+  it.each([
+    [accepted({ status: 'unmatched', rank: null, entry: null, unmatched: 2 }), 'No field line: 2 accepted entries aren’t matched to this list.'],
+    [accepted({ status: 'unmatched', unmatched: 1 }), 'No field line: 1 accepted entry isn’t matched to this list.'],
+    [accepted({ status: 'beyond_list', rank: null, entry: null }), 'The field reached past the 30 places on this list.'],
+  ])('leaves a note instead of a line %#', async (field, note) => {
+    await open([mile(30, 16, field)])
+    expect(document.querySelector('.field-lead').textContent).toBe(note)
+    expect(document.querySelector('tr.fieldrow')).toBeNull()
+    expect(tags()).toEqual({})
+    expect(Number([...document.querySelectorAll('tbody tr[data-rank]')].at(-1).dataset.rank)).toBe(22)
+  })
+
+  it.each([undefined, null, accepted({ accepted: 'Mar 3' })])('changes nothing without a field %#', async field => {
+    await open([mile(30, 16, field)])
+    expect(document.querySelector('tr.fieldrow')).toBeNull()
+    expect(document.querySelector('.field-lead')).toBeNull()
+    expect(document.querySelector('.tag')).toBeNull()
+    expect(document.querySelector('.herocard .lead').textContent).toBe('16th on the list: Runner 16, School 16.')
+    expect(Number([...document.querySelectorAll('tbody tr[data-rank]')].at(-1).dataset.rank)).toBe(22)
+    expect(row(17).getAttribute('aria-label')).toBe('17. Runner 17, School 17, 3:57.00, out, 0.25s behind the line')
+  })
+
+  it('keeps the field line and tags on phones', async () => {
+    await open([mile(30, 16, accepted())], { width: 390 })
+    expect(document.querySelector('tr.fieldrow').previousElementSibling).toBe(row(19))
+    expect(tags()).toMatchObject({ 17: 'in', 19: 'in' })
+    expect(document.querySelector('.field-lead').textContent).toBe('The field reached 19th: Runner 19, School 19 (3:57.50).')
+  })
+})
+
+describe('the board', () => {
+  function eight(field) {
+    const record = mile()
+    const rankings = record.rankings.map(item => ({ ...item, time: `1:${(46 + (item.rank - 1) * 0.1).toFixed(2)}` }))
+    return { ...record, event: '800 Meters', rankings, qualification: { ...record.qualification, entry: { ...rankings[15] } }, ...(field ? { field } : {}) }
+  }
+
+  async function board(records) {
+    screenAt(1440)
+    window.history.replaceState(null, '', '/?s=indoor&g=m&view=board')
+    serveSite(siteFiles(records))
+    render(<App />)
+    return screen.findByRole('table', { name: 'Every qualifying line' })
+  }
+
+  const cell = (table, label) => [...table.querySelectorAll('tbody tr')].find(item => item.querySelector('td.ev')?.textContent === label)?.querySelector('td.field')
+
+  it('adds a Field reached column once any event has a field', async () => {
+    const table = await board([mile(30, 16, accepted()), eight()])
+    expect([...table.querySelectorAll('thead th')].map(th => th.textContent)).toEqual(['Event', 'Line', 'Held by', 'Team', 'Field reached', 'Since Feb 1', 'Season, faster ↑'])
+    expect(cell(table, 'Mile').textContent).toBe('Field reached 19th · 3:57.50')
+    expect(cell(table, 'Mile').querySelector('.ph').textContent).toBe('Field reached ')
+    expect(cell(table, '800m').textContent).toBe('')
+    expect([...table.querySelectorAll('tr.grp td')].every(td => td.colSpan === 7)).toBe(true)
+  })
+
+  it('says why an event has no field line', async () => {
+    const table = await board([
+      mile(30, 16, accepted({ status: 'unmatched', rank: null, entry: null, unmatched: 2 })),
+      eight(accepted({ status: 'beyond_list', rank: null, entry: null })),
+    ])
+    expect(cell(table, 'Mile').textContent).toBe('Field reached not matched')
+    expect(cell(table, '800m').textContent).toBe('Field reached past the list')
+  })
+
+  it('has no column without a field', async () => {
+    const table = await board([mile(), eight()])
+    expect([...table.querySelectorAll('thead th')].map(th => th.textContent)).not.toContain('Field reached')
+    expect(table.querySelector('td.field')).toBeNull()
+    expect([...table.querySelectorAll('tr.grp td')].every(td => td.colSpan === 6)).toBe(true)
+  })
+})
+
+describe('past years', () => {
+  const scope = { season: 'indoor', region: 'National', gender: 'f', event: 'Long Jump' }
+
+  function line(year, mark, field) {
+    return {
+      season: 'indoor', region: 'National', gender: 'f', event: 'Long Jump', year, rank: 16, of: 16, place: 16, mark,
+      athlete: 'Jumper, Ada', team: 'School', rule: 'line', comparable: true,
+      ...(field ? { field: pastField(field) } : {}),
+    }
+  }
+
+  function jump(rank, time) {
+    return { rank, athlete: 'Jumper, Bea', team: 'Other School', time }
+  }
+
+  it('puts each season’s field next to its qualifying line', () => {
+    const lines = pastLines({
+      lines: [
+        line('2025-2026', '6.71', accepted({ entry: jump(19, '6.68') })),
+        line('2024-2025', '6.66', held({ entry: jump(16, '6.66') })),
+        line('2019-2020', '6.50', accepted({ rank: 18, entry: jump(18, '6.47'), cancelled: true })),
+        line('2018-2019', '6.48', accepted({ accepted: 'Mar 3' })),
+        line('2017-2018', '6.45', accepted({ status: 'unmatched', rank: null, entry: null, unmatched: 3 })),
+        line('2016-2017', '6.44'),
+      ],
+    }, scope)
+    expect(lines.map(item => item.field?.status ?? null)).toEqual(['available', 'available', 'available', null, 'unmatched', null])
+    const view = render(<PastYears lines={lines} kind="mark" currentYear="2025-2026" />)
+    fireAll(view)
+    const note = year => [...view.container.querySelectorAll('tbody tr')].find(item => item.textContent.includes(year))?.querySelector('.fld')?.textContent ?? null
+    expect(note('2025–26')).toBe('Field reached 19th · 6.68 m')
+    expect(note('2024–25')).toBe('Field held at the line · 6.66 m')
+    expect(note('2019–20')).toBe('Field reached 18th · 6.47 m · meet cancelled')
+    expect(note('2018–19')).toBeNull()
+    expect(note('2017–18')).toBe('Field not matched to the list')
+    expect(note('2016–17')).toBeNull()
+  })
+
+  // Every season, not just the recent five.
+  function fireAll(view) {
+    const more = [...view.container.querySelectorAll('button.more')].find(button => /^Show all/.test(button.textContent))
+    more?.click()
+  }
+})

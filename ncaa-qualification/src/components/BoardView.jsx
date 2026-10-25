@@ -1,6 +1,6 @@
 import { finitePoints } from '../utils/chart'
 import { comparisonSeries, comparisonStart, pickComparison } from '../utils/comparison'
-import { formatBare, formatMark, genderWord, shortDate, signed, surname, tidy, unitWord } from '../utils/format'
+import { formatBare, formatMark, genderWord, ordinal, shortDate, signed, surname, tidy, unitWord } from '../utils/format'
 import { grouped } from '../utils/model'
 import { href, plainClick, yearLabel } from '../utils/route'
 import Spark from './Spark'
@@ -17,6 +17,8 @@ export default function BoardView({ events, query, go, context, phone = false, o
   const who = genderWord(query.gender, { possessive: true })
   const place = query.season === 'outdoor' ? `${who} outdoor, ${query.region}` : `${who} indoor`
   const when = context.listDate ? `${shortDate(context.listDate)}, ${context.listDate.slice(0, 4)}` : null
+  // Only a season with an imported field gets the column.
+  const fielded = events.some(event => event.field)
   return (
     <>
       {!phone && <Filters query={query} go={go} />}
@@ -46,13 +48,14 @@ export default function BoardView({ events, query, go, context, phone = false, o
             <th className="r">Line</th>
             <th>Held by</th>
             <th><span className="vh">Team</span></th>
+            {fielded && <th>Field reached</th>}
             <th>Since Feb 1</th>
             <th className="r">Season, faster ↑</th>
           </tr>
         </thead>
         <tbody>
           {grouped(events).map(group => (
-            <Group key={group.name} group={group} query={query} go={go} year={context.year} />
+            <Group key={group.name} group={group} query={query} go={go} year={context.year} fielded={fielded} />
           ))}
         </tbody>
       </table>
@@ -73,10 +76,10 @@ export default function BoardView({ events, query, go, context, phone = false, o
   )
 }
 
-function Group({ group, query, go, year }) {
+function Group({ group, query, go, year, fielded }) {
   return (
     <>
-      <tr className="grp"><td colSpan={6}>{group.name}</td></tr>
+      <tr className="grp"><td colSpan={fielded ? 7 : 6}>{group.name}</td></tr>
       {group.events.map(event => {
         const all = finitePoints(event.series)
         // The same saved line the event page compares with: the first full list from Feb 1.
@@ -98,6 +101,7 @@ function Group({ group, query, go, year }) {
             </td>
             <td className="who">{event.line ? (event.isRelay ? tidy(event.line.team || event.line.athlete) : surname(event.line.athlete)) : ''}</td>
             <td className="team">{event.line && !event.isRelay ? tidy(event.line.team) : ''}</td>
+            {fielded && <td className="field">{event.field ? <>{FIELD_WORDS}<FieldReached event={event} /></> : ''}</td>}
             <td className={points.length ? 'since' : 'none'} data-since={from?.d}>{since}</td>
             <td className="r sp">{points.length > 1 ? <Spark series={comparisonSeries(event.series, from)} kind={event.kind} width={96} height={20} /> : ''}</td>
           </tr>
@@ -117,4 +121,20 @@ function change(event, points, year) {
   const digits = event.kind === 'points' ? 0 : 2
   if (Math.abs(delta) < (digits === 0 ? 0.5 : 0.005)) return `held since ${shortDate(start.d)}`
   return `${signed(delta, digits)}${unitWord(event.kind)} from ${formatBare(start.v, event.kind)}${later}`
+}
+
+// Phones hide the column heads, so the cell says what it is there.
+const FIELD_WORDS = <span className="ph">Field reached </span>
+
+// How deep the field as accepted reached, as "19th · 22.94", or why there is no field line.
+function FieldReached({ event }) {
+  const { field } = event
+  const cancelled = field.cancelled ? ' · meet cancelled' : ''
+  if (field.status === 'unmatched') return `not matched${cancelled}`
+  if (field.status === 'beyond_list') return `past the list${cancelled}`
+  return (
+    <>
+      {ordinal(field.rank)} · <Mark text={formatMark(field.entry.v, event.kind)} conversion={field.entry.conversion} raw={field.entry.raw} />{cancelled}
+    </>
+  )
 }

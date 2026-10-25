@@ -1,5 +1,6 @@
-import { formatMark, markConversion, ordinal, rawMark } from './format'
+import { formatMark, markConversion, markInfo, ordinal, rawMark } from './format'
 import { parseTime } from './helpers'
+import { readField } from './qualification'
 
 // One saved qualifying line. A later season is another object, with its own place.
 // `comparable` is false for the standards era and for a cancelled season, which
@@ -9,12 +10,31 @@ import { parseTime } from './helpers'
 //     season, region, gender, event, year, rank, mark, athlete, team,
 //     place?, of?, rule?, comparable?, note?, flag?, converted?,
 //     conversion?: "flat" | "altitude" | "both" | null,
-//     tie?: { rank, athlete, team }
+//     tie?: { rank, athlete, team },
+//     field?: { status, rank, size, accepted, cancelled, entry, unmatched }
 //   }]
 // }
 
 function yearKey(year) {
   return String(year || '').replaceAll('_', '-')
+}
+
+// A past season's field as accepted, without the ranks it took in or left out. Malformed reads as none.
+function pastField(line) {
+  const field = readField(line, { history: true })
+  if (!field) return null
+  const mark = field.entry ? markInfo(field.entry.time, field.entry) : null
+  if (field.status === 'available' && mark?.v == null) return null
+  return {
+    status: field.status,
+    rank: field.rank,
+    accepted: field.accepted,
+    cancelled: field.cancelled,
+    unmatched: field.unmatched,
+    mark: field.entry ? field.entry.time.trim() : '',
+    v: mark?.v ?? null,
+    conversion: mark?.conversion ?? null,
+  }
 }
 
 function usable(line) {
@@ -59,6 +79,7 @@ export function pastLines(catalog, { season, region, gender, event }) {
         conversion: markConversion(mark, line.flag, line.conversion),
         raw: rawMark(line.converted),
         tie: line.tie && Number.isInteger(line.tie.rank) ? line.tie : null,
+        field: pastField(line),
       }
     })
     .sort((a, b) => b.year.localeCompare(a.year) || a.rank - b.rank)

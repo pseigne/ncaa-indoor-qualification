@@ -1,7 +1,7 @@
 import { compareEvents, eventMeta, hasStrip, slugFromLabel } from './catalog'
 import { markInfo } from './format'
 import { parseTime } from './helpers'
-import { readQualification } from './qualification'
+import { readField, readQualification } from './qualification'
 
 // index.json lists every season the site has, by gender and region (outdoor lists are by region).
 function scopeRegion(season, region) {
@@ -59,6 +59,33 @@ function seconds(mark) {
   return Number.isFinite(value) ? value : null
 }
 
+// The field as accepted: its deepest saved row as a mark like the line's, and the ranks it took in or
+// left out. A field line is drawn only when every entry matched a saved row; otherwise there is just a note.
+export function fieldOf(record) {
+  const field = readField(record)
+  if (!field) return null
+  const mark = field.entry ? markInfo(field.entry.time, field.entry) : null
+  if (field.status === 'available' && mark?.v == null) return null
+  return {
+    status: field.status,
+    rank: field.rank,
+    size: field.size,
+    accepted: field.accepted,
+    cancelled: field.cancelled,
+    unmatched: field.unmatched,
+    entry: field.entry && mark?.v != null ? {
+      rank: field.entry.rank,
+      athlete: field.entry.athlete,
+      team: field.entry.team || '',
+      v: mark.v,
+      conversion: mark.conversion,
+      raw: mark.raw,
+    } : null,
+    in: new Set(field.in),
+    out: new Set(field.out),
+  }
+}
+
 export function buildEvents(scope) {
   if (!scope) return []
   const { season } = scope
@@ -109,6 +136,7 @@ export function buildEvents(scope) {
         conversion: entryMark.conversion,
         raw: entryMark.raw,
       } : null,
+      field: fieldOf(record),
       series,
       tracked,
       droppedAfterMeet,

@@ -69,6 +69,8 @@ export default function EventView({ event, query, go, context, past = null, onOp
   const trendSeries = comparisonSeries(event.series, since)
   const opening = trend[0]
   const stripWidth = phone ? Math.max(280, width - 32) : 960
+  // The field line is drawn only once every accepted entry is matched to a saved row.
+  const field = event.field?.status === 'available' ? event.field : null
   const runners = useMemo(() => event.rows.filter(row => Number.isFinite(row.v)).map(row => ({
     rank: row.rank,
     name: event.isRelay ? (row.team || row.athlete) : row.athlete,
@@ -230,7 +232,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
     reveal(rank)
   })
 
-  const cap = all ? Infinity : Math.max(22, (event.line?.rank || 0) + 6)
+  const cap = all ? Infinity : Math.max(22, Math.max(event.line?.rank || 0, field?.rank || 0) + 6)
   const visible = event.rows.filter(row => row.rank >= from && row.rank <= cap)
   const moreBelow = event.rows.some(row => row.rank > cap)
   // The rows are one tab stop: the last row focused, or the first row shown. Arrows move between them.
@@ -343,6 +345,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
   const who = event.line
     ? (event.isRelay ? tidy(event.line.team || event.line.athlete) : `${surname(event.line.athlete)}, ${tidy(event.line.team)}`)
     : ''
+  const fieldWords = fieldSentence(event)
   const lines = pastLines(past, { season: query.season, region: query.region, gender: query.gender, event: event.name })
   const details = (
     <Details
@@ -382,7 +385,13 @@ export default function EventView({ event, query, go, context, past = null, onOp
           ) : (
             <div className="num unavailable">Cutoff unavailable</div>
           )}
-          {event.line && <p className="lead"><Logo team={event.line.team || event.line.athlete} className="lead-logo" />{ordinal(event.line.rank)} on the {listWord}: {who}.</p>}
+          {event.line && (
+            <p className="lead">
+              <Logo team={event.line.team || event.line.athlete} className="lead-logo" />{ordinal(event.line.rank)} on the {listWord}: {who}.
+              {fieldWords && <>{' '}<span className="field-lead">{fieldWords}</span></>}
+            </p>
+          )}
+          {!event.line && fieldWords && <p className="lead"><span className="field-lead">{fieldWords}</span></p>}
           {!phone && details}
           {event.droppedAfterMeet && context.championship && (
             <p className="trend season-trend">
@@ -462,6 +471,8 @@ export default function EventView({ event, query, go, context, past = null, onOp
                   setHover={setHover}
                   active={scrollLinked && scrollRank === row.rank}
                   stop={row.rank === stop}
+                  tag={field ? (field.in.has(row.rank) ? 'in' : field.out.has(row.rank) ? 'out' : null) : null}
+                  fieldLine={field && row.rank === field.rank ? <FieldLine field={field} event={event} /> : null}
                   onFocusRow={() => setCursor(row.rank)}
                   onMove={key => moveRow(key, row.rank)}
                   hoverable={!scrollLinked}
@@ -615,13 +626,52 @@ function lineLabel(event) {
   return phrase ? `Qualifying line ${mark}, ${phrase}` : `Qualifying line ${mark}`
 }
 
-function rowLabel(event, row, name) {
+function rowLabel(event, row, name, tag) {
   const mark = formatMark(row.v, event.kind)
   const phrase = accessibleConversion(row.conversion)
   const shown = phrase ? `${mark}, ${phrase}` : mark
   const base = event.isRelay ? `${row.rank}. ${name}, ${shown}` : `${row.rank}. ${name}, ${tidy(row.team)}, ${shown}`
-  const status = rowStatus(event, row)
+  const status = [rowStatus(event, row), TAG_LABEL[tag]].filter(Boolean).join(', ')
   return status ? `${base}, ${status}` : base
+}
+
+// The row's tag, in the words its name uses. The accepted list can't tell a scratch from an athlete who
+// never declared, so "not in field" says only that.
+const TAG_TEXT = { in: 'in', out: 'not in field' }
+const TAG_LABEL = { in: 'in the field', out: 'not in the field' }
+
+// The hero's second sentence: how deep the field as accepted reached, or why there is no field line.
+function fieldSentence(event) {
+  const field = event.field
+  if (!field) return ''
+  const cancelled = field.cancelled ? ' The meet was cancelled.' : ''
+  if (field.status === 'unmatched') {
+    return `No field line: ${field.unmatched} accepted ${field.unmatched === 1 ? 'entry isn’t' : 'entries aren’t'} matched to this list.${cancelled}`
+  }
+  if (field.status === 'beyond_list') return `The field reached past the ${event.rows.length} places on this list.${cancelled}`
+  if (event.line && field.rank === event.line.rank) return `The field held at the line.${cancelled}`
+  const entry = field.entry
+  const who = event.isRelay ? tidy(entry.team || entry.athlete) : [surname(entry.athlete), tidy(entry.team)].filter(Boolean).join(', ')
+  return (
+    <>
+      The field reached {ordinal(field.rank)}: {who} (<Mark text={formatMark(entry.v, event.kind)} conversion={entry.conversion} raw={entry.raw} />).{cancelled}
+    </>
+  )
+}
+
+// A second rule under the deepest place the field took, dashed so it never reads as the qualifying line.
+function FieldLine({ field, event }) {
+  const held = event.line && field.rank === event.line.rank
+  return (
+    <tr className="fieldrow">
+      <td colSpan={event.isRelay ? 4 : 5}>
+        <div className="fieldline">
+          <span><b>Field line</b> · {held ? 'held at the line' : `reached ${ordinal(field.rank)}`}</span>{' '}
+          <span className="why">as accepted {shortDate(field.accepted)}{field.cancelled ? ' · meet cancelled' : ''}</span>
+        </div>
+      </td>
+    </tr>
+  )
 }
 
 // In or out, and how far from the line: what the row's place against the line row and its colour show.
@@ -641,7 +691,7 @@ function rowStatus(event, row) {
 // Where scrolling picks the row there is no hover: a row passing under a resting finger or pointer must
 // not take over the strip's readout. A tap still selects the row, through focus.
 function FragmentRow({
-  row, event, name, gap, inside, bubble, hover, setHover, line, active = false, hoverable = true, stop = false, onFocusRow, onMove,
+  row, event, name, gap, inside, bubble, hover, setHover, line, fieldLine = null, tag = null, active = false, hoverable = true, stop = false, onFocusRow, onMove,
 }) {
   const on = hover?.fromStrip && hover.rank === row.rank
   return (
@@ -650,7 +700,7 @@ function FragmentRow({
         className={`${bubble ? 'in bubble' : inside ? 'in' : 'out'}${on ? ' on' : ''}${active ? ' act' : ''}`}
         data-rank={row.rank}
         tabIndex={stop ? 0 : -1}
-        aria-label={rowLabel(event, row, name)}
+        aria-label={rowLabel(event, row, name, tag)}
         onPointerEnter={hoverable ? () => setHover({ rank: row.rank, fromStrip: false }) : undefined}
         onPointerLeave={hoverable ? () => setHover(null) : undefined}
         onFocus={() => {
@@ -661,12 +711,16 @@ function FragmentRow({
         onBlur={() => setHover(null)}
       >
         <td className="pl">{row.rank}</td>
-        <td className="ath">{event.isRelay ? <span className="tl tx"><Logo team={row.team || row.athlete} />{name}</span> : <span className="tx">{name}</span>}</td>
+        <td className="ath">
+          {event.isRelay ? <span className="tl tx"><Logo team={row.team || row.athlete} />{name}</span> : <span className="tx">{name}</span>}
+          {tag && <>{' '}<span className={`tag tag-${tag}`}>{TAG_TEXT[tag]}</span></>}
+        </td>
         {!event.isRelay && <td className="team"><span className="tl tx"><Logo team={row.team} />{tidy(row.team)}</span></td>}
         <td className="t r"><Mark text={formatBare(row.v, event.kind)} conversion={row.conversion} raw={row.raw} hang /></td>
         <td className="gap r"><span>{gap}</span></td>
       </tr>
       {line}
+      {fieldLine}
     </>
   )
 }

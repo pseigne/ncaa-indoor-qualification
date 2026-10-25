@@ -19,8 +19,8 @@ export function savedSite() {
 // and region, and index.json listing them. A season's latest year is its current one.
 //
 // Each record is one event's list: { year, season, region, gender, event, rankings, qualification },
-// plus `series`, its chart's saved days as [[date, mark, marks]], and `afterMeet` when it was saved after
-// the championship began. `scope` sets every list's championship, listDate and final; `days` is each
+// plus `series`, its chart's saved days as [[date, mark, marks]], `afterMeet` when it was saved after
+// the championship began, and `field`, the field as accepted, when the season has one. `scope` sets every list's championship, listDate and final; `days` is each
 // list's saved days for the season dialog's race; `past` is the past cutoffs.
 export function siteFiles(records, { scope = {}, days = null, past = { lines: [] } } = {}) {
   const groups = new Map()
@@ -46,6 +46,7 @@ export function siteFiles(records, { scope = {}, days = null, past = { lines: []
         rankings: record.rankings,
         series: record.series || [],
         afterMeet: record.afterMeet === true,
+        ...(record.field !== undefined ? { field: record.field } : {}),
       })),
     }
     if (days) files[`days-${name}`] = days

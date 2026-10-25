@@ -26,6 +26,15 @@ export function stripDepth(lineRank, fieldRank = null) {
   return Math.max(STRIP_DEPTH, deepest + STRIP_PAST_LINE)
 }
 
+// Where the field line crosses the race: halfway between the deepest place the field took and the next
+// place, or just behind the deepest when the race stops there.
+export function fieldMeters(placed, rank) {
+  const deepest = placed.find(dot => dot.rank === rank)
+  if (!deepest) return null
+  const next = placed.find(dot => dot.rank === rank + 1)
+  return next ? (deepest.m + next.m) / 2 : deepest.m - 0.5
+}
+
 // "60 of 100" when the race stops short of the list, the list's length when it does not.
 export function topWords(shown, listed) {
   return listed > shown ? `${shown} of ${listed}` : `${shown}`

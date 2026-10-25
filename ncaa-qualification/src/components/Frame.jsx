@@ -66,6 +66,15 @@ function YearMenu({ query, go, years, year }) {
 
 // Men or women, indoor or outdoor, and the outdoor region: above the event list, on the board, and in
 // the picker on phones.
+// A line at the foot of every page.
+export function Footer() {
+  return (
+    <footer className="foot">
+      <p>Not affiliated with the NCAA.</p>
+    </footer>
+  )
+}
+
 export function Filters({ query, go, onChoose }) {
   const link = (next, label) => (
     <a

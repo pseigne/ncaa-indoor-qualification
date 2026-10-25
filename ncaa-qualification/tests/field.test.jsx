@@ -5,7 +5,7 @@ import PastYears from '../src/components/PastYears'
 import { buildEvents } from '../src/utils/model'
 import { pastLines } from '../src/utils/past'
 import { readField } from '../src/utils/qualification'
-import { STRIP_DEPTH, stripDepth, topWords } from '../src/utils/strip'
+import { STRIP_DEPTH, fieldMeters, stripDepth, topWords } from '../src/utils/strip'
 import { serveSite, siteFiles } from './site'
 
 // A men's indoor mile with the line at 16: 3:53.00, 3:53.25, ... a quarter second apart.
@@ -159,14 +159,14 @@ describe('the field line on the heat sheet', () => {
     expect(document.querySelectorAll('tr.fieldrow')).toHaveLength(1)
   })
 
-  it('tags who got in from below the line and who inside it is not in the field', async () => {
+  it('tags who got in from below the line and who inside it scratched', async () => {
     await open([mile(30, 16, accepted())])
-    expect(tags()).toEqual({ 6: 'not in field', 12: 'not in field', 17: 'in', 19: 'in' })
+    expect(tags()).toEqual({ 6: 'Scratched', 12: 'Scratched', 17: 'In', 19: 'In' })
     expect(row(17).querySelector('.tag').className).toBe('tag tag-in')
     expect(row(6).querySelector('.tag').className).toBe('tag tag-out')
     expect(row(17).getAttribute('aria-label')).toBe('17. Runner 17, School 17, 3:57.00, out, 0.25s behind the line, in the field')
     expect(row(18).getAttribute('aria-label')).toBe('18. Runner 18, School 18, 3:57.25, out, 0.50s behind the line')
-    expect(row(6).getAttribute('aria-label')).toBe('6. Runner 6, School 6, 3:54.25, in, 2.50s ahead of the line, not in the field')
+    expect(row(6).getAttribute('aria-label')).toBe('6. Runner 6, School 6, 3:54.25, in, 2.50s ahead of the line, scratched, not in the field')
   })
 
   it('says how deep the field reached in the hero', async () => {
@@ -235,7 +235,7 @@ describe('the field line on the heat sheet', () => {
   it('keeps the field line and tags on phones', async () => {
     await open([mile(30, 16, accepted())], { width: 390 })
     expect(document.querySelector('tr.fieldrow').previousElementSibling).toBe(row(19))
-    expect(tags()).toMatchObject({ 17: 'in', 19: 'in' })
+    expect(tags()).toMatchObject({ 17: 'In', 19: 'In' })
     expect(document.querySelector('.field-lead').textContent).toBe('The field reached 19th: Runner 19, School 19 (3:57.50).')
   })
 })
@@ -348,6 +348,10 @@ describe('the race strip on a 100-deep list', () => {
     expect(stripDepth(48, 55)).toBe(67)
     expect(stripDepth(24, 19)).toBe(60)
     expect(stripDepth(null, null)).toBe(60)
+    const placed = [{ rank: 1, m: 4 }, { rank: 2, m: 2 }, { rank: 3, m: -1 }]
+    expect(fieldMeters(placed, 2)).toBe(0.5)
+    expect(fieldMeters(placed, 3)).toBe(-1.5)
+    expect(fieldMeters(placed, 9)).toBeNull()
     expect(topWords(60, 100)).toBe('60 of 100')
     expect(topWords(30, 30)).toBe('30')
   })
@@ -370,6 +374,27 @@ describe('the race strip on a 100-deep list', () => {
     expect(document.querySelector('.rail figcaption').textContent).toMatch(/^The top 67 of 100 as one race/)
     expect(Number([...document.querySelectorAll('tbody tr[data-rank]')].at(-1).dataset.rank)).toBe(61)
     expect(document.querySelector('tr.fieldrow').textContent).toBe('Field line · reached 55th as accepted May 21')
+    // The race draws the field line too, between the deepest place the field took and the next one.
+    const rule = document.querySelector('.rail .fld-l line:not(.under)')
+    const y = rank => Number(document.querySelector(`.rail .dot[data-rank="${rank}"]`).style.transform.match(/, ([-\d.]+)px/)[1])
+    expect(Number(rule.getAttribute('y1'))).toBeLessThanOrEqual(Math.max(y(55), y(56)))
+    expect(Number(rule.getAttribute('y1'))).toBeGreaterThanOrEqual(Math.min(y(55), y(56)))
+    expect(document.querySelector('.rail .fld-tag').textContent).toBe('Field line')
+  })
+
+  it('draws the field line across the flat strip on phones', async () => {
+    const field = accepted({ rank: 55, size: 48, accepted: '2026-05-21', entry: { rank: 55, athlete: 'Runner, 55', team: 'School 55', time: '3:45.40' }, in: [50, 55], out: [3, 9] })
+    await open([deep(100, field)], { url, line: 48, width: 390 })
+    const x = Number(document.querySelector('.race.card .fld-l line:not(.under)').getAttribute('x1'))
+    const lineX = Number(document.querySelector('.race.card .fl line').getAttribute('x1'))
+    expect(x).toBeLessThan(lineX)
+    expect(document.querySelector('.race.card .fld-tag').textContent).toBe('Field line')
+  })
+
+  it('draws no second line in the race when the field held at the line', async () => {
+    await open([deep(100, accepted({ rank: 48, size: 48, entry: { rank: 48, athlete: 'Runner, 48', team: 'School 48', time: '3:44.70' }, in: [], out: [] }))], { url, line: 48, width: 390 })
+    expect(document.querySelector('.race.card .fl line')).toBeTruthy()
+    expect(document.querySelector('.race.card .fld-l')).toBeNull()
   })
 
   it('stops the flat strip at 60 on phones and says so in its caption', async () => {

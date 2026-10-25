@@ -418,6 +418,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
             phone={phone}
             kind={event.kind}
             lineRank={event.line.rank}
+            fieldRank={field && field.rank !== event.line.rank ? field.rank : null}
             caption={phone
               ? null
               : (
@@ -523,6 +524,7 @@ export default function EventView({ event, query, go, context, past = null, onOp
             layout={column}
             kind={event.kind}
             lineRank={event.line.rank}
+            fieldRank={field && field.rank !== event.line.rank ? field.rank : null}
             activeRank={hover?.rank ?? null}
             onSize={size => setRailSize(prev => (prev && prev.width === size.width && prev.height === size.height ? prev : size))}
             onHover={rank => {
@@ -641,9 +643,13 @@ function rowLabel(event, row, name, tag, onward = false) {
 }
 
 // The row's tag, in the words its name uses. The accepted list can't tell a scratch from an athlete who
-// never declared, so "not in field" says only that.
-const TAG_TEXT = { in: 'in', out: 'not in field' }
-const TAG_LABEL = { in: 'in the field', out: 'not in the field' }
+// never declared; both show as scratched, and the name still says only that the place wasn't in the field.
+const TAG_TEXT = { in: 'In', out: 'Scratched' }
+const TAG_LABEL = { in: 'in the field', out: 'scratched, not in the field' }
+const TAG_ICON = {
+  in: <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 5.3 4 7.8 8.5 2.5" /></svg>,
+  out: <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2 2l6 6M8 2 2 8" /></svg>,
+}
 
 // The hero's second sentence: how deep the field as accepted reached, or why there is no field line.
 function fieldSentence(event) {
@@ -721,8 +727,16 @@ function FragmentRow({
         <td className="pl">{row.rank}</td>
         <td className="ath">
           {event.isRelay ? <span className="tl tx"><Logo team={row.team || row.athlete} />{name}</span> : <span className="tx">{name}</span>}
-          {tag && <>{' '}<span className={`tag tag-${tag}`}>{TAG_TEXT[tag]}</span></>}
-          {onward && <>{' '}<span className="tag tag-nat">to nationals</span></>}
+          {tag && <>{' '}<span className={`tag tag-${tag}`}>{TAG_ICON[tag]}{TAG_TEXT[tag]}</span></>}
+          {onward && (
+            <>
+              {' '}
+              <span className="tag tag-nat">
+                <img src={`${import.meta.env.BASE_URL}ncaa-tf.png`} alt="" width="12" height="15" />
+                Ticket Punched
+              </span>
+            </>
+          )}
         </td>
         {!event.isRelay && <td className="team"><span className="tl tx"><Logo team={row.team} />{tidy(row.team)}</span></td>}
         <td className="t r"><Mark text={formatBare(row.v, event.kind)} conversion={row.conversion} raw={row.raw} hang /></td>

@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'react'
 import { formatMark, symbolString } from '../utils/format'
 import {
-  canvasMeasure, fitReadout, formatMeters, readoutNames,
+  canvasMeasure, fieldMeters, fitReadout, formatMeters, readoutNames,
 } from '../utils/strip'
 import { useReduceMotion } from '../utils/media'
 import { chipCentre, chipDots, chipRadius, chipsLast, coveredDots, liftedDot } from '../utils/chips'
@@ -13,7 +13,7 @@ function dotKey(dot, counts) {
 }
 
 export default function RaceStrip({
-  layout, caption, kind, lineRank, activeRank, onHover, memory, runKey, glide = false, fit = false, card = false, phone = false, scrollRank = null,
+  layout, caption, kind, lineRank, fieldRank = null, activeRank, onHover, memory, runKey, glide = false, fit = false, card = false, phone = false, scrollRank = null,
 }) {
   const svgRef = useRef(null)
   const previous = useRef(new Map())
@@ -94,6 +94,8 @@ export default function RaceStrip({
     const chip = chips.find(dot => dot.rank === rank)
     return chip ? chipX(chip) : null
   }
+  const fieldM = fieldRank == null ? null : fieldMeters(layout.placed, fieldRank)
+  const fieldX = fieldM == null ? null : layout.xAt(fieldM)
   const counts = {}
   layout.placed.forEach(dot => { counts[dot.name] = (counts[dot.name] || 0) + 1 })
   const near = event => {
@@ -154,6 +156,13 @@ export default function RaceStrip({
         <g className="fl">
           <line x1={layout.lineX} x2={layout.lineX} y1={layout.top - 10} y2={layout.baseY + layout.lane / 2 + 5} />
         </g>
+        {fieldX != null && (
+          <g className="fld-l">
+            <line className="under" x1={fieldX} x2={fieldX} y1={layout.top - 10} y2={layout.baseY + layout.lane / 2 + 5} />
+            <line x1={fieldX} x2={fieldX} y1={layout.top - 10} y2={layout.baseY + layout.lane / 2 + 5} />
+            <FieldTag x={fieldX > 80 ? fieldX - 72 : fieldX + 6} y={layout.top - 9} />
+          </g>
+        )}
         {chipsLast(layout.placed, drawn).map(dot => {
           const cls = dot.rank === lineRank ? 'bub' : dot.rank < lineRank ? 'in' : 'out'
           const r = cls === 'out' ? layout.radius - 0.75 : layout.radius
@@ -177,6 +186,16 @@ export default function RaceStrip({
       </svg>
       {caption && <figcaption>{caption}</figcaption>}
     </figure>
+  )
+}
+
+// The field line's name on a small blue tab, so it reads on the track.
+export function FieldTag({ x, y }) {
+  return (
+    <g className="fld-tag" transform={`translate(${x} ${y})`}>
+      <rect width="66" height="18" rx="9" />
+      <text x="33" y="13" textAnchor="middle">Field line</text>
+    </g>
   )
 }
 

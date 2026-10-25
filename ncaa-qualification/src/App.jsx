@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import BoardView from './components/BoardView'
 import EventView from './components/EventView'
 import NationalsDetail from './components/NationalsDetail'
-import { Header, Index, Picker, SITE_TITLE } from './components/Frame'
+import { Footer, Header, Index, Picker, SITE_TITLE } from './components/Frame'
 import { focusHeading } from './utils/focus'
 import DetailSheet from './components/DetailSheet'
 import PastYears from './components/PastYears'
@@ -247,6 +247,7 @@ export default function App() {
             />
           )}
           {model && !event && <p className="dek">No events match this list.</p>}
+          <Footer />
         </main>
       </div>
       {model && event && query.view === 'event' && query.detail && (query.detail !== 'nationals' || atNationals) && (

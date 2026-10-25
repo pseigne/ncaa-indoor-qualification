@@ -1,12 +1,13 @@
 import { useLayoutEffect, useRef } from 'react'
 import { chipCentre, chipDots, chipRadius, chipsLast, coveredDots } from '../utils/chips'
-import { placeReadout } from '../utils/strip'
+import { fieldMeters, placeReadout } from '../utils/strip'
 import LogoChip from './LogoChip'
+import { FieldTag } from './RaceStrip'
 
 // The race strip stood upright beside the table on wide screens. The page owns the layout;
 // this reports the space it has, draws the field and points back at rows that are off screen.
 export default function RaceColumn({
-  layout, kind, lineRank, activeRank, onHover, onLeave, onSize, memory, seen, chip, onChip, caption, style,
+  layout, kind, lineRank, fieldRank = null, activeRank, onHover, onLeave, onSize, memory, seen, chip, onChip, caption, style,
 }) {
   const boxRef = useRef(null)
   const svgRef = useRef(null)
@@ -45,6 +46,8 @@ export default function RaceColumn({
   const active = layout?.placed.find(dot => dot.rank === activeRank) || null
   const readout = active && !memory ? placeReadout(layout, active, kind, lineRank) : null
   const band = layout && seen ? bandFor(layout, seen) : null
+  const fieldM = layout && fieldRank != null ? fieldMeters(layout.placed, fieldRank) : null
+  const fieldY = fieldM == null ? null : layout.yAt(fieldM)
   const chips = layout ? chipDots(layout.placed, lineRank) : []
   const chipR = chipRadius()
   // Ahead is up the column, so the first one out's chip stays below the line and the leader's above it.
@@ -82,6 +85,13 @@ export default function RaceColumn({
               <g className="fl">
                 <line x1={0} x2={layout.width} y1={layout.lineY} y2={layout.lineY} />
               </g>
+              {fieldY != null && (
+                <g className="fld-l">
+                  <line className="under" x1={layout.laneFrom} x2={layout.width} y1={fieldY} y2={fieldY} />
+                  <line x1={layout.laneFrom} x2={layout.width} y1={fieldY} y2={fieldY} />
+                  <FieldTag x={layout.width - 66} y={fieldY > layout.lineY ? fieldY + 5 : fieldY - 23} />
+                </g>
+              )}
               <g className="labels leads">
                 {layout.labels.map(label => (
                   <polyline key={label.rank} className="lead-l" points={leaderFrom(label, chips, chipY).join(' ')} data-rank={label.rank} />

@@ -799,7 +799,7 @@ differs from sections 1–9:
 - **2019 men's 400m hurdles** keeps all 25 qualifiers.
 - **Points:** Flash Results never shows team points, so `points` is always `null`.
 - **Archive keys:** the archive also stores `school` (as RecordTiming writes it), `tfrrs_id` and `meet`.
-- **No separate page.** The results open in a Nationals dialog over each outdoor regional event page, like This season and Past years (`detail=nationals`). There is no `view=nationals` and no Nationals entry in the nav. The card under the cutoff opens it, and qualifiers are tagged "to nationals".
+- **No separate page.** The results open in a Nationals dialog over each outdoor regional event page, like This season and Past years (`detail=nationals`). There is no `view=nationals` and no Nationals entry in the nav. The card under the cutoff opens it, and qualifiers are tagged "Ticket Punched" in green, with the championship logo.
 - **Multis get the card too,** counting the whole field from the national list, since their results have nowhere else to show.
 
 **Fetching**
@@ -811,3 +811,5 @@ differs from sections 1–9:
 - The daily TFRRS scrape now also waits 3 seconds between pages and backs off on refusals.
 
 **Name:** the app is now "NCAA TF Qualification Monitor".
+- **Tags and the race.** Places that got in from below the line are tagged "In" with a check. Places inside the line that weren't in the field are tagged "Scratched" in red with an x, even though the accepted list can't tell a scratch from an athlete who never declared; the row's accessible name still says "not in the field". The race strip and the standing column draw the field line as blue dots with a "Field line" tab, unless the field held at the line.
+- **Footer.** Every page ends with "Not affiliated with the NCAA."

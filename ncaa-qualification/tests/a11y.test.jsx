@@ -104,6 +104,11 @@ describe('names start with the visible words', () => {
     expect(link.querySelector('.mark-short').hasAttribute('aria-hidden')).toBe(false)
   })
 
+  it('says at the foot of the page that the site is not affiliated with the NCAA', async () => {
+    await open(1440)
+    expect(screen.getByRole('contentinfo').textContent).toBe('Not affiliated with the NCAA.')
+  })
+
   it('names an event link by its label and line, not the full event name', async () => {
     await open(1440)
     const nav = screen.getByRole('navigation', { name: 'Events' })

@@ -8,11 +8,13 @@
   --nav:#151515; --hero:#151515; --paper:#F4F2EE; --track:#C4532F; --track-ink:#5a1c0c; --accent:#FF7A57;
   /* the second accent: the field as accepted, never the qualifying line */
   --field:#2b5fb4; --field-tint:color-mix(in srgb, var(--field) 13%, transparent);
+  /* the row tags for a scratch and for a place at nationals */
+  --scratch:#b42318; --punched:#1d7a3a;
 }
 @media (prefers-color-scheme: dark){
   :root{ --bg:#121212; --ink:#efefec; --ink-2:#a5a5a0; --rule:#262625; --lane:#383836; --sel:#1d1d1c; --ring:#8a8a87; --line:#ff6a4a;
     --page:#121212; --page-rule:#262625; --page-sel:#1d1d1c; --card:#1c1c1b; --card-rule:#2c2c2a; --card-sel:#252524; --hero:#202020;
-    --field:#8fb3f0; }
+    --field:#8fb3f0; --scratch:#ff8a7a; --punched:#6fd08c; }
 }
 *{box-sizing:border-box;margin:0}
 html{background:var(--page);color:var(--ink);font:400 16px/1.45 Archivo, system-ui, sans-serif;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
@@ -135,6 +137,11 @@ tr.act .logo{opacity:1;filter:none}
 .race .lead-l{stroke:var(--ink-2);stroke-width:1}
 .race .lane{stroke:var(--rule);stroke-width:1;shape-rendering:crispEdges}
 .race .fl line{stroke:var(--line);stroke-width:2}
+/* the field line in the race: blue dots across the track where the field as accepted stopped */
+.race .fld-l line{stroke:var(--field);stroke-width:4.5;stroke-dasharray:0 9;stroke-linecap:round}
+.race .fld-l line.under{stroke:var(--bg);stroke-width:7}
+.race .fld-tag rect{fill:var(--field)}
+.race .fld-tag text{fill:var(--bg);font-size:12px;font-weight:600}
 .race .labels{transition:opacity var(--fast) var(--ease)}
 .race.reading .labels{opacity:0}
 .dot{transition:transform var(--run) var(--ease)}
@@ -153,6 +160,9 @@ tr.act .logo{opacity:1;filter:none}
 .rail .race.column .lane{stroke-opacity:.9;stroke-width:1.5}
 .rail .race .seen{fill-opacity:.14}
 .rail .race .fl line,.race.card .fl line{stroke:#151515;stroke-width:3}
+.rail .race .fld-l,.race.card .fld-l{--field:#1747d1}
+.rail .race .fld-l line.under,.race.card .fld-l line.under{stroke:#fff}
+.rail .race .fld-tag text,.race.card .fld-tag text{fill:#fff}
 .rail .dot .pt,.race.card .dot .pt{fill:#fff}
 .rail .dot.out .pt,.race.card .dot.out .pt{fill:none;stroke:#fff;stroke-width:1.75}
 .rail .dot.bub .pt,.race.card .dot.bub .pt{fill:#151515;stroke:#fff;stroke-width:2}
@@ -204,17 +214,21 @@ tr.line td{height:auto;padding:0;border:0}
 tr.fieldrow td{height:auto;padding:0;border:0}
 .fieldline{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;gap:2px 12px;min-height:44px;border-top:2px dashed var(--field);color:var(--field);font-size:14px;padding:6px 12px 10px;background:var(--bg)}
 .fieldline b{font-weight:600}
-/* "in" on a place below the line that got into the field; a quiet "not in field" on one inside it that didn't */
-.tag{display:inline-block;margin-left:8px;padding:0 7px;border-radius:999px;font-size:12px;line-height:18px;font-weight:600;font-stretch:100%;letter-spacing:0;white-space:nowrap;vertical-align:1px}
+/* "In" with a check on a place below the line that got into the field; a red "Scratched" with an x on one
+   inside it that didn't */
+.tag{display:inline-flex;align-items:center;gap:4px;margin-left:8px;padding:0 7px;border-radius:999px;font-size:12px;line-height:18px;font-weight:600;font-stretch:100%;letter-spacing:0;white-space:nowrap;vertical-align:1px}
 .tag-in{color:var(--field);background:var(--field-tint)}
-.tag-out{color:var(--ink-2);font-weight:400;box-shadow:inset 0 0 0 1px color-mix(in srgb, var(--ink-2) 45%, transparent)}
-/* "to nationals" on a place whose athlete went on from this First Round */
-.tag-nat{color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.tag-out{color:var(--scratch);background:color-mix(in srgb, var(--scratch) 12%, transparent)}
+.tag svg{flex:none;width:10px;height:10px;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;fill:none}
+/* "Ticket Punched" with the championship logo on a place whose athlete went on from this First Round */
+.tag-nat{color:var(--punched);background:color-mix(in srgb, var(--punched) 13%, transparent)}
+.tag-nat img{flex:none;width:12px;height:15px;margin-left:-2px}
 .field-lead{display:block;margin-top:8px;font-size:16px;color:var(--ink-2);text-wrap:pretty}
 .more{margin-top:14px;min-height:44px;padding:0 12px;color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
 .source{margin-top:40px;color:var(--ink-2);font-size:14px;max-width:72ch;text-wrap:pretty}
 .source a{text-underline-offset:3px;display:inline-block;padding:12px 0;margin:-12px 0}
 
+.foot{margin-top:48px;color:var(--ink-2);font-size:13px}
 /* board */
 .board td.ev{font-stretch:var(--cond);font-size:20px;font-weight:600}
 .board td.ev a{position:relative;text-decoration:none;display:inline-flex;align-items:center;min-height:44px}

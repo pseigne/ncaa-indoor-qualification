@@ -5,6 +5,7 @@
   "AR-Pine Bluff": "Arkansas-Pine Bluff",
   "Ark State": "Arkansas State",
   "Ark-Pine Bluff": "Arkansas-Pine Bluff",
+  "Army West Pt.": "Army",
   "AZ State": "Arizona State",
   "Boston U.": "Boston University",
   "Cen Arkansas": "Central Arkansas",
@@ -71,6 +72,7 @@
   "TX Tech": "Texas Tech",
   "UT State": "Utah State",
   "UT Valley": "Utah Valley",
+  "UT-Arlington": "Texas-Arlington",
   "UT-RGV": "UT-Rio Grande Valley",
   "VA Tech": "Virginia Tech",
   "W. Carolina": "Western Carolina",
@@ -80,5 +82,14 @@
   "WA State": "Washington St.",
   "Wash State": "Washington St."
  },
- "athletes": []
+ "athletes": [
+  {
+   "season": "indoor",
+   "year": "2020-2021",
+   "gender": "m",
+   "event": "High Jump",
+   "name": "Erhire Omamuyovwi",
+   "list_rank": 10
+  }
+ ]
 }

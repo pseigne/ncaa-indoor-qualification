@@ -669,12 +669,15 @@ function fieldSentence(event) {
 // A second rule under the deepest place the field took, dashed so it never reads as the qualifying line.
 function FieldLine({ field, event }) {
   const held = event.line && field.rank === event.line.rank
+  // Some accepted lists carry no date; the line then says only whether the meet was cancelled.
+  const cancelled = field.cancelled ? 'meet cancelled' : ''
+  const why = field.accepted ? [`as accepted ${shortDate(field.accepted)}`, cancelled].filter(Boolean).join(' · ') : cancelled && `· ${cancelled}`
   return (
     <tr className="fieldrow">
       <td colSpan={event.isRelay ? 4 : 5}>
         <div className="fieldline">
-          <span><b>Field line</b> · {held ? 'held at the line' : `reached ${ordinal(field.rank)}`}</span>{' '}
-          <span className="why">as accepted {shortDate(field.accepted)}{field.cancelled ? ' · meet cancelled' : ''}</span>
+          <span><b>Field line</b> · {held ? 'held at the line' : `reached ${ordinal(field.rank)}`}</span>
+          {why && <>{' '}<span className="why">{why}</span></>}
         </div>
       </td>
     </tr>

@@ -30,7 +30,8 @@ function listRow(entry) {
 export function readField(record, { history = false } = {}) {
   const value = record?.field;
   if (!value || typeof value !== 'object' || !FIELD.has(value.status)) return null;
-  if (!place(value.size) || typeof value.accepted !== 'string' || !DAY.test(value.accepted) ||
+  // `accepted` is null when the accepted list carried no generated date.
+  if (!place(value.size) || (value.accepted !== null && (typeof value.accepted !== 'string' || !DAY.test(value.accepted))) ||
       typeof value.cancelled !== 'boolean' || !Number.isInteger(value.unmatched) || value.unmatched < 0) return null;
   if (value.rank !== null && !place(value.rank)) return null;
   if (history ? [value.in, value.out].some(ranks => ranks !== undefined && !places(ranks)) : !(places(value.in) && places(value.out))) return null;

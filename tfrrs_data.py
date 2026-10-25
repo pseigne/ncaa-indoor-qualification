@@ -9,7 +9,7 @@ import re
 import tempfile
 import time
 
-from qualification import get_cutoff_rank, interpret_qualification
+from qualification import get_cutoff_rank, interpret_field, interpret_qualification
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
@@ -18,6 +18,10 @@ ARCHIVE = "archive"
 # What the site loads: small files, one per season, gender and region.
 SITE = "site"
 PAST_CUTOFFS = "past_cutoffs.json"
+# The NCAA's accepted lists, matched to the final lists: archive/entries/{season}/{year}.json.
+ENTRIES = "entries"
+ENTRY_REGIONS = {"indoor": ("National",), "outdoor": ("East", "West")}
+MATCHES = ("exact", "mark", "name", "manual", "none")
 CHAMPIONSHIPS = ROOT / "ncaa-qualification" / "src" / "config" / "championships.json"
 # How many places each saved day keeps for the season dialog's race.
 STRIP_ROWS = 20
@@ -246,13 +250,26 @@ def cutoff(record):
     return entry["time"] if entry is not None else None
 
 
-def derive_files(records, checked, config, championships=None, past=None):
+def fields_by_event(entries):
+    """Each imported event's entries, accepted time and cancelled flag, by (season, year, region, gender, event)."""
+    found = {}
+    for (season, year), saved in (entries or {}).items():
+        generated = {(s["region"], s["gender"]): s["generated"] for s in saved["sources"]}
+        for field in saved["fields"]:
+            found[(season, year, field["region"], field["gender"], field["event"])] = (
+                field["entries"], generated[(field["region"], field["gender"])], saved["cancelled"])
+    return found
+
+
+def derive_files(records, checked, config, championships=None, past=None, entries=None):
     """Everything published from the archive: the archive itself, and the site's files.
 
     The site loads index.json, then one file per season, gender and region it shows. A season's
-    saved days go in a file of their own, loaded when the season dialog opens."""
+    saved days go in a file of their own, loaded when the season dialog opens. `entries` are the
+    imported accepted lists, which add each event's field as accepted."""
     validate_records(records)
     records = compact(records)
+    fields = fields_by_event(entries)
     files = {}
     seasons = defaultdict(list)
     for record in records:
@@ -292,9 +309,11 @@ def derive_files(records, checked, config, championships=None, past=None):
             saved = days.get((season, year, gender, region, record["event"]), [])
             seen.update(day for day, _ in saved)
             before = [(day, item) for day, item in saved if start is None or day < start]
+            field = fields.get((season, year, region, gender, record["event"]))
             events.append({
                 "event": record["event"],
                 "qualification": interpret_qualification(record),
+                **({"field": interpret_field(dict(record, year=year), *field)} if field else {}),
                 "rankings": record["rankings"],
                 # Each saved day before the championship: the date, the qualifying mark, and how many marks the list held.
                 "series": [[day, cutoff(item), len(item["rankings"])] for day, item in before],
@@ -325,7 +344,16 @@ def derive_files(records, checked, config, championships=None, past=None):
                       "days": site_name(season, year, gender, region, "days") if strips else None,
                       "source": {"list_id": source["list_id"], "list_name": source["list_name"]}})
 
-    lines = (past or {}).get("lines", [])
+    saved_finals = {(r["season"], r["year"], r["region"], r["gender"], r["event"]): r["rankings"]
+                    for r in records if split_year(r["year"])[1] is None}
+    lines = []
+    for line in (past or {}).get("lines", []):
+        key = tuple(line.get(k) for k in ("season", "year", "region", "gender", "event"))
+        if key in fields:
+            # A past season's field, from the saved list when the archive holds it and from the entries otherwise.
+            record = dict(line, rankings=saved_finals.get(key))
+            line = dict(line, field=interpret_field(record, *fields[key], history=True))
+        lines.append(line)
     history = {}
     for season in ("indoor", "outdoor"):
         for gender in GENDERS:
@@ -357,13 +385,93 @@ def load_past(data_dir=DATA_DIR):
     return json.loads(path.read_text()) if path.exists() else {"lines": []}
 
 
+def validate_entries(saved, path=None):
+    """The shape of an entries file; raises ValueError on anything off."""
+    where = f" in {path}" if path else ""
+    if not isinstance(saved, dict) or saved.get("season") not in ENTRY_REGIONS:
+        raise ValueError(f"Invalid entries file{where}")
+    season, year = saved["season"], saved.get("year")
+    if not isinstance(year, str) or not re.fullmatch(r"\d{4}-\d{4}" if season == "indoor" else r"\d{4}", year):
+        raise ValueError(f"Invalid entries year{where}")
+    if path is not None and (Path(path).parent.name, Path(path).stem) != (season, year):
+        raise ValueError(f"Entries file {path} holds {season} {year}")
+    if type(saved.get("cancelled")) is not bool:
+        raise ValueError(f"Invalid cancelled flag{where}")
+    sources = saved.get("sources")
+    if not isinstance(sources, list) or not sources:
+        raise ValueError(f"Missing sources{where}")
+    scopes = set()
+    for source in sources:
+        if (not isinstance(source, dict) or source.get("kind") != "accepted" or source.get("gender") not in GENDERS
+                or source.get("region") not in ENTRY_REGIONS[season]
+                or not isinstance(source.get("sha256"), str) or not re.fullmatch(r"[0-9a-f]{64}", source["sha256"])
+                or (source.get("url") is not None and not str(source["url"]).startswith("https://"))
+                or (source.get("generated") is not None and not re.fullmatch(
+                    r"\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2})?", str(source["generated"])))
+                or (source.get("fetched") is not None and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(source["fetched"])))):
+            raise ValueError(f"Invalid source{where}: {source}")
+        key = (source["region"], source["gender"])
+        if key in scopes:
+            raise ValueError(f"Duplicate source{where}: {key}")
+        scopes.add(key)
+    lists = saved.get("lists")
+    if not isinstance(lists, list) or not lists or any(
+            not isinstance(item, dict) or item.get("region") not in ENTRY_REGIONS[season]
+            or not str(item.get("list_id", "")).isdigit() or type(item.get("depth")) is not int
+            for item in lists):
+        raise ValueError(f"Invalid lists{where}")
+    fields = saved.get("fields")
+    if not isinstance(fields, list) or not fields:
+        raise ValueError(f"Missing fields{where}")
+    seen = set()
+    for field in fields:
+        if not isinstance(field, dict) or (field.get("region"), field.get("gender")) not in scopes:
+            raise ValueError(f"Field without a source{where}: {field.get('event') if isinstance(field, dict) else field}")
+        key = (field["gender"], field["region"], field.get("event"))
+        if not isinstance(key[2], str) or not key[2] or key in seen:
+            raise ValueError(f"Invalid or duplicate field{where}: {key}")
+        seen.add(key)
+        entries = field.get("entries")
+        if not isinstance(entries, list) or not entries:
+            raise ValueError(f"Field without entries{where}: {key}")
+        ranks = []
+        for entry in entries:
+            if (not isinstance(entry, dict) or any(not isinstance(entry.get(k), str) or not entry[k].strip()
+                                                    for k in ("name", "school", "seed"))
+                    or entry.get("match") not in MATCHES):
+                raise ValueError(f"Invalid entry{where}: {key}: {entry}")
+            rank = entry.get("list_rank")
+            if (entry["match"] == "none") != (rank is None) or (rank is not None and (type(rank) is not int or rank < 1)):
+                raise ValueError(f"Invalid list rank{where}: {key}: {entry}")
+            if "beyond" in entry and (entry["beyond"] is not True or rank is not None):
+                raise ValueError(f"Invalid beyond flag{where}: {key}: {entry}")
+            row = entry.get("row")
+            if row is not None and (rank is None or not isinstance(row, dict) or any(
+                    not isinstance(row.get(k), str) or not row[k].strip() for k in ("athlete", "time"))):
+                raise ValueError(f"Invalid stored row{where}: {key}: {entry}")
+            if rank is not None:
+                ranks.append(rank)
+        if len(set(ranks)) != len(ranks):
+            raise ValueError(f"Two entries share a list rank{where}: {key}")
+    return saved
+
+
+def load_entries(data_dir=DATA_DIR):
+    """Every imported season's entries, keyed by (season, year)."""
+    found = {}
+    for path in sorted((Path(data_dir) / ARCHIVE / ENTRIES).glob("*/*.json")):
+        saved = validate_entries(json.loads(path.read_text()), path)
+        found[(saved["season"], saved["year"])] = saved
+    return found
+
+
 def publish(records, checked, config, data_dir=DATA_DIR, config_path=None, championships=None):
     """Stage every output before replacing files; roll back replacement failures.
 
     Site files that are no longer published are removed, so the site never ships a stale list."""
     data_dir = Path(data_dir)
     championships = load_championships() if championships is None else championships
-    files = derive_files(records, checked, config, championships, load_past(data_dir))
+    files = derive_files(records, checked, config, championships, load_past(data_dir), load_entries(data_dir))
     data_dir.mkdir(parents=True, exist_ok=True)
     originals, replaced = {}, []
     config_target = Path(config_path) if config_path is not None else None

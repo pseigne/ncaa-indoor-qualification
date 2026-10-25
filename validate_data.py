@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from tfrrs_data import (DATA_DIR, SITE, compact, derive_files, load_archive, load_championships,
-                        load_config, load_past)
+                        load_config, load_entries, load_past)
 
 
 def validate_data(data_dir=DATA_DIR, config=None, championships=None):
@@ -13,7 +13,8 @@ def validate_data(data_dir=DATA_DIR, config=None, championships=None):
     if compact(records) != records:
         raise ValueError("The archive repeats an unchanged saved day; regenerate the data")
     championships = load_championships() if championships is None else championships
-    expected = derive_files(records, checked, config or load_config(), championships, load_past(data_dir))
+    entries = load_entries(data_dir)
+    expected = derive_files(records, checked, config or load_config(), championships, load_past(data_dir), entries)
     for name, value in expected.items():
         path = data_dir / name
         if not path.exists() or json.loads(path.read_text()) != value:
@@ -23,7 +24,8 @@ def validate_data(data_dir=DATA_DIR, config=None, championships=None):
     if extra:
         raise ValueError(f"Site files no longer published: {', '.join(extra)}; run generate_bubble_cutoffs.py")
     site = [name for name in expected if name.startswith(f"{SITE}/")]
-    print(f"Validated {len(records)} saved lists across {len(checked)} collected seasons and {len(site)} site files")
+    print(f"Validated {len(records)} saved lists across {len(checked)} collected seasons, "
+          f"{len(entries)} imported seasons of entries and {len(site)} site files")
 
 
 if __name__ == "__main__":

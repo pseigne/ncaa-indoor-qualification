@@ -1,0 +1,50 @@
+{
+  "2018": {
+    "east": "https://www.ncaa.com/sites/default/files/external/track-field/results/d1/outdoor18/East/index.htm",
+    "west": "https://www.ncaa.com/sites/default/files/external/track-field/results/d1/outdoor18/West/index.htm",
+    "nationals": "https://www.ncaa.com/sites/default/files/external/track-field/results/d1/outdoor18/Finals/index.htm",
+    "meet": {"name": "NCAA Division I Championships", "start_date": "2018-06-06"}
+  },
+  "2019": {
+    "east": "https://dt8v5llb2dwhs.cloudfront.net/East/index.htm",
+    "west": "https://dt8v5llb2dwhs.cloudfront.net/West/index.htm",
+    "nationals": "https://dt8v5llb2dwhs.cloudfront.net/NCAA/index.htm",
+    "meet": {"name": "NCAA Division I Championships", "start_date": "2019-06-05"}
+  },
+  "2021": {
+    "east": "https://dt8v5llb2dwhs.cloudfront.net/OutdoorRegionals/2021/East/index.htm",
+    "west": "https://dt8v5llb2dwhs.cloudfront.net/OutdoorRegionals/2021/West/index.htm",
+    "nationals": "https://dt8v5llb2dwhs.cloudfront.net/Outdoor/2021/index.htm",
+    "meet": {"name": "NCAA Championships", "start_date": "2021-06-09"}
+  },
+  "2022": {
+    "east": "https://flashresults.ncaa.com/OutdoorRegionals/2022/East/index.htm",
+    "west": "https://flashresults.ncaa.com/OutdoorRegionals/2022/West/index.htm",
+    "nationals": "https://flashresults.ncaa.com/Outdoor/2022/index.htm",
+    "meet": {"name": "NCAA Championships", "start_date": "2022-06-08"}
+  },
+  "2023": {
+    "east": "https://flashresults.ncaa.com/Outdoor/2023/FirstRounds/East/index.htm",
+    "west": "https://flashresults.ncaa.com/Outdoor/2023/FirstRounds/West/index.htm",
+    "nationals": "https://flashresults.ncaa.com/Outdoor/2023/index.htm",
+    "meet": {"name": "NCAA Outdoor Championships", "start_date": "2023-06-07"}
+  },
+  "2024": {
+    "east": "https://flashresults.ncaa.com/Outdoor/2024/FirstRounds/East/index.htm",
+    "west": "https://flashresults.ncaa.com/Outdoor/2024/FirstRounds/West/index.htm",
+    "nationals": "https://flashresults.ncaa.com/Outdoor/2024/index.htm",
+    "meet": {"name": "NCAA Outdoor Championships", "start_date": "2024-06-05"}
+  },
+  "2025": {
+    "east": "https://flashresults.ncaa.com/Outdoor/2025/FirstRounds/East/index.htm",
+    "west": "https://flashresults.ncaa.com/Outdoor/2025/FirstRounds/West/index.htm",
+    "nationals": "https://flashresults.ncaa.com/Outdoor/2025/index.htm",
+    "meet": {"name": "NCAA Outdoor Championships", "start_date": "2025-06-11"}
+  },
+  "2026": {
+    "east": "https://www.flashresults.com/2026_Meets/Outdoor/05-27_NCAAEast/index.htm",
+    "west": "https://www.flashresults.com/2026_Meets/Outdoor/05-27_NCAAWest/index.htm",
+    "nationals": "https://www.flashresults.com/2026_Meets/Outdoor/06-10_NCAA/index.htm",
+    "meet": {"name": "NCAA Outdoor Championships", "start_date": "2026-06-10"}
+  }
+}

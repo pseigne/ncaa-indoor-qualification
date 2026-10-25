@@ -9,6 +9,7 @@ import re
 import tempfile
 import time
 
+from nationals import derive_nationals, load_nationals, nationals_index
 from qualification import get_cutoff_rank, interpret_field, interpret_qualification
 
 ROOT = Path(__file__).resolve().parent
@@ -261,7 +262,7 @@ def fields_by_event(entries):
     return found
 
 
-def derive_files(records, checked, config, championships=None, past=None, entries=None):
+def derive_files(records, checked, config, championships=None, past=None, entries=None, nationals=None):
     """Everything published from the archive: the archive itself, and the site's files.
 
     The site loads index.json, then one file per season, gender and region it shows. A season's
@@ -362,7 +363,14 @@ def derive_files(records, checked, config, championships=None, past=None, entrie
             files[f"{SITE}/{name}"] = {"lines": [line for line in lines
                                                  if line["season"] == season and line["gender"] == gender]}
     files[f"{SITE}/index.json"] = {"lists": index, "history": history}
+    add_nationals(files, nationals, records)
     return files
+
+
+def add_nationals(files, nationals, records):
+    """The nationals view: a file per imported season and gender, listed in index.json."""
+    files.update(derive_nationals(nationals, records))
+    files[f"{SITE}/index.json"]["nationals"] = nationals_index(files)
 
 
 def encode(value):
@@ -471,7 +479,8 @@ def publish(records, checked, config, data_dir=DATA_DIR, config_path=None, champ
     Site files that are no longer published are removed, so the site never ships a stale list."""
     data_dir = Path(data_dir)
     championships = load_championships() if championships is None else championships
-    files = derive_files(records, checked, config, championships, load_past(data_dir), load_entries(data_dir))
+    files = derive_files(records, checked, config, championships, load_past(data_dir), load_entries(data_dir),
+                         load_nationals(data_dir))
     data_dir.mkdir(parents=True, exist_ok=True)
     originals, replaced = {}, []
     config_target = Path(config_path) if config_path is not None else None

@@ -188,6 +188,28 @@ python import_entries.py outdoor --from 2015
 Years are championship years, so indoor 2015 is 2014-15. Outdoor 2020 had no
 meet. Indoor 2019-20 was selected but cancelled, and is marked so.
 
+### Outdoor nationals
+
+After the outdoor season's accepted lists are imported, add its Flash Results
+pages (East, West and nationals) and the meet's name and start date to
+`results_config.json`, then join the national qualifiers to their regions and
+results:
+
+```sh
+python import_results.py outdoor 2027
+```
+
+The qualifiers come from RecordTiming's qualifier lists and the decathlon and
+heptathlon lists; each one's region and list rank come from the First Round
+accepted lists imported above, and First Round and nationals results from
+Flash Results, fetched once into `data/results-cache/` (gitignored) and joined
+by the TFRRS athlete id Flash gives, or by name and school. The report gives
+the share of qualifiers with a region, a First Round result, a nationals result
+and a list rank, and every case it couldn't settle; those are left empty, never
+guessed. Add school aliases and run it again (`--offline` reads the caches
+only), then regenerate, validate and commit `data/archive/nationals/…` with
+`data/site/`. The nationals view starts in 2018, when the qualifier lists begin.
+
 ## Website and publishing
 
 ```sh

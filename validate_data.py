@@ -5,6 +5,7 @@ from pathlib import Path
 
 from tfrrs_data import (DATA_DIR, SITE, compact, derive_files, load_archive, load_championships,
                         load_config, load_entries, load_past)
+from nationals import load_nationals
 
 
 def validate_data(data_dir=DATA_DIR, config=None, championships=None):
@@ -14,7 +15,9 @@ def validate_data(data_dir=DATA_DIR, config=None, championships=None):
         raise ValueError("The archive repeats an unchanged saved day; regenerate the data")
     championships = load_championships() if championships is None else championships
     entries = load_entries(data_dir)
-    expected = derive_files(records, checked, config or load_config(), championships, load_past(data_dir), entries)
+    nationals = load_nationals(data_dir)
+    expected = derive_files(records, checked, config or load_config(), championships, load_past(data_dir), entries,
+                            nationals)
     for name, value in expected.items():
         path = data_dir / name
         if not path.exists() or json.loads(path.read_text()) != value:
@@ -25,7 +28,7 @@ def validate_data(data_dir=DATA_DIR, config=None, championships=None):
         raise ValueError(f"Site files no longer published: {', '.join(extra)}; run generate_bubble_cutoffs.py")
     site = [name for name in expected if name.startswith(f"{SITE}/")]
     print(f"Validated {len(records)} saved lists across {len(checked)} collected seasons, "
-          f"{len(entries)} imported seasons of entries and {len(site)} site files")
+          f"{len(entries)} imported seasons of entries, {len(nationals)} of nationals and {len(site)} site files")
 
 
 if __name__ == "__main__":

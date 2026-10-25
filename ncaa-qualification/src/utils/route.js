@@ -1,14 +1,14 @@
 export const DETAILS = ['season', 'history']
 
 // The season and past years open as dialogs over the event page. The old season page, view=season,
-// now opens the season dialog.
+// now opens the season dialog. The national meet is outdoors only: asked for indoors, the event page shows.
 export function readQuery(search = '') {
   const q = new URLSearchParams(search)
   const season = q.get('s') === 'outdoor' ? 'outdoor' : 'indoor'
   const legacy = q.get('view') === 'season'
   const detail = legacy ? 'season' : DETAILS.includes(q.get('detail')) ? q.get('detail') : ''
   return {
-    view: q.get('view') === 'board' ? 'board' : 'event',
+    view: readView(q.get('view'), season),
     gender: q.get('g') === 'f' ? 'f' : 'm',
     season,
     region: q.get('r') === 'West' ? 'West' : 'East',
@@ -21,6 +21,12 @@ export function readQuery(search = '') {
   }
 }
 
+function readView(view, season) {
+  if (view === 'board') return 'board'
+  if (view === 'nationals' && season === 'outdoor') return 'nationals'
+  return 'event'
+}
+
 // Links spread the query, so a dialog is never carried along: only detailHref opens one.
 export function href({ view = 'event', gender = 'm', season = 'indoor', region = 'East', event = '', day = '', year = '' } = {}) {
   const q = new URLSearchParams()
@@ -29,7 +35,7 @@ export function href({ view = 'event', gender = 'm', season = 'indoor', region =
   if (season === 'outdoor') q.set('r', region)
   if (year) q.set('y', year)
   if (event) q.set('event', event)
-  if (view !== 'event') q.set('view', view)
+  if (view !== 'event' && readView(view, season) === view) q.set('view', view)
   if (day) q.set('d', day)
   return `?${q.toString()}`
 }

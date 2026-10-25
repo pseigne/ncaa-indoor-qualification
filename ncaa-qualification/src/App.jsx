@@ -4,10 +4,12 @@ import EventView from './components/EventView'
 import { Header, Index, Picker, SITE_TITLE } from './components/Frame'
 import { focusHeading } from './utils/focus'
 import DetailSheet from './components/DetailSheet'
+import NationalsView from './components/NationalsView'
 import PastYears from './components/PastYears'
 import SeasonDetail from './components/SeasonView'
 import { useCompact, usePhone } from './utils/media'
 import { activeYear, buildEvents, historyFile, listContext, listEntry, pastList, seasonYears } from './utils/model'
+import { nationalsEntries, nationalsEvents, nationalsTitle, NationalsOffered, pickNational, readNationals } from './utils/nationals'
 import { pastLines } from './utils/past'
 import { detailHref, endYear, plainClick, readQuery, yearLabel } from './utils/route'
 
@@ -31,6 +33,7 @@ function fetchFile(name) {
 function usable(name, json) {
   if (name === 'index.json') return Array.isArray(json?.lists)
   if (name.startsWith('history-')) return Array.isArray(json?.lines)
+  if (name.startsWith('nationals-')) return readNationals(json) !== null
   return Array.isArray(json?.events)
 }
 
@@ -94,32 +97,48 @@ export default function App() {
   const year = wanted || currentYear
   const past = Boolean(year && year !== currentYear)
 
-  // A year with no saved list for this season, such as one switched to from the other season, leaves
-  // the link, so the link always names the season shown.
-  const stale = Boolean(index && query.year && !wanted)
-  useEffect(() => {
-    if (!stale) return
-    const next = new URL(window.location.href)
-    next.searchParams.delete('y')
-    window.history.replaceState(null, '', `${next.pathname}${next.search}`)
-  }, [stale])
-  // What the page's links carry: without that year, so they don't bring it back.
-  const shown = useMemo(() => (stale ? { ...query, year: '' } : query), [stale, query])
+  // The national meet has its own years, from 2018, most of them before the saved lists. Asked for
+  // where index.json lists none, for this gender or at all, the event page shows instead.
+  const meets = useMemo(() => nationalsEntries(index, query.gender), [index, query.gender])
+  const asked = query.view === 'nationals'
+  const view = asked ? (!index || meets.length ? 'nationals' : 'event') : query.view
+  const nationals = view === 'nationals'
+  const meetWanted = query.year ? meets.find(item => item.year === query.year) : null
+  const meet = nationals ? meetWanted || meets[0] || null : null
 
-  const entry = index && year ? listEntry(index, { ...query, year }) : null
-  const historyName = historyFile(index, query)
+  // A year with no saved list for this season, such as one switched to from the other season, leaves
+  // the link, so the link always names the season shown. So does a national meet there's none of.
+  const stale = Boolean(index && query.year && !(nationals ? meetWanted : wanted))
+  const unoffered = Boolean(index && asked && !nationals)
+  useEffect(() => {
+    if (!stale && !unoffered) return
+    const next = new URL(window.location.href)
+    if (stale) next.searchParams.delete('y')
+    if (unoffered) next.searchParams.delete('view')
+    window.history.replaceState(null, '', `${next.pathname}${next.search}`)
+  }, [stale, unoffered])
+  // What the page's links carry: without that year, so they don't bring it back.
+  const shown = useMemo(() => ({ ...query, view, year: stale ? '' : query.year }), [stale, query, view])
+
+  // The national meet needs only its own file; the lists wait until a region is picked.
+  const entry = index && year && !nationals ? listEntry(index, { ...query, year }) : null
+  const historyName = nationals ? null : historyFile(index, query)
   const scope = entry ? files[entry.file] : null
   // Past cutoffs that fail to load leave the page without them, as when there are none.
   const history = historyName ? files[historyName] : NO_HISTORY
   const pastData = history || NO_HISTORY
-  const needed = ['index.json', entry?.file, historyName].filter(name => name && files[name] === undefined)
+  const needed = ['index.json', entry?.file, historyName, meet?.file].filter(name => name && files[name] === undefined)
   const missing = needed.join(' ')
   useEffect(() => {
     if (missing) request(missing.split(' '))
   }, [missing, request])
 
+  const meetFile = meet ? files[meet.file] : null
+  const meetData = useMemo(() => (meetFile ? readNationals(meetFile) : null), [meetFile])
+  const meetEvents = useMemo(() => (meetData ? nationalsEvents(meetData) : null), [meetData])
+
   const model = useMemo(() => {
-    if (!index || !year) return null
+    if (nationals || !index || !year) return null
     // A season, gender and region with no list shows an empty one.
     if (!entry) return { events: [], context: { championship: null, listDate: null, final: false, year, days: null } }
     if (!scope || history === undefined) return null
@@ -129,7 +148,7 @@ export default function App() {
       ? { championship: null, listDate: null, final: true, past: true, list: pastList(entry) }
       : listContext(scope)
     return { events, context: { ...context, year, days: entry.days } }
-  }, [index, year, entry, scope, history, past])
+  }, [nationals, index, year, entry, scope, history, past])
 
   // Once the page has its list, the lists one tap away load behind it: the same season for the other
   // gender, and outdoors the other region. Switching to them is then instant.
@@ -144,12 +163,14 @@ export default function App() {
     ].filter(Boolean))
   }, [ready, index, year, season, gender, request])
 
-  const failed = files['index.json'] === false || scope === false
+  const failed = files['index.json'] === false || (nationals ? meetFile === false : scope === false)
   const loading = !model && !failed && !(index && !year)
-  const status = retrying || (loading && !past)
-    ? 'Loading the qualifying lists…'
-    : failed ? 'The qualifying lists could not be loaded.'
-      : loading ? `Loading the ${yearLabel(year)} lists…` : null
+  const status = nationals
+    ? (retrying || (!meetEvents && !failed) ? 'Loading the nationals results…' : failed ? 'The nationals results could not be loaded.' : null)
+    : retrying || (loading && !past)
+      ? 'Loading the qualifying lists…'
+      : failed ? 'The qualifying lists could not be loaded.'
+        : loading ? `Loading the ${yearLabel(year)} lists…` : null
   // After a retry loads the lists, the Try again button is gone: focus goes to the page's heading.
   const retried = useRef(false)
   const retry = () => {
@@ -159,13 +180,15 @@ export default function App() {
     request(Object.keys(files).filter(name => files[name] === false)).then(() => setRetrying(false))
   }
 
+  const shownPage = model || meetEvents
   useEffect(() => {
-    if (!model || !retried.current) return
+    if (!shownPage || !retried.current) return
     retried.current = false
     focusHeading()
-  }, [model])
+  }, [shownPage])
 
   const event = model ? pickEvent(model.events, query.event, query.season) : null
+  const meetEvent = nationals && meetEvents ? pickNational(meetEvents, query.event) : null
 
   const closeDetail = () => {
     if (openedHere.current) {
@@ -179,24 +202,31 @@ export default function App() {
   }
 
   useEffect(() => {
+    if (meetEvent) {
+      document.title = `${capital(nationalsTitle(meetEvent, query.gender))}, ${meetData.year} · ${SITE_TITLE}`
+      return
+    }
     if (!event) {
       document.title = SITE_TITLE
       return
     }
-    if (query.view === 'board') document.title = `Every qualifying line · ${SITE_TITLE}`
+    if (view === 'board') document.title = `Every qualifying line · ${SITE_TITLE}`
     else if (query.detail) document.title = `${capital(detailTitle(event, query))} · ${SITE_TITLE}`
     else document.title = `${capital(eventTitleText(event, query))} · ${SITE_TITLE}`
-  }, [event, query])
+  }, [event, meetEvent, meetData, query, view])
 
-  const wide = query.view === 'event'
-  const listed = model && (query.view === 'board' || (query.view === 'event' && event))
+  const wide = view === 'event' || nationals
+  const listed = (model && (view === 'board' || (view === 'event' && event))) || Boolean(meetEvent)
+  const menuYears = nationals ? meets.map(item => item.year) : years
+  const menuYear = nationals ? meet?.year || null : year || currentYear
+  const pickable = nationals ? meetEvents : model?.events
   return (
-    <>
+    <NationalsOffered.Provider value={meets.length > 0}>
       {listed && <a className="skip" href="#list" onClick={skipToList}>Skip to the list</a>}
-      <Header query={shown} go={go} years={years} year={year || currentYear} wide={wide} />
+      <Header query={shown} go={go} years={menuYears} year={menuYear} wide={wide} />
       <div className={`wrap${wide ? ' event' : ''}`} style={wide ? undefined : { gridTemplateColumns: '1fr' }}>
         {/* the sidebar stays when a choice has no list, so its toggles can always switch back */}
-        {wide && <Index events={model?.events || []} query={shown} current={event} go={go} />}
+        {wide && <Index events={pickable || []} query={shown} current={nationals ? meetEvent : event} go={go} />}
         <main id="main">
           {/* one live region for loading and failure, so each change is announced once; the button stays
               outside it, and stays put while a retry loads so focus is not dropped */}
@@ -211,7 +241,7 @@ export default function App() {
               Try again
             </button>
           )}
-          {model && query.view === 'board' && (
+          {model && view === 'board' && (
             <BoardView
               events={model.events}
               query={shown}
@@ -221,7 +251,7 @@ export default function App() {
               onOpenPicker={() => setPicker(true)}
             />
           )}
-          {model && query.view === 'event' && event && (
+          {model && view === 'event' && event && (
             <EventView
               key={`${event.slug}:${query.gender}:${query.season}:${query.region}:${phone}`}
               event={event}
@@ -233,10 +263,19 @@ export default function App() {
               footnote={model.events.some(item => item.line?.conversion)}
             />
           )}
-          {model && !event && <p className="dek">No events match this list.</p>}
+          {meetEvent && (
+            <NationalsView
+              key={`${meetEvent.slug}:${query.gender}:${meetData.year}`}
+              event={meetEvent}
+              data={meetData}
+              query={shown}
+              onOpenPicker={() => setPicker(true)}
+            />
+          )}
+          {((model && !event) || (meetEvents && !meetEvent)) && <p className="dek">No events match this list.</p>}
         </main>
       </div>
-      {model && event && query.view === 'event' && query.detail && (
+      {model && event && view === 'event' && query.detail && (
         <DetailSheet
           key={query.detail}
           name={query.detail}
@@ -256,10 +295,10 @@ export default function App() {
             )}
         </DetailSheet>
       )}
-      {compact && model && (
-        <Picker open={picker} onClose={() => setPicker(false)} events={model.events} query={shown} go={go} />
+      {compact && pickable && (
+        <Picker open={picker} onClose={() => setPicker(false)} events={pickable} query={shown} go={go} />
       )}
-    </>
+    </NationalsOffered.Provider>
   )
 }
 
